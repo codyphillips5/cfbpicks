@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#secondselection").change(function(){      
+            var showOrHide =$(this).is(':checked');         
+                $("#togg").toggle(showOrHide);
+                $('[name="description"]').toggleClass('required',showOrHide )
+                        
+        });
+    });
+    
+    
+    $(document).ready(function(){
+        $("#firstselection").change(function(){      
+            var showOrHide =$(this).is(':checked');         
+                $("#togg").toggle(showOrHide);
+                $('[name="description"]').toggleClass('required',showOrHide )
+                        
+        });
+    });
+</script>
+</head>
+<body>
+<form action="#" method="POST"> <input name="orgid" type="hidden" value="000001" /> 
+ <input name="retURL" type="hidden" value="#" />
+ Georgia State vs. Tennessee (-25.5)<br />
+ <input id="firstselection" name="firstselection" type="checkbox" value="1" /> Georgia State +25.5 <br />
+ <input id="secondselection" name="secondselection" type="checkbox" value="1" /> Tennessee -25.5 <br />
+ <span id="togg" style="display:none">
+ How many points?  
+ <select  id="fourthchoices" name="fourthchoices" title="Fourth selection choices" required="required">
+ <option value="">--Please Select One--</option>
+ <option value="50">50</option>
+ <option value="40">40</option>
+ <option value="30">30</option>
+ <option value="20">20</option>
+ <option value="10">10</option>
+ </select><br>
+ </span>
+ <input name="submit" type="submit" /> </form>
+
+</body>
+</html>

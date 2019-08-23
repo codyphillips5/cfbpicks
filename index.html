@@ -50,49 +50,20 @@
 <h2>Week 1</h2>
 <section class="picks">
 	<div class="selection">
-		<span class='header'><h1>50</h1></span>
-		<select class='teamlist'>
-			<option value="none">--Select Team--</option>
-			<option value="TENN">Tennessee -25.5</option>
-			<option value="GAST">Georgia State +25.5</option>
-			<option value="ORE">Oregon</option>
-		</select>
+		<span class='header'><h1>50</h1>
+		TEAM SELECTED BELOW</span>
 	</div>
 	<div class="selection">
 		<span class='header'><h1>40</h1></span>
-		<select class='teamlist'>
-			<option value="none">--Select Team--</option>
-			<option value="TENN">Tennessee -25.5</option>
-			<option value="GAST">Georgia State +25.5</option>
-			<option value="ORE">Oregon</option>
-		</select>
 	</div>
 	<div class="selection">
 		<span class='header'><h1>30</h1></span>
-		<select class='teamlist'>
-			<option value="none">--Select Team--</option>
-			<option value="TENN">Tennessee -25.5</option>
-			<option value="GAST">Georgia State +25.5</option>
-			<option value="ORE">Oregon</option>
-		</select>
 	</div>
 	<div class="selection">
 		<span class='header'><h1>20</h1></span>
-		<select class='teamlist'>
-			<option value="none">--Select Team--</option>
-			<option value="TENN">Tennessee -25.5</option>
-			<option value="GAST">Georgia State +25.5</option>
-			<option value="ORE">Oregon</option>
-		</select>
 	</div>
 		<div class="selection">
 		<span class='header'><h1>10</h1></span>
-		<select class='teamlist'>
-			<option value="none">--Select Team--</option>
-			<option value="TENN">Tennessee -25.5</option>
-			<option value="GAST">Georgia State +25.5</option>
-			<option value="ORE">Oregon</option>
-		</select>
 	</div>
 </section><br>
       <div>
@@ -102,18 +73,32 @@
 <section class="games">
 	<div class="games-layout">
 		<span class='header'><h3>Georgia State vs. Tennessee (-25.5)<br /></h3></span>
-		<input name="GAST" type="checkbox" class='header' value="GAST" /> Georgia State +25.5 <br />
-		<input class='header' id="cfbpick" name="TENN" type="checkbox" value="TENN" /> Tennessee -25.5 <br />
+		<select class='teamlist'>
+			<option value="none">--Select Team--</option>
+			<option value="GAST">Georgia State +25.5</option>
+			<option value="TENN">Tennessee -25.5</option>
+		</select>
 	</div>
 	<div class="games-layout">
 		<span class='header'><h3>Duke vs. Alabama (-33.5)<br /></h3></span>
-		<input class='header' id="cfbpick" name="DUKE" type="checkbox" value="DUKE" /> Duke +33.5 <br />
-		<input class='header' id="cfbpick" name="TENN" type="checkbox" value="TENN" /> Alabama -33.5 <br />
+		<select class='teamlist'>
+			<option value="none">--Select Team--</option>
+			<option value="TENN">Duke +33.5</option>
+			<option value="GAST">Alabama -33.5</option>
+		</select>
 	</div>
 	<div class="games-layout">
 		<span class='header'><h3>Oregon vs Auburn (-3.5)<br /></h3></span>
-		<input class='header' id="cfbpick" name="ORE" type="checkbox" value="ORE" /> Oregon +3.5 <br />
-		<input class='header' id="cfbpick" name="AUB" type="checkbox" value="AUB" /> Auburn -3.5 <br />
+		<select class='teamlist'>
+			<option value="none">--Select Team--</option>
+			<option value="TENN">Oregon +3.5</option>
+			<option value="GAST">Auburn -3.5</option>
+		<input type="radio" name="pick_worth" value="50">50
+		<input type="radio" name="pick_worth" value="40">40
+		<input type="radio" name="pick_worth" value="30">30
+		<input type="radio" name="pick_worth" value="20">20
+		<input type="radio" name="pick_worth" value="10">10
+		</select>
 	</div>
 </section>
 

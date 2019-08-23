@@ -35,8 +35,19 @@
     background: white;
     float: left;
 }
+.required {
+    width: 33.3%;
+    height: 200px;
+    background: #F8F16B;
+    float: left;
+}
 .header {
     text-align: center;
+}
+.choice {
+   display:table;
+   margin:0 auto;
+   text-align:center;
 }
 .teamlist {
     display: block;
@@ -50,20 +61,24 @@
 <h2>Week 1</h2>
 <section class="picks">
 	<div class="selection">
-		<span class='header'><h1>50</h1>
-		TEAM SELECTED BELOW</span>
+		<span class='header'><h1>50</h1></span>
+		<span class='choice'>POPULATES</span>
 	</div>
 	<div class="selection">
 		<span class='header'><h1>40</h1></span>
+		<span class='choice'>BASED</span>
 	</div>
 	<div class="selection">
 		<span class='header'><h1>30</h1></span>
+		<span class='choice'>ON</span>
 	</div>
 	<div class="selection">
 		<span class='header'><h1>20</h1></span>
+		<span class='choice'>BELOW</span>
 	</div>
 		<div class="selection">
 		<span class='header'><h1>10</h1></span>
+		<span class='choice'>SELECTION</span>
 	</div>
 </section><br>
       <div>
@@ -87,7 +102,7 @@
 			<option value="GAST">Alabama -33.5</option>
 		</select>
 	</div>
-	<div class="games-layout">
+	<div class="required">
 		<span class='header'><h3>Oregon vs Auburn (-3.5)<br /></h3></span>
 		<select class='teamlist'>
 			<option value="none">--Select Team--</option>

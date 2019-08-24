@@ -7,7 +7,7 @@
     "awayTeam" : "Florida Atlantic",
     "awayTeamValue" : "FAU",
     "favorite" : "OSU",
-    "spread" : "0",
+    "spread" : "27.5",
     "required" : false
     },
     {
@@ -17,11 +17,71 @@
     "awayTeam" : "South Alabama",
     "awayTeamValue" : "USA",
     "favorite" : "NEB",
-    "spread" : "0",
+    "spread" : "36.5",
     "required" : false
     },
     {
     "gameId" : 3,
+    "homeTeam" : "Illinois",
+    "homeTeamValue" : "ILL",
+    "awayTeam" : "Akron",
+    "awayTeamValue" : "AKR",
+    "favorite" : "ILL",
+    "spread" : "17.5",
+    "required" : false
+    },
+    {
+    "gameId" : 4,
+    "homeTeam" : "Ball State",
+    "homeTeamValue" : "BSU",
+    "awayTeam" : "Indiana",
+    "awayTeamValue" : "IND",
+    "favorite" : "IND",
+    "spread" : "17.5",
+    "required" : false
+    },
+    {
+    "gameId" : 5,
+    "homeTeam" : "Kentucky",
+    "homeTeamValue" : "UK",
+    "awayTeam" : "Toledo",
+    "awayTeamValue" : "TOL",
+    "favorite" : "UK",
+    "spread" : "12.5",
+    "required" : false
+    },
+    {
+    "gameId" : 6,
+    "homeTeam" : "Memphis",
+    "homeTeamValue" : "MEM",
+    "awayTeam" : "Ole Miss",
+    "awayTeamValue" : "MISS",
+    "favorite" : "MEM",
+    "spread" : "5.5",
+    "required" : false
+    },
+    {
+    "gameId" : 7,
+    "homeTeam" : "Mississippi State",
+    "homeTeamValue" : "MSST",
+    "awayTeam" : "Louisiana",
+    "awayTeamValue" : "ULL",
+    "favorite" : "MSST",
+    "spread" : "20.5",
+    "required" : false
+    },
+    {
+    "gameId" : 8,
+    "homeTeam" : "NC State",
+    "homeTeamValue" : "NCST",
+    "awayTeam" : "East Carolina",
+    "awayTeamValue" : "ECU",
+    "favorite" : "NCST",
+    "spread" : "17.5",
+    "required" : false
+    },    
+    {
+    "gameId" : 9,
     "homeTeam" : "Alabama",
     "homeTeamValue" : "ALA",
     "awayTeam" : "Duke",
@@ -31,24 +91,174 @@
     "required" : false
     },
     {
-    "gameId" : 4,
+    "gameId" : 10,
+    "homeTeam" : "Coastal Carolina",
+    "homeTeamValue" : "CCU",
+    "awayTeam" : "Eastern Michigan",
+    "awayTeamValue" : "EMU",
+    "favorite" : "EMU",
+    "spread" : "5.5",
+    "required" : false
+    },   
+    {
+    "gameId" : 11,
+    "homeTeam" : "North Carolina",
+    "homeTeamValue" : "UNC",
+    "awayTeam" : "South Carolina",
+    "awayTeamValue" : "SC",
+    "favorite" : "SC",
+    "spread" : "7.5",
+    "required" : false
+    },
+    {
+    "gameId" : 12,
+    "homeTeam" : "Tennessee",
+    "homeTeamValue" : "TENN",
+    "awayTeam" : "Georgia State",
+    "awayTeamValue" : "GAST",
+    "favorite" : "TENN",
+    "spread" : "25.5",
+    "required" : false
+    },
+    {
+    "gameId" : 13,
     "homeTeam" : "Stanford",
     "homeTeamValue" : "STAN",
     "awayTeam" : "Northwestern",
     "awayTeamValue" : "NW",
     "favorite" : "STAN",
-    "spread" : "0",
+    "spread" : "6.5",
     "required" : false
-    },
+    },  
     {
-    "gameId" : 5,
+    "gameId" : 14,
     "homeTeam" : "Liberty",
     "homeTeamValue" : "LIB",
     "awayTeam" : "Syracuse",
     "awayTeamValue" : "CUSE",
     "favorite" : "CUSE",
+    "spread" : "17.5",
+    "required" : false
+    },
+    {
+    "gameId" : 15,
+    "homeTeam" : "Arkansas State",
+    "homeTeamValue" : "ARST",
+    "awayTeam" : "SMU",
+    "awayTeamValue" : "SMU",
+    "favorite" : "ARST",
+    "spread" : "2.5",
+    "required" : false
+    },
+    {
+    "gameId" : 16,
+    "homeTeam" : "Florida State",
+    "homeTeamValue" : "FSU",
+    "awayTeam" : "Boise State",
+    "awayTeamValue" : "BSU",
+    "favorite" : "FSU",
+    "spread" : "5.5",
+    "required" : false
+    },
+    {
+    "gameId" : 17,
+    "homeTeam" : "Vanderbilt",
+    "homeTeamValue" : "VU",
+    "awayTeam" : "Georgia",
+    "awayTeamValue" : "UGA",
+    "favorite" : "UGA",
+    "spread" : "21.5",
+    "required" : false
+    },
+    {
+    "gameId" : 18,
+    "homeTeam" : "LSU",
+    "homeTeamValue" : "LSU",
+    "awayTeam" : "Georgia Southern",
+    "awayTeamValue" : "GSU",
+    "favorite" : "LSU",
+    "spread" : "28.5",
+    "required" : false
+    },
+    {
+    "gameId" : 19,
+    "homeTeam" : "Michigan",
+    "homeTeamValue" : "MICH",
+    "awayTeam" : "Middle Tenn. St.",
+    "awayTeamValue" : "MTSU",
+    "favorite" : "MICH",
     "spread" : "0",
     "required" : false
+    },
+    {
+    "gameId" : 20,
+    "homeTeam" : "Auburn",
+    "homeTeamValue" : "AUB",
+    "awayTeam" : "Oregon",
+    "awayTeamValue" : "ORE",
+    "favorite" : "AUB",
+    "spread" : "3.5",
+    "required" : true
     }
+    {
+    "gameId" : 21,
+    "homeTeam" : "Iowa",
+    "homeTeamValue" : "IOWA",
+    "awayTeam" : "Miami",
+    "awayTeamValue" : "M-OH",
+    "favorite" : "IOWA",
+    "spread" : "0",
+    "required" : false
+    },
+    {
+    "gameId" : 22,
+    "homeTeam" : "Wyoming",
+    "homeTeamValue" : "WYO",
+    "awayTeam" : "Missouri",
+    "awayTeamValue" : "MIZ",
+    "favorite" : "MIZ",
+    "spread" : "17.5",
+    "required" : false
+    },
+    {
+    "gameId" : 23,
+    "homeTeam" : "Pittsburgh",
+    "homeTeamValue" : "PITT",
+    "awayTeam" : "Virginia",
+    "awayTeamValue" : "UVA",
+    "favorite" : "UVA",
+    "spread" : "2.5",
+    "required" : false
+    },
+    {
+    "gameId" : 24,
+    "homeTeam" : "Texas",
+    "homeTeamValue" : "TEX",
+    "awayTeam" : "Louisiana Tech",
+    "awayTeamValue" : "LT",
+    "favorite" : "TEX",
+    "spread" : "20.5",
+    "required" : false
+    },
+    {
+    "gameId" : 25,
+    "homeTeam" : "Washington St.",
+    "homeTeamValue" : "WSU",
+    "awayTeam" : "New Mexico St.",
+    "awayTeamValue" : "NMSU",
+    "favorite" : "WSU",
+    "spread" : "31.5",
+    "required" : false
+    },
+    {
+    "gameId" : 26,
+    "homeTeam" : "USC",
+    "homeTeamValue" : "USC",
+    "awayTeam" : "Fresno State",
+    "awayTeamValue" : "FRES",
+    "favorite" : "USC",
+    "spread" : "13.5",
+    "required" : false
+    },
   ]
 }

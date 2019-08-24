@@ -27,6 +27,7 @@ $.getJSON("https://codyphillips5.github.io/cfbpicks/week1.json", function(json) 
 			var homeSide = "-";
 			var awaySide = "+";
 			var required = json[key][i].required;
+			var badge = document.createElement('div');
 			if (fav != homeTeamVal) {
 				homeSide = "+";
 				awaySide = "-";		
@@ -35,6 +36,12 @@ $.getJSON("https://codyphillips5.github.io/cfbpicks/week1.json", function(json) 
 				homeSide = "";
 				awaySide = "";
 				spread = "PK";
+			}
+			if (required) {
+				badge.className = 'required';
+			}
+			else {
+				badge.className = 'games-layout';		
 			}
 			var header = '<span class=\'header\'><h3>' + awayTeam + ' vs ' + homeTeam + ' (' + homeSide + spread + ') </h3>';
 			var select = '<select class=\'teamlist\' id=\'game\' onchange=\"showDiv(\'point_totals_game_' + gameId + '\', this);\"><option value = \"\"> -- Select Team -- </option><option value=\"' + awayTeamVal + '\">' + awayTeam + ' ' + awaySide + spread + '</option><option value=\"' + homeTeamVal + '\">' + homeTeam + ' ' + homeSide + spread + '</option></select>';
@@ -45,13 +52,7 @@ $.getJSON("https://codyphillips5.github.io/cfbpicks/week1.json", function(json) 
 				var radio = '<label><input type=\"radio\" onchange=\"myNewFunction(this.value);\" name=\"pick_worth\" value=' + numbers[j] + '0>' + numbers[j] + '0</label>'
 				radios.push(radio);
 			}
-			var badge = document.createElement('div');
-			if(required) {
-			badge.className = 'required';
-			}
-			else {
-				badge.className = 'games-layout';		
-			}
+
 
 			badge.innerHTML = '<form>' + header + select + '<br>'+ display + radios.join(' ') + '</form>';		
 			document.getElementById(key).appendChild(badge);

@@ -2,16 +2,26 @@
   "games": [
     {
     "gameId" : 1,
-    "homeTeam" : "Tennessee",
-    "homeTeamValue" : "TENN",
-    "awayTeam" : "Georgia State",
-    "awayTeamValue" : "GAST",
-    "favorite" : "TENN",
-    "spread" : "25.5",
+    "homeTeam" : "Ohio State",
+    "homeTeamValue" : "OSU",
+    "awayTeam" : "Florida Atlantic",
+    "awayTeamValue" : "FAU",
+    "favorite" : "OSU",
+    "spread" : "0",
     "required" : false
     },
     {
     "gameId" : 2,
+    "homeTeam" : "Nebraska",
+    "homeTeamValue" : "NEB",
+    "awayTeam" : "South Alabama",
+    "awayTeamValue" : "USA",
+    "favorite" : "NEB",
+    "spread" : "0",
+    "required" : false
+    },
+    {
+    "gameId" : 3,
     "homeTeam" : "Alabama",
     "homeTeamValue" : "ALA",
     "awayTeam" : "Duke",
@@ -21,13 +31,24 @@
     "required" : false
     },
     {
-    "gameId" : 3,
-    "homeTeam" : "Auburn",
-    "homeTeamValue" : "AUB",
-    "awayTeam" : "Oregon",
-    "awayTeamValue" : "ORE",
-    "favorite" : "AUB",
-    "spread" : "3.5",
-    "required" : true
-    }]
+    "gameId" : 4,
+    "homeTeam" : "Stanford",
+    "homeTeamValue" : "STAN",
+    "awayTeam" : "Northwestern",
+    "awayTeamValue" : "NW",
+    "favorite" : "STAN",
+    "spread" : "0",
+    "required" : false
+    },
+    {
+    "gameId" : 5,
+    "homeTeam" : "Liberty",
+    "homeTeamValue" : "LIB",
+    "awayTeam" : "Syracuse",
+    "awayTeamValue" : "CUSE",
+    "favorite" : "CUSE",
+    "spread" : "0",
+    "required" : false
+    },
+  ]
 }

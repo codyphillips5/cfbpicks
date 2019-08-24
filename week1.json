@@ -1,0 +1,33 @@
+{
+  "games": [
+    {
+    "gameId" : 1,
+    "homeTeam" : "Tennessee",
+    "homeTeamValue" : "TENN",
+    "awayTeam" : "Georgia State",
+    "awayTeamValue" : "GAST",
+    "favorite" : "TENN",
+    "spread" : "25.5",
+    "required" : false
+    },
+    {
+    "gameId" : 2,
+    "homeTeam" : "Alabama",
+    "homeTeamValue" : "ALA",
+    "awayTeam" : "Duke",
+    "awayTeamValue" : "DUKE",
+    "favorite" : "ALA",
+    "spread" : "33.5",
+    "required" : false
+    },
+    {
+    "gameId" : 3,
+    "homeTeam" : "Auburn",
+    "homeTeamValue" : "AUB",
+    "awayTeam" : "Oregon",
+    "awayTeamValue" : "ORE",
+    "favorite" : "ORE",
+    "spread" : "3.5",
+    "required" : true
+    }]
+}

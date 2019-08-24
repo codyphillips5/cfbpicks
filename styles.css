@@ -22,7 +22,7 @@
     float: left;
 }
 .games-layout {
-    width: 33.22%;
+    width: 33%;
     height: 200px;
     background: white;
     float: left;
@@ -30,7 +30,7 @@
     border-radius: 5px;
 }
 .required {
-    width: 33.3%;
+    width: 33%;
     height: 200px;
     background: #F8F16B;
     float: left;

@@ -53,7 +53,7 @@ $.getJSON("https://codyphillips5.github.io/cfbpicks/week1.json", function(json) 
 				badge.className = 'games-layout';		
 			}
 
-			badge.innerHTML = '<form>' + header + select + display + radios.join(' ') + '</form>';		
+			badge.innerHTML = '<form>' + header + select + '<br><br>'+ display + radios.join(' ') + '</form>';		
 			document.getElementById(key).appendChild(badge);
 		}
 	}

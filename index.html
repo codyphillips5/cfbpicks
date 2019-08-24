@@ -39,55 +39,7 @@
       </div>
 <br>
 <section class="games">
-	<div class="games-layout">
-		<form>
-		<span class='header'><h3>Georgia State vs. Tennessee (-25.5)<br /></h3></span>
-		<select class='teamlist' id='game' onchange="showDiv('point_totals', this);">
-			<option value = ""> -- Select Team -- </option>
-			<option value="GAST">Georgia State +25.5</option>
-			<option value="TENN">Tennessee -25.5</option>
-		</select>
-		<div id="point_totals" style="display:none;">
-				<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="50" name="game1">50</label>
-				<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="40" name="game1">40</label>
-				<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="30" name="game1">30</label>
-				<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="20" name="game1">20</label>
-				<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="10" name="game1">10</label>
-		</div>
-		</form>
-	</div>
-	<div class="games-layout">
-		<form>
-		<span class='header'><h3>Duke vs. Alabama (-33.5)<br /></h3></span>
-		<select class='teamlist' id='game' onchange="showDiv('points_totals', this)">
-			<option value = ""> -- Select Team -- </option>
-			<option value="DUKE">Duke +33.5</option>
-			<option value="ALA">Alabama -33.5</option>
-		</select>
-		<div id="points_totals" style="display:none;">
-			<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="50" name="game1">50</label>
-			<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="40" name="game1">40</label>
-			<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="30" name="game1">30</label>
-			<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="20" name="game1">20</label>
-			<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="10" name="game1">10</label>
-		</div>
-		</form>
-	</div>
-	<div class="required">
-		<form>
-		<span class='header'><h3>Oregon vs Auburn (-3.5)<br /></h3></span>
-		<select class='teamlist' onchange="setTeam(this)">
-			<option value = ""> -- Select Team -- </option>
-			<option value="ORE">Oregon +3.5</option>
-			<option value="AUB">Auburn -3.5</option>
-		</select>
-		<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="50" name="game2">50</label>
-		<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="40" name="game2">40</label>
-		<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="30" name="game2">30</label>
-		<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="20" name="game2">20</label>
-		<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="10" name="game2">10</label>
-		</form>
-	</div>
+		<div id="games"></div>
 </section>
 
 </html>

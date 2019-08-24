@@ -187,7 +187,7 @@
     "awayTeam" : "Middle Tenn. St.",
     "awayTeamValue" : "MTSU",
     "favorite" : "MICH",
-    "spread" : "0",
+    "spread" : "34.5",
     "required" : false
     },
     {
@@ -207,7 +207,7 @@
     "awayTeam" : "Miami",
     "awayTeamValue" : "M-OH",
     "favorite" : "IOWA",
-    "spread" : "0",
+    "spread" : "21.5",
     "required" : false
     },
     {

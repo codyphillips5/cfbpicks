@@ -1,10 +1,16 @@
 .games {
     text-align: center;
     vertical-align: middle;
+    width: 80%;
+    height: 200px;
+    background: white;
+    margin: auto;
+    padding: 1px;
 }
 .picks {
     width: 80%;
-    height: 200px;
+    min-height: 200px;
+    height: auto;
     background: gray;
     margin: auto;
     padding: 1px;
@@ -15,24 +21,21 @@
     background: white;
     float: left;
 }
-.games {
-    width: 80%;
-    height: 200px;
-    background: gray;
-    margin: auto;
-    padding: 1px;
-}
 .games-layout {
-    width: 33.33%;
+    width: 33.22%;
     height: 200px;
     background: white;
     float: left;
+    border: .5px solid gray;
+    border-radius: 5px;
 }
 .required {
     width: 33.3%;
     height: 200px;
     background: #F8F16B;
     float: left;
+    border: .5px solid gray;
+    border-radius: 5px;
 }
 .header {
     text-align: center;

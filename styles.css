@@ -2,14 +2,14 @@
     text-align: center;
     vertical-align: middle;
     width: 80%;
-    height: 200px;
+    height: 160px;
     background: white;
     margin: auto;
     padding: 1px;
 }
 .picks {
     width: 80%;
-    min-height: 200px;
+    min-height: 160px;
     height: auto;
     background: gray;
     margin: auto;
@@ -17,7 +17,7 @@
 }
 .selection {
     width: 20%;
-    height: 200px;
+    height: 160px;
     background: white;
     float: left;
 }

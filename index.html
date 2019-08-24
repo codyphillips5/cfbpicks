@@ -54,6 +54,26 @@
     margin: 0 auto;
 }
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+	var game = {
+  team: "John",
+  spread : "Doe",
+  pts : "NO",
+};
+function showDiv(divId, element){
+	document.getElementById(divId).style.display = element.value != "" ? 'block' : 'none';
+	game.team = element.value;
+}
+function setTeam(element) {
+	game.team = element.value;
+}
+function myNewFunction(sel) {
+	var pts = sel;
+	document.getElementById(pts).innerHTML = pts;
+	document.getElementById(pts).innerHTML = game.team;
+}
+</script>
 </head>
 
 <body>
@@ -62,23 +82,23 @@
 <section class="picks">
 	<div class="selection">
 		<span class='header'><h1>50</h1></span>
-		<span class='choice'>POPULATES</span>
+		<span id="50" class='choice'></span>
 	</div>
 	<div class="selection">
 		<span class='header'><h1>40</h1></span>
-		<span class='choice'>BASED</span>
+		<span id="40" class='choice'></span>
 	</div>
 	<div class="selection">
 		<span class='header'><h1>30</h1></span>
-		<span class='choice'>ON</span>
+		<span id="30" class='choice'></span>
 	</div>
 	<div class="selection">
 		<span class='header'><h1>20</h1></span>
-		<span class='choice'>BELOW</span>
+		<span id="20" class='choice'></span>
 	</div>
 		<div class="selection">
 		<span class='header'><h1>10</h1></span>
-		<span class='choice'>SELECTION</span>
+		<span id="10" class='choice'></span>
 	</div>
 </section><br>
       <div>
@@ -87,33 +107,53 @@
 <br>
 <section class="games">
 	<div class="games-layout">
+		<form>
 		<span class='header'><h3>Georgia State vs. Tennessee (-25.5)<br /></h3></span>
-		<select class='teamlist'>
-			<option value="none">--Select Team--</option>
+		<select class='teamlist' id='game' onchange="showDiv('point_totals', this);">
+			<option value = ""> -- Select Team -- </option>
 			<option value="GAST">Georgia State +25.5</option>
 			<option value="TENN">Tennessee -25.5</option>
 		</select>
+		<div id="point_totals" style="display:none;">
+				<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="50" name="game1">50</label>
+				<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="40" name="game1">40</label>
+				<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="30" name="game1">30</label>
+				<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="20" name="game1">20</label>
+				<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="10" name="game1">10</label>
+		</div>
+		</form>
 	</div>
 	<div class="games-layout">
+		<form>
 		<span class='header'><h3>Duke vs. Alabama (-33.5)<br /></h3></span>
-		<select class='teamlist'>
-			<option value="none">--Select Team--</option>
-			<option value="TENN">Duke +33.5</option>
-			<option value="GAST">Alabama -33.5</option>
+		<select class='teamlist' id='game' onchange="showDiv('points_totals', this)">
+			<option value = ""> -- Select Team -- </option>
+			<option value="DUKE">Duke +33.5</option>
+			<option value="ALA">Alabama -33.5</option>
 		</select>
+		<div id="points_totals" style="display:none;">
+			<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="50" name="game1">50</label>
+			<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="40" name="game1">40</label>
+			<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="30" name="game1">30</label>
+			<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="20" name="game1">20</label>
+			<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="10" name="game1">10</label>
+		</div>
+		</form>
 	</div>
 	<div class="required">
+		<form>
 		<span class='header'><h3>Oregon vs Auburn (-3.5)<br /></h3></span>
-		<select class='teamlist'>
-			<option value="none">--Select Team--</option>
-			<option value="TENN">Oregon +3.5</option>
-			<option value="GAST">Auburn -3.5</option>
-		<input type="radio" name="pick_worth" value="50">50
-		<input type="radio" name="pick_worth" value="40">40
-		<input type="radio" name="pick_worth" value="30">30
-		<input type="radio" name="pick_worth" value="20">20
-		<input type="radio" name="pick_worth" value="10">10
+		<select class='teamlist' onchange="setTeam(this)">
+			<option value = ""> -- Select Team -- </option>
+			<option value="ORE">Oregon +3.5</option>
+			<option value="AUB">Auburn -3.5</option>
 		</select>
+		<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="50" name="game2">50</label>
+		<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="40" name="game2">40</label>
+		<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="30" name="game2">30</label>
+		<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="20" name="game2">20</label>
+		<label><input type="radio" onchange="myNewFunction(this.value);" name="pick_worth" value="10" name="game2">10</label>
+		</form>
 	</div>
 </section>
 

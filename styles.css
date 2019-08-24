@@ -1,0 +1,48 @@
+.games {
+    text-align: center;
+    vertical-align: middle;
+}
+.picks {
+    width: 80%;
+    height: 200px;
+    background: gray;
+    margin: auto;
+    padding: 1px;
+}
+.selection {
+    width: 20%;
+    height: 200px;
+    background: white;
+    float: left;
+}
+.games {
+    width: 80%;
+    height: 200px;
+    background: gray;
+    margin: auto;
+    padding: 1px;
+}
+.games-layout {
+    width: 33.33%;
+    height: 200px;
+    background: white;
+    float: left;
+}
+.required {
+    width: 33.3%;
+    height: 200px;
+    background: #F8F16B;
+    float: left;
+}
+.header {
+    text-align: center;
+}
+.choice {
+   display:table;
+   margin:0 auto;
+   text-align:center;
+}
+.teamlist {
+    display: block;
+    margin: 0 auto;
+}

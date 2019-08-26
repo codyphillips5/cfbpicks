@@ -56,7 +56,6 @@ $.getJSON("https://codyphillips5.github.io/cfbpicks/week1.json", function(json) 
 });
 
 function assignPointsByTeam(pts, id) {
-	console.log(choices);
 	var pick = document.getElementById("game" + id);
 	var userPick = pick.options[pick.selectedIndex].value;
 	game.team = userPick;
@@ -69,7 +68,6 @@ function assignPointsByTeam(pts, id) {
 		}
 		if(pts == choices[i].pts) {
 			if(choices[i].team != "") {
-				console.log("clearing " + choices[i].game);
 				var inputs = document.getElementById("point_totals_game_" + choices[i].game).getElementsByTagName("input");
 				for (j = 0; j < inputs.length; j++) {
 					inputs[j].checked = false;
@@ -80,7 +78,6 @@ function assignPointsByTeam(pts, id) {
 		}
 	}
 	document.getElementById(pts).innerHTML = game.team;
-	console.log(choices);
 }
 
 function showPointTotals(divId, element){

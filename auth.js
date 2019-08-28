@@ -48,7 +48,8 @@ if(signupForm) {
         auth.createUserWithEmailAndPassword(email, password).then(cred => {
             signupForm.reset();
             signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Account created. Go view the <a href='picks.html'>Lines</a></div>`;
-            }).catch(err => {
+            document.getElementById("signup").disabled = true;
+        }).catch(err => {
                 signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
         });
     });

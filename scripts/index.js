@@ -9,7 +9,7 @@ const setupUI = (user) => {
             const html = `
             <div>Logged in as ${user.email}</div>
         `;
-        accountDetails.innerHTML = html;
+        //accountDetails.innerHTML = html;
         })
         // toggle UI elements
         loggedInLinks.forEach(item => item.style.display = 'block');
@@ -17,7 +17,7 @@ const setupUI = (user) => {
     }
     else {
         // hide account info
-        accountDetails.innerHTML = '';
+        //accountDetails.innerHTML = '';
         // toggle UI elements
         loggedInLinks.forEach(item => item.style.display = 'none');
         loggedOutLinks.forEach(item => item.style.display = 'block');
@@ -25,27 +25,29 @@ const setupUI = (user) => {
 }
 
 // setup guides
-const setupGuides = (data) => {
-/*
+/*const setupGuides = (data) => {
+
     if (data.length) {
         let html = '';
         data.forEach(doc => {
             const guide = doc.data();
             const li = `
-                <li>
-                    <div class="collapsible-header grey lighten-4">${guide.title}</div>
-                    <div class="collapsible-body white">${guide.content}</div>
-                </li>
+
             `;
             html += li;
         });
             guideList.innerHTML = html;
         }
         else{
-            guideList.innerHTML = '<h5 class="center-align">Login to view guides'
-        }*/
+            guideList.innerHTML = `
+            <a href="#" class="logged-out" data-target="modal-login">Login</a>
+          </li>
+          <li class="logged-out" style="display: none;">
+            <a href="#" data-target="modal-signup">Sign up</a>
+          </li>`
+        }
     }
-
+*/
 
 // setup materialize components
 document.addEventListener('DOMContentLoaded', function() {

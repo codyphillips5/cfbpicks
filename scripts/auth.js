@@ -2,8 +2,9 @@
 auth.onAuthStateChanged(user => {
     if(user) {
         // get data
+        console.log(user);
         db.collection('guides').onSnapshot(snapshot => {
-        setupGuides(snapshot.docs);
+        //setupGuides(snapshot.docs);
         setupUI(user);
         }, err => {
             console.log(err.message)
@@ -11,12 +12,12 @@ auth.onAuthStateChanged(user => {
     }
     else {
         setupUI();
-        setupGuides([]);
+        //setupGuides([]);
     }
 })
 
 // create new guide
-const createForm = document.querySelector('#create-form');
+/*const createForm = document.querySelector('#create-form');
 createForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -32,26 +33,27 @@ createForm.addEventListener('submit', (e) => {
         console.log(err.message)
     });
 });
-
+*/
 // signup
 const signupForm = document.querySelector('#signup-form');
-signupForm.addEventListener('submit', (e) => {
-    e.preventDefault();
+if(signupForm) {
+    signupForm.addEventListener('submit', (e) => {
+        e.preventDefault();
 
-    // get user info
-    const email = signupForm['signup-email'].value;
-    const password = signupForm['signup-password'].value;
+        // get user info
+        const email = signupForm['signup-email'].value;
+        const password = signupForm['signup-password'].value;
 
-    // sign up the user
-    auth.createUserWithEmailAndPassword(email, password).then(cred => {
-        const modal = document.querySelector('#modal-signup');
-        M.Modal.getInstance(modal).close();
-        signupForm.reset();
-        signupForm.querySelector('.error').innerHTML = '';
-    }).catch(err => {
-        signupForm.querySelector('.error').innerHTML = err.message;
+        // sign up the user
+        auth.createUserWithEmailAndPassword(email, password).then(cred => {
+            $('.alert').alert()
+            signupForm.reset();
+            signupForm.querySelector('.response').innerHTML = '<div class="alert alert-success" role="alert">SUCCESS!</div>';
+            }).catch(err => {
+                signupForm.querySelector('.response').innerHTML = `<div class="alert alert-danger" role="alert">${err.message}</div>`;
+        });
     });
-});
+}
 
 // logout 
 const logout = document.querySelector('#logout');
@@ -62,20 +64,20 @@ logout.addEventListener('click', (e) => {
 
 // login
 const loginForm = document.querySelector('#login-form');
-loginForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-
-    // get user info
-    const email = loginForm['login-email'].value;
-    const password = loginForm['login-password'].value;
-
-    auth.signInWithEmailAndPassword(email, password).then(cred => {
-        // close the login modal and reset the form
-        const modal = document.querySelector('#modal-login');
-        M.Modal.getInstance(modal).close();
-        loginForm.reset();
-        loginForm.querySelector('.error').innerHTML = '';
-    }).catch(err => {
-        loginForm.querySelector('.error').innerHTML = err.message;
-    })
-});
+if(loginForm) {
+    loginForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+    
+        // get user info
+        const email = loginForm['login-email'].value;
+        const password = loginForm['login-password'].value;
+    
+        auth.signInWithEmailAndPassword(email, password).then(cred => {
+            // close the login modal and reset the form
+            loginForm.reset();
+            location.replace("picks.html");
+        }).catch(err => {
+            loginForm.querySelector('.error').innerHTML = `'<div class="alert alert-success" role="alert">${err.message}</div>'`;
+        })
+    });
+}

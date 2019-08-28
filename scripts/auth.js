@@ -46,11 +46,11 @@ if(signupForm) {
 
         // sign up the user
         auth.createUserWithEmailAndPassword(email, password).then(cred => {
-            $('.alert').alert()
             signupForm.reset();
-            signupForm.querySelector('.response').innerHTML = '<div class="alert alert-success" role="alert">SUCCESS!</div>';
-            }).catch(err => {
-                signupForm.querySelector('.response').innerHTML = `<div class="alert alert-danger" role="alert">${err.message}</div>`;
+            signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Account created. Go view the <a href='picks.html'>Lines</a></div>`;
+            document.getElementById("signup").disabled = true;
+        }).catch(err => {
+                signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
         });
     });
 }
@@ -77,7 +77,7 @@ if(loginForm) {
             loginForm.reset();
             location.replace("picks.html");
         }).catch(err => {
-            loginForm.querySelector('.error').innerHTML = `'<div class="alert alert-success" role="alert">${err.message}</div>'`;
+            loginForm.querySelector('.error').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
         })
     });
 }

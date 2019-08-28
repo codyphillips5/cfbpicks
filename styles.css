@@ -38,6 +38,11 @@
     border: .5px solid gray;
     border-radius: 5px;
 }
+@media screen and (max-width: 600px) {
+  .games-layout{
+    width: 100%;
+  }
+}
 .required {
     width: 33%;
     height: 160px;

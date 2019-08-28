@@ -7,6 +7,15 @@
     margin: auto;
     padding: 1px;
 }
+.pick_button {
+    text-align: center;
+    vertical-align: middle;
+    width: 80%;
+    height: 40px;
+    background: white;
+    margin: auto;
+    padding: 1px;
+}
 .picks {
     width: 80%;
     min-height: 160px;
@@ -17,7 +26,7 @@
 }
 .selection {
     width: 20%;
-    height: 160px;
+    height: 158px;
     background: white;
     float: left;
 }
@@ -39,6 +48,10 @@
 }
 .header {
     text-align: center;
+}
+h4{
+    position: relative;
+    top: 15px;
 }
 .choice {
    display:table;

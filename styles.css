@@ -44,12 +44,17 @@
   }
 }
 .required {
-    width: 100%;
+    width: 33%;
     height: 160px;
     background: #F8F16B;
     float: left;
     border: .5px solid gray;
     border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+  .required{
+    width: 100%;
+  }
 }
 .header {
     text-align: center;

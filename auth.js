@@ -76,7 +76,7 @@ if(loginForm) {
             loginForm.reset();
             location.replace("picks.html");
         }).catch(err => {
-            loginForm.querySelector('.error').innerHTML = `'<div class="alert alert-success" role="alert">${err.message}</div>'`;
+            loginForm.querySelector('.error').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
         })
     });
 }

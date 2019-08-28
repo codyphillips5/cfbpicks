@@ -38,7 +38,7 @@
     border: .5px solid gray;
     border-radius: 5px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .games-layout{
     width: 100%;
   }
@@ -51,7 +51,7 @@
     border: .5px solid gray;
     border-radius: 5px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .required{
     width: 100%;
   }

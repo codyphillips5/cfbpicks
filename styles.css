@@ -31,13 +31,6 @@
     float: left;
 }
 
-@media screen and (max-width: 600px) {
-  .selection{
-    width: 33%;
-	height: 149px;
-  }
-}
-
 .games-layout {
     width: 33%;
     height: 160px;

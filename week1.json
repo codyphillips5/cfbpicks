@@ -67,7 +67,7 @@
     "awayTeam" : "Louisiana",
     "awayTeamValue" : "ULL",
     "favorite" : "MSST",
-    "spread" : "20.5",
+    "spread" : "19.5",
     "required" : false
     },
     {
@@ -97,7 +97,7 @@
     "awayTeam" : "Eastern Michigan",
     "awayTeamValue" : "EMU",
     "favorite" : "EMU",
-    "spread" : "5.5",
+    "spread" : "6.5",
     "required" : false
     },   
     {
@@ -107,7 +107,7 @@
     "awayTeam" : "South Carolina",
     "awayTeamValue" : "SC",
     "favorite" : "SC",
-    "spread" : "7.5",
+    "spread" : "10.5",
     "required" : false
     },
     {
@@ -137,7 +137,7 @@
     "awayTeam" : "Syracuse",
     "awayTeamValue" : "CUSE",
     "favorite" : "CUSE",
-    "spread" : "17.5",
+    "spread" : "18.5",
     "required" : false
     },
     {
@@ -157,7 +157,7 @@
     "awayTeam" : "Boise State",
     "awayTeamValue" : "BSU",
     "favorite" : "FSU",
-    "spread" : "5.5",
+    "spread" : "4.5",
     "required" : false
     },
     {
@@ -177,7 +177,7 @@
     "awayTeam" : "Georgia Southern",
     "awayTeamValue" : "GSU",
     "favorite" : "LSU",
-    "spread" : "28.5",
+    "spread" : "27.5",
     "required" : false
     },
     {

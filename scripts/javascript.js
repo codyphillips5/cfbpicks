@@ -1,10 +1,11 @@
 var game = {
-  team: "-",
-  spread : "-",
-  pts : "-",
+  team: "",
+  spread : "",
+  pts : "",
+  game : "" 
 };
 
-var choices = [{team: "", game: "", spread : "-", pts : "50"}, {team: "", game: "", spread : "-", pts : "40"}, {team: "", game: "", spread : "-", pts : "30"}, {team: "", game: "", spread : "", pts : "20"}, {team: "", game: "", spread : "", pts : "10"}];
+var choices = [{teamAbb: "", fullTeam: "", game: "", spread : "", pts : "50"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "40"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "30"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "20"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "10"}];
 
 $.getJSON("https://codyphillips5.github.io/cfbpicks/week1.json", function(json) {
 	for (var key in json) {
@@ -58,22 +59,27 @@ $.getJSON("https://codyphillips5.github.io/cfbpicks/week1.json", function(json) 
 function assignPointsByTeam(pts, id) {
 	var pick = document.getElementById("game" + id);
 	var userPick = pick.options[pick.selectedIndex].value;
+	var fullTeamName = pick.options[pick.selectedIndex].text;
 	game.team = userPick;
-	document.getElementById(pts).innerHTML = game.team;
+	document.getElementById(pts).value = game.team;
 	for (i = 0; i < choices.length; i++) {
 		// only allow a team to be chosen once
-		if(game.team == choices[i].team) {
-			choices[i].team = "";
+		if (game.team == choices[i].teamAbb) {
+			choices[i].teamAbb = "";
+			choices[i].fullTeam = "";
 			document.getElementById(choices[i].pts).innerHTML = "";
 		}
-		if(pts == choices[i].pts) {
-			if(choices[i].team != "") {
-				var inputs = document.getElementById("point_totals_game_" + choices[i].game).getElementsByTagName("input");
-				for (j = 0; j < inputs.length; j++) {
-					inputs[j].checked = false;
+		if (pts == choices[i].pts) {
+			if(choices[i].teamAbb != "") {
+				if(choices[i].game != game.game) {
+					var inputs = document.getElementById("point_totals_game_" + choices[i].game).getElementsByTagName("input");
+					for (j = 0; j < inputs.length; j++) {
+						inputs[j].checked = false;
+					}
 				}
 			}
-			choices[i].team = userPick;
+			choices[i].teamAbb = userPick;
+			choices[i].fullTeam = fullTeamName;
 			choices[i].game = id;
 		}
 	}
@@ -82,9 +88,62 @@ function assignPointsByTeam(pts, id) {
 
 function showPointTotals(divId, element){
 	document.getElementById(divId).style.display = element.value != "" ? 'block' : 'none';
+	var gm = divId.substring(divId.lastIndexOf("_") + 1);
+	console.log(choices);
+	for (i = 0; i < choices.length; i++) {
+		// only allow a team to be chosen once
+		if (choices[i].game == gm){ 
+			if (element.value != choices[i].teamAbb) {
+				if (choices[i].pts) {
+					document.getElementById(choices[i].pts).innerHTML = "";
+					choices[i].teamAbb = "";
+					choices[i].fullTeam = "";
+					choices[i].game = "";
+					choices[i].spread = "";
+				}
+			}
+		}
+	}
+
+	var inputs = document.getElementById("point_totals_game_" + gm).getElementsByTagName("input");
+	for (j = 0; j < inputs.length; j++) {
+		inputs[j].checked = false;
+	}
 	game.team = element.value;
+	game.game = gm;
 }
 
 function setTeam(element) {
 	game.team = element.value;
+}
+
+// save picks
+const savePicks = document.querySelector('#save_picks');
+if(savePicks) {
+    savePicks.addEventListener('submit', (e) => {
+        try {
+			e.preventDefault();
+			const fifty = document.getElementById('50').value;
+			const forty = document.getElementById('40').value;
+			const thirty = document.getElementById('30').value;
+			const twenty = document.getElementById('20').value;
+			const ten = document.getElementById('10').value;
+			console.log(fifty);
+		}
+		catch (err) {
+			console.log(err);
+			console.log(err.message);
+		    //loginForm.querySelector('.error').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
+		}
+		    
+        // get user info
+        //const email = loginForm['login-email'].value;
+        //const password = loginForm['login-password'].value;
+    
+        //auth.signInWithEmailAndPassword(email, password).then(cred => {
+            // close the login modal and reset the form
+        //    loginForm.reset();
+        //    location.replace("picks.html");
+        //})
+	})
 }

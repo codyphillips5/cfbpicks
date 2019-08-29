@@ -17,23 +17,29 @@ auth.onAuthStateChanged(user => {
 })
 
 // create new guide
-/*const createForm = document.querySelector('#create-form');
-createForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-
-    db.collection('guides').add({
-        title: createForm['title'].value,
-        content: createForm['content'].value
-    }).then(() => {
-        // close the modal and reset form
-        const modal = document.querySelector('#modal-create');
-        M.Modal.getInstance(modal).close();
-        createForm.reset();
-    }).catch(err => {
-        console.log(err.message)
+const createForm = document.querySelector('#save_picks');
+if(createForm) {
+    createForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+    
+        db.collection('week1').add({
+            user: auth.currentUser.email,
+            50: document.getElementById('50').value,
+            40: document.getElementById('40').value,
+            30: document.getElementById('30').value,
+            20: document.getElementById('20').value,
+            10: document.getElementById('10').value
+        }).then(() => {
+            // close the modal and reset form
+            //const modal = document.querySelector('#modal-create');
+            //M.Modal.getInstance(modal).close();
+            createForm.reset();
+        }).catch(err => {
+            console.log(err.message)
+        });
     });
-});
-*/
+}
+
 // signup
 const signupForm = document.querySelector('#signup-form');
 if(signupForm) {

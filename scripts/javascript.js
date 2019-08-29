@@ -67,11 +67,12 @@ function assignPointsByTeam(pts, id) {
 		if (game.team == choices[i].teamAbb) {
 			choices[i].teamAbb = "";
 			choices[i].fullTeam = "";
-			document.getElementById(choices[i].pts).innerHTML = "";
+			document.getElementById(choices[i].pts).value = "";
 		}
 		if (pts == choices[i].pts) {
 			if(choices[i].teamAbb != "") {
-				if(choices[i].game != game.game) {
+				console.log("game.game = " + game.game);
+ 				if(choices[i].game != game.game) {
 					var inputs = document.getElementById("point_totals_game_" + choices[i].game).getElementsByTagName("input");
 					for (j = 0; j < inputs.length; j++) {
 						inputs[j].checked = false;
@@ -81,9 +82,10 @@ function assignPointsByTeam(pts, id) {
 			choices[i].teamAbb = userPick;
 			choices[i].fullTeam = fullTeamName;
 			choices[i].game = id;
+			game.game = id;
 		}
 	}
-	document.getElementById(pts).innerHTML = game.team;
+	document.getElementById(pts).value = game.team;
 }
 
 function showPointTotals(divId, element){
@@ -95,7 +97,7 @@ function showPointTotals(divId, element){
 		if (choices[i].game == gm){ 
 			if (element.value != choices[i].teamAbb) {
 				if (choices[i].pts) {
-					document.getElementById(choices[i].pts).innerHTML = "";
+					document.getElementById(choices[i].pts).value = "";
 					choices[i].teamAbb = "";
 					choices[i].fullTeam = "";
 					choices[i].game = "";
@@ -133,17 +135,6 @@ if(savePicks) {
 		catch (err) {
 			console.log(err);
 			console.log(err.message);
-		    //loginForm.querySelector('.error').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
 		}
-		    
-        // get user info
-        //const email = loginForm['login-email'].value;
-        //const password = loginForm['login-password'].value;
-    
-        //auth.signInWithEmailAndPassword(email, password).then(cred => {
-            // close the login modal and reset the form
-        //    loginForm.reset();
-        //    location.replace("picks.html");
-        //})
 	})
 }

@@ -18,7 +18,7 @@
 }
 .picks {
     width: 80%;
-    min-height: 300px;
+    min-height: 180px;
     height: auto;
     background: gray;
     margin: auto;
@@ -26,7 +26,7 @@
 }
 .selection {
     width: 20%;
-    height: 298px;
+    height: 178px;
     background: white;
     float: left;
 }

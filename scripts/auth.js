@@ -34,8 +34,10 @@ if(createForm) {
             //const modal = document.querySelector('#modal-create');
             //M.Modal.getInstance(modal).close();
             createForm.reset();
+            createForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Your picks have been saved. Please reach out to Kevin with questions/pick changes.</div>`;
         }).catch(err => {
             console.log(err.message)
+            //signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
         });
     });
 }

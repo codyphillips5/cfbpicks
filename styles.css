@@ -24,6 +24,24 @@
     margin: auto;
     padding: 1px;
 }
+.index{
+    width: 90%;
+    min-height: 180px;
+    height: auto;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    text-align:center;
+}
+.standings{
+    width: 80%;
+    min-height: 180px;
+    height: auto;
+    background: white;
+    margin: auto;
+    padding: 1px;
+}
 .selection {
     width: 20%;
     height: 178px;
@@ -52,6 +70,23 @@
   }
 }
 
+input[type="text"]
+{
+  opacity: 0;
+  width: 0;
+  float: left;
+}
+
+#label50
+{
+  float: left;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+}
+
 .required {
     width: 33%;
     height: 160px;
@@ -61,13 +96,13 @@
     border-radius: 5px;
 }
 @media screen and (max-width: 900px) {
-  .required{
+  .required {
     width: 50%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .required{
+  .required {
     width: 100%;
   }
 }

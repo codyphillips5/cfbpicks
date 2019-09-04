@@ -34,6 +34,13 @@
     padding: 1px;
     text-align:center;
 }
+.response{
+    text-align: center;
+    vertical-align: middle;
+    width: 80%;
+    margin: auto;
+    padding: 1px;
+}
 .standings{
     width: 80%;
     min-height: 180px;
@@ -86,6 +93,14 @@ img {
   max-width: 30%;
   height: auto;
 }
+
+@media screen and (max-width: 700px) {
+  img {
+  max-width: 60%;
+  height: auto;
+  }
+}
+
 
 .required {
     width: 33%;

@@ -5,7 +5,7 @@
 		"homeTeam" : 45,
 		"awayTeam" : 101,
 		"favorite" : 45,
-		"spread" : 5.5,
+		"spread" : "5.5",
 		"required" : false
     },
     {

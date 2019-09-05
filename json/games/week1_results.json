@@ -1,0 +1,108 @@
+{
+  "results": [
+    {
+		"gameId" : 1,
+		"cover" : 2
+    },
+    {
+		"gameId" : 2,
+		"cover" : 4
+    },
+    {
+		"gameId" : 3,
+		"cover" : 5
+    },
+    {
+		"gameId" : 4,
+		"cover" : 7
+    },
+    {
+		"gameId" : 5,
+		"cover" : 9
+    },
+    {
+		"gameId" : 6,
+		"cover" : 12
+    },
+    {
+		"gameId" : 7,
+		"cover" : 14
+    },
+    {
+		"gameId" : 8,
+		"cover" : 15
+    },    
+    {
+		"gameId" : 9,
+        "cover" : 17
+    },
+    {
+		"gameId" : 10,
+		"cover" :  20
+	},		
+    {
+		"gameId" : 11,
+		"cover" : 21
+    },
+    {
+		"gameId" : 12,
+        "cover" : 24
+    },
+    {
+		"gameId" : 13,
+        "cover" : 25
+    },  
+    {
+		"gameId" : 14,
+        "cover" : 28
+    },
+    {
+		"gameId" : 15,
+        "cover" : 30
+    },
+    {
+		"gameId" : 16,
+        "cover" : 32
+    },
+    {
+		"gameId" : 17,
+        "cover" : 34
+    },
+    {
+		"gameId" : 18,
+        "cover" : 35
+    },
+    {
+		"gameId" : 19,
+		"cover" : 38
+    },
+    {
+		"gameId" : 20,
+		"cover" : 39
+    },
+    {
+		"gameId" : 21,
+        "cover" : 41
+    },
+    {
+		"gameId" : 22,
+        "cover" : 43
+    },
+    {
+		"gameId" : 23,
+		"cover" : 46
+    },
+    {
+		"gameId" : 24,
+        "cover" : 47
+    },
+    {
+		"gameId" : 25,
+        "cover" : 49
+    },
+    {
+		"gameId" : 26,
+        "cover" : 52
+    }
+  ]
+}

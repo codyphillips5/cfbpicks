@@ -89,6 +89,7 @@ $.when(getPicks, getResults, getTeams, getUsers).then(function(){
 			tableUser = tableUser + `<td>${pointTotal}</td></tr>`;
 		}
 	}
+	tableUser = tableUser.replace("undefined","");
 	var tableEnd = `</tbody></table>`;	
 	document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;
 	sortTable(6);

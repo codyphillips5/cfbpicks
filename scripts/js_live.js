@@ -46,5 +46,4 @@ $.when(getPicks, getTeams, getUsers).then(function(){
 	tableUser = tableUser.replace("undefined","");
 	var tableEnd = `</tbody></table>`;	
 	document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;
-	sortTable(6);
 });

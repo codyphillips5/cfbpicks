@@ -49,6 +49,11 @@
     margin: auto;
     padding: 1px;
 }
+@media screen and (max-width: 400px) {
+  .standings{
+    width: 100%;
+  }
+}
 .selection {
     width: 20%;
     height: 178px;

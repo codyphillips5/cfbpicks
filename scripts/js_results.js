@@ -1,18 +1,3 @@
-var game = {
-  team: "",
-  spread : "",
-  pts : "",
-  game : "" 
-};
-var attempt = {
-	thisTeam : "",
-	thisMascot : "",
-	thisTeamAbb : "",
-	thisTeamImg : ""
-};
-
-var choices = [{teamAbb: "", fullTeam: "", game: "", spread : "", pts : "50"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "40"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "30"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "20"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "10"}];
-
 var firtName = "";
 var lastName = "";
 var coversNum = [];
@@ -20,11 +5,11 @@ var coversTeam = [];
 
 var picksList, teamsList, resultsList, usersList;
 
-var getPicks = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week1_picks.json", function(json){
+var getPicks = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week2_picks.json", function(json){
 	picksList = json;
 });
 
-var getResults = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week1_results.json", function(json){
+var getResults = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week2_results.json", function(json){
 	resultsList = json;
 	// get results
 	for (var result in resultsList) {

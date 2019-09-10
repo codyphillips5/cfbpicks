@@ -178,7 +178,8 @@
 	{
 		"userId" : 36,
 		"week_1" : 90,
-		"week_2" : 150
+		"week_2" : 150,
+		"week_2_top" : true
     },
 	{
 		"userId" : 37,
@@ -233,6 +234,7 @@
 	{
 		"userId" : 47,
 		"week_1" : 120,
+		"week_1_top" : true,
 		"week_2" : 140
     },	
 	{
@@ -243,6 +245,7 @@
 	{
 		"userId" : 49,
 		"week_1" : 120,
+		"week_1_top" : true,
 		"week_2" : 140
     },	
 	{

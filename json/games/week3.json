@@ -53,7 +53,7 @@
 		"homeTeam" : 100,
 		"awayTeam" : 15,
 		"favorite" : 15,
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false
 	},
 	{
@@ -61,7 +61,7 @@
 		"homeTeam" : 5,
 		"awayTeam" : 20,
 		"favorite" : 5,
-		"spread" : 8.5,
+		"spread" : 7.5,
 		"required" : false
 	},
 	{
@@ -85,7 +85,7 @@
 		"homeTeam" : 129,
 		"awayTeam" : 113,
 		"favorite" : 129,
-		"spread" : 35.5,
+		"spread" : 34.5,
 		"required" : false
 	},
 	{
@@ -117,7 +117,7 @@
 		"homeTeam" : 79,
 		"awayTeam" : 51,
 		"favorite" : 51,
-		"spread" : 3.5,
+		"spread" : 4.5,
 		"required" : false
 	},
 	{
@@ -157,7 +157,7 @@
 		"homeTeam" : 26,
 		"awayTeam" : 128,
 		"favorite" : 26,
-		"spread" : 20.5,
+		"spread" : 19.5,
 		"required" : false
 	},
 	{
@@ -173,7 +173,7 @@
 		"homeTeam" : 86,
 		"awayTeam" : 76,
 		"favorite" : 86,
-		"spread" : 12.5,
+		"spread" : 13.5,
 		"required" : false
 	},
 	{
@@ -181,7 +181,7 @@
 		"homeTeam" : 99,
 		"awayTeam" : 41,
 		"favorite" : 41,
-		"spread" : 1.5,
+		"spread" : 2.5,
 		"required" : true
 	},
 	{
@@ -189,7 +189,7 @@
 		"homeTeam" : 110,
 		"awayTeam" : 93,
 		"favorite" : 110,
-		"spread" : 10.5,
+		"spread" : 9.5,
 		"required" : false
 	},
 	{
@@ -229,7 +229,7 @@
 		"homeTeam" : 80,
 		"awayTeam" : 87,
 		"favorite" : 80,
-		"spread" : 17.5,
+		"spread" : 18.5,
 		"required" : false
 	},
 	{
@@ -237,7 +237,7 @@
 		"homeTeam" : 114,
 		"awayTeam" : 120,
 		"favorite" : 114,
-		"spread" : 1.5,
+		"spread" : 2.5,
 		"required" : false
 	},
 	{
@@ -277,7 +277,7 @@
 		"homeTeam" : 118,
 		"awayTeam" : 24,
 		"favorite" : 118,
-		"spread" : 10.5,
+		"spread" : 9.5,
 		"required" : false
 	},
 	{
@@ -317,7 +317,7 @@
 		"homeTeam" : 91,
 		"awayTeam" : 126,
 		"favorite" : 126,
-		"spread" : 1.5,
+		"spread" : 2.5,
 		"required" : false
 	},
 	{
@@ -333,7 +333,7 @@
 		"homeTeam" : 81,
 		"awayTeam" : 47,
 		"favorite" : 47,
-		"spread" : 30.5,
+		"spread" : 31.5,
 		"required" : false
 	},
 	{
@@ -341,7 +341,7 @@
 		"homeTeam" : 50,
 		"awayTeam" : 127,
 		"favorite" : 127,
-		"spread" : 15.5,
+		"spread" : 16.5,
 		"required" : false
 	},
 	{

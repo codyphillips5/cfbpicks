@@ -310,7 +310,7 @@
 		"awayTeam" : 129,
 		"favorite" : 34,
 		"spread" : 13.5,
-		"required" : false
+		"required" : true
     },
     {
 		"gameId" : 155,

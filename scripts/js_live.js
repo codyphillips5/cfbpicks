@@ -5,7 +5,7 @@ var coversTeam = [];
 
 var standings, standings, resultsList, usersList;
 
-var getPicks = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week3_picks.json", function(json){
+var getPicks = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week4_picks.json", function(json){
 	standings = json;
 });
 

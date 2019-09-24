@@ -116,7 +116,8 @@ var game = {
 	  game.team = userPick;
 	  game.spread = attempt.thisTeamImg;
 	  document.getElementById(pts).value = game.team;
-	  document.getElementById("label-choice-" + pts).innerHTML = `<label for="${pts}" class="choice">${game.team}</label>`;
+	  //document.getElementById("label-choice-" + pts).innerHTML = `<label for="${pts}" class="choice">${game.team}</label>`;
+	  document.getElementById("label-choice-" + pts).innerHTML = `<label for="${pts}" class="choice">${fullTeamName}</label>`;
 	  getTeamInfo(userPick);
 	  request.success(function(response){
 		  for (i = 0; i < choices.length; i++) {

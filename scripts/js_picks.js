@@ -113,11 +113,11 @@ var game = {
 	  var pick = document.getElementById("game" + id);
 	  var userPick = pick.options[pick.selectedIndex].value;
 	  var fullTeamName = pick.options[pick.selectedIndex].text;
+	  fullTeamSpread = fullTeamName.replace(/[^\d+.-]/g, '');
 	  game.team = userPick;
 	  game.spread = attempt.thisTeamImg;
 	  document.getElementById(pts).value = game.team;
-	  //document.getElementById("label-choice-" + pts).innerHTML = `<label for="${pts}" class="choice">${game.team}</label>`;
-	  document.getElementById("label-choice-" + pts).innerHTML = `<label for="${pts}" class="choice">${fullTeamName}</label>`;
+	  document.getElementById("label-choice-" + pts).innerHTML = `<label for="${pts}" class="choice">${game.team} ${fullTeamSpread}</label>`;
 	  getTeamInfo(userPick);
 	  request.success(function(response){
 		  for (i = 0; i < choices.length; i++) {

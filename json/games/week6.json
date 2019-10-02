@@ -5,7 +5,7 @@
 		"homeTeam" : 35,
 		"awayTeam" : 89,
 		"favorite" : 35,
-		"spread" : 26.5,
+		"spread" : 27.5,
 		"required" : false
     },
     {
@@ -13,7 +13,7 @@
 		"homeTeam" : 98,
 		"awayTeam" : 55,
 		"favorite" : 55,
-		"spread" : 35.5,
+		"spread" : 31.5,
 		"required" : false
     },
     {
@@ -37,7 +37,7 @@
 		"homeTeam" : 37,
 		"awayTeam" : 41,
 		"favorite" : 37,
-		"spread" : 5.5,
+		"spread" : 3.5,
 		"required" : false
     },
     {
@@ -85,7 +85,7 @@
 		"homeTeam" : 130,
 		"awayTeam" : 109,
 		"favorite" : 130,
-		"spread" : 4.5,
+		"spread" : 6.5,
 		"required" : false
     },
     {
@@ -117,7 +117,7 @@
 		"homeTeam" : 100,
 		"awayTeam" : 47,
 		"favorite" : 47,
-		"spread" : 11.5,
+		"spread" : 10.5,
 		"required" : false
     },
     {
@@ -130,10 +130,10 @@
     },
     {
 		"gameId" : 223,
-		"homeTeam" : 118,
-		"awayTeam" : 10,
+		"homeTeam" : 10,
+		"awayTeam" : 118,
 		"favorite" : 10,
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : false
     },
     {
@@ -173,7 +173,7 @@
 		"homeTeam" : 104,
 		"awayTeam" : 106,
 		"favorite" : 106,
-		"spread" : 2.5,
+		"spread" : 3.5,
 		"required" : false
     },
     {
@@ -197,7 +197,7 @@
 		"homeTeam" : 125,
 		"awayTeam" : 11,
 		"favorite" : 11,
-		"spread" : 16.5,
+		"spread" : 14.5,
 		"required" : false
     },
     {
@@ -229,7 +229,7 @@
 		"homeTeam" : 94,
 		"awayTeam" : 59,
 		"favorite" : 94,
-		"spread" : 3.5,
+		"spread" : 4.5,
 		"required" : false
     },
     {
@@ -237,7 +237,7 @@
 		"homeTeam" : 67,
 		"awayTeam" : 121,
 		"favorite" : 67,
-		"spread" : 2.5,
+		"spread" : 3.5,
 		"required" : false
     },
     {
@@ -301,7 +301,7 @@
 		"homeTeam" : 18,
 		"awayTeam" : 45,
 		"favorite" : 18,
-		"spread" : 5.5,
+		"spread" : 4.5,
 		"required" : false
     },
     {
@@ -309,7 +309,7 @@
 		"homeTeam" : 50,
 		"awayTeam" : 27,
 		"favorite" : 27,
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false
     },
     {
@@ -341,7 +341,7 @@
 		"homeTeam" : 25,
 		"awayTeam" : 102,
 		"favorite" : 102,
-		"spread" : 14.5,
+		"spread" : 16.5,
 		"required" : false
     },
     {

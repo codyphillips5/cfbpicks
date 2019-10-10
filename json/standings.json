@@ -80,7 +80,8 @@
 		"week_2" : 0,
 		"week_3" : 120,
 		"week_4" : 80,
-		"week_5" : 0,
+		"week_5" : 150,
+		"week_5_top" : true,
 		"week_6" : 50
     },	
 	{

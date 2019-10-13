@@ -30,7 +30,7 @@ var game = {
   
   var xFile, yFile;
   
-  var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week7.json", function(json){
+  var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week8.json", function(json){
 	  xFile = json;
   });
   

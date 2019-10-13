@@ -97,6 +97,7 @@ input[type="text"]
 img {
   max-width: 30%;
   height: auto;
+  max-height: 410px;
 }
 
 @media screen and (max-width: 1000px) {

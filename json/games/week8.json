@@ -1,0 +1,437 @@
+{
+  "games": [
+    {
+		"gameId" : 297,
+		"homeTeam" : 130,
+		"awayTeam" : 57,
+		"favorite" : 57,
+		"spread" : 24.5,
+		"required" : false
+    },
+    {
+		"gameId" : 298,
+		"homeTeam" : 55,
+		"awayTeam" : 100,
+		"favorite" : 55,
+		"spread" : 33.5,
+		"required" : false
+    },
+    {
+		"gameId" : 299,
+		"homeTeam" : 5,
+		"awayTeam" : 83,
+		"favorite" : 83,
+		"spread" : 30.5,
+		"required" : false
+    },
+    {
+		"gameId" : 300,
+		"homeTeam" : 22,
+		"awayTeam" : 53,
+		"favorite" : 53,
+		"spread" : 5.5,
+		"required" : false
+    },
+    {
+		"gameId" : 301,
+		"homeTeam" : 110,
+		"awayTeam" : 39,
+		"favorite" : 39,
+		"spread" : 18.5,
+		"required" : false
+    },
+    {
+		"gameId" : 302,
+		"homeTeam" : 41,
+		"awayTeam" : 91,
+		"favorite" : 41,
+		"spread" : 18.5,
+		"required" : false
+    },
+    {
+		"gameId" : 303,
+		"homeTeam" : 54,
+		"awayTeam" : 58,
+		"favorite" : 54,
+		"spread" : 22.5,
+		"required" : false
+    },
+    {
+		"gameId" : 304,
+		"homeTeam" : 109,
+		"awayTeam" : 15,
+		"favorite" : 15,
+		"spread" : 2.5,
+		"required" : false
+    },
+    {
+		"gameId" : 305,
+		"homeTeam" : 111,
+		"awayTeam" : 99,
+		"favorite" : 99,
+		"spread" : 6.5,
+		"required" : false
+    },
+    {
+		"gameId" : 306,
+		"homeTeam" : 65,
+		"awayTeam" : 56,
+		"favorite" : 56,
+		"spread" : 22.5,
+		"required" : false
+    },
+    {
+		"gameId" : 307,
+		"homeTeam" : 101,
+		"awayTeam" : 77,
+		"favorite" : 101,
+		"spread" : 7.5,
+		"required" : false
+    },
+    {
+		"gameId" : 308,
+		"homeTeam" : 63,
+		"awayTeam" : 68,
+		"favorite" : 68,
+		"spread" : 11.5,
+		"required" : false
+    },
+    {
+		"gameId" : 309,
+		"homeTeam" : 7,
+		"awayTeam" : 10,
+		"favorite" : 10,
+		"spread" : 1.5,
+		"required" : false
+    },
+    {
+		"gameId" : 310,
+		"homeTeam" : 42,
+		"awayTeam" : 119,
+		"favorite" : 119,
+		"spread" : 1.5,
+		"required" : false
+    },
+    {
+		"gameId" : 311,
+		"homeTeam" : 117,
+		"awayTeam" : 126,
+		"favorite" : 126,
+		"spread" : 3.5,
+		"required" : false
+    },
+    {
+		"gameId" : 312,
+		"homeTeam" : 115,
+		"awayTeam" : 96,
+		"favorite" : 115,
+		"spread" : 10.5,
+		"required" : false
+    },
+    {
+		"gameId" : 313,
+		"homeTeam" : 43,
+		"awayTeam" : 113,
+		"favorite" : 43,
+		"spread" : 19.5,
+		"required" : false
+    },
+    {
+		"gameId" : 314,
+		"homeTeam" : 36,
+		"awayTeam" : 19,
+		"favorite" : 36,
+		"spread" : 6.5,
+		"required" : false
+    },
+    {
+		"gameId" : 315,
+		"homeTeam" : 13,
+		"awayTeam" : 35,
+		"favorite" : 35,
+		"spread" : 19.5,
+		"required" : false
+    },
+    {
+		"gameId" : 316,
+		"homeTeam" : 102,
+		"awayTeam" : 40,
+		"favorite" : 40,
+		"spread" : 3.5,
+		"required" : false
+    },
+    {
+		"gameId" : 317,
+		"homeTeam" : 30,
+		"awayTeam" : 103,
+		"favorite" : 30,
+		"spread" : 7.5,
+		"required" : false
+    },
+    {
+		"gameId" : 318,
+		"homeTeam" : 88,
+		"awayTeam" : 74,
+		"favorite" : 74,
+		"spread" : 29.5,
+		"required" : false
+    },
+    {
+		"gameId" : 319,
+		"homeTeam" : 62,
+		"awayTeam" : 85,
+		"favorite" : 62,
+		"spread" : 17.5,
+		"required" : false
+    },
+    {
+		"gameId" : 320,
+		"homeTeam" : 107,
+		"awayTeam" : 125,
+		"favorite" : 107,
+		"spread" : 14.5,
+		"required" : false
+    },
+    {
+		"gameId" : 321,
+		"homeTeam" : 104,
+		"awayTeam" : 84,
+		"favorite" : 104,
+		"spread" : 12.5,
+		"required" : false
+    },
+    {
+		"gameId" : 322,
+		"homeTeam" : 6,
+		"awayTeam" : 64,
+		"favorite" : 64,
+		"spread" : 17.5,
+		"required" : false
+    },
+    {
+		"gameId" : 323,
+		"homeTeam" : 48,
+		"awayTeam" : 120,
+		"favorite" : 48,
+		"spread" : 1.5,
+		"required" : false
+    },
+    {
+		"gameId" : 324,
+		"homeTeam" : 46,
+		"awayTeam" : 18,
+		"favorite" : 46,
+		"spread" : 3.5,
+		"required" : false
+    },
+    {
+		"gameId" : 325,
+		"homeTeam" : 108,
+		"awayTeam" : 21,
+		"favorite" : 21,
+		"spread" : 3.5,
+		"required" : false
+    },
+    {
+		"gameId" : 326,
+		"homeTeam" : 97,
+		"awayTeam" : 8,
+		"favorite" : 8,
+		"spread" : 3.5,
+		"required" : false
+    },
+    {
+		"gameId" : 327,
+		"homeTeam" : 95,
+		"awayTeam" : 122,
+		"favorite" : 95,
+		"spread" : 3.5,
+		"required" : false
+    },
+    {
+		"gameId" : 328,
+		"homeTeam" : 33,
+		"awayTeam" : 44,
+		"favorite" : 33,
+		"spread" : 21.5,
+		"required" : false
+    },
+    {
+		"gameId" : 329,
+		"homeTeam" : 123,
+		"awayTeam" : 38,
+		"favorite" : 123,
+		"spread" : 10.5,
+		"required" : false
+    },
+    {
+		"gameId" : 330,
+		"homeTeam" : 69,
+		"awayTeam" : 121,
+		"favorite" : 69,
+		"spread" : 15.5,
+		"required" : false
+    },
+    {
+		"gameId" : 331,
+		"homeTeam" : 67,
+		"awayTeam" : 80,
+		"favorite" : 80,
+		"spread" : 8.5,
+		"required" : false
+    },
+    {
+		"gameId" : 332,
+		"homeTeam" : 34,
+		"awayTeam" : 9,
+		"favorite" : 34,
+		"spread" : 24.5,
+		"required" : false
+    },
+    {
+		"gameId" : 333,
+		"homeTeam" : 78,
+		"awayTeam" : 76,
+		"favorite" : 78,
+		"spread" : 13.5,
+		"required" : false
+    },
+    {
+		"gameId" : 334,
+		"homeTeam" : 112,
+		"awayTeam" : 81,
+		"favorite" : 81,
+		"spread" : 3.5,
+		"required" : false
+    },
+    {
+		"gameId" : 335,
+		"homeTeam" : 47,
+		"awayTeam" : 98,
+		"favorite" : 47,
+		"spread" : 21.5,
+		"required" : false
+    },
+    {
+		"gameId" : 336,
+		"homeTeam" : 66,
+		"awayTeam" : 16,
+		"favorite" : 66,
+		"spread" : 33.5,
+		"required" : false
+    },
+    {
+		"gameId" : 337,
+		"homeTeam" : 75,
+		"awayTeam" : 127,
+		"favorite" : 127,
+		"spread" : 7.5,
+		"required" : false
+    },
+    {
+		"gameId" : 338,
+		"homeTeam" : 11,
+		"awayTeam" : 71,
+		"favorite" : 11,
+		"spread" : 4.5,
+		"required" : false
+    },
+    {
+		"gameId" : 339,
+		"homeTeam" : 20,
+		"awayTeam" : 118,
+		"favorite" : 118,
+		"spread" : 9.5,
+		"required" : false
+    },
+    {
+		"gameId" : 340,
+		"homeTeam" : 24,
+		"awayTeam" : 82,
+		"favorite" : 82,
+		"spread" : 6.5,
+		"required" : false
+    },
+    {
+		"gameId" : 341,
+		"homeTeam" : 70,
+		"awayTeam" : 124,
+		"favorite" : 70,
+		"spread" : 22.5,
+		"required" : false
+    },
+    {
+		"gameId" : 342,
+		"homeTeam" : 49,
+		"awayTeam" : 94,
+		"favorite" : 49,
+		"spread" : 13.5,
+		"required" : false
+    },
+    {
+		"gameId" : 343,
+		"homeTeam" : 105,
+		"awayTeam" : 37,
+		"favorite" : 105,
+		"spread" : 8.5,
+		"required" : true
+    },
+    {
+		"gameId" : 344,
+		"homeTeam" : 90,
+		"awayTeam" : 31,
+		"favorite" : 90,
+		"spread" : 2.5,
+		"required" : false
+    },
+    {
+		"gameId" : 345,
+		"homeTeam" : 12,
+		"awayTeam" : 73,
+		"favorite" : 73,
+		"spread" : 6.5,
+		"required" : false
+    },
+    {
+		"gameId" : 346,
+		"homeTeam" : 51,
+		"awayTeam" : 59,
+		"favorite" : 51,
+		"spread" : 8.5,
+		"required" : false
+    },
+	,
+    {
+		"gameId" : 347,
+		"homeTeam" : 17,
+		"awayTeam" : 23,
+		"favorite" : 17,
+		"spread" : 35.5,
+		"required" : false
+    }
+    {
+		"gameId" : 348,
+		"homeTeam" : 79,
+		"awayTeam" : 32,
+		"favorite" : 32,
+		"spread" : 6.5,
+		"required" : false
+    },
+    {
+		"gameId" : 349,
+		"homeTeam" : 89,
+		"awayTeam" : 92,
+		"favorite" : 89,
+		"spread" : 20.5,
+		"required" : false
+    },
+    {
+		"gameId" : 350,
+		"homeTeam" : 60,
+		"awayTeam" : 106,
+		"favorite" : 106,
+		"spread" : 2.5,
+		"required" : false
+    }
+  ]
+}

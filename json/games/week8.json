@@ -400,7 +400,6 @@
 		"spread" : 8.5,
 		"required" : false
     },
-	,
     {
 		"gameId" : 347,
 		"homeTeam" : 17,
@@ -408,7 +407,7 @@
 		"favorite" : 17,
 		"spread" : 35.5,
 		"required" : false
-    }
+    },
     {
 		"gameId" : 348,
 		"homeTeam" : 79,

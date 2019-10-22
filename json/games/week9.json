@@ -307,8 +307,8 @@
     {
 		"gameId" : 389,
 		"homeTeam" : 98,
-		"awayTeam" : 113,
-		"favorite" : 113,
+		"awayTeam" : 111,
+		"favorite" : 111,
 		"spread" : 3.5,
 		"required" : false
     },

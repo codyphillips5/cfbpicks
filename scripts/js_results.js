@@ -10,7 +10,7 @@ var picksList, teamsList, resultsList, usersList;
 //badge.innerHTML = '<form>' + select + '</form>';		
 //document.getElementById("weeks").appendChild(badge);
 
-getResultsByWeek(8);
+getResultsByWeek(9);
 
 function getResultsByWeek(week) {
 	console.log(week);
@@ -88,7 +88,7 @@ function getResultsByWeek(week) {
 		tableUser = tableUser.replace("undefined","");
 		var tableEnd = `</tbody></table>`;	
 		document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;
-		sortTable(6);
+		//sortTable(6);
 	});
 }
 

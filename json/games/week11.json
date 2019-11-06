@@ -68,15 +68,15 @@
 		"gameId" : 456,
 		"homeTeam" : 26,
 		"awayTeam" : 91,
-		"favorite" : 91,
+		"favorite" : 26,
 		"spread" : 2.5,
 		"required" : false
     },
     {
 		"gameId" : 457,
-		"homeTeam" : 10,
+		"homeTeam" : 109,
 		"awayTeam" : 31,
-		"favorite" : 10,
+		"favorite" : 109,
 		"spread" : 1.5,
 		"required" : false
     },
@@ -180,7 +180,7 @@
 		"gameId" : 470,
 		"homeTeam" : 76,
 		"awayTeam" : 51,
-		"favorite" : 51,
+		"favorite" : 76,
 		"spread" : 1.5,
 		"required" : false
     },

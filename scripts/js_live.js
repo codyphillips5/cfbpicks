@@ -3,14 +3,14 @@ var lastName = "";
 var coversNum = [];
 var coversTeam = [];
 
-var standings, standings, resultsList, usersList;
+var standings, teams, resultsList, usersList;
 
 var getPicks = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week11_picks.json", function(json){
 	standings = json;
 });
 
 var getStandings = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/teams.json", function(json){
-	standings = json;
+	teams = json;
 });
 
 var getUsers= $.getJSON("https://codyphillips5.github.io/cfbpicks/json/users.json", function(json){
@@ -22,11 +22,9 @@ $.when(getPicks, getStandings, getUsers).then(function(){
 
 	for (var key in standings) {
 		for (var i = 0; i < standings[key].length; i++) {
-			// set starters
-			var pointTotal = 0;
-			var isCorrect;
 
 			var user = standings[key][i].userId;
+
 			// get user info
 			for (var k in usersList) {
 				for (var j = 0; j < usersList[k].length; j++) {

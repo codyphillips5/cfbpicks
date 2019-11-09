@@ -101,7 +101,7 @@
 		"homeTeam" : 124,
 		"awayTeam" : 80,
 		"favorite" : 80,
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false
     },
     {
@@ -181,7 +181,7 @@
 		"homeTeam" : 120,
 		"awayTeam" : 69,
 		"favorite" : 120,
-		"spread" : 5.5,
+		"spread" : 4.5,
 		"required" : false
     },
     {
@@ -309,7 +309,7 @@
 		"homeTeam" : 32,
 		"awayTeam" : 43,
 		"favorite" : 32,
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false
     },
     {

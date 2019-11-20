@@ -26,8 +26,8 @@
     },
     {
 		"gameId" : 535,
-		"homeTeam" : 95,
-		"awayTeam" : 100,
+		"homeTeam" : 100,
+		"awayTeam" : 95,
 		"favorite" : 95,
 		"spread" : 7.5,
 		"required" : false

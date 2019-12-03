@@ -10,7 +10,7 @@ var picksList, teamsList, resultsList, usersList;
 //badge.innerHTML = '<form>' + select + '</form>';		
 //document.getElementById("weeks").appendChild(badge);
 
-getResultsByWeek(13);
+getResultsByWeek(14);
 
 function getResultsByWeek(week) {
 	console.log(week);

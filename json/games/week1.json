@@ -98,6 +98,14 @@
     },
     {
     "gameId" : 13,
+    "homeTeam" : 130,
+    "awayTeam" : 67,
+    "favorite" : 130,
+    "spread" : 11.5,
+    "required" : false
+    },
+    {
+    "gameId" : 14,
     "homeTeam" : 98,
     "awayTeam" : 19,
     "favorite" : 98,

@@ -89,8 +89,8 @@ var game = {
 			  else {
 				  badge.className = 'games-layout';		
 			  }
-			  var header = '<span class=\'header\'><h4>' + awayTeam + ' vs ' + homeTeam + ' (' + homeSide + spread + ') </h4><br>';
-			  var gameInfo = '<sub> '+ channel + " · " + date.toLocaleString([], {weekday: 'long', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit'}).replace(',',' ·') + '</sub><br>';
+			  var header = '<span class=\'header\'><h4>' + awayTeam + ' vs ' + homeTeam + ' (' + homeSide + spread + ') </h4>';
+			  var gameInfo = '<sub> '+ channel + " · " + date.toLocaleString([], {weekday: 'long', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit'}).replace(',',' ·') + '</sub><br><br>';
 			  var select = '<select class=\'teamlist\' id=\'game' + gameId + '\' onchange=\"showPointTotals(\'point_totals_game_' + gameId + '\', this);\"><option value = \"\"> -- Select Team -- </option><option value=\"' + awayTeamVal + '\">' + awayTeam + ' ' + awaySide + spread + '</option><option value=\"' + homeTeamVal + '\">' + homeTeam + ' ' + homeSide + spread + '</option></select>';
 			  var display = '<div id=\"point_totals_game_' + gameId + '\" style=\"display:none;\">';
 			  var numbers = [5, 4, 3, 2, 1];

@@ -17,7 +17,7 @@
 		"favorite" : 99,
 		"spread" : 11.5,
 		"required" : true,
-		"gameTime" : "2020-09-12 12:00:00",
+		"gameTime" : "2020-09-12T16:00Z",
 		"channel": "ESPN"
     },
     {
@@ -27,7 +27,7 @@
 		"favorite" : 107,
 		"spread" : 17.5,
 		"required" : false,
-		"gameTime" : "2020-09-12 12:00:00",
+		"gameTime" : "2020-09-12T16:00Z",
 		"channel": "ESPN2"
     },    
     {
@@ -37,7 +37,7 @@
 		"favorite" : 117,
 		"spread" : 10.5,
 		"required" : false,
-		"gameTime" : "2020-09-12 12:00:00",
+		"gameTime" : "2020-09-12T16:00Z",
 		"channel": "FOX"
     },
     {
@@ -47,7 +47,7 @@
 		"favorite" : 82,
 		"spread" : 18.5,
 		"required" : false,
-		"gameTime" : "2020-09-12 13:30:00",
+		"gameTime" : "2020-09-12T17:30Z",
 		"channel": "CBSSN"
     },
     {
@@ -57,7 +57,7 @@
 		"favorite" : 129,
 		"spread" : 19.5,
 		"required" : false,
-		"gameTime" : "2020-09-12 14:30:00",
+		"gameTime" : "2020-09-12T18:30Z",
 		"channel": "NBC"
     },
     {
@@ -67,7 +67,7 @@
 		"favorite" : 31,
 		"spread" : 12.5,
 		"required" : false,
-		"gameTime" : "2020-09-12 15:30:00",
+		"gameTime" : "2020-09-12T19:30Z",
 		"channel": "ABC"
     },
     {
@@ -77,7 +77,7 @@
 		"favorite" : 72,
 		"spread" : 7.5,
 		"required" : false,
-		"gameTime" : "2020-09-12 15:30:00",
+		"gameTime" : "2020-09-12T19:30Z",
 		"channel": "ESPN2"
     },
     {
@@ -87,7 +87,7 @@
 		"favorite" : 57,
 		"spread" : 32.5,
 		"required" : false,
-		"gameTime" : "2020-09-12 19:30:00",
+		"gameTime" : "2020-09-12T23:30Z",
 		"channel": "ABC"
     },   
     {
@@ -97,7 +97,7 @@
 		"favorite" : 71,
 		"spread" : 9.5,
 		"required" : false,
-		"gameTime" : "2020-09-12 19:30:00",
+		"gameTime" : "2020-09-12T23:30Z",
 		"channel": "ESPN2"
     },
     {
@@ -107,7 +107,7 @@
 		"favorite" : 47,
 		"spread" : 42.5,
 		"required" : false,
-		"gameTime" : "2020-09-12 20:00:00",
+		"gameTime" : "2020-09-13T00:00Z",
 		"channel": "LHN"
     },
     {
@@ -117,7 +117,7 @@
 		"favorite" : 130,
 		"spread" : 11.5,
 		"required" : false,
-		"gameTime" : "2020-09-12 20:00:00",
+		"gameTime" : "2020-09-13T00:00Z",
 		"channel": "ACCN"
     },
     {
@@ -127,7 +127,7 @@
 		"favorite" : 98,
 		"spread" : 7.5,
 		"required" : false,
-		"gameTime" : "2020-09-12 22:00:00",
+		"gameTime" : "2020-09-13T02:00Z",
 		"channel": "FS1"
     }
   ]

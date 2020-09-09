@@ -1,116 +1,134 @@
 {
   "games": [
     {
-    "gameId" : 1,
-    "homeTeam" : 21,
-    "awayTeam" : 28,
-    "favorite" : 21,
-    "spread" : 22.5,
-    "required" : false
+		"gameId" : 1,
+		"homeTeam" : 21,
+		"awayTeam" : 28,
+		"favorite" : 21,
+		"spread" : 22.5,
+		"required" : false,
+		"gameTime" : "2019-09-12 16:00:00",
+		"channel": "ACCN"
     },
     {
-    "gameId" : 2,
-    "homeTeam" : 99,
-    "awayTeam" : 14,
-    "favorite" : 99,
-    "spread" : 11.5,
-    "required" : false
+		"gameId" : 2,
+		"homeTeam" : 99,
+		"awayTeam" : 14,
+		"favorite" : 99,
+		"spread" : 11.5,
+		"required" : true,
+		"gameTime" : "2019-09-12 16:00:00",
+		"channel": "ESPN"
     },
     {
-    "gameId" : 3,
-    "homeTeam" : 107,
-    "awayTeam" : 80,
-    "favorite" : 107,
-    "spread" : 17.5,
-    "required" : false
-    },
-    {
-    "gameId" : 4,
-    "homeTeam" : 122,
-    "awayTeam" : 48,
-    "favorite" : 122,
-    "spread" : 18.5,
-    "required" : false
-    },
-    {
-    "gameId" : 5,
-    "homeTeam" : 82,
-    "awayTeam" : 125,
-    "favorite" : 82,
-    "spread" : 18.5,
-    "required" : false
-    },
-    {
-    "gameId" : 6,
-    "homeTeam" : 129,
-    "awayTeam" : 18,
-    "favorite" : 129,
-    "spread" : 19.5,
-    "required" : false
-    },
-    {
-    "gameId" : 7,
-    "homeTeam" : 31,
-    "awayTeam" : 58,
-    "favorite" : 31,
-    "spread" : 12.5,
-    "required" : false
-    },
-    {
-    "gameId" : 8,
-    "homeTeam" : 72,
-    "awayTeam" : 112,
-    "favorite" : 72,
-    "spread" : 7.5,
-    "required" : false
+		"gameId" : 3,
+		"homeTeam" : 107,
+		"awayTeam" : 80,
+		"favorite" : 107,
+		"spread" : 17.5,
+		"required" : false,
+		"gameTime" : "2019-09-12 16:00:00",
+		"channel": "ESPN2"
     },    
     {
-    "gameId" : 9,
-    "homeTeam" : 117,
-    "awayTeam" : 29,
-    "favorite" : 117,
-    "spread" : 10.5,
-    "required" : false
+		"gameId" : 4,
+		"homeTeam" : 117,
+		"awayTeam" : 29,
+		"favorite" : 117,
+		"spread" : 10.5,
+		"required" : false,
+		"gameTime" : "2019-09-12 16:00:00",
+		"channel": "FOX"
     },
     {
-    "gameId" : 10,
-    "homeTeam" : 90,
-    "awayTeam" : 57,
-    "favorite" : 57,
-    "spread" : 32.5,
-    "required" : false
+		"gameId" : 5,
+		"homeTeam" : 82,
+		"awayTeam" : 125,
+		"favorite" : 82,
+		"spread" : 18.5,
+		"required" : false,
+		"gameTime" : "2019-09-12 17:30:00",
+		"channel": "CBSSN"
+    },
+    {
+		"gameId" : 6,
+		"homeTeam" : 129,
+		"awayTeam" : 18,
+		"favorite" : 129,
+		"spread" : 19.5,
+		"required" : false,
+		"gameTime" : "2019-09-12 18:30:00",
+		"channel": "NBC"
+    },
+    {
+		"gameId" : 7,
+		"homeTeam" : 31,
+		"awayTeam" : 58,
+		"favorite" : 31,
+		"spread" : 12.5,
+		"required" : false,
+		"gameTime" : "2019-09-12 19:30:00",
+		"channel": "ABC"
+    },
+    {
+		"gameId" : 8,
+		"homeTeam" : 72,
+		"awayTeam" : 112,
+		"favorite" : 72,
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2019-09-12 19:30:00",
+		"channel": "ESPN2"
+    },
+    {
+		"gameId" : 9,
+		"homeTeam" : 90,
+		"awayTeam" : 57,
+		"favorite" : 57,
+		"spread" : 32.5,
+		"required" : false,
+		"gameTime" : "2019-09-12 23:30:00",
+		"channel": "ABC"
     },   
     {
-    "gameId" : 11,
-    "homeTeam" : 4,
-    "awayTeam" : 71,
-    "favorite" : 71,
-    "spread" : 9.5,
-    "required" : false
+		"gameId" : 10,
+		"homeTeam" : 4,
+		"awayTeam" : 71,
+		"favorite" : 71,
+		"spread" : 9.5,
+		"required" : false,
+		"gameTime" : "2019-09-12 23:30:00",
+		"channel": "ESPN2"
     },
     {
-    "gameId" : 12,
-    "homeTeam" : 47,
-    "awayTeam" : 124,
-    "favorite" : 47,
-    "spread" : 42.5,
-    "required" : false
+		"gameId" : 11,
+		"homeTeam" : 47,
+		"awayTeam" : 124,
+		"favorite" : 47,
+		"spread" : 42.5,
+		"required" : false,
+		"gameTime" : "2019-09-13 00:00:00",
+		"channel": "LHN"
     },
     {
-    "gameId" : 13,
-    "homeTeam" : 130,
-    "awayTeam" : 67,
-    "favorite" : 130,
-    "spread" : 11.5,
-    "required" : false
+		"gameId" : 12,
+		"homeTeam" : 130,
+		"awayTeam" : 67,
+		"favorite" : 130,
+		"spread" : 11.5,
+		"required" : false,
+		"gameTime" : "2019-09-13 00:00:00",
+		"channel": "ACCN"
     },
     {
-    "gameId" : 14,
-    "homeTeam" : 98,
-    "awayTeam" : 19,
-    "favorite" : 98,
-    "spread" : 7.5,
-    "required" : false
+		"gameId" : 13,
+		"homeTeam" : 98,
+		"awayTeam" : 19,
+		"favorite" : 98,
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2019-09-13 02:00:00",
+		"channel": "FS1"
     }
   ]
 }

@@ -70,6 +70,8 @@ var game = {
 			  var fav = xFile[key][i].favorite;
 			  var homeSide = "-";
 			  var awaySide = "+";
+			  var channel = xFile[key][i].channel;
+			  var date = new Date(xFile[key][i].gameTime);
 			  var required = xFile[key][i].required;
 			  var badge = document.createElement('div');
 			  if (fav != home) {
@@ -88,6 +90,7 @@ var game = {
 				  badge.className = 'games-layout';		
 			  }
 			  var header = '<span class=\'header\'><h4>' + awayTeam + ' vs ' + homeTeam + ' (' + homeSide + spread + ') </h4><br>';
+			  var gameInfo = '<sub> '+ channel + " · " + date.toLocaleString([], {weekday: 'long', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit'}).replace(',',' ·') + '</sub><br>';
 			  var select = '<select class=\'teamlist\' id=\'game' + gameId + '\' onchange=\"showPointTotals(\'point_totals_game_' + gameId + '\', this);\"><option value = \"\"> -- Select Team -- </option><option value=\"' + awayTeamVal + '\">' + awayTeam + ' ' + awaySide + spread + '</option><option value=\"' + homeTeamVal + '\">' + homeTeam + ' ' + homeSide + spread + '</option></select>';
 			  var display = '<div id=\"point_totals_game_' + gameId + '\" style=\"display:none;\">';
 			  var numbers = [5, 4, 3, 2, 1];
@@ -101,7 +104,7 @@ var game = {
 				  }
 				  radios.push(radio);
 			  }
-			  badge.innerHTML = '<form>' + header + select + '<br>'+ display + radios.join(' ') + '</form>';		
+			  badge.innerHTML = '<form>' + header + gameInfo + select + '<br>'+ display + radios.join(' ') + '</form>';		
 			  document.getElementById(key).appendChild(badge);
 		  }
 	  }

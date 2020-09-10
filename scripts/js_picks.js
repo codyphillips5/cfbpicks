@@ -191,11 +191,11 @@ var game = {
 				  // The request is done, and we can do something else
 				  choices[i].teamAbb = userPick;
 				  choices[i].fullTeam = fullTeamName;
-				  choices[i].game = id;
+				  choices[i].game = id;*/
 				  choices[i].spread = attempt.thisTeamImg;
 				  document.getElementById("image-potw").innerHTML = `<img src="https://b.fssta.com/uploads/content/dam/fsdigital/fscom/global/dev/static_resources/ncaaf/teams/retina/${choices[i].spread}.vresize.200.200.medium.2.png">`;
 				  game.game = id;
-			  //}*/
+			  //}
 		  }
 	  });
 	  document.getElementById("potw-selection").value = pts + " - " + game.team;

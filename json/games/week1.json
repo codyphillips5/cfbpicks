@@ -45,7 +45,7 @@
 		"homeTeam" : 82,
 		"awayTeam" : 125,
 		"favorite" : 82,
-		"spread" : 18.5,
+		"spread" : 20.5,
 		"required" : false,
 		"gameTime" : "2020-09-12T17:30Z",
 		"channel": "CBSSN"
@@ -55,7 +55,7 @@
 		"homeTeam" : 129,
 		"awayTeam" : 18,
 		"favorite" : 129,
-		"spread" : 19.5,
+		"spread" : 20.5,
 		"required" : false,
 		"gameTime" : "2020-09-12T18:30Z",
 		"channel": "NBC"
@@ -75,7 +75,7 @@
 		"homeTeam" : 72,
 		"awayTeam" : 112,
 		"favorite" : 72,
-		"spread" : 7.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2020-09-12T19:30Z",
 		"channel": "ESPN2"
@@ -95,7 +95,7 @@
 		"homeTeam" : 4,
 		"awayTeam" : 71,
 		"favorite" : 71,
-		"spread" : 9.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2020-09-12T23:30Z",
 		"channel": "ESPN2"
@@ -125,7 +125,7 @@
 		"homeTeam" : 98,
 		"awayTeam" : 19,
 		"favorite" : 98,
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2020-09-13T02:00Z",
 		"channel": "FS1"

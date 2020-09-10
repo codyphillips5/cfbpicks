@@ -11,7 +11,7 @@ var game = {
 	  thisTeamImg : ""
   };
   
-  var choices = [{teamAbb: "", fullTeam: "", game: "", spread : "", pts : "50"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "40"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "30"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "20"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "10"}];
+  var choices = [{teamAbb: "", fullTeam: "", game: "", spread : "", pts : "50"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "40"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "30"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "20"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "10"}, {teamAbb: "", fullTeam: "", game: "potw", spread : "", pts : ""}];
   
   var gameId = "";
   var home = "";
@@ -97,7 +97,7 @@ var game = {
 			  var radios = [];
 			  for (var j = 0; j < numbers.length; j++) {
 				  if (required) {
-					  var radio = '<label class="radio-inline font-weight-bold"><input type=\"radio\" onchange=\"assignPointsByTeam(this.value, ' + gameId +');\" name=\"pick_worth\" value=' + numbers[j] + '0 required>' + numbers[j] + '0</label>'
+					  var radio = '<label class="radio-inline font-weight-bold"><input type=\"radio\" onchange=\"assignPointsPOTW(this.value, ' + gameId +');\" name=\"pick_worth\" value=' + numbers[j] + '0 required>' + numbers[j] + '0</label>'
 				  } 
 				  else {
 					  var radio = '<label class="radio-inline font-weight-bold"><input type=\"radio\" onchange=\"assignPointsByTeam(this.value, ' + gameId +');\" name=\"pick_worth\" value=' + numbers[j] + '0>' + numbers[j] + '0</label>'
@@ -155,6 +155,53 @@ var game = {
 	  document.getElementById(pts).value = game.team;
   }
   
+    function assignPointsPOTW(pts, id) {
+	  var pick = document.getElementById("game" + id);
+	  var userPick = pick.options[pick.selectedIndex].value;
+	  var fullTeamName = pick.options[pick.selectedIndex].text;
+	  fullTeamSpread = fullTeamName.replace(/[^\d+.-]/g, '');
+	  game.team = userPick;
+	  game.spread = attempt.thisTeamImg;
+	  document.getElementById("gameoftheweek").innerHTML = `<h1>${pts}</h1>`;
+	  document.getElementById("potw-selection").value = pts + " - " + game.team;
+	  document.getElementById("label-choice-potw").innerHTML = `<label for="${pts}" class="choice">${game.team} ${fullTeamSpread}</label>`;
+	  getTeamInfo(userPick);
+	  document.getElementById("image-potw").innerHTML = `<img src="https://b.fssta.com/uploads/content/dam/fsdigital/fscom/global/dev/static_resources/ncaaf/teams/retina/${game.spread}.vresize.200.200.medium.2.png">`;
+	  request.success(function(response){
+		  for (i = 0; i < choices.length; i++) {
+			  // only allow a team to be chosen once
+			  /*if (game.team == choices[i].teamAbb) {
+				  choices[i].teamAbb = "";
+				  choices[i].fullTeam = "";
+				  document.getElementById("potw-selection").value = "";
+				  document.getElementById("label-choice-potw").innerHTML = `<label for="${choices[i].pts}" class="choice"></label>`;
+				  document.getElementById("image-potw").innerHTML = ``;
+			  }
+			  
+			  if (pts == choices[i].pts) {
+				  if(choices[i].teamAbb != "") {
+					  console.log("game.game = " + game.game);
+						  if(choices[i].game != game.game) {
+						  var inputs = document.getElementById("point_totals_game_" + choices[i].game).getElementsByTagName("input");
+						  for (j = 0; j < inputs.length; j++) {
+							  inputs[j].checked = false;
+						  }
+					  }
+				  }
+				  // The request is done, and we can do something else
+				  choices[i].teamAbb = userPick;
+				  choices[i].fullTeam = fullTeamName;
+				  choices[i].game = id;
+				  choices[i].spread = attempt.thisTeamImg;
+				  document.getElementById("image-potw").innerHTML = `<img src="https://b.fssta.com/uploads/content/dam/fsdigital/fscom/global/dev/static_resources/ncaaf/teams/retina/${choices[i].spread}.vresize.200.200.medium.2.png">`;
+				  game.game = id;
+			  //}*/
+		  }
+	  });
+	  document.getElementById("potw-selection").value = pts + " - " + game.team;
+  }
+  
+  
   function showPointTotals(divId, element){
 	  document.getElementById(divId).style.display = element.value != "" ? 'block' : 'none';
 	  var gm = divId.substring(divId.lastIndexOf("_") + 1);
@@ -199,6 +246,7 @@ var game = {
 			  const thirty = document.getElementById('30').value;
 			  const twenty = document.getElementById('20').value;
 			  const ten = document.getElementById('10').value;
+			  const potw = document.getElementById('potw-selection').value;
 			  console.log(fifty);
 		  }
 		  catch (err) {

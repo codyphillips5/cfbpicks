@@ -12,9 +12,17 @@ auth.onAuthStateChanged(user => {
     }
     else {
         setupUI();
+		document.getElementById("savePicks").disabled = true;
+		document.getElementById("savePicks").innerHTML = "Login to Submit";
         //setupGuides([]);
     }
 })
+
+var firstName;
+var lastName;
+var users = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/users.json", function(json){
+	  usersFile = json;
+  });
 
 // create new guide
 const createForm = document.querySelector('#save_picks');
@@ -34,8 +42,20 @@ if(createForm) {
             // close the modal and reset form
             //const modal = document.querySelector('#modal-create');
             //M.Modal.getInstance(modal).close();
+ $.when(users).then(function(){	
+	for (var key in usersFile) {
+		for (var i = 0; i < usersFile[key].length; i++) {
+			if(auth.currentUser.email == usersFile[key][i].Email) {
+				firstName = usersFile[key][i].FirstName;
+				lastName = usersFile[key][i].LastName;
+			}
+		}
+	}
+});
             createForm.reset();
-            createForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Your picks have been saved. At this time, picks may only be submitted ONCE. Please reach out to Kevin with questions or any pick changes.</div>`;
+            createForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Your picks have been saved. <br>Good luck, ${firstName} ${lastName}!</div>`;
+			document.getElementById("savePicks").disabled = true;
+			document.getElementById("savePicks").innerHTML = "Saved";
         }).catch(err => {
             console.log(err.message)
             //signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;

@@ -7,7 +7,8 @@
 		"30" : "KSST",
 		"20" : "LOU",
 		"10" : "CUSE",
-		"20" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 20
     },
     {
 		"userId" : 2,
@@ -16,7 +17,8 @@
 		"30" : "CLEM",
 		"20" : "CCU",
 		"10" : "ND",
-		"20" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 20
     },
 	{
 		"userId" : 3,
@@ -25,7 +27,8 @@
 		"30" : "ND",
 		"20" : "APP",
 		"10" : "CUSE",
-		"10" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 10
     },
 	{
 		"userId" : 4,
@@ -34,7 +37,8 @@
 		"30" : "DUKE",
 		"20" : "TXST",
 		"10" : "CCU",
-		"30" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 30
     },
 	{
 		"userId" : 5,
@@ -43,7 +47,8 @@
 		"30" : "LOU",
 		"20" : "CLEM",
 		"10" : "TECH",
-		"30" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 30
     },
 	{
 		"userId" : 6,
@@ -52,7 +57,8 @@
 		"30" : "CLEM",
 		"20" : "LOU",
 		"10" : "CCU",
-		"10" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 10
     },
 	{
 		"userId" : 7,
@@ -61,7 +67,8 @@
 		"30" : "KSST",
 		"20" : "ARMY",
 		"10" : "KU",
-		"30" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 30
     },
 	{
 		"userId" : 8,
@@ -70,7 +77,8 @@
 		"30" : "UNC",
 		"20" : "ND",
 		"10" : "KU",
-		"10" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 10
     },
 	{
 		"userId" : 9,
@@ -79,7 +87,8 @@
 		"30" : "ARMY",
 		"20" : "ND",
 		"10" : "UNC",
-		"30" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 30
     },
 	{
 		"userId" : 10,
@@ -88,7 +97,8 @@
 		"30" : "CCU",
 		"20" : "KSST",
 		"10" : "CUSE",
-		"30" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 30
     },
 	{
 		"userId" : 11,
@@ -97,7 +107,8 @@
 		"30" : "KU",
 		"20" : "CLEM",
 		"10" : "ND",
-		"30" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 30 
     },
 	{
 		"userId" : 12,
@@ -106,7 +117,8 @@
 		"30" : "ARST",
 		"20" : "ND",
 		"10" : "CHAR",
-		"30" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 30
     },
 	{
 		"userId" : 13,
@@ -115,7 +127,8 @@
 		"30" : "UTSA",
 		"20" : "FSU",
 		"10" : "KU",
-		"20" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 20
     },
 	{
 		"userId" : 14,
@@ -124,7 +137,8 @@
 		"30" : "KSST",
 		"20" : "CUSE",
 		"10" : "ND",
-		"20" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 20
     },
 	{
 		"userId" : 15,
@@ -133,7 +147,8 @@
 		"30" : "CLEM",
 		"20" : "ND",
 		"10" : "KU",
-		"30" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 30
     },
 	{
 		"userId" : 16,
@@ -142,7 +157,8 @@
 		"30" : "CCU",
 		"20" : "LOU",
 		"10" : "CUSE",
-		"10" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 10
     },
 	{
 		"userId" : 17,
@@ -151,7 +167,8 @@
 		"30" : "CCU",
 		"20" : "ARST",
 		"10" : "TUL",
-		"30" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 30
     },
 	{
 		"userId" : 18,
@@ -160,7 +177,8 @@
 		"30" : "UNC",
 		"20" : "APP",
 		"10" : "TECH",
-		"20" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 20
     },	
 	{
 		"userId" : 19,
@@ -169,7 +187,8 @@
 		"30" : "CHAR",
 		"20" : "ND",
 		"10" : "FSU",
-		"20" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 20
     },
 	{
 		"userId" : 20,
@@ -178,7 +197,8 @@
 		"30" : "UNC",
 		"20" : "KU",
 		"10" : "UTEP",
-		"10" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 10
     },
 	{
 		"userId" : 21,
@@ -187,7 +207,8 @@
 		"30" : "ND",
 		"20" : "UNC",
 		"10" : "WKU",
-		"30" : "ISU" 
+		"POTW" : "ISU",
+		"POTW_value" : 30
     },
 	{
 		"userId" : 22,
@@ -196,7 +217,8 @@
 		"30" : "CLEM",
 		"20" : "ND",
 		"10" : "CUSE",
-		"20" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 20
     },
 	{
 		"userId" : 23,
@@ -205,7 +227,8 @@
 		"30" : "UNC",
 		"20" : "CHAR",
 		"10" : "CCU",
-		"50" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 50
     },	
 	{
 		"userId" : 24,
@@ -214,7 +237,8 @@
 		"30" : "UNC",
 		"20" : "TECH",
 		"10" : "WAKE",
-		"30" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 30
     },
 	{
 		"userId" : 25,
@@ -223,7 +247,8 @@
 		"30" : "ND",
 		"20" : "LOU",
 		"10" : "CUSE",
-		"10" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 10 
     },
 	{
 		"userId" : 26,
@@ -232,7 +257,8 @@
 		"30" : "CLEM",
 		"20" : "CHAR",
 		"10" : "TECH",
-		"20" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 20
     },
 	{
 		"userId" : 27,
@@ -241,7 +267,8 @@
 		"30" : "FSU",
 		"20" : "KU",
 		"10" : "APP",
-		"10" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 10
     },
 	{
 		"userId" : 28,
@@ -250,7 +277,8 @@
 		"30" : "KU",
 		"20" : "FSU",
 		"10" : "ARMY",
-		"30" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 30
     },	
 	{
 		"userId" : 29,
@@ -259,7 +287,8 @@
 		"30" : "LOU",
 		"20" : "TUL",
 		"10" : "KU",
-		"20" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 20
     },
 	{
 		"userId" : 30,
@@ -268,7 +297,8 @@
 		"30" : "KSST",
 		"20" : "UTEP",
 		"10" : "ARMY",
-		"30" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 30
     },	
 	{
 		"userId" : 31,
@@ -277,7 +307,8 @@
 		"30" : "UNC",
 		"20" : "TEX",
 		"10" : "CLEM",
-		"30" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 30
     },	
 	{
 		"userId" : 32,
@@ -286,7 +317,8 @@
 		"30" : "LAMON",
 		"20" : "ND",
 		"10" : "TECH",
-		"20" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 20
     },	
 	{
 		"userId" : 33,
@@ -295,7 +327,8 @@
 		"30" : "TXST",
 		"20" : "CCU",
 		"10" : "USA",
-		"50" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 50
     },	
 	{
 		"userId" : 34,
@@ -304,7 +337,8 @@
 		"30" : "FSU",
 		"20" : "APP",
 		"10" : "CCU",
-		"50" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 50
     },	
 	{
 		"userId" : 35,
@@ -313,7 +347,8 @@
 		"30" : "ARMY",
 		"20" : "TUL",
 		"10" : "CUSE",
-		"10" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 10
     },	
 	{
 		"userId" : 36,
@@ -322,7 +357,8 @@
 		"30" : "FSU",
 		"20" : "ARST",
 		"10" : "DUKE",
-		"20" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 20
     },	
 	{
 		"userId" : 37,
@@ -331,7 +367,8 @@
 		"30" : "CLEM",
 		"20" : "CUSE",
 		"10" : "LOU",
-		"20" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 20
     },	
 	{
 		"userId" : 38,
@@ -340,7 +377,8 @@
 		"30" : "FSU",
 		"20" : "LOU",
 		"10" : "KU",
-		"50" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 50
     },	
 	{
 		"userId" : 39,
@@ -349,7 +387,8 @@
 		"30" : "TEX",
 		"20" : "DUKE",
 		"10" : "LAMON",
-		"20" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 20
     },	
 	{
 		"userId" : 40,
@@ -358,7 +397,8 @@
 		"30" : "UNC",
 		"20" : "ND",
 		"10" : "CCU",
-		"40" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 40
     },	
 	{
 		"userId" : 41,
@@ -367,7 +407,8 @@
 		"30" : "LOU",
 		"20" : "KU",
 		"10" : "CUSE",
-		"10" : "ULL"
+		"POTW" : "ULL",
+		"POTW_value" : 10
     },	
 	{
 		"userId" : 42,
@@ -376,7 +417,8 @@
 		"30" : "ARMY",
 		"20" : "TECH",
 		"10" : "UTEP",
-		"10" : "ISU"
+		"POTW" : "ISU",
+		"POTW_value" : 10
     }
 	]
 }

@@ -10,7 +10,7 @@ var picksList, teamsList, resultsList, usersList;
 //badge.innerHTML = '<form>' + select + '</form>';		
 //document.getElementById("weeks").appendChild(badge);
 
-getResultsByWeek(0);
+getResultsByWeek(1);
 
 function getResultsByWeek(week) {
 	console.log(week);
@@ -51,13 +51,14 @@ function getResultsByWeek(week) {
 	});
 	
 	$.when(getPicks, getResults, getTeams, getUsers).then(function(){
-		var tableStart = `<table class="table table-hover" id="results"><thead><tr><th scope="col">Name</th><th scope="col">50</th><th scope="col">40</th><th scope="col">30</th><th scope="col">20</th><th scope="col">10</th><th scope="col">Total</th></tr></thead><tbody>`;
+		var tableStart = `<table class="table table-hover" id="results"><thead><tr><th scope="col">Name</th><th scope="col">50</th><th scope="col">40</th><th scope="col">30</th><th scope="col">20</th><th scope="col">10</th><th class="warning" scope="col">GOTW</th><th scope="col">Total</th></tr></thead><tbody>`;
 	
 		for (var key in picksList) {
 			for (var i = 0; i < picksList[key].length; i++) {
 				// set starters
 				var pointTotal = 0;
 				var isCorrect;
+				var plusOrMinus;
 	
 				var user = picksList[key][i].userId;
 				// get user info
@@ -77,10 +78,24 @@ function getResultsByWeek(week) {
 						pointTotal = pointTotal + pointTotals;
 					}
 					else {
-						isCorrect = "danger";				
+						isCorrect = "danger";			
 					}
 					tableUser = tableUser + `<td class="${isCorrect}">${picksList[key][i][pointTotals]}</td>`;
 				}
+				
+				console.log("log it: " + picksList[key][i].POTW);
+				if(coversTeam.includes(picksList[key][i].POTW)) {
+					isCorrect = "success";
+					plusOrMinus = "+";
+					pointTotal = pointTotal + picksList[key][i].POTW_value;
+				}
+				else {
+					isCorrect = "danger";	
+					plusOrMinus = "-";
+					pointTotal = pointTotal - picksList[key][i].POTW_value;					
+				}
+				tableUser = tableUser + `<td class="${isCorrect}">${picksList[key][i].POTW} (${plusOrMinus}${picksList[key][i].POTW_value})</td>`;
+				
 				//calculate score			
 				tableUser = tableUser + `<td>${pointTotal}</td></tr>`;
 			}
@@ -88,7 +103,7 @@ function getResultsByWeek(week) {
 		tableUser = tableUser.replace("undefined","");
 		var tableEnd = `</tbody></table>`;	
 		document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;
-		sortTable(6);
+		sortTable(7);
 	});
 }
 

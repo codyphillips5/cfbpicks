@@ -167,38 +167,6 @@
 	{
 		"userId" : 42,
 		"week_1" : 0
-    },	
-	{
-		"userId" : 43,
-		"week_1" : 0
-	},	
-	{
-		"userId" : 44,
-		"week_1" : 0
-    },	
-	{
-		"userId" : 45,
-		"week_1" : 0
-    },	
-	{
-		"userId" : 46,
-		"week_1" : 0
-    },	
-	{
-		"userId" : 47,
-		"week_1" : 0
-    },	
-	{
-		"userId" : 48,
-		"week_1" : 0
-    },	
-	{
-		"userId" : 49,
-		"week_1" : 0
-    },	
-	{
-		"userId" : 50,
-		"week_1" : 0
-    }	
+    }
 	]
 }

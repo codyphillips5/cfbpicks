@@ -419,6 +419,16 @@
 		"10" : "UTEP",
 		"POTW" : "ISU",
 		"POTW_value" : 10
+    },	
+	{
+		"userId" : 43,
+		"50" : "DUKE",
+		"40" : "CLEM",
+		"30" : "LOU",
+		"20" : "TECH",
+		"10" : "CUSE",
+		"POTW" : "ISU",
+		"POTW_value" : 50
     }
 	]
 }

@@ -51,7 +51,7 @@ function getResultsByWeek(week) {
 	});
 	
 	$.when(getPicks, getResults, getTeams, getUsers).then(function(){
-		var tableStart = `<table class="table table-hover" id="results"><thead><tr><th scope="col">Name</th><th scope="col">50</th><th scope="col">40</th><th scope="col">30</th><th scope="col">20</th><th scope="col">10</th><th class="warning" scope="col">GOTW</th><th scope="col">Total</th></tr></thead><tbody>`;
+		var tableStart = `<table class="table table-hover" id="results"><thead><tr><th scope="col">Name</th><th scope="col">50</th><th scope="col">40</th><th scope="col">30</th><th scope="col">20</th><th scope="col">10</th><th class="warning" scope="col">GOTW</th><th class="active" scope="col">Total</th></tr></thead><tbody>`;
 	
 		for (var key in picksList) {
 			for (var i = 0; i < picksList[key].length; i++) {
@@ -97,7 +97,7 @@ function getResultsByWeek(week) {
 				tableUser = tableUser + `<td class="${isCorrect}">${picksList[key][i].POTW} (${plusOrMinus}${picksList[key][i].POTW_value})</td>`;
 				
 				//calculate score			
-				tableUser = tableUser + `<td>${pointTotal}</td></tr>`;
+				tableUser = tableUser + `<td class="active">${pointTotal}</td></tr>`;
 			}
 		}
 		tableUser = tableUser.replace("undefined","");

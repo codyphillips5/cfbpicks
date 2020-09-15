@@ -165,3 +165,21 @@ h4{
     display: block;
     margin: 0 auto;
 }
+
+th, td {
+	white-space: nowrap;
+}
+
+.first-col
+{
+  position:sticky;
+  left:0px;
+  background-color:white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

@@ -4,11 +4,11 @@ var coversNum = [];
 var coversTeam = [];
 
 var picksList, teamsList, resultsList, usersList;
-//var badge = document.createElement('div');
-//badge.className = 'standings';
-//var select = `<select class='form-control' id='results_by_week' onchange="getResultsByWeek(this.value);"><option value =''> Select Week </option><option value ='1'> Week 1 </option><option value ='2'> Week 2 </option></select>`;
-//badge.innerHTML = '<form>' + select + '</form>';		
-//document.getElementById("weeks").appendChild(badge);
+var badge = document.createElement('div');
+badge.className = 'standings';
+var select = `<select class='form-control' id='results_by_week' onchange="getResultsByWeek(this.value);"><option value ='1'> Week 1 </option></select>`;
+badge.innerHTML = '<form>' + select + '</form>';		
+document.getElementById("weeks").appendChild(badge);
 
 getResultsByWeek(1);
 

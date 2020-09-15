@@ -5,7 +5,7 @@
 		"homeTeam" : 95,
 		"awayTeam" : 85,
 		"favorite" : 95,
-		"spread" : 21.5,
+		"spread" : 22.5,
 		"required" : false,
 		"gameTime" : "2020-09-19T16:00Z",
 		"channel": "ESPN"
@@ -55,7 +55,7 @@
 		"homeTeam" : 18,
 		"awayTeam" : 109,
 		"favorite" : 18,
-		"spread" : 6.5,
+		"spread" : 4.5,
 		"required" : false,
 		"gameTime" : "2020-09-19T16:00Z",
 		"channel": "ESPN3"
@@ -65,7 +65,7 @@
 		"homeTeam" : 122,
 		"awayTeam" : 56,
 		"favorite" : 122,
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2020-09-19T16:00Z",
 		"channel": "FOX"
@@ -115,7 +115,7 @@
 		"homeTeam" : 36,
 		"awayTeam" : 2,
 		"favorite" : 2,
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2020-09-19T19:30Z",
 		"channel": "ESPN"
@@ -145,7 +145,7 @@
 		"homeTeam" : 130,
 		"awayTeam" : 54,
 		"favorite" : 130,
-		"spread" : 1.5,
+		"spread" : 2.5,
 		"required" : true,
 		"gameTime" : "2020-09-19T23:30Z",
 		"channel": "ABC"
@@ -155,7 +155,7 @@
 		"homeTeam" : 120,
 		"awayTeam" : 48,
 		"favorite" : 120,
-		"spread" : 3.5,
+		"spread" : 4.5,
 		"required" : false,
 		"gameTime" : "2020-09-19T23:30Z",
 		"channel": "ESPN2"
@@ -165,7 +165,7 @@
 		"homeTeam" : 125,
 		"awayTeam" : 72,
 		"favorite" : 72,
-		"spread" : 1.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2020-09-19T23:30Z",
 		"channel": "ESPNU"

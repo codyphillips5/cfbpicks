@@ -5,7 +5,7 @@
 		"homeTeam" : 95,
 		"awayTeam" : 85,
 		"favorite" : 95,
-		"spread" : 22.5,
+		"spread" : 23.5,
 		"required" : false,
 		"gameTime" : "2020-09-19T16:00Z",
 		"channel": "ESPN"
@@ -75,7 +75,7 @@
 		"homeTeam" : 129,
 		"awayTeam" : 84,
 		"favorite" : 129,
-		"spread" : 26.5,
+		"spread" : 25.5,
 		"required" : false,
 		"gameTime" : "2020-09-19T18:30Z",
 		"channel": "USA"

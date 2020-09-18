@@ -102,16 +102,6 @@
     },
     {
 		"gameId" : 24,
-		"homeTeam" : 36,
-		"awayTeam" : 2,
-		"favorite" : 36,
-		"spread" : 1.5,
-		"required" : false,
-		"gameTime" : "2020-09-19T19:30Z",
-		"channel": "ESPN"
-    },
-    {
-		"gameId" : 25,
 		"homeTeam" : 38,
 		"awayTeam" : 114,
 		"favorite" : 114,
@@ -121,7 +111,7 @@
 		"channel": "ESPN2"
     },
     {
-		"gameId" : 26,
+		"gameId" : 25,
 		"homeTeam" : 123,
 		"awayTeam" : 30,
 		"favorite" : 30,
@@ -131,7 +121,7 @@
 		"channel": "CBSSN"
     },
     {
-		"gameId" : 27,
+		"gameId" : 26,
 		"homeTeam" : 130,
 		"awayTeam" : 54,
 		"favorite" : 130,
@@ -141,7 +131,7 @@
 		"channel": "ABC"
     },
     {
-		"gameId" : 28,
+		"gameId" : 27,
 		"homeTeam" : 120,
 		"awayTeam" : 48,
 		"favorite" : 120,
@@ -151,7 +141,7 @@
 		"channel": "ESPN2"
     },
     {
-		"gameId" : 29,
+		"gameId" : 28,
 		"homeTeam" : 125,
 		"awayTeam" : 72,
 		"favorite" : 72,
@@ -161,7 +151,7 @@
 		"channel": "ESPNU"
     },
     {
-		"gameId" : 30,
+		"gameId" : 29,
 		"homeTeam" : 15,
 		"awayTeam" : 90,
 		"favorite" : 15,

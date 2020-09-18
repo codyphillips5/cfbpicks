@@ -62,16 +62,6 @@
     },
     {
 		"gameId" : 20,
-		"homeTeam" : 122,
-		"awayTeam" : 56,
-		"favorite" : 122,
-		"spread" : 4.5,
-		"required" : false,
-		"gameTime" : "2020-09-19T16:00Z",
-		"channel": "FOX"
-    },
-    {
-		"gameId" : 21,
 		"homeTeam" : 129,
 		"awayTeam" : 84,
 		"favorite" : 129,
@@ -81,7 +71,7 @@
 		"channel": "USA"
     },
     {
-		"gameId" : 22,
+		"gameId" : 21,
 		"homeTeam" : 116,
 		"awayTeam" : 107,
 		"favorite" : 107,
@@ -91,7 +81,7 @@
 		"channel": "CBS"
     },
     {
-		"gameId" : 23,
+		"gameId" : 22,
 		"homeTeam" : 66,
 		"awayTeam" : 58,
 		"favorite" : 66,
@@ -101,7 +91,7 @@
 		"channel": "ABC"
     },
     {
-		"gameId" : 24,
+		"gameId" : 23,
 		"homeTeam" : 38,
 		"awayTeam" : 114,
 		"favorite" : 114,
@@ -111,7 +101,7 @@
 		"channel": "ESPN2"
     },
     {
-		"gameId" : 25,
+		"gameId" : 24,
 		"homeTeam" : 123,
 		"awayTeam" : 30,
 		"favorite" : 30,
@@ -121,7 +111,7 @@
 		"channel": "CBSSN"
     },
     {
-		"gameId" : 26,
+		"gameId" : 25,
 		"homeTeam" : 130,
 		"awayTeam" : 54,
 		"favorite" : 130,
@@ -131,7 +121,7 @@
 		"channel": "ABC"
     },
     {
-		"gameId" : 27,
+		"gameId" : 26,
 		"homeTeam" : 120,
 		"awayTeam" : 48,
 		"favorite" : 120,
@@ -141,7 +131,7 @@
 		"channel": "ESPN2"
     },
     {
-		"gameId" : 28,
+		"gameId" : 27,
 		"homeTeam" : 125,
 		"awayTeam" : 72,
 		"favorite" : 72,
@@ -151,7 +141,7 @@
 		"channel": "ESPNU"
     },
     {
-		"gameId" : 29,
+		"gameId" : 28,
 		"homeTeam" : 15,
 		"awayTeam" : 90,
 		"favorite" : 15,

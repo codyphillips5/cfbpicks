@@ -136,7 +136,7 @@
 		"awayTeam" : 82,
 		"favorite" : 62,
 		"spread" : 11.5,
-		"required" : true,
+		"required" : false,
 		"gameTime" : "2020-09-26T19:30Z",
 		"channel": "ESPN"
     },
@@ -146,7 +146,7 @@
 		"awayTeam" : 100,
 		"favorite" : 95,
 		"spread" : 8.5,
-		"required" : false,
+		"required" : true,
 		"gameTime" : "2020-09-26T19:30Z",
 		"channel": "ABC"
     },

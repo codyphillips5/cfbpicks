@@ -94,7 +94,7 @@
 		"gameId" : 38,
 		"homeTeam" : 27,
 		"awayTeam" : 70,
-		"favorite" : 70,
+		"favorite" : 27,
 		"spread" : 7.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T17:00Z",

@@ -1,364 +1,304 @@
 {
   "games": [
     {
-		"gameId" : 71,
-		"homeTeam" : 34,
-		"awayTeam" : 29,
-		"favorite" : 34,
-		"spread" : 33.5,
-		"required" : false
-	},
-	{
-		"gameId" : 72,
-		"homeTeam" : 8,
-		"awayTeam" : 1,
-		"favorite" : 1,
-		"spread" : 16.5,
-		"required" : false
-	},
-	{
-		"gameId" : 73,
-		"homeTeam" : 105,
-		"awayTeam" : 45,
-		"favorite" : 105,
-		"spread" : 17.5,
-		"required" : false
-	},
-	{
-		"gameId" : 74,
-		"homeTeam" : 103,
-		"awayTeam" : 97,
-		"favorite" : 97,
-		"spread" : 7.5,
-		"required" : false
-	},
-	{
-		"gameId" : 75,
-		"homeTeam" : 62,
-		"awayTeam" : 42,
-		"favorite" : 62,
-		"spread" : 17.5,
-		"required" : false
-	},
-	{
-		"gameId" : 76,
-		"homeTeam" : 13,
+		"gameId" : 29,
+		"homeTeam" : 55,
 		"awayTeam" : 117,
-		"favorite" : 13,
-		"spread" : 7.5,
-		"required" : false
-	},
-	{
-		"gameId" : 77,
-		"homeTeam" : 100,
-		"awayTeam" : 15,
-		"favorite" : 15,
-		"spread" : 6.5,
-		"required" : false
-	},
-	{
-		"gameId" : 78,
-		"homeTeam" : 5,
-		"awayTeam" : 20,
-		"favorite" : 5,
-		"spread" : 7.5,
-		"required" : false
-	},
-	{
-		"gameId" : 79,
-		"homeTeam" : 94,
-		"awayTeam" : 106,
-		"favorite" : 94,
-		"spread" : 3.5,
-		"required" : false
-	},
-	{
-		"gameId" : 80,
-		"homeTeam" : 7,
-		"awayTeam" : 2,
-		"favorite" : 2,
-		"spread" : 2.5,
-		"required" : false
-	},
-	{
-		"gameId" : 81,
-		"homeTeam" : 129,
-		"awayTeam" : 113,
-		"favorite" : 129,
-		"spread" : 34.5,
-		"required" : false
-	},
-	{
-		"gameId" : 82,
-		"homeTeam" : 68,
-		"awayTeam" : 6,
-		"favorite" : 68,
-		"spread" : 3.5,
-		"required" : false
-	},
-	{
-		"gameId" : 83,
-		"homeTeam" : 22,
-		"awayTeam" : 17,
-		"favorite" : 17,
-		"spread" : 25.5,
-		"required" : false
-	},
-	{
-		"gameId" : 84,
-		"homeTeam" : 66,
-		"awayTeam" : 25,
-		"favorite" : 66,
-		"spread" : 7.5,
-		"required" : false
-	},
-	{
-		"gameId" : 85,
-		"homeTeam" : 79,
-		"awayTeam" : 51,
-		"favorite" : 51,
-		"spread" : 4.5,
-		"required" : false
-	},
-	{
-		"gameId" : 86,
-		"homeTeam" : 104,
-		"awayTeam" : 16,
-		"favorite" : 104,
-		"spread" : 7.5,
-		"required" : false
-	},
-	{
-		"gameId" : 87,
-		"homeTeam" : 4,
-		"awayTeam" : 11,
-		"favorite" : 11,
-		"spread" : 19.5,
-		"required" : false
-	},
-	{
-		"gameId" : 88,
-		"homeTeam" : 112,
-		"awayTeam" : 82,
-		"favorite" : 82,
-		"spread" : 17.5,
-		"required" : false
-	},
-	{
-		"gameId" : 89,
-		"homeTeam" : 74,
-		"awayTeam" : 36,
-		"favorite" : 74,
-		"spread" : 15.5,
-		"required" : false
-	},
-	{
-		"gameId" : 90,
-		"homeTeam" : 26,
-		"awayTeam" : 128,
-		"favorite" : 26,
-		"spread" : 19.5,
-		"required" : false
-	},
-	{
-		"gameId" : 91,
-		"homeTeam" : 85,
-		"awayTeam" : 95,
-		"favorite" : 95,
-		"spread" : 14.5,
-		"required" : false
-	},
-	{
-		"gameId" : 92,
-		"homeTeam" : 86,
-		"awayTeam" : 76,
-		"favorite" : 86,
-		"spread" : 13.5,
-		"required" : false
-	},
-	{
-		"gameId" : 93,
-		"homeTeam" : 99,
-		"awayTeam" : 41,
-		"favorite" : 41,
-		"spread" : 2.5,
-		"required" : true
-	},
-	{
-		"gameId" : 94,
-		"homeTeam" : 110,
-		"awayTeam" : 93,
-		"favorite" : 110,
-		"spread" : 9.5,
-		"required" : false
-	},
-	{
-		"gameId" : 95,
-		"homeTeam" : 67,
-		"awayTeam" : 130,
-		"favorite" : 130,
-		"spread" : 9.5,
-		"required" : false
-	},
-	{
-		"gameId" : 96,
-		"homeTeam" : 115,
-		"awayTeam" : 123,
-		"favorite" : 115,
-		"spread" : 13.5,
-		"required" : false
-	},
-	{
-		"gameId" : 97,
-		"homeTeam" : 63,
-		"awayTeam" : 48,
-		"favorite" : 48,
-		"spread" : 10.5,
-		"required" : false
-	},
-	{
-		"gameId" : 98,
-		"homeTeam" : 27,
-		"awayTeam" : 64,
-		"favorite" : 64,
-		"spread" : 4.5,
-		"required" : false
-	},
-	{
-		"gameId" : 99,
-		"homeTeam" : 80,
-		"awayTeam" : 87,
-		"favorite" : 80,
-		"spread" : 18.5,
-		"required" : false
-	},
-	{
-		"gameId" : 100,
-		"homeTeam" : 114,
-		"awayTeam" : 120,
-		"favorite" : 114,
-		"spread" : 2.5,
-		"required" : false
-	},
-	{
-		"gameId" : 101,
-		"homeTeam" : 116,
-		"awayTeam" : 101,
-		"favorite" : 116,
-		"spread" : 5.5,
-		"required" : false
-	},
-	{
-		"gameId" : 102,
-		"homeTeam" : 39,
-		"awayTeam" : 77,
-		"favorite" : 39,
-		"spread" : 34.5,
-		"required" : false
-	},
-	{
-		"gameId" : 103,
-		"homeTeam" : 9,
+		"favorite" : 55,
+		"spread" : 27.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T16:00Z",
+		"channel": "FOX"
+    },
+    {
+		"gameId" : 30,
+		"homeTeam" : 12,
 		"awayTeam" : 53,
 		"favorite" : 53,
+		"spread" : 12.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T16:00Z",
+		"channel": "ESPN"
+    },
+    {
+		"gameId" : 31,
+		"homeTeam" : 90,
+		"awayTeam" : 129,
+		"favorite" : 90,
+		"spread" : 18.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T16:00Z",
+		"channel": "ABC"
+    },
+    {
+		"gameId" : 32,
+		"homeTeam" : 39,
+		"awayTeam" : 9,
+		"favorite" : 39,
 		"spread" : 8.5,
-		"required" : false
-	},
-	{
-		"gameId" : 104,
-		"homeTeam" : 30,
-		"awayTeam" : 72,
-		"favorite" : 30,
-		"spread" : 17.5,
-		"required" : false
-	},
-	{
-		"gameId" : 105,
-		"homeTeam" : 118,
-		"awayTeam" : 24,
-		"favorite" : 118,
-		"spread" : 9.5,
-		"required" : false
-	},
-	{
-		"gameId" : 106,
-		"homeTeam" : 38,
-		"awayTeam" : 18,
-		"favorite" : 18,
-		"spread" : 6.5,
-		"required" : false
-	},
-	{
-		"gameId" : 107,
+		"required" : false,
+		"gameTime" : "2020-09-26T16:00Z",
+		"channel": "SECN"
+    },
+    {
+		"gameId" : 33,
+		"homeTeam" : 16,
+		"awayTeam" : 66,
+		"favorite" : 66,
+		"spread" : 25.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T16:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 34,
+		"homeTeam" : 14,
+		"awayTeam" : 36,
+		"favorite" : 14,
+		"spread" : 14.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T16:00Z",
+		"channel": "ESPN2"
+    },
+    {
+		"gameId" : 35,
+		"homeTeam" : 45,
+		"awayTeam" : 130,
+		"favorite" : 45,
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T16:00Z",
+		"channel": "ACCN"
+    },
+    {
+		"gameId" : 36,
 		"homeTeam" : 28,
-		"awayTeam" : 57,
-		"favorite" : 57,
-		"spread" : 27.5,
-		"required" : false
-	},
-	{
-		"gameId" : 108,
-		"homeTeam" : 102,
-		"awayTeam" : 60,
-		"favorite" : 102,
-		"spread" : 21.5,
-		"required" : false
-	},
-	{
-		"gameId" : 109,
-		"homeTeam" : 46,
-		"awayTeam" : 31,
-		"favorite" : 46,
+		"awayTeam" : 58,
+		"favorite" : 28,
 		"spread" : 7.5,
-		"required" : false
-	},
-	{
-		"gameId" : 110,
-		"homeTeam" : 91,
-		"awayTeam" : 126,
-		"favorite" : 126,
-		"spread" : 2.5,
-		"required" : false
-	},
-	{
-		"gameId" : 111,
-		"homeTeam" : 61,
-		"awayTeam" : 55,
-		"favorite" : 55,
-		"spread" : 22.5,
-		"required" : false
-	},
-	{
-		"gameId" : 112,
-		"homeTeam" : 81,
+		"required" : false,
+		"gameTime" : "2020-09-26T16:00Z",
+		"channel": "ESPN3"
+    },
+    {
+		"gameId" : 37,
+		"homeTeam" : 80,
+		"awayTeam" : 24,
+		"favorite" : 80,
+		"spread" : 1.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T16:00Z",
+		"channel": "ESPNU"
+    },
+    {
+		"gameId" : 38,
+		"homeTeam" : 27,
+		"awayTeam" : 70,
+		"favorite" : 70,
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T17:00Z",
+		"channel": "ESPN3"
+    },
+    {
+		"gameId" : 39,
+		"homeTeam" : 126,
+		"awayTeam" : 99,
+		"favorite" : 99,
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T17:30Z",
+		"channel": "FS1"
+    },
+    {
+		"gameId" : 40,
+		"homeTeam" : 35,
+		"awayTeam" : 13,
+		"favorite" : 35,
+		"spread" : 18.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T19:30Z",
+		"channel": "CBS"
+    },
+    {
+		"gameId" : 41,
+		"homeTeam" : 111,
 		"awayTeam" : 47,
 		"favorite" : 47,
-		"spread" : 31.5,
-		"required" : false
-	},
-	{
-		"gameId" : 113,
-		"homeTeam" : 50,
-		"awayTeam" : 127,
-		"favorite" : 127,
 		"spread" : 16.5,
-		"required" : false
-	},
-	{
-		"gameId" : 114,
-		"homeTeam" : 3,
-		"awayTeam" : 119,
-		"favorite" : 3,
-		"spread" : 14.5,
-		"required" : false
-	},
-	{
-		"gameId" : 115,
-		"homeTeam" : 59,
-		"awayTeam" : 111,
-		"favorite" : 111,
-		"spread" : 2.5,
-		"required" : false
-	}
+		"required" : false,
+		"gameTime" : "2020-09-26T19:30Z",
+		"channel": "FOX"
+    },
+    {
+		"gameId" : 42,
+		"homeTeam" : 62,
+		"awayTeam" : 82,
+		"favorite" : 62,
+		"spread" : 11.5,
+		"required" : true,
+		"gameTime" : "2020-09-26T19:30Z",
+		"channel": "ESPN"
+    },
+    {
+		"gameId" : 43,
+		"homeTeam" : 95,
+		"awayTeam" : 100,
+		"favorite" : 95,
+		"spread" : 8.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T19:30Z",
+		"channel": "ABC"
+    },
+    {
+		"gameId" : 44,
+		"homeTeam" : 125,
+		"awayTeam" : 124,
+		"favorite" : 125,
+		"spread" : 8.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T19:30Z",
+		"channel": "ESPNU"
+    },
+    {
+		"gameId" : 45,
+		"homeTeam" : 29,
+		"awayTeam" : 85,
+		"favorite" : 29,
+		"spread" : 0,
+		"required" : false,
+		"gameTime" : "2020-09-26T19:30Z",
+		"channel": "ESPN2"
+    },
+    {
+		"gameId" : 46,
+		"homeTeam" : 110,
+		"awayTeam" : 34,
+		"favorite" : 34,
+		"spread" : 24.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T20:00Z",
+		"channel": "SECN"
+    },
+    {
+		"gameId" : 47,
+		"homeTeam" : 46,
+		"awayTeam" : 18,
+		"favorite" : 46,
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T20:00Z",
+		"channel": "ACCN"
+    },
+    {
+		"gameId" : 48,
+		"homeTeam" : 109,
+		"awayTeam" : 72,
+		"favorite" : 109,
+		"spread" : 17.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T22:00Z",
+		"channel": "ESPN3"
+    },
+    {
+		"gameId" : 49,
+		"homeTeam" : 2,
+		"awayTeam" : 84,
+		"favorite" : 2,
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T22:00Z",
+		"channel": "CBSSN"
+    },
+    {
+		"gameId" : 50,
+		"homeTeam" : 44,
+		"awayTeam" : 17,
+		"favorite" : 17,
+		"spread" : 21.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T23:00Z",
+		"channel": "ESPN"
+    },
+    {
+		"gameId" : 51,
+		"homeTeam" : 56,
+		"awayTeam" : 123,
+		"favorite" : 56,
+		"spread" : 20.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T23:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 52,
+		"homeTeam" : 120,
+		"awayTeam" : 71,
+		"favorite" : 71,
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T23:00Z",
+		"channel": ""
+    },
+    {
+		"gameId" : 53,
+		"homeTeam" : 73,
+		"awayTeam" : 33,
+		"favorite" : 73,
+		"spread" : 28.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T23:30Z",
+		"channel": "SECN ALT"
+    },
+    {
+		"gameId" : 53,
+		"homeTeam" : 22,
+		"awayTeam" : 23,
+		"favorite" : 23,
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T23:30Z",
+		"channel": "SECN"
+    },
+    {
+		"gameId" : 54,
+		"homeTeam" : 54,
+		"awayTeam" : 31,
+		"favorite" : 54,
+		"spread" : 10.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T23:30Z",
+		"channel": "ABC"
+    },
+    {
+		"gameId" : 55,
+		"homeTeam" : 122,
+		"awayTeam" : 98,
+		"favorite" : 122,
+		"spread" : 18.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T23:30Z",
+		"channel": "ESPNU"
+    },
+    {
+		"gameId" : 56,
+		"homeTeam" : 108,
+		"awayTeam" : 15,
+		"favorite" : 108,
+		"spread" : 9.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T23:30Z",
+		"channel": "ACCN"
+    },
+    {
+		"gameId" : 57,
+		"homeTeam" : 79,
+		"awayTeam" : 114,
+		"favorite" : 79,
+		"spread" : 15.5,
+		"required" : false,
+		"gameTime" : "2020-09-27T02:15Z",
+		"channel": "ESPN"
+    }
 	]
 }

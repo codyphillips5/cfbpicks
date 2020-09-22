@@ -5,7 +5,7 @@
 		"homeTeam" : 55,
 		"awayTeam" : 117,
 		"favorite" : 55,
-		"spread" : 27.5,
+		"spread" : 28.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T16:00Z",
 		"channel": "FOX"
@@ -15,7 +15,7 @@
 		"homeTeam" : 12,
 		"awayTeam" : 53,
 		"favorite" : 53,
-		"spread" : 12.5,
+		"spread" : 14.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T16:00Z",
 		"channel": "ESPN"
@@ -25,7 +25,7 @@
 		"homeTeam" : 90,
 		"awayTeam" : 129,
 		"favorite" : 129,
-		"spread" : 18.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T16:00Z",
 		"channel": "ABC"
@@ -35,7 +35,7 @@
 		"homeTeam" : 39,
 		"awayTeam" : 9,
 		"favorite" : 39,
-		"spread" : 8.5,
+		"spread" : 10.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T16:00Z",
 		"channel": "SECN"
@@ -45,7 +45,7 @@
 		"homeTeam" : 16,
 		"awayTeam" : 66,
 		"favorite" : 66,
-		"spread" : 25.5,
+		"spread" : 27.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T16:00Z",
 		"channel": "ESPN+"
@@ -55,7 +55,7 @@
 		"homeTeam" : 14,
 		"awayTeam" : 36,
 		"favorite" : 14,
-		"spread" : 14.5,
+		"spread" : 13.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T16:00Z",
 		"channel": "ESPN2"
@@ -65,7 +65,7 @@
 		"homeTeam" : 45,
 		"awayTeam" : 130,
 		"favorite" : 45,
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T16:00Z",
 		"channel": "ACCN"
@@ -75,7 +75,7 @@
 		"homeTeam" : 28,
 		"awayTeam" : 58,
 		"favorite" : 58,
-		"spread" : 7.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T16:00Z",
 		"channel": "ESPN3"
@@ -105,133 +105,13 @@
 		"homeTeam" : 126,
 		"awayTeam" : 99,
 		"favorite" : 99,
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T17:30Z",
 		"channel": "FS1"
     },
     {
 		"gameId" : 40,
-		"homeTeam" : 35,
-		"awayTeam" : 13,
-		"favorite" : 35,
-		"spread" : 18.5,
-		"required" : false,
-		"gameTime" : "2020-09-26T19:30Z",
-		"channel": "CBS"
-    },
-    {
-		"gameId" : 41,
-		"homeTeam" : 111,
-		"awayTeam" : 47,
-		"favorite" : 47,
-		"spread" : 16.5,
-		"required" : false,
-		"gameTime" : "2020-09-26T19:30Z",
-		"channel": "FOX"
-    },
-    {
-		"gameId" : 42,
-		"homeTeam" : 62,
-		"awayTeam" : 82,
-		"favorite" : 62,
-		"spread" : 11.5,
-		"required" : false,
-		"gameTime" : "2020-09-26T19:30Z",
-		"channel": "ESPN"
-    },
-    {
-		"gameId" : 43,
-		"homeTeam" : 95,
-		"awayTeam" : 100,
-		"favorite" : 95,
-		"spread" : 8.5,
-		"required" : true,
-		"gameTime" : "2020-09-26T19:30Z",
-		"channel": "ABC"
-    },
-    {
-		"gameId" : 44,
-		"homeTeam" : 125,
-		"awayTeam" : 124,
-		"favorite" : 125,
-		"spread" : 8.5,
-		"required" : false,
-		"gameTime" : "2020-09-26T19:30Z",
-		"channel": "ESPNU"
-    },
-    {
-		"gameId" : 45,
-		"homeTeam" : 29,
-		"awayTeam" : 85,
-		"favorite" : 29,
-		"spread" : 0,
-		"required" : false,
-		"gameTime" : "2020-09-26T19:30Z",
-		"channel": "ESPN2"
-    },
-    {
-		"gameId" : 46,
-		"homeTeam" : 110,
-		"awayTeam" : 34,
-		"favorite" : 34,
-		"spread" : 24.5,
-		"required" : false,
-		"gameTime" : "2020-09-26T20:00Z",
-		"channel": "SECN"
-    },
-    {
-		"gameId" : 47,
-		"homeTeam" : 46,
-		"awayTeam" : 18,
-		"favorite" : 46,
-		"spread" : 5.5,
-		"required" : false,
-		"gameTime" : "2020-09-26T20:00Z",
-		"channel": "ACCN"
-    },
-    {
-		"gameId" : 48,
-		"homeTeam" : 109,
-		"awayTeam" : 72,
-		"favorite" : 109,
-		"spread" : 17.5,
-		"required" : false,
-		"gameTime" : "2020-09-26T22:00Z",
-		"channel": "ESPN3"
-    },
-    {
-		"gameId" : 49,
-		"homeTeam" : 2,
-		"awayTeam" : 84,
-		"favorite" : 2,
-		"spread" : 6.5,
-		"required" : false,
-		"gameTime" : "2020-09-26T22:00Z",
-		"channel": "CBSSN"
-    },
-    {
-		"gameId" : 50,
-		"homeTeam" : 44,
-		"awayTeam" : 17,
-		"favorite" : 17,
-		"spread" : 21.5,
-		"required" : false,
-		"gameTime" : "2020-09-26T23:00Z",
-		"channel": "ESPN"
-    },
-    {
-		"gameId" : 51,
-		"homeTeam" : 56,
-		"awayTeam" : 123,
-		"favorite" : 56,
-		"spread" : 20.5,
-		"required" : false,
-		"gameTime" : "2020-09-26T23:00Z",
-		"channel": "ESPN+"
-    },
-    {
-		"gameId" : 52,
 		"homeTeam" : 120,
 		"awayTeam" : 71,
 		"favorite" : 71,
@@ -241,17 +121,137 @@
 		"channel": ""
     },
     {
+		"gameId" : 41,
+		"homeTeam" : 35,
+		"awayTeam" : 13,
+		"favorite" : 35,
+		"spread" : 16.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T19:30Z",
+		"channel": "CBS"
+    },
+    {
+		"gameId" : 42,
+		"homeTeam" : 111,
+		"awayTeam" : 47,
+		"favorite" : 47,
+		"spread" : 17.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T19:30Z",
+		"channel": "FOX"
+    },
+    {
+		"gameId" : 43,
+		"homeTeam" : 62,
+		"awayTeam" : 82,
+		"favorite" : 62,
+		"spread" : 13.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T19:30Z",
+		"channel": "ESPN"
+    },
+    {
+		"gameId" : 44,
+		"homeTeam" : 95,
+		"awayTeam" : 100,
+		"favorite" : 95,
+		"spread" : 8.5,
+		"required" : true,
+		"gameTime" : "2020-09-26T19:30Z",
+		"channel": "ABC"
+    },
+    {
+		"gameId" : 45,
+		"homeTeam" : 125,
+		"awayTeam" : 124,
+		"favorite" : 125,
+		"spread" : 9.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T19:30Z",
+		"channel": "ESPNU"
+    },
+    {
+		"gameId" : 46,
+		"homeTeam" : 29,
+		"awayTeam" : 85,
+		"favorite" : 29,
+		"spread" : 1.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T19:30Z",
+		"channel": "ESPN2"
+    },
+    {
+		"gameId" : 47,
+		"homeTeam" : 110,
+		"awayTeam" : 34,
+		"favorite" : 34,
+		"spread" : 26.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T20:00Z",
+		"channel": "SECN"
+    },
+    {
+		"gameId" : 48,
+		"homeTeam" : 46,
+		"awayTeam" : 18,
+		"favorite" : 46,
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T20:00Z",
+		"channel": "ACCN"
+    },
+    {
+		"gameId" : 49,
+		"homeTeam" : 109,
+		"awayTeam" : 72,
+		"favorite" : 109,
+		"spread" : 17.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T22:00Z",
+		"channel": "ESPN3"
+    },
+    {
+		"gameId" : 50,
+		"homeTeam" : 2,
+		"awayTeam" : 84,
+		"favorite" : 2,
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T22:00Z",
+		"channel": "CBSSN"
+    },
+    {
+		"gameId" : 51,
+		"homeTeam" : 44,
+		"awayTeam" : 17,
+		"favorite" : 17,
+		"spread" : 27.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T23:00Z",
+		"channel": "ESPN"
+    },
+    {
+		"gameId" : 52,
+		"homeTeam" : 56,
+		"awayTeam" : 123,
+		"favorite" : 56,
+		"spread" : 21.5,
+		"required" : false,
+		"gameTime" : "2020-09-26T23:00Z",
+		"channel": "ESPN+"
+    },
+    {
 		"gameId" : 53,
 		"homeTeam" : 73,
 		"awayTeam" : 33,
 		"favorite" : 73,
-		"spread" : 28.5,
+		"spread" : 30.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T23:30Z",
 		"channel": "SECN ALT"
     },
     {
-		"gameId" : 53,
+		"gameId" : 54,
 		"homeTeam" : 22,
 		"awayTeam" : 23,
 		"favorite" : 23,
@@ -261,7 +261,7 @@
 		"channel": "SECN"
     },
     {
-		"gameId" : 54,
+		"gameId" : 55,
 		"homeTeam" : 54,
 		"awayTeam" : 31,
 		"favorite" : 54,
@@ -271,31 +271,31 @@
 		"channel": "ABC"
     },
     {
-		"gameId" : 55,
+		"gameId" : 56,
 		"homeTeam" : 122,
 		"awayTeam" : 98,
 		"favorite" : 122,
-		"spread" : 18.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T23:30Z",
 		"channel": "ESPNU"
     },
     {
-		"gameId" : 56,
+		"gameId" : 57,
 		"homeTeam" : 108,
 		"awayTeam" : 15,
 		"favorite" : 108,
-		"spread" : 9.5,
+		"spread" : 7.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T23:30Z",
 		"channel": "ACCN"
     },
     {
-		"gameId" : 57,
+		"gameId" : 58,
 		"homeTeam" : 79,
 		"awayTeam" : 114,
 		"favorite" : 79,
-		"spread" : 15.5,
+		"spread" : 14.5,
 		"required" : false,
 		"gameTime" : "2020-09-27T02:15Z",
 		"channel": "ESPN"

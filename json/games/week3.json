@@ -65,7 +65,7 @@
 		"homeTeam" : 28,
 		"awayTeam" : 58,
 		"favorite" : 58,
-		"spread" : 8.5,
+		"spread" : 7.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T16:00Z",
 		"channel": "ESPN3"
@@ -125,7 +125,7 @@
 		"homeTeam" : 111,
 		"awayTeam" : 47,
 		"favorite" : 47,
-		"spread" : 17.5,
+		"spread" : 18.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T19:30Z",
 		"channel": "FOX"
@@ -165,7 +165,7 @@
 		"homeTeam" : 110,
 		"awayTeam" : 34,
 		"favorite" : 34,
-		"spread" : 26.5,
+		"spread" : 27.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T20:00Z",
 		"channel": "SECN"
@@ -235,7 +235,7 @@
 		"homeTeam" : 122,
 		"awayTeam" : 98,
 		"favorite" : 122,
-		"spread" : 16.5,
+		"spread" : 17.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T23:30Z",
 		"channel": "ESPNU"
@@ -245,7 +245,7 @@
 		"homeTeam" : 108,
 		"awayTeam" : 15,
 		"favorite" : 108,
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2020-09-26T24:00Z",
 		"channel": "ACCN"

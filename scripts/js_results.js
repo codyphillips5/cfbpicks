@@ -3,7 +3,8 @@ var lastName = "";
 var coversNum = [];
 var coversTeam = [];
 
-var picksList, teamsList, resultsList, usersList;
+var picksList, teamsList, usersList;
+var resultsList = [];
 var badge = document.createElement('div');
 badge.className = 'standings';
 var select = `<select class='form-control' id='results_by_week' onchange="getResultsByWeek(this.value);"><option value ='2'> Week 2 </option><option value ='1'> Week 1 </option></select>`;
@@ -13,7 +14,8 @@ document.getElementById("weeks").appendChild(badge);
 getResultsByWeek(2);
 
 function getResultsByWeek(week) {
-	console.log(week);
+	console.log(week);		
+
 	var getPicks = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week"+ week +"_picks.json", function(json){
 		picksList = json;
 	});
@@ -22,9 +24,10 @@ function getResultsByWeek(week) {
 		resultsList = json;
 		// get results
 		for (var result in resultsList) {
+			coversNum.length = 0;
+			coversTeam.length = 0;
 			for (var r = 0; r < resultsList[result].length; r++) {
 				coversNum.push(resultsList[result][r].cover);
-				console.log(resultsList[result][r].cover);
 			}
 		}
 	});
@@ -36,8 +39,6 @@ function getResultsByWeek(week) {
 	var getUsers= $.getJSON("https://codyphillips5.github.io/cfbpicks/json/users.json", function(json){
 		usersList = json;
 	});
-	console.log(picksList);
-	console.log(resultsList);
 	$.when(getResults, getTeams).then(function(){
 		for (var cov = 0; cov < coversNum.length; cov++) {
 			for (var team in teamsList) {
@@ -48,7 +49,7 @@ function getResultsByWeek(week) {
 				}
 			}
 		}
-	});
+	});	
 	
 	$.when(getPicks, getResults, getTeams, getUsers).then(function(){
 		var tableStart = `<div class="table-responsive"> <table class="table table-hover" id="results"><thead><tr><th scope="col" class="first-col">Name</th><th scope="col">50</th><th scope="col">40</th><th scope="col">30</th><th scope="col">20</th><th scope="col">10</th><th class="warning" scope="col">GOTW</th><th class="active" scope="col">Total</th></tr></thead><tbody>`;
@@ -72,6 +73,7 @@ function getResultsByWeek(week) {
 				}
 				var tableUser = tableUser + `<tr><th class="first-col">${firstName + " " + lastName}</th>`;
 				// check user picks against results
+				
 				for (var pointTotals = 50; pointTotals >= 10; pointTotals = pointTotals-10) {
 					if(coversTeam.includes(picksList[key][i][pointTotals])) {
 						isCorrect = "success";
@@ -83,7 +85,7 @@ function getResultsByWeek(week) {
 					tableUser = tableUser + `<td class="${isCorrect}">${picksList[key][i][pointTotals]}</td>`;
 				}
 				
-				console.log("log it: " + picksList[key][i].POTW);
+				//console.log("log it: " + picksList[key][i].POTW);
 				if(coversTeam.includes(picksList[key][i].POTW)) {
 					isCorrect = "success";
 					plusOrMinus = "+";

@@ -5,7 +5,7 @@ var coversTeam = [];
 
 var standings, teams, resultsList, usersList;
 
-var getPicks = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week14_picks.json", function(json){
+var getPicks = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week3_picks.json", function(json){
 	standings = json;
 });
 
@@ -18,7 +18,7 @@ var getUsers= $.getJSON("https://codyphillips5.github.io/cfbpicks/json/users.jso
 });
 
 $.when(getPicks, getStandings, getUsers).then(function(){
-	var tableStart = `<table class="table table-hover" id="results"><thead><tr><th scope="col">Name</th><th scope="col">50</th><th scope="col">40</th><th scope="col">30</th><th scope="col">20</th><th scope="col">10</th></tr></thead><tbody>`;
+	var tableStart = `<div class="table-responsive"> <table class="table table-hover" id="results"><thead><tr><th scope="col" class="first-col">Name</th><th scope="col">50</th><th scope="col">40</th><th scope="col">30</th><th scope="col">20</th><th scope="col">10</th><th class="warning" scope="col">GOTW</th></tr></thead><tbody>`;
 
 	for (var key in standings) {
 		for (var i = 0; i < standings[key].length; i++) {
@@ -39,6 +39,7 @@ $.when(getPicks, getStandings, getUsers).then(function(){
 			for (var pointTotals = 50; pointTotals >= 10; pointTotals = pointTotals-10) {
 				tableUser = tableUser + `<td>${standings[key][i][pointTotals]}</td>`;
 			}
+			tableUser = tableUser + `<td>${standings[key][i].POTW} (${standings[key][i].POTW_value})</td>`;
 		}
 	}
 	tableUser = tableUser.replace("undefined","");

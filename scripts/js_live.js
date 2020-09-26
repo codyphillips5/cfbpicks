@@ -34,7 +34,7 @@ $.when(getPicks, getStandings, getUsers).then(function(){
 					}
 				}
 			}
-			var tableUser = tableUser + `<tr><th>${firstName + " " + lastName}</th>`;
+			var tableUser = tableUser + `<tr><th class="first-col">${firstName + " " + lastName}</th>`;
 			// check user picks against results
 			for (var pointTotals = 50; pointTotals >= 10; pointTotals = pointTotals-10) {
 				tableUser = tableUser + `<td>${standings[key][i][pointTotals]}</td>`;

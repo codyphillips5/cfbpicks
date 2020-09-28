@@ -7,11 +7,11 @@ var picksList, teamsList, usersList;
 var resultsList = [];
 var badge = document.createElement('div');
 badge.className = 'standings';
-var select = `<select class='form-control' id='results_by_week' onchange="getResultsByWeek(this.value);"><option value ='2'> Week 2 </option><option value ='1'> Week 1 </option></select>`;
+var select = `<select class='form-control' id='results_by_week' onchange="getResultsByWeek(this.value);"><option value ='3'> Week 3 </option><option value ='2'> Week 2 </option><option value ='1'> Week 1 </option></select>`;
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);
 
-getResultsByWeek(2);
+getResultsByWeek(3);
 
 function getResultsByWeek(week) {
 	console.log(week);		
@@ -24,6 +24,7 @@ function getResultsByWeek(week) {
 		resultsList = json;
 		// get results
 		for (var result in resultsList) {
+			// reset covers
 			coversNum.length = 0;
 			coversTeam.length = 0;
 			for (var r = 0; r < resultsList[result].length; r++) {

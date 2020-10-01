@@ -145,7 +145,7 @@
 		"homeTeam" : 2,
 		"awayTeam" : 80,
 		"favorite" : 2,
-		"spread" : 5.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2020-10-03T20:00Z",
 		"channel": "ESPNU"
@@ -184,7 +184,7 @@
 		"gameId" : 72,
 		"homeTeam" : 106,
 		"awayTeam" : 104,
-		"favorite" : 106,
+		"favorite" : 104,
 		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2020-10-03T22:00Z",

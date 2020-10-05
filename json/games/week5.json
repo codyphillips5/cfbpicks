@@ -224,7 +224,7 @@
 		"gameId" : 103,
 		"homeTeam" : 9,
 		"awayTeam" : 13,
-		"favorite" : 13,
+		"favorite" : 9,
 		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2020-10-10T23:30Z",

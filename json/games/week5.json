@@ -25,7 +25,7 @@
 		"homeTeam" : 55,
 		"awayTeam" : 47,
 		"favorite" : 55,
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2020-10-10T16:00Z",
 		"channel": "FOX"
@@ -45,7 +45,7 @@
 		"homeTeam" : 27,
 		"awayTeam" : 125,
 		"favorite" : 27,
-		"spread" : 20.5,
+		"spread" : 19.5,
 		"required" : false,
 		"gameTime" : "2020-10-10T16:00Z",
 		"channel": "ESPNU"
@@ -65,7 +65,7 @@
 		"homeTeam" : 33,
 		"awayTeam" : 22,
 		"favorite" : 22,
-		"spread" : 11.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2020-10-10T16:00Z",
 		"channel": "SECN"
@@ -74,8 +74,8 @@
 		"gameId" : 88,
 		"homeTeam" : 28,
 		"awayTeam" : 18,
-		"favorite" : 28,
-		"spread" : 0,
+		"favorite" : 18,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2020-10-10T16:30Z",
 		"channel": "ESPN3"
@@ -95,7 +95,7 @@
 		"homeTeam" : 34,
 		"awayTeam" : 23,
 		"favorite" : 34,
-		"spread" : 14.5,
+		"spread" : 13.5,
 		"required" : false,
 		"gameTime" : "2020-10-10T19:30Z",
 		"channel": "CBS"
@@ -125,7 +125,7 @@
 		"homeTeam" : 39,
 		"awayTeam" : 110,
 		"favorite" : 39,
-		"spread" : 15.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2020-10-10T20:00Z",
 		"channel": "SECN"
@@ -135,7 +135,7 @@
 		"homeTeam" : 109,
 		"awayTeam" : 45,
 		"favorite" : 45,
-		"spread" : 4.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2020-10-10T20:00Z",
 		"channel": "ACCN"
@@ -145,7 +145,7 @@
 		"homeTeam" : 126,
 		"awayTeam" : 117,
 		"favorite" : 126,
-		"spread" : 9.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2020-10-10T20:00Z",
 		"channel": "FOX"
@@ -165,7 +165,7 @@
 		"homeTeam" : 120,
 		"awayTeam" : 2,
 		"favorite" : 2,
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2020-10-10T20:00Z",
 		"channel": "STADIUM"
@@ -205,7 +205,7 @@
 		"homeTeam" : 57,
 		"awayTeam" : 54,
 		"favorite" : 57,
-		"spread" : 15.5,
+		"spread" : 14.5,
 		"required" : true,
 		"gameTime" : "2020-10-10T23:30Z",
 		"channel": "ABC"
@@ -237,7 +237,7 @@
 		"favorite" : 48,
 		"spread" : 14.5,
 		"required" : false,
-		"gameTime" : "2020-10-10T23:00Z",
+		"gameTime" : "2020-10-10T23:30Z",
 		"channel": "ESPN2"
 	},
 	{
@@ -245,9 +245,9 @@
 		"homeTeam" : 67,
 		"awayTeam" : 116,
 		"favorite" : 116,
-		"spread" : 5.5,
+		"spread" : 6.5,
 		"required" : false,
-		"gameTime" : "2020-10-10T23:00Z",
+		"gameTime" : "2020-10-10T23:30Z",
 		"channel": "STADIUM"
 	},
 	{

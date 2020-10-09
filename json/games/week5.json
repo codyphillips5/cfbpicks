@@ -162,16 +162,6 @@
 	},
 	{
 		"gameId" : 97,
-		"homeTeam" : 120,
-		"awayTeam" : 2,
-		"favorite" : 2,
-		"spread" : 2.5,
-		"required" : false,
-		"gameTime" : "2020-10-10T20:00Z",
-		"channel": "STADIUM"
-	},
-	{
-		"gameId" : 98,
 		"homeTeam" : 104,
 		"awayTeam" : 103,
 		"favorite" : 103,
@@ -181,7 +171,7 @@
 		"channel": "CBSSN"
 	},
 	{
-		"gameId" : 99,
+		"gameId" : 98,
 		"homeTeam" : 84,
 		"awayTeam" : 16,
 		"favorite" : 84,
@@ -191,7 +181,7 @@
 		"channel": "ESPN+"
 	},
 	{
-		"gameId" : 100,
+		"gameId" : 99,
 		"homeTeam" : 12,
 		"awayTeam" : 17,
 		"favorite" : 17,
@@ -201,7 +191,7 @@
 		"channel": "ESPN"
 	},
 	{
-		"gameId" : 101,
+		"gameId" : 100,
 		"homeTeam" : 57,
 		"awayTeam" : 54,
 		"favorite" : 57,
@@ -211,7 +201,7 @@
 		"channel": "ABC"
 	},
 	{
-		"gameId" : 102,
+		"gameId" : 101,
 		"homeTeam" : 129,
 		"awayTeam" : 31,
 		"favorite" : 129,
@@ -221,7 +211,7 @@
 		"channel": "NBC"
 	},
 	{
-		"gameId" : 103,
+		"gameId" : 102,
 		"homeTeam" : 9,
 		"awayTeam" : 13,
 		"favorite" : 9,
@@ -231,7 +221,7 @@
 		"channel": "SECN"
 	},
 	{
-		"gameId" : 104,
+		"gameId" : 103,
 		"homeTeam" : 48,
 		"awayTeam" : 124,
 		"favorite" : 48,
@@ -241,7 +231,7 @@
 		"channel": "ESPN2"
 	},
 	{
-		"gameId" : 105,
+		"gameId" : 104,
 		"homeTeam" : 67,
 		"awayTeam" : 116,
 		"favorite" : 116,
@@ -251,7 +241,7 @@
 		"channel": "STADIUM"
 	},
 	{
-		"gameId" : 106,
+		"gameId" : 105,
 		"homeTeam" : 123,
 		"awayTeam" : 80,
 		"favorite" : 80,

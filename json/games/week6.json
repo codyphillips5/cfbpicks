@@ -48,7 +48,7 @@
 		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2020-10-17T16:00Z",
-		"channel": "ESPN+"
+		"channel": "ESPN2"
 	},	
 	{
 		"gameId" : 111,

@@ -239,16 +239,6 @@
 		"required" : false,
 		"gameTime" : "2020-10-18T00:00Z",
 		"channel": "ACCN"
-	},	
-	{
-		"gameId" : 130,
-		"homeTeam" : 80,
-		"awayTeam" : 70,
-		"favorite" : 80,
-		"spread" : 7.5,
-		"required" : false,
-		"gameTime" : "2020-10-18T00:00Z",
-		"channel": "ESPNU"
 	}
   ]
 }

@@ -209,19 +209,9 @@
 		"required" : false,
 		"gameTime" : "2020-10-17T23:00Z",
 		"channel": "ABC"
-	},	
-	{
-		"gameId" : 127,
-		"homeTeam" : 124,
-		"awayTeam" : 120,
-		"favorite" : 120,
-		"spread" : 6.5,
-		"required" : false,
-		"gameTime" : "2020-10-17T23:30Z",
-		"channel": "ESPN2"
 	},
 	{
-		"gameId" : 128,
+		"gameId" : 127,
 		"homeTeam" : 17,
 		"awayTeam" : 34,
 		"favorite" : 17,
@@ -231,7 +221,7 @@
 		"channel": "CBS"
 	},	
 	{
-		"gameId" : 129,
+		"gameId" : 128,
 		"homeTeam" : 108,
 		"awayTeam" : 109,
 		"favorite" : 108,

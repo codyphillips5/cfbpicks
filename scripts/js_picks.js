@@ -30,13 +30,15 @@ var game = {
   
   var xFile, yFile;
   
-  var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week6.json", function(json){
+  var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week7.json", function(json){
 	  xFile = json;
   });
   
   var requestY = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/teams.json", function(json){
 	  yFile = json;
   });
+  
+var date1 = new Date();
   
   $.when(requestX, requestY).then(function(){
 	  for (var key in xFile) {
@@ -72,6 +74,7 @@ var game = {
 			  var awaySide = "+";
 			  var channel = xFile[key][i].channel;
 			  var date = new Date(xFile[key][i].gameTime);
+			  var date2 = new Date(xFile[key][0].gameTime);
 			  var required = xFile[key][i].required;
 			  var badge = document.createElement('div');
 			  if (fav != home) {
@@ -108,6 +111,19 @@ var game = {
 			  document.getElementById(key).appendChild(badge);
 		  }
 	  }
+
+		/*if (date1.getTime() > date2.getTime()) {
+			console.log(date1);
+			console.log(date2);
+			document.getElementById("saver").innerHTML = `<button type="submit" disabled id="savePicks" class='btn btn-primary'>Picks Locked</button>`;
+		}
+		else {
+			console.log(date1);
+			console.log(date2);
+			document.getElementById("saver").innerHTML = `<button type="submit" id="savePicks" class='btn btn-primary'>Save My Picks</button>`;
+		}*/
+
+		
   });
   
   var request;

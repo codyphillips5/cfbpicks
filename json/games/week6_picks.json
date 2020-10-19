@@ -15,7 +15,7 @@
 		"50" : "NAVY",
 		"40" : "WVU",
 		"30" : "VT",
-		"20" : "TECH",
+		"20" : "GTECH",
 		"10" : "MSST",
 		"POTW" : "ALA",
 		"POTW_value" : 30
@@ -193,7 +193,7 @@
 	{
 		"userId" : 20,
 		"50" : "BC",
-		"40" : "TECH",
+		"40" : "GTECH",
 		"30" : "UNC",
 		"20" : "PITT",
 		"10" : "AUB",
@@ -314,7 +314,7 @@
 		"userId" : 32,
 		"50" : "AUB",
 		"40" : "KU",
-		"30" : "TECH",
+		"30" : "GTECH",
 		"20" : "LOU",
 		"10" : "TENN",
 		"POTW" : "UGA",
@@ -415,7 +415,7 @@
 		"50" : "PITT",
 		"40" : "UCF",
 		"30" : "UVA",
-		"20" : "TECH",
+		"20" : "GTECH",
 		"10" : "VT",
 		"POTW" : "ALA",
 		"POTW_value" : 50

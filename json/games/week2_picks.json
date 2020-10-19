@@ -105,14 +105,14 @@
 		"50" : "NCST",
 		"40" : "SMU",
 		"30" : "MTSU",
-		"20" : "TECH",
+		"20" : "GTECH",
 		"10" : "APP",
 		"POTW" : "MIA",
 		"POTW_value" : 30
     },
 	{
 		"userId" : 12,
-		"50" : "TECH",
+		"50" : "GTECH",
 		"40" : "MARSH",
 		"30" : "TROY",
 		"20" : "PITT",
@@ -245,7 +245,7 @@
 		"50" : "WAKE",
 		"40" : "USF",
 		"30" : "CUSE",
-		"20" : "TECH",
+		"20" : "GTECH",
 		"10" : "ULL",
 		"POTW" : "LOU",
 		"POTW_value" : 50
@@ -303,7 +303,7 @@
 	{
 		"userId" : 31,
 		"50" : "OKST",
-		"40" : "TECH",
+		"40" : "GTECH",
 		"30" : "NAVY",
 		"20" : "DUKE",
 		"10" : "APP",
@@ -312,7 +312,7 @@
     },
 	{
 		"userId" : 32,
-		"50" : "TECH",
+		"50" : "GTECH",
 		"40" : "NCST",
 		"30" : "TULSA",
 		"20" : "ND",
@@ -353,7 +353,7 @@
 	{
 		"userId" : 36,
 		"50" : "OKST",
-		"40" : "TECH",
+		"40" : "GTECH",
 		"30" : "TUL",
 		"20" : "BC",
 		"10" : "GAST",
@@ -363,7 +363,7 @@
 	{
 		"userId" : 37,
 		"50" : "TUL",
-		"40" : "TECH",
+		"40" : "GTECH",
 		"30" : "BC",
 		"20" : "USF",
 		"10" : "OKST",
@@ -402,7 +402,7 @@
     },	
 	{
 		"userId" : 41,
-		"50" : "TECH",
+		"50" : "GTECH",
 		"40" : "CUSE",
 		"30" : "DUKE",
 		"20" : "LT",

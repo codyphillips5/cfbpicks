@@ -46,7 +46,7 @@
 		"40" : "CUSE",
 		"30" : "LOU",
 		"20" : "CLEM",
-		"10" : "TECH",
+		"10" : "GTECH",
 		"POTW" : "ULL",
 		"POTW_value" : 30
     },
@@ -176,7 +176,7 @@
 		"40" : "ND",
 		"30" : "UNC",
 		"20" : "APP",
-		"10" : "TECH",
+		"10" : "GTECH",
 		"POTW" : "ULL",
 		"POTW_value" : 20
     },	
@@ -212,7 +212,7 @@
     },
 	{
 		"userId" : 22,
-		"50" : "TECH",
+		"50" : "GTECH",
 		"40" : "KU",
 		"30" : "CLEM",
 		"20" : "ND",
@@ -235,14 +235,14 @@
 		"50" : "DUKE",
 		"40" : "LOU",
 		"30" : "UNC",
-		"20" : "TECH",
+		"20" : "GTECH",
 		"10" : "WAKE",
 		"POTW" : "ISU",
 		"POTW_value" : 30
     },
 	{
 		"userId" : 25,
-		"50" : "TECH",
+		"50" : "GTECH",
 		"40" : "CLEM",
 		"30" : "ND",
 		"20" : "LOU",
@@ -256,7 +256,7 @@
 		"40" : "LOU",
 		"30" : "CLEM",
 		"20" : "CHAR",
-		"10" : "TECH",
+		"10" : "GTECH",
 		"POTW" : "ULL",
 		"POTW_value" : 20
     },
@@ -316,7 +316,7 @@
 		"40" : "APP",
 		"30" : "LAMON",
 		"20" : "ND",
-		"10" : "TECH",
+		"10" : "GTECH",
 		"POTW" : "ULL",
 		"POTW_value" : 20
     },	
@@ -415,7 +415,7 @@
 		"50" : "CLEM",
 		"40" : "LOU",
 		"30" : "ARMY",
-		"20" : "TECH",
+		"20" : "GTECH",
 		"10" : "UTEP",
 		"POTW" : "ISU",
 		"POTW_value" : 10
@@ -425,7 +425,7 @@
 		"50" : "DUKE",
 		"40" : "CLEM",
 		"30" : "LOU",
-		"20" : "TECH",
+		"20" : "GTECH",
 		"10" : "CUSE",
 		"POTW" : "ISU",
 		"POTW_value" : 50

@@ -165,7 +165,7 @@
 		"homeTeam" : 23,
 		"awayTeam" : 17,
 		"favorite" : 17,
-		"spread" : 20.5,
+		"spread" : 21.5,
 		"required" : false,
 		"gameTime" : "2020-10-24T19:30Z",
 		"channel": "CBS"

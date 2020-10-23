@@ -18,7 +18,7 @@ var getUsers= $.getJSON("https://codyphillips5.github.io/cfbpicks/json/users.jso
 });
 
 var date1 = new Date();
-var date2 = new Date('2020-10-17T16:00Z');
+var date2 = new Date('2020-10-24T16:00Z');
 
 $.when(getPicks, getStandings, getUsers).then(function(){
 	var tableStart = `<div class="table-responsive"> <table class="table table-hover" id="results"><thead><tr><th scope="col" class="first-col">Name</th><th scope="col">50</th><th scope="col">40</th><th scope="col">30</th><th scope="col">20</th><th scope="col">10</th><th class="warning" scope="col">GOTW</th></tr></thead><tbody>`;

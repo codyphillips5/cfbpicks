@@ -30,7 +30,7 @@ if(createForm) {
     createForm.addEventListener('submit', (e) => {
         e.preventDefault();
     
-        db.collection('week7').doc(auth.currentUser.email).set({
+        db.collection('week8').doc(auth.currentUser.email).set({
             user: auth.currentUser.email,
             10: document.getElementById('10').value,
             20: document.getElementById('20').value,

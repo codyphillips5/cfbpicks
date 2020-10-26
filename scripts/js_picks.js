@@ -30,7 +30,7 @@ var game = {
   
   var xFile, yFile;
   
-  var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week7.json", function(json){
+  var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week8.json", function(json){
 	  xFile = json;
   });
   
@@ -112,17 +112,26 @@ var date1 = new Date();
 		  }
 	  }
 
-		/*if (date1.getTime() > date2.getTime()) {
-			console.log(date1);
-			console.log(date2);
+		// if current time is after start time of first game, lock
+		if (date1.getTime() > date2.getTime()) {
 			document.getElementById("saver").innerHTML = `<button type="submit" disabled id="savePicks" class='btn btn-primary'>Picks Locked</button>`;
 		}
 		else {
-			console.log(date1);
-			console.log(date2);
-			document.getElementById("saver").innerHTML = `<button type="submit" id="savePicks" class='btn btn-primary'>Save My Picks</button>`;
-		}*/
-
+			if (date1.getDay() < 4) {
+				document.getElementById("saver").innerHTML = `<button type="submit" disabled id="savePicks" class='btn btn-primary'>Picks Open Thursday</button>`;	
+			}
+			else {
+				// if day is Thursday before noon, picks open soon
+				if (date1.getDay() == 4 && date1.getHours() <= 12) {
+					document.getElementById("saver").innerHTML = `<button type="submit" disabled id="savePicks" class='btn btn-primary'>Picks Open Soon</button>`;
+				}
+				// else picks are open
+				else {
+					document.getElementById("saver").innerHTML = `<button type="submit" id="savePicks" class='btn btn-primary'>Save My Picks</button>`;
+				}
+			}
+		}
+/**/
 		
   });
   

@@ -122,7 +122,7 @@ var date1 = new Date();
 			}
 			else {
 				// if day is Thursday before noon, picks open soon
-				if (date1.getDay() == 4 && date1.getHours() <= 12) {
+				if (date1.getDay() == 4 && date1.getHours() < 12) {
 					document.getElementById("saver").innerHTML = `<button type="submit" disabled id="savePicks" class='btn btn-primary'>Picks Open Soon</button>`;
 				}
 				// else picks are open

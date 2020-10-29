@@ -15,7 +15,7 @@
 		"homeTeam" : 9,
 		"awayTeam" : 34,
 		"favorite" : 34,
-		"spread" : 14.5,
+		"spread" : 15.5,
 		"required" : false,
 		"gameTime" : "2020-10-31T16:00Z",
 		"channel": "SECN"
@@ -115,7 +115,7 @@
 		"homeTeam" : 56,
 		"awayTeam" : 66,
 		"favorite" : 66,
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2020-10-31T18:00Z",
 		"channel": "ESPN+"
@@ -145,7 +145,7 @@
 		"homeTeam" : 58,
 		"awayTeam" : 129,
 		"favorite" : 129,
-		"spread" : 19.5,
+		"spread" : 20.5,
 		"required" : false,
 		"gameTime" : "2020-10-31T19:30Z",
 		"channel": "ABC"
@@ -285,7 +285,7 @@
 		"homeTeam" : 105,
 		"awayTeam" : 1,
 		"favorite" : 1,
-		"spread" : 11.5,
+		"spread" : 12.5,
 		"required" : true,
 		"gameTime" : "2020-10-31T23:30Z",
 		"channel": "ABC"

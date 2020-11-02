@@ -7,7 +7,7 @@
 		"favorite" : 82,
 		"spread" : 6.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T15:30Z",
+		"gameTime" : "2020-11-07T16:30Z",
 		"channel": "CBS"
 	},
 	{
@@ -17,7 +17,7 @@
 		"favorite" : 37,
 		"spread" : 3.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T16:00Z",
+		"gameTime" : "2020-11-07T17:00Z",
 		"channel": "FS1"
 	},
 	{
@@ -27,7 +27,7 @@
 		"favorite" : 30,
 		"spread" : 14.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T16:00Z",
+		"gameTime" : "2020-11-07T17:00Z",
 		"channel": "ESPN+"
 	},
 	{
@@ -37,7 +37,7 @@
 		"favorite" : 51,
 		"spread" : 10.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T16:00Z",
+		"gameTime" : "2020-11-07T17:00Z",
 		"channel": "FOX"
 	},
 	{
@@ -47,7 +47,7 @@
 		"favorite" : 47,
 		"spread" : 7.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T16:00Z",
+		"gameTime" : "2020-11-07T17:00Z",
 		"channel": "ABC"
 	},
 	{
@@ -57,7 +57,7 @@
 		"favorite" : 108,
 		"spread" : 15.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T16:00Z",
+		"gameTime" : "2020-11-07T17:00Z",
 		"channel": "ACCN"
 	},
 	{
@@ -67,7 +67,7 @@
 		"favorite" : 11,
 		"spread" : 17.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T16:00Z",
+		"gameTime" : "2020-11-07T17:00Z",
 		"channel": "ESPN+"
 	},
 	{
@@ -77,7 +77,7 @@
 		"favorite" : 71,
 		"spread" : 3.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T16:00Z",
+		"gameTime" : "2020-11-07T17:00Z",
 		"channel": "ESPN+"
 	},
 	{
@@ -87,7 +87,7 @@
 		"favorite" : 85,
 		"spread" : 9.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T16:00Z",
+		"gameTime" : "2020-11-07T17:00Z",
 		"channel": "CBSSN"
 	},
 	{
@@ -97,7 +97,7 @@
 		"favorite" : 21,
 		"spread" : 9.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T16:00Z",
+		"gameTime" : "2020-11-07T17:00Z",
 		"channel": "ESPN2"
 	},
 	{
@@ -107,7 +107,7 @@
 		"favorite" : 24,
 		"spread" : 18.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T16:00Z",
+		"gameTime" : "2020-11-07T17:00Z",
 		"channel": "ESPN3"
 	},
 	{
@@ -117,7 +117,7 @@
 		"favorite" : 26,
 		"spread" : 3.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T16:00Z",
+		"gameTime" : "2020-11-07T17:00Z",
 		"channel": "BTN"
 	},
 	{
@@ -127,7 +127,7 @@
 		"favorite" : 41,
 		"spread" : 6.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T16:00Z",
+		"gameTime" : "2020-11-07T17:00Z",
 		"channel": "ESPN"
 	},
 	{
@@ -137,7 +137,7 @@
 		"favorite" : 14,
 		"spread" : 13.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T16:00Z",
+		"gameTime" : "2020-11-07T17:00Z",
 		"channel": "ESPNU"
 	},
 	{
@@ -147,7 +147,7 @@
 		"favorite" : 36,
 		"spread" : 1.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T17:00Z",
+		"gameTime" : "2020-11-07T18:00Z",
 		"channel": "ESPN3"
 	},
 	{
@@ -157,7 +157,7 @@
 		"favorite" : 28,
 		"spread" : 13.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T18:00Z",
+		"gameTime" : "2020-11-07T19:00Z",
 		"channel": "ESPN3"
 	},
 	{
@@ -167,7 +167,7 @@
 		"favorite" : 116,
 		"spread" : 44.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T18:30Z",
+		"gameTime" : "2020-11-07T19:30Z",
 		"channel": "ESPN+"
 	},
 	{
@@ -177,7 +177,7 @@
 		"favorite" : 107,
 		"spread" : 17.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T19:00Z",
+		"gameTime" : "2020-11-07T20:00Z",
 		"channel": "ESPN+"
 	},
 	{
@@ -187,7 +187,7 @@
 		"favorite" : 34,
 		"spread" : 4.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T19:30Z",
+		"gameTime" : "2020-11-07T20:30Z",
 		"channel": "CBS"
 	},
 	{
@@ -197,7 +197,7 @@
 		"favorite" : 62,
 		"spread" : 12.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T19:30Z",
+		"gameTime" : "2020-11-07T20:30Z",
 		"channel": "ESPN"
 	},
 	{
@@ -207,7 +207,7 @@
 		"favorite" : 83,
 		"spread" : 7.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T19:30Z",
+		"gameTime" : "2020-11-07T20:30Z",
 		"channel": "ABC"
 	},
 	{
@@ -217,7 +217,7 @@
 		"favorite" : 55,
 		"spread" : 38.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T19:30Z",
+		"gameTime" : "2020-11-07T20:30Z",
 		"channel": "ESPN2"
 	},
 	{
@@ -227,7 +227,7 @@
 		"favorite" : 81,
 		"spread" : 5.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T19:30Z",
+		"gameTime" : "2020-11-07T20:30Z",
 		"channel": "ESPN3"
 	},
 	{
@@ -237,7 +237,7 @@
 		"favorite" : 80,
 		"spread" : 4.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T19:30Z",
+		"gameTime" : "2020-11-07T20:30Z",
 		"channel": "ESPN+"
 	},
 	{
@@ -247,7 +247,7 @@
 		"favorite" : 105,
 		"spread" : 25.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T19:30Z",
+		"gameTime" : "2020-11-07T20:30Z",
 		"channel": "BTN"
 	},
 	{
@@ -257,7 +257,7 @@
 		"favorite" : 5,
 		"spread" : 9.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T19:30Z",
+		"gameTime" : "2020-11-07T20:30Z",
 		"channel": "BTN"
 	},
 	{
@@ -267,7 +267,7 @@
 		"favorite" : 126,
 		"spread" : 10.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T19:30Z",
+		"gameTime" : "2020-11-07T20:30Z",
 		"channel": "FS1"
 	},
 	{
@@ -277,7 +277,7 @@
 		"favorite" : 52,
 		"spread" : 12.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T19:30Z",
+		"gameTime" : "2020-11-07T20:30Z",
 		"channel": "CBSSN"
 	},
 	{
@@ -287,7 +287,7 @@
 		"favorite" : 95,
 		"spread" : 10.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T20:00Z",
+		"gameTime" : "2020-11-07T21:00Z",
 		"channel": "FOX"
 	},
 	{
@@ -297,7 +297,7 @@
 		"favorite" : 78,
 		"spread" : 14.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T20:00Z",
+		"gameTime" : "2020-11-07T21:00Z",
 		"channel": "ESPNU"
 	},
 	{
@@ -307,7 +307,7 @@
 		"favorite" : 13,
 		"spread" : 18.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T20:00Z",
+		"gameTime" : "2020-11-07T21:00Z",
 		"channel": "SECN"
 	},
 	{
@@ -317,7 +317,7 @@
 		"favorite" : 124,
 		"spread" : 1.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T20:00Z",
+		"gameTime" : "2020-11-07T21:00Z",
 		"channel": "ESPN3"
 	},
 	{
@@ -327,7 +327,7 @@
 		"favorite" : 45,
 		"spread" : 1.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T20:00Z",
+		"gameTime" : "2020-11-07T21:00Z",
 		"channel": "ACCN"
 	},
 	{
@@ -337,7 +337,7 @@
 		"favorite" : 2,
 		"spread" : 9.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T22:00Z",
+		"gameTime" : "2020-11-07T23:00Z",
 		"channel": "STADIUM"
 	},
 	{
@@ -347,7 +347,7 @@
 		"favorite" : 73,
 		"spread" : 7.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T23:00Z",
+		"gameTime" : "2020-11-08T00:00Z",
 		"channel": "ESPN"
 	},
 	{
@@ -357,7 +357,7 @@
 		"favorite" : 99,
 		"spread" : 13.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T23:00Z",
+		"gameTime" : "2020-11-08T00:00Z",
 		"channel": "FS1"
 	},
 	{
@@ -367,7 +367,7 @@
 		"favorite" : 123,
 		"spread" : 3.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T23:00Z",
+		"gameTime" : "2020-11-08T00:00Z",
 		"channel": "CBSSN"
 	},
 	{
@@ -377,7 +377,7 @@
 		"favorite" : 61,
 		"spread" : 6.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T23:00Z",
+		"gameTime" : "2020-11-08T00:00Z",
 		"channel": "ESPN2"
 	},
 	{
@@ -387,7 +387,7 @@
 		"favorite" : 57,
 		"spread" : 6.5,
 		"required" : true,
-		"gameTime" : "2020-11-07T23:30Z",
+		"gameTime" : "2020-11-08T00:30Z",
 		"channel": "NBC"
 	},
 	{
@@ -397,7 +397,7 @@
 		"favorite" : 1,
 		"spread" : 37.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T23:30Z",
+		"gameTime" : "2020-11-08T00:30Z",
 		"channel": "BTN"
 	},
 	{
@@ -407,7 +407,7 @@
 		"favorite" : 40,
 		"spread" : 11.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T23:30Z",
+		"gameTime" : "2020-11-08T00:30Z",
 		"channel": "ABC"
 	},
 	{
@@ -417,7 +417,7 @@
 		"favorite" : 23,
 		"spread" : 1.5,
 		"required" : false,
-		"gameTime" : "2020-11-07T23:30Z",
+		"gameTime" : "2020-11-08T00:30Z",
 		"channel": "SECN"
 	},
 	{
@@ -427,7 +427,7 @@
 		"favorite" : 19,
 		"spread" : 16.5,
 		"required" : false,
-		"gameTime" : "2020-11-08T00:00Z",
+		"gameTime" : "2020-11-08T01:00Z",
 		"channel": "ESPNU"
 	},
 	{
@@ -437,7 +437,7 @@
 		"favorite" : 46,
 		"spread" : 2.5,
 		"required" : false,
-		"gameTime" : "2020-11-08T00:00Z",
+		"gameTime" : "2020-11-08T01:00Z",
 		"channel": "ACCN"
 	},
 	{
@@ -447,7 +447,7 @@
 		"favorite" : 49,
 		"spread" : 3.5,
 		"required" : false,
-		"gameTime" : "2020-11-08T02:30Z",
+		"gameTime" : "2020-11-08T03:30Z",
 		"channel": "FS1"
 	},
 	{
@@ -457,7 +457,7 @@
 		"favorite" : 102,
 		"spread" : 2.5,
 		"required" : false,
-		"gameTime" : "2020-11-08T02:30Z",
+		"gameTime" : "2020-11-08T03:30Z",
 		"channel": "ESPN"
 	},
 	{
@@ -467,7 +467,7 @@
 		"favorite" : 60,
 		"spread" : 16.5,
 		"required" : false,
-		"gameTime" : "2020-11-08T03:00Z",
+		"gameTime" : "2020-11-08T04:00Z",
 		"channel": "TEAM1"
 	}
   ]

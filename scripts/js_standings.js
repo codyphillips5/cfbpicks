@@ -14,7 +14,7 @@ var getUsers= $.getJSON("https://codyphillips5.github.io/cfbpicks/json/users.jso
 });
 
 $.when(getStandings, getUsers).then(function(){
-	var tableStart = `<div class="table-responsive"> <table class="table table-hover" id="standings-table"><thead><tr><th class="first-col" scope="col">Name</th><th scope="col">Week 1</th><th scope="col">Week 2</th><th scope="col">Week 3</th><th scope="col">Week 4</th><th scope="col">Week 5</th><th scope="col">Week 6</th><th scope="col">Week 7</th><th scope="col">Week 8</th><th scope="col" class="first-col active">Total</th></tr></thead><tbody>`;
+	var tableStart = `<div class="table-responsive"> <table class="table table-hover" id="standings-table"><thead><tr><th class="first-col" scope="col">Name</th><th scope="col">Week 1</th><th scope="col">Week 2</th><th scope="col">Week 3</th><th scope="col">Week 4</th><th scope="col">Week 5</th><th scope="col">Week 6</th><th scope="col">Week 7</th><th scope="col">Week 8</th><th scope="col">Week 9</th><th scope="col" class="first-col active">Total</th></tr></thead><tbody>`;
 
 	for (var key in standings) {
 		for (var i = 0; i < standings[key].length; i++) {
@@ -36,7 +36,7 @@ $.when(getStandings, getUsers).then(function(){
 			}
 			var tableUser = tableUser + `<tr><th class="first-col">${firstName + " " + lastName}</th>`;
 
-			for(var stand = 1; stand <= 8; stand++) {
+			for(var stand = 1; stand <= 9; stand++) {
 				//tableUser = tableUser + `<td>${standings[key][i]["week_" + stand]}</td>`;
 				pointTotal = pointTotal + standings[key][i]["week_" + stand];
 				weekTotal++;

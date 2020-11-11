@@ -262,16 +262,6 @@
 	},
 	{
 		"gameId" : 271,
-		"homeTeam" : ,
-		"awayTeam" : ,
-		"favorite" : ,
-		"spread" : .5,
-		"required" : false,
-		"gameTime" : "2020-11-14T21:00Z",
-		"channel": ""
-	},
-	{
-		"gameId" : 272,
 		"homeTeam" : 111,
 		"awayTeam" : 122,
 		"favorite" : 111,
@@ -281,7 +271,7 @@
 		"channel": "FS1"
 	},
 	{
-		"gameId" : 273,
+		"gameId" : 272,
 		"homeTeam" : 113,
 		"awayTeam" : 92,
 		"favorite" : 92,
@@ -291,7 +281,7 @@
 		"channel": "FS2"
 	},
 	{
-		"gameId" : 274,
+		"gameId" : 273,
 		"homeTeam" : 53,
 		"awayTeam" : 110,
 		"favorite" : 53,
@@ -301,7 +291,7 @@
 		"channel": "ESPN"
 	},
 	{
-		"gameId" : 275,
+		"gameId" : 274,
 		"homeTeam" : 49,
 		"awayTeam" : 40,
 		"favorite" : 40,
@@ -311,7 +301,7 @@
 		"channel": "FOX"
 	},
 	{
-		"gameId" : 276,
+		"gameId" : 275,
 		"homeTeam" : 85,
 		"awayTeam" : 30,
 		"favorite" : 85,
@@ -321,7 +311,7 @@
 		"channel": "ESPN2"
 	},
 	{
-		"gameId" : 277,
+		"gameId" : 276,
 		"homeTeam" : 58,
 		"awayTeam" : 45,
 		"favorite" : 45,
@@ -331,7 +321,7 @@
 		"channel": "ESPN3"
 	},
 	{
-		"gameId" : 278,
+		"gameId" : 277,
 		"homeTeam" : 37,
 		"awayTeam" : 83,
 		"favorite" : 83,
@@ -341,7 +331,7 @@
 		"channel": ""
 	},
 	{
-		"gameId" : 279,
+		"gameId" : 278,
 		"homeTeam" : 91,
 		"awayTeam" : 26,
 		"favorite" : 26,
@@ -351,7 +341,7 @@
 		"channel": "BTN"
 	},
 	{
-		"gameId" : 280,
+		"gameId" : 279,
 		"homeTeam" : 66,
 		"awayTeam" : 103,
 		"favorite" : 66,
@@ -361,7 +351,7 @@
 		"channel": "ESPNU"
 	},
 	{
-		"gameId" : 281,
+		"gameId" : 280,
 		"homeTeam" : 15,
 		"awayTeam" : 31,
 		"favorite" : 15,
@@ -371,7 +361,7 @@
 		"channel": "ACCN"
 	},
 	{
-		"gameId" : 282,
+		"gameId" : 281,
 		"homeTeam" : 12,
 		"awayTeam" : 22,
 		"favorite" : 12,
@@ -381,7 +371,7 @@
 		"channel": "SECN"
 	},
 	{
-		"gameId" : 283,
+		"gameId" : 282,
 		"homeTeam" : 75,
 		"awayTeam" : 128,
 		"favorite" : 75,
@@ -391,7 +381,7 @@
 		"channel": "FS2"
 	},
 	{
-		"gameId" : 284,
+		"gameId" : 283,
 		"homeTeam" : 76,
 		"awayTeam" : 115,
 		"favorite" : 76,
@@ -401,7 +391,7 @@
 		"channel": "ESPN2"
 	},
 	{
-		"gameId" : 285,
+		"gameId" : 284,
 		"homeTeam" : 61,
 		"awayTeam" : 78,
 		"favorite" : 78,

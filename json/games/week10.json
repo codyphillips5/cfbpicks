@@ -45,7 +45,7 @@
 		"homeTeam" : 116,
 		"awayTeam" : 38,
 		"favorite" : 116,
-		"spread" : .5,
+		"spread" : 23.5,
 		"required" : false,
 		"gameTime" : "2020-11-14T17:00Z",
 		"channel": "CBSSN"

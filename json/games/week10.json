@@ -305,7 +305,7 @@
 		"homeTeam" : 37,
 		"awayTeam" : 83,
 		"favorite" : 83,
-		"spread" : 3.5,
+		"spread" : 4.5,
 		"required" : false,
 		"gameTime" : "2020-11-15T00:30Z",
 		"channel": "ABC"

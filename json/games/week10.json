@@ -322,16 +322,6 @@
 	},
 	{
 		"gameId" : 277,
-		"homeTeam" : 76,
-		"awayTeam" : 115,
-		"favorite" : 76,
-		"spread" : 3.5,
-		"required" : false,
-		"gameTime" : "2020-11-15T03:30Z",
-		"channel": "ESPN2"
-	},
-	{
-		"gameId" : 278,
 		"homeTeam" : 61,
 		"awayTeam" : 78,
 		"favorite" : 78,
@@ -341,7 +331,7 @@
 		"channel": "FOX"
 	},
 	{
-		"gameId" : 279,
+		"gameId" : 278,
 		"homeTeam" : 102,
 		"awayTeam" : 96,
 		"favorite" : 102,

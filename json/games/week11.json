@@ -1,0 +1,354 @@
+{
+  "games": [
+	{
+		"gameId" : 278,
+		"homeTeam" : 1,
+		"awayTeam" : 8,
+		"favorite" : 1,
+		"spread" : 20.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T17:00Z",
+		"channel": "FOX"
+	},
+	{
+		"gameId" : 279,
+		"homeTeam" : 31,
+		"awayTeam" : 57,
+		"favorite" : 57,
+		"spread" : 35.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T17:00Z",
+		"channel": "ABC"
+	},
+	{
+		"gameId" : 280,
+		"homeTeam" : 33,
+		"awayTeam" : 53,
+		"favorite" : 53,
+		"spread" : 31.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T17:00Z",
+		"channel": "ESPN"
+	},
+	{
+		"gameId" : 281,
+		"homeTeam" : 19,
+		"awayTeam" : 107,
+		"favorite" : 19,
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T17:00Z",
+		"channel": "ESPN2"
+	},
+	{
+		"gameId" : 282,
+		"homeTeam" : 3,
+		"awayTeam" : 5,
+		"favorite" : 3,
+		"spread" : 15.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T17:00Z",
+		"channel": "BTN"
+	},
+	{
+		"gameId" : 283,
+		"homeTeam" : 97,
+		"awayTeam" : 86,
+		"favorite" : 97,
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T17:00Z",
+		"channel": "BTN"
+	},
+	{
+		"gameId" : 284,
+		"homeTeam" : 29,
+		"awayTeam" : 72,
+		"favorite" : 72,
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T17:00Z",
+		"channel": "ESPNU"
+	},
+	{
+		"gameId" : 285,
+		"homeTeam" : 103,
+		"awayTeam" : 16,
+		"favorite" : 16,
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T17:00Z",
+		"channel": ""
+	},
+	{
+		"gameId" : 286,
+		"homeTeam" : 82,
+		"awayTeam" : 36,
+		"favorite" : 82,
+		"spread" : 4.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T17:00Z",
+		"channel": "CBSSN"
+	},
+	{
+		"gameId" : 287,
+		"homeTeam" : 110,
+		"awayTeam" : 35,
+		"favorite" : 35,
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T17:00Z",
+		"channel": "SECN"
+	},
+	{
+		"gameId" : 288,
+		"homeTeam" : 67,
+		"awayTeam" : 70,
+		"favorite" : 67,
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T19:00Z",
+		"channel": "ESPN3"
+	},
+	{
+		"gameId" : 289,
+		"homeTeam" : 123,
+		"awayTeam" : 81,
+		"favorite" : 81,
+		"spread" : 1.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T19:00Z",
+		"channel": "ESPN3"
+	},
+	{
+		"gameId" : 290,
+		"homeTeam" : 120,
+		"awayTeam" : 112,
+		"favorite" : 112,
+		"spread" : 8.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T20:00Z",
+		"channel": "ESPN+"
+	},
+	{
+		"gameId" : 291,
+		"homeTeam" : 66,
+		"awayTeam" : 62,
+		"favorite" : 62,
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T20:30Z",
+		"channel": "ESPN"
+	},
+	{
+		"gameId" : 292,
+		"homeTeam" : 26,
+		"awayTeam" : 83,
+		"favorite" : 83,
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T20:30Z",
+		"channel": "ABC"
+	},
+	{
+		"gameId" : 293,
+		"homeTeam" : 40,
+		"awayTeam" : 61,
+		"favorite" : 40,
+		"spread" : 13.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T20:30Z",
+		"channel": "ESPN2"
+	},
+	{
+		"gameId" : 294,
+		"homeTeam" : 114,
+		"awayTeam" : 38,
+		"favorite" : 114,
+		"spread" : 11.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T20:30Z",
+		"channel": "ESPN3"
+	},
+	{
+		"gameId" : 295,
+		"homeTeam" : 105,
+		"awayTeam" : 41,
+		"favorite" : 41,
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T20:30Z",
+		"channel": "BTN"
+	},
+	{
+		"gameId" : 296,
+		"homeTeam" : 92,
+		"awayTeam" : 127,
+		"favorite" : 127,
+		"spread" : 1.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T20:30Z",
+		"channel": "CBS"
+	},
+	{
+		"gameId" : 297,
+		"homeTeam" : 96,
+		"awayTeam" : 115,
+		"favorite" : 115,
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T20:30Z",
+		"channel": "FS1"
+	},
+	{
+		"gameId" : 298,
+		"homeTeam" : 17,
+		"awayTeam" : 9,
+		"favorite" : 17,
+		"spread" : 30.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T21:00Z",
+		"channel": "SECN"
+	},
+	{
+		"gameId" : 299,
+		"homeTeam" : 99,
+		"awayTeam" : 117,
+		"favorite" : 99,
+		"spread" : 10.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T21:00Z",
+		"channel": "FOX"
+	},
+	{
+		"gameId" : 300,
+		"homeTeam" : 45,
+		"awayTeam" : 108,
+		"favorite" : 108,
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T21:00Z",
+		"channel": "ACCN"
+	},
+	{
+		"gameId" : 300,
+		"homeTeam" : 4,
+		"awayTeam" : 24,
+		"favorite" : 24,
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2020-11-21T21:00Z",
+		"channel": "ESPNU"
+	},
+	{
+		"gameId" : 302,
+		"homeTeam" : 52,
+		"awayTeam" : 75,
+		"favorite" : 75,
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2020-11-22T00:00Z",
+		"channel": "CBSSN"
+	},
+	{
+		"gameId" : 303,
+		"homeTeam" : 39,
+		"awayTeam" : 23,
+		"favorite" : 39,
+		"spread" : 10.5,
+		"required" : false,
+		"gameTime" : "2020-11-22T00:00Z",
+		"channel": "ESPN"
+	},
+	{
+		"gameId" : 304,
+		"homeTeam" : 34,
+		"awayTeam" : 13,
+		"favorite" : 34,
+		"spread" : 25.5,
+		"required" : false,
+		"gameTime" : "2020-11-22T00:30Z",
+		"channel": "SECN"
+	},
+	{
+		"gameId" : 305,
+		"homeTeam" : 55,
+		"awayTeam" : 95,
+		"favorite" : 55,
+		"spread" : 7.5,
+		"required" : true,
+		"gameTime" : "2020-11-22T00:30Z",
+		"channel": "ABC"
+	},
+	{
+		"gameId" : 306,
+		"homeTeam" : 15,
+		"awayTeam" : 27,
+		"favorite" : 15,
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2020-11-22T00:30Z",
+		"channel": "ESPN3"
+	},
+	{
+		"gameId" : 307,
+		"homeTeam" : 22,
+		"awayTeam" : 44,
+		"favorite" : 22,
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2020-11-22T00:30Z",
+		"channel": "SECN+"
+	},
+	{
+		"gameId" : 308,
+		"homeTeam" : 88,
+		"awayTeam" : 37,
+		"favorite" : 37,
+		"spread" : 10.5,
+		"required" : false,
+		"gameTime" : "2020-11-22T00:30Z",
+		"channel": "BTN"
+	},
+	{
+		"gameId" : 309,
+		"homeTeam" : 102,
+		"awayTeam" : 59,
+		"favorite" : 102,
+		"spread" : 11.5,
+		"required" : false,
+		"gameTime" : "2020-11-22T01:00Z",
+		"channel": "FOX"
+	},
+	{
+		"gameId" : 310,
+		"homeTeam" : 78,
+		"awayTeam" : 51,
+		"favorite" : 51,
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2020-11-22T03:30Z",
+		"channel": "ESPN"
+	},
+	{
+		"gameId" : 311,
+		"homeTeam" : 25,
+		"awayTeam" : 49,
+		"favorite" : 25,
+		"spread" : 1.5,
+		"required" : false,
+		"gameTime" : "2020-11-22T03:30Z",
+		"channel": "FS1"
+	},
+	{
+		"gameId" : 312,
+		"homeTeam" : 60,
+		"awayTeam" : 32,
+		"favorite" : 32,
+		"spread" : 14.5,
+		"required" : false,
+		"gameTime" : "2020-11-22T00:30Z",
+		"channel": "CBSSN"
+	}
+  ]
+}

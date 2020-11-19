@@ -64,7 +64,7 @@
 		"gameId" : 284,
 		"homeTeam" : 29,
 		"awayTeam" : 72,
-		"favorite" : 72,
+		"favorite" : 29,
 		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2020-11-21T17:00Z",
@@ -78,7 +78,7 @@
 		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2020-11-21T17:00Z",
-		"channel": ""
+		"channel": "ESPN+"
 	},
 	{
 		"gameId" : 286,
@@ -294,7 +294,7 @@
 		"gameId" : 307,
 		"homeTeam" : 22,
 		"awayTeam" : 44,
-		"favorite" : 22,
+		"favorite" : 44,
 		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2020-11-22T00:30Z",

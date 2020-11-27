@@ -15,7 +15,7 @@
 		"homeTeam" : 53,
 		"awayTeam" : 9,
 		"favorite" : 53,
-		"spread" : 23.5,
+		"spread" : 25.5,
 		"required" : false,
 		"gameTime" : "2020-11-28T17:00Z",
 		"channel": "ESPN"
@@ -45,7 +45,7 @@
 		"homeTeam" : 37,
 		"awayTeam" : 105,
 		"favorite" : 37,
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2020-11-28T17:00Z",
 		"channel": "ABC"
@@ -95,7 +95,7 @@
 		"homeTeam" : 16,
 		"awayTeam" : 30,
 		"favorite" : 30,
-		"spread" : 11.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2020-11-28T17:00Z",
 		"channel": "ESPN+"
@@ -125,7 +125,7 @@
 		"homeTeam" : 44,
 		"awayTeam" : 33,
 		"favorite" : 44,
-		"spread" : 15.5,
+		"spread" : 14.5,
 		"required" : false,
 		"gameTime" : "2020-11-28T17:00Z",
 		"channel": "SECN"
@@ -205,7 +205,7 @@
 		"homeTeam" : 57,
 		"awayTeam" : 45,
 		"favorite" : 57,
-		"spread" : 24.5,
+		"spread" : 23.5,
 		"required" : false,
 		"gameTime" : "2020-11-28T20:30Z",
 		"channel": "ESPN"
@@ -215,7 +215,7 @@
 		"homeTeam" : 86,
 		"awayTeam" : 26,
 		"favorite" : 26,
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2020-11-28T20:30Z",
 		"channel": "ESPN2"
@@ -325,7 +325,7 @@
 		"homeTeam" : 126,
 		"awayTeam" : 98,
 		"favorite" : 126,
-		"spread" : 24.5,
+		"spread" : 23.5,
 		"required" : false,
 		"gameTime" : "2020-11-29T01:00Z",
 		"channel": "FS1"
@@ -335,7 +335,7 @@
 		"homeTeam" : 31,
 		"awayTeam" : 46,
 		"favorite" : 46,
-		"spread" : 9.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2020-11-29T01:00Z",
 		"channel": "ACCN"

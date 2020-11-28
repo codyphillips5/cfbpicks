@@ -1,16 +1,6 @@
 {
   "games": [
 	{
-		"gameId" : 309,
-		"homeTeam" : 5,
-		"awayTeam" : 1,
-		"favorite" : 1,
-		"spread" : 28.5,
-		"required" : false,
-		"gameTime" : "2020-11-28T17:00Z",
-		"channel": "FS1"
-	},
-	{
 		"gameId" : 310,
 		"homeTeam" : 53,
 		"awayTeam" : 9,

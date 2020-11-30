@@ -121,16 +121,6 @@
 		"channel": "SECN"
 	},
 	{
-		"gameId" : 322,
-		"homeTeam" : 81,
-		"awayTeam" : 124,
-		"favorite" : 81,
-		"spread" : 11.5,
-		"required" : false,
-		"gameTime" : "2020-11-28T18:00Z",
-		"channel": "ESPN3"
-	},
-	{
 		"gameId" : 323,
 		"homeTeam" : 6,
 		"awayTeam" : 42,
@@ -209,16 +199,6 @@
 		"required" : false,
 		"gameTime" : "2020-11-28T20:30Z",
 		"channel": "ESPN"
-	},
-	{
-		"gameId" : 331,
-		"homeTeam" : 32,
-		"awayTeam" : 75,
-		"favorite" : 32,
-		"spread" : 11.5,
-		"required" : false,
-		"gameTime" : "2020-11-28T21:00Z",
-		"channel": "FOX"
 	},
 	{
 		"gameId" : 332,
@@ -329,16 +309,6 @@
 		"required" : false,
 		"gameTime" : "2020-11-29T01:00Z",
 		"channel": "FS1"
-	},
-	{
-		"gameId" : 343,
-		"homeTeam" : 31,
-		"awayTeam" : 46,
-		"favorite" : 46,
-		"spread" : 8.5,
-		"required" : false,
-		"gameTime" : "2020-11-29T01:00Z",
-		"channel": "ACCN"
 	},
 	{
 		"gameId" : 344,

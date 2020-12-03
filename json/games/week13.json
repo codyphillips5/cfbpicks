@@ -112,16 +112,6 @@
 	},
 	{
 		"gameId" : 358,
-		"homeTeam" : 19,
-		"awayTeam" : 27,
-		"favorite" : 19,
-		"spread" : 11.5,
-		"required" : true,
-		"gameTime" : "2020-12-05T19:00Z",
-		"channel": "ESPNU"
-	},
-	{
-		"gameId" : 359,
 		"homeTeam" : 4,
 		"awayTeam" : 114,
 		"favorite" : 114,
@@ -131,7 +121,7 @@
 		"channel": "ESPN3"
 	},
 	{
-		"gameId" : 360,
+		"gameId" : 359,
 		"homeTeam" : 6,
 		"awayTeam" : 63,
 		"favorite" : 6,
@@ -139,6 +129,16 @@
 		"required" : false,
 		"gameTime" : "2020-12-05T19:00Z",
 		"channel": "ESPN3"
+	},
+	{
+		"gameId" : 360,
+		"homeTeam" : 68,
+		"awayTeam" : 7,
+		"favorite" : 68,
+		"spread" : 1.5,
+		"required" : false,
+		"gameTime" : "2020-12-05T19:00Z",
+		"channel": "ESPNU"
 	},
 	{
 		"gameId" : 361,
@@ -282,11 +282,11 @@
 	},
 	{
 		"gameId" : 375,
-		"homeTeam" : 68,
-		"awayTeam" : 7,
-		"favorite" : 68,
-		"spread" : 1.5,
-		"required" : false,
+		"homeTeam" : 79,
+		"awayTeam" : 27,
+		"favorite" : 79,
+		"spread" : 10.5,
+		"required" : true,
 		"gameTime" : "2020-12-05T22:30Z",
 		"channel": "ESPNU"
 	},

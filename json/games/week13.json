@@ -5,7 +5,7 @@
 		"homeTeam" : 86,
 		"awayTeam" : 1,
 		"favorite" : 1,
-		"spread" : 24.5,
+		"spread" : 23.5,
 		"required" : false,
 		"gameTime" : "2020-12-05T17:00Z",
 		"channel": "ABC"
@@ -105,7 +105,7 @@
 		"homeTeam" : 44,
 		"awayTeam" : 110,
 		"favorite" : 44,
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2020-12-05T17:00Z",
 		"channel": "SECN"
@@ -155,7 +155,7 @@
 		"homeTeam" : 129,
 		"awayTeam" : 28,
 		"favorite" : 129,
-		"spread" : 34.5,
+		"spread" : 33.5,
 		"required" : false,
 		"gameTime" : "2020-12-05T19:30Z",
 		"channel": "NBC"

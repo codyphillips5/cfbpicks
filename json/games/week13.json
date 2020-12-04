@@ -242,16 +242,6 @@
 	},
 	{
 		"gameId" : 371,
-		"homeTeam" : 34,
-		"awayTeam" : 33,
-		"favorite" : 34,
-		"spread" : 35.5,
-		"required" : false,
-		"gameTime" : "2020-12-05T21:00Z",
-		"channel": "SECN"
-	},
-	{
-		"gameId" : 372,
 		"homeTeam" : 102,
 		"awayTeam" : 25,
 		"favorite" : 102,
@@ -261,7 +251,7 @@
 		"channel": "FOX"
 	},
 	{
-		"gameId" : 373,
+		"gameId" : 372,
 		"homeTeam" : 15,
 		"awayTeam" : 58,
 		"favorite" : 15,
@@ -271,7 +261,7 @@
 		"channel": "ACCN"
 	},
 	{
-		"gameId" : 374,
+		"gameId" : 373,
 		"homeTeam" : 60,
 		"awayTeam" : 75,
 		"favorite" : 75,
@@ -281,7 +271,7 @@
 		"channel": "TEAM1"
 	},
 	{
-		"gameId" : 375,
+		"gameId" : 374,
 		"homeTeam" : 19,
 		"awayTeam" : 79,
 		"favorite" : 79,
@@ -291,7 +281,7 @@
 		"channel": "ESPNU"
 	},
 	{
-		"gameId" : 376,
+		"gameId" : 375,
 		"homeTeam" : 36,
 		"awayTeam" : 2,
 		"favorite" : 36,
@@ -301,7 +291,7 @@
 		"channel": "ESPN+"
 	},
 	{
-		"gameId" : 377,
+		"gameId" : 376,
 		"homeTeam" : 115,
 		"awayTeam" : 40,
 		"favorite" : 40,
@@ -311,7 +301,7 @@
 		"channel": "ESPN"
 	},
 	{
-		"gameId" : 378,
+		"gameId" : 377,
 		"homeTeam" : 59,
 		"awayTeam" : 94,
 		"favorite" : 94,
@@ -321,7 +311,7 @@
 		"channel": "FS1"
 	},
 	{
-		"gameId" : 379,
+		"gameId" : 378,
 		"homeTeam" : 127,
 		"awayTeam" : 93,
 		"favorite" : 127,
@@ -331,7 +321,7 @@
 		"channel": "CBSSN"
 	},
 	{
-		"gameId" : 380,
+		"gameId" : 379,
 		"homeTeam" : 108,
 		"awayTeam" : 57,
 		"favorite" : 57,
@@ -341,7 +331,7 @@
 		"channel": "ABC"
 	},
 	{
-		"gameId" : 381,
+		"gameId" : 380,
 		"homeTeam" : 9,
 		"awayTeam" : 22,
 		"favorite" : 9,
@@ -351,7 +341,7 @@
 		"channel": "SECN"
 	},
 	{
-		"gameId" : 382,
+		"gameId" : 381,
 		"homeTeam" : 35,
 		"awayTeam" : 17,
 		"favorite" : 17,
@@ -361,7 +351,7 @@
 		"channel": "CBS"
 	},
 	{
-		"gameId" : 383,
+		"gameId" : 382,
 		"homeTeam" : 18,
 		"awayTeam" : 54,
 		"favorite" : 54,
@@ -371,7 +361,7 @@
 		"channel": "ACCN"
 	},
 	{
-		"gameId" : 384,
+		"gameId" : 383,
 		"homeTeam" : 55,
 		"awayTeam" : 122,
 		"favorite" : 55,
@@ -381,7 +371,7 @@
 		"channel": "FOX"
 	},
 	{
-		"gameId" : 385,
+		"gameId" : 384,
 		"homeTeam" : 92,
 		"awayTeam" : 52,
 		"favorite" : 92,
@@ -391,7 +381,7 @@
 		"channel": "FS2"
 	},
 	{
-		"gameId" : 386,
+		"gameId" : 385,
 		"homeTeam" : 113,
 		"awayTeam" : 43,
 		"favorite" : 43,
@@ -401,7 +391,7 @@
 		"channel": "CBSSN"
 	},
 	{
-		"gameId" : 387,
+		"gameId" : 386,
 		"homeTeam" : 78,
 		"awayTeam" : 96,
 		"favorite" : 78,
@@ -411,7 +401,7 @@
 		"channel": "ESPN"
 	},
 	{
-		"gameId" : 388,
+		"gameId" : 387,
 		"homeTeam" : 76,
 		"awayTeam" : 61,
 		"favorite" : 76,

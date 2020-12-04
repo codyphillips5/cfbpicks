@@ -382,16 +382,6 @@
 	},
 	{
 		"gameId" : 385,
-		"homeTeam" : 30,
-		"awayTeam" : 56,
-		"favorite" : 56,
-		"spread" : 1.5,
-		"required" : false,
-		"gameTime" : "2020-12-06T02:00Z",
-		"channel": "ESPNU"
-	},
-	{
-		"gameId" : 386,
 		"homeTeam" : 92,
 		"awayTeam" : 52,
 		"favorite" : 92,
@@ -401,7 +391,7 @@
 		"channel": "FS2"
 	},
 	{
-		"gameId" : 387,
+		"gameId" : 386,
 		"homeTeam" : 113,
 		"awayTeam" : 43,
 		"favorite" : 43,
@@ -411,7 +401,7 @@
 		"channel": "CBSSN"
 	},
 	{
-		"gameId" : 388,
+		"gameId" : 387,
 		"homeTeam" : 78,
 		"awayTeam" : 96,
 		"favorite" : 78,
@@ -421,7 +411,7 @@
 		"channel": "ESPN"
 	},
 	{
-		"gameId" : 389,
+		"gameId" : 388,
 		"homeTeam" : 76,
 		"awayTeam" : 61,
 		"favorite" : 76,

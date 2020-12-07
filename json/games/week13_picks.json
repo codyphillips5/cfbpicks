@@ -1,0 +1,434 @@
+{
+  "picks": [
+    {
+		"userId" : 1,
+		"50" : "AUB",
+		"40" : "ISU",
+		"30" : "AZST",
+		"20" : "VT",
+		"10" : "OKST",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },
+    {
+		"userId" : 2,
+		"50" : "CLEM",
+		"40" : "ALA",
+		"30" : "PURD",
+		"20" : "CAL",
+		"10" : "OREST",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },
+    {
+		"userId" : 3,
+		"50" : "",
+		"40" : "",
+		"30" : "",
+		"20" : "",
+		"10" : "",
+		"POTW" : "",
+		"POTW_value" : 0
+    },
+	{
+		"userId" : 4,
+		"50" : "WASH",
+		"40" : "ISU",
+		"30" : "ALA",
+		"20" : "OSU",
+		"10" : "CUSE",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 5,
+		"50" : "CLEM",
+		"40" : "MARSH",
+		"30" : "TUL",
+		"20" : "BC",
+		"10" : "FAU",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 6,
+		"50" : "OKST",
+		"40" : "OREST",
+		"30" : "BC",
+		"20" : "OKLA",
+		"10" : "AUB",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },    
+	{
+		"userId" : 7,
+		"50" : "TXAM",
+		"40" : "ND",
+		"30" : "MIA",
+		"20" : "ORE",
+		"10" : "COLO",
+		"POTW" : "CCU",
+		"POTW_value" : 30
+    },
+	{
+		"userId" : 8,
+		"50" : "ALA",
+		"40" : "CLEM",
+		"30" : "UF",
+		"20" : "OKST",
+		"10" : "UCLA",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },	
+	{
+		"userId" : 9,
+		"50" : "IND",
+		"40" : "BUFF",
+		"30" : "UTAH",
+		"20" : "TENN",
+		"10" : "ILL",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },	
+	{
+		"userId" : 10,
+		"50" : "CMU",
+		"40" : "OSU",
+		"30" : "WVU",
+		"20" : "NAVY",
+		"10" : "RUTG",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },	
+	{
+		"userId" : 11,
+		"50" : "TXAM",
+		"40" : "IND",
+		"30" : "UF",
+		"20" : "OSU",
+		"10" : "ORE",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 12,
+		"50" : "IOWA",
+		"40" : "ISU",
+		"30" : "ORE",
+		"20" : "RUTG",
+		"10" : "SDSU",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 13,
+		"50" : "PURD",
+		"40" : "CLEM",
+		"30" : "MIA",
+		"20" : "TXAM",
+		"10" : "NAVY",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 14,
+		"50" : "OSU",
+		"40" : "TXAM",
+		"30" : "OKST",
+		"20" : "ISU",
+		"10" : "FRES",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 15,
+		"50" : "UF",
+		"40" : "CLEM",
+		"30" : "ORE",
+		"20" : "OSU",
+		"10" : "NEV",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+	},
+	{
+		"userId" : 16,
+		"50" : "CUSE",
+		"40" : "ORE",
+		"30" : "ALA",
+		"20" : "CLEM",
+		"10" : "RUTG",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 17,
+		"50" : "UF",
+		"40" : "ND",
+		"30" : "OSU",
+		"20" : "OKST",
+		"10" : "COLO",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 18,
+		"50" : "WMU",
+		"40" : "CLEM",
+		"30" : "BALL",
+		"20" : "MIZ",
+		"10" : "TROY",
+		"POTW" : "CCU",
+		"POTW_value" : 20
+    },
+	{
+		"userId" : 19,
+		"50" : "TOL",
+		"40" : "BGSU",
+		"30" : "CMU",
+		"20" : "EMU",
+		"10" : "LSU",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 20,
+		"50" : "TXAM",
+		"40" : "LSU",
+		"30" : "CLEM",
+		"20" : "OSU",
+		"10" : "WASH",
+		"POTW" : "BYU",
+		"POTW_value" : 10
+    },
+	{
+		"userId" : 21,
+		"50" : "UF",
+		"40" : "SC",
+		"30" : "ORE",
+		"20" : "AZST",
+		"10" : "ISU",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 22,
+		"50" : "OSU",
+		"40" : "IND",
+		"30" : "ISU",
+		"20" : "ALA",
+		"10" : "TXAM",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 23,
+		"50" : "CLEM",
+		"40" : "UTAH",
+		"30" : "CAL",
+		"20" : "BC",
+		"10" : "AUB",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },	
+	{
+		"userId" : 24,
+		"50" : "GSU",
+		"40" : "PSU",
+		"30" : "IND",
+		"20" : "AZST",
+		"10" : "AUB",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },	
+	{
+		"userId" : 25,
+		"50" : "WIS",
+		"40" : "UF",
+		"30" : "OSU",
+		"20" : "TXAM",
+		"10" : "CLEM",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+	},	
+	{
+		"userId" : 26,
+		"50" : "OSU",
+		"40" : "UF",
+		"30" : "ALA",
+		"20" : "BC",
+		"10" : "AUB",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },	
+	{
+		"userId" : 27,
+		"50" : "IND",
+		"40" : "BC",
+		"30" : "AUB",
+		"20" : "CLEM",
+		"10" : "WVU",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },	
+	{
+		"userId" : 28,
+		"50" : "OSU",
+		"40" : "TEX",
+		"30" : "CLEM",
+		"20" : "WIS",
+		"10" : "CUSE",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },	
+	{
+		"userId" : 29,
+		"50" : "CLEM",
+		"40" : "ALA",
+		"30" : "GTECH",
+		"20" : "UF",
+		"10" : "WVU",
+		"POTW" : "CCU",
+		"POTW_value" : 20
+    },	
+	{
+		"userId" : 30,
+		"50" : "PURD",
+		"40" : "OSU",
+		"30" : "RUTG",
+		"20" : "ND",
+		"10" : "CLEM",
+		"POTW" : "BYU",
+		"POTW_value" : 30
+    },	
+	{
+		"userId" : 31,
+		"50" : "ARK",
+		"40" : "RICE",
+		"30" : "MSU",
+		"20" : "WIS",
+		"10" : "BU",
+		"POTW" : "BYU",
+		"POTW_value" : 30
+    },
+	{
+		"userId" : 32,
+		"50" : "MSU",
+		"40" : "IOWA",
+		"30" : "WIS",
+		"20" : "WMU",
+		"10" : "CMU",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 33,
+		"50" : "OSU",
+		"40" : "UF",
+		"30" : "CLEM",
+		"20" : "ALA",
+		"10" : "PURD",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 34,
+		"50" : "PURD",
+		"40" : "ORE",
+		"30" : "CLEM",
+		"20" : "MEM",
+		"10" : "TEX",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 35,
+		"50" : "CLEM",
+		"40" : "BC",
+		"30" : "COLO",
+		"20" : "AUB",
+		"10" : "CAL",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },	
+	{
+		"userId" : 36,
+		"50" : "OSU",
+		"40" : "BC",
+		"30" : "KU",
+		"20" : "AUB",
+		"10" : "RUTG",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 37,
+		"50" : "TXAM",
+		"40" : "BALL",
+		"30" : "WMU",
+		"20" : "MARSH",
+		"10" : "ISU",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 38,
+		"50" : "IND",
+		"40" : "TXAM",
+		"30" : "OSU",
+		"20" : "UF",
+		"10" : "MARSH",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },
+	{
+		"userId" : 39,
+		"50" : "IND",
+		"40" : "OSU",
+		"30" : "KSST",
+		"20" : "TROY",
+		"10" : "SJSU",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },	
+	{
+		"userId" : 40,
+		"50" : "OKLA",
+		"40" : "OSU",
+		"30" : "IND",
+		"20" : "AUB",
+		"10" : "CLEM",
+		"POTW" : "CCU",
+		"POTW_value" : 50
+    },	
+	{
+		"userId" : 41,
+		"50" : "CLEM",
+		"40" : "UF",
+		"30" : "AUB",
+		"20" : "CAL",
+		"10" : "OREST",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },	
+	{
+		"userId" : 42,
+		"50" : "TXAM",
+		"40" : "UF",
+		"30" : "CUSE",
+		"20" : "MSU",
+		"10" : "LSU",
+		"POTW" : "BYU",
+		"POTW_value" : 50
+    },	
+	{
+		"userId" : 43,
+		"50" : "",
+		"40" : "",
+		"30" : "",
+		"20" : "",
+		"10" : "",
+		"POTW" : "",
+		"POTW_value" : 0
+    }
+	]
+}

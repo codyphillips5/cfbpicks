@@ -182,16 +182,6 @@
 	},
 	{
 		"gameId" : 405,
-		"homeTeam" : 40,
-		"awayTeam" : 102,
-		"favorite" : 40,
-		"spread" : 6.5,
-		"required" : false,
-		"gameTime" : "2020-12-12T21:00Z",
-		"channel": "FOX"
-	},
-	{
-		"gameId" : 406,
 		"homeTeam" : 33,
 		"awayTeam" : 23,
 		"favorite" : 23,
@@ -201,7 +191,7 @@
 		"channel": "SECN"
 	},
 	{
-		"gameId" : 407,
+		"gameId" : 406,
 		"homeTeam" : 31,
 		"awayTeam" : 18,
 		"favorite" : 31,
@@ -211,7 +201,7 @@
 		"channel": "ACCN"
 	},
 	{
-		"gameId" : 408,
+		"gameId" : 407,
 		"homeTeam" : 43,
 		"awayTeam" : 32,
 		"favorite" : 32,
@@ -221,7 +211,7 @@
 		"channel": "CBSSN"
 	},
 	{
-		"gameId" : 409,
+		"gameId" : 408,
 		"homeTeam" : 36,
 		"awayTeam" : 107,
 		"favorite" : 107,
@@ -231,7 +221,7 @@
 		"channel": "ESPN3"
 	},
 	{
-		"gameId" : 410,
+		"gameId" : 409,
 		"homeTeam" : 53,
 		"awayTeam" : 35,
 		"favorite" : 53,
@@ -241,7 +231,7 @@
 		"channel": "ESPN"
 	},
 	{
-		"gameId" : 411,
+		"gameId" : 410,
 		"homeTeam" : 122,
 		"awayTeam" : 95,
 		"favorite" : 95,
@@ -251,7 +241,7 @@
 		"channel": "ESPNU"
 	},
 	{
-		"gameId" : 412,
+		"gameId" : 411,
 		"homeTeam" : 126,
 		"awayTeam" : 48,
 		"favorite" : 126,
@@ -261,7 +251,7 @@
 		"channel": "FS1"
 	},
 	{
-		"gameId" : 413,
+		"gameId" : 412,
 		"homeTeam" : 61,
 		"awayTeam" : 51,
 		"favorite" : 51,
@@ -271,7 +261,7 @@
 		"channel": "ABC"
 	},
 	{
-		"gameId" : 414,
+		"gameId" : 413,
 		"homeTeam" : 13,
 		"awayTeam" : 39,
 		"favorite" : 39,
@@ -281,7 +271,7 @@
 		"channel": "SECN"
 	},
 	{
-		"gameId" : 415,
+		"gameId" : 414,
 		"homeTeam" : 108,
 		"awayTeam" : 46,
 		"favorite" : 108,
@@ -291,7 +281,7 @@
 		"channel": "ACCN"
 	},
 	{
-		"gameId" : 416,
+		"gameId" : 415,
 		"homeTeam" : 93,
 		"awayTeam" : 89,
 		"favorite" : 93,
@@ -301,7 +291,7 @@
 		"channel": "CBSSN"
 	},
 	{
-		"gameId" : 417,
+		"gameId" : 416,
 		"homeTeam" : 79,
 		"awayTeam" : 127,
 		"favorite" : 79,
@@ -311,7 +301,7 @@
 		"channel": "ESPN2"
 	},
 	{
-		"gameId" : 418,
+		"gameId" : 417,
 		"homeTeam" : 96,
 		"awayTeam" : 25,
 		"favorite" : 25,
@@ -321,7 +311,7 @@
 		"channel": "ESPNU"
 	},
 	{
-		"gameId" : 419,
+		"gameId" : 418,
 		"homeTeam" : 49,
 		"awayTeam" : 115,
 		"favorite" : 115,
@@ -331,7 +321,7 @@
 		"channel": "FS1"
 	},
 	{
-		"gameId" : 420,
+		"gameId" : 419,
 		"homeTeam" : 113,
 		"awayTeam" : 52,
 		"favorite" : 52,
@@ -341,7 +331,7 @@
 		"channel": "FS2"
 	},
 	{
-		"gameId" : 421,
+		"gameId" : 420,
 		"homeTeam" : 60,
 		"awayTeam" : 128,
 		"favorite" : 60,

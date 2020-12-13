@@ -302,16 +302,6 @@
 	},
 	{
 		"gameId" : 417,
-		"homeTeam" : 49,
-		"awayTeam" : 115,
-		"favorite" : 115,
-		"spread" : 2.5,
-		"required" : false,
-		"gameTime" : "2020-12-13T21:00Z",
-		"channel": "FOX"
-	},
-	{
-		"gameId" : 418,
 		"homeTeam" : 113,
 		"awayTeam" : 52,
 		"favorite" : 52,
@@ -321,7 +311,7 @@
 		"channel": "FS1"
 	},
 	{
-		"gameId" : 419,
+		"gameId" : 418,
 		"homeTeam" : 60,
 		"awayTeam" : 128,
 		"favorite" : 60,

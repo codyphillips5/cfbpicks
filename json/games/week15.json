@@ -129,7 +129,7 @@
 		"required" : false,
 		"gameTime" : "2020-12-19T21:15Z",
 		"channel": "FOX"
-	},,
+	},
 	{
 		"gameId" : 432,
 		"homeTeam" : 112,
@@ -139,7 +139,7 @@
 		"required" : false,
 		"gameTime" : "2020-12-20T21:30Z",
 		"channel": "ESPN2"
-	}
+	},
 	{
 		"gameId" : 433,
 		"homeTeam" : 105,

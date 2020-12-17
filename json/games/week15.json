@@ -132,16 +132,6 @@
 	},
 	{
 		"gameId" : 432,
-		"homeTeam" : 97,
-		"awayTeam" : 86,
-		"favorite" : 97,
-		"spread" : 2.5,
-		"required" : false,
-		"gameTime" : "2020-12-20T00:30Z",
-		"channel": "BTN"
-	},
-	{
-		"gameId" : 433,
 		"homeTeam" : 53,
 		"awayTeam" : 17,
 		"favorite" : 17,
@@ -151,7 +141,7 @@
 		"channel": "CBS"
 	},
 	{
-		"gameId" : 434,
+		"gameId" : 433,
 		"homeTeam" : 62,
 		"awayTeam" : 85,
 		"favorite" : 62,
@@ -161,7 +151,7 @@
 		"channel": "ABC"
 	},
 	{
-		"gameId" : 435,
+		"gameId" : 434,
 		"homeTeam" : 61,
 		"awayTeam" : 25,
 		"favorite" : 61,
@@ -171,7 +161,7 @@
 		"channel": "ESPN2"
 	},
 	{
-		"gameId" : 436,
+		"gameId" : 435,
 		"homeTeam" : 96,
 		"awayTeam" : 76,
 		"favorite" : 76,

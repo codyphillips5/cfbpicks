@@ -1,0 +1,64 @@
+{
+  "results": [
+	{
+		"gameId" : 419,
+		"cover" : 26
+	},
+	{
+		"gameId" : 420,
+		"cover" : 73
+	},
+	{
+		"gameId" : 421,
+		"cover" : 55
+	},
+	{
+		"gameId" : 422,
+		"cover" : 78
+	},
+	{
+		"gameId" : 423,
+		"cover" : 82
+	},
+	{
+		"gameId" : 424,
+		"cover" : 13
+	},
+	{
+		"gameId" : 425,
+		"cover" : 35
+	},
+	{
+		"gameId" : 426,
+		"cover" : 57
+	},
+	{
+		"gameId" : 427,
+		"cover" : 74
+	},
+	{
+		"gameId" : 428,
+		"cover" : 75
+	},
+	{
+		"gameId" : 429,
+		"cover" : 105
+	},
+	{
+		"gameId" : 430,
+		"cover" : 53
+	},
+	{
+		"gameId" : 431,
+		"cover" : 85
+	},
+	{
+		"gameId" : 432,
+		"cover" : 25
+	},
+	{
+		"gameId" : 433,
+		"cover" : 76
+	}
+  ]
+}

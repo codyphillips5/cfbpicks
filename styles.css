@@ -53,6 +53,14 @@
     margin: auto;
     padding: 1px;
 }
+.results{
+    width: 90%;
+    min-height: 50px;
+    height: auto;
+    background: white;
+    margin: auto;
+    padding: 1px;
+}
 @media screen and (max-width: 400px) {
   .standings{
     width: 100%;

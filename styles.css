@@ -72,6 +72,11 @@
     background: white;
     float: left;
 }
+@media screen and (max-width: 600px) {
+  .selection{
+    width: 50%;
+  }
+}
 
 .games-layout {
     width: 33%;

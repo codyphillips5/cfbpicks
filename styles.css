@@ -24,14 +24,6 @@
     margin: auto;
     padding: 1px;
 }
-.potw {
-    width: 33%;
-    min-height: 180px;
-    height: auto;
-    background: gray;
-    margin: auto;
-    padding: 1px;
-}
 .index{
     width: 90%;
     min-height: 180px;
@@ -42,6 +34,10 @@
     padding: 1px;
     text-align:center;
 }
+.logo{
+  max-width: 100%;
+  height: auto;
+}
 .response{
     text-align: center;
     vertical-align: middle;
@@ -51,7 +47,7 @@
 }
 .standings{
     width: 90%;
-    min-height: 80px;
+    min-height: 180px;
     height: auto;
     background: white;
     margin: auto;
@@ -67,13 +63,6 @@
     height: 178px;
     background: white;
     float: left;
-}
-
-.potw-selection {
-    width: 100%;
-    height: 178px;
-    background: #F8F16B;
-    float: center;
 }
 
 .games-layout {
@@ -97,7 +86,7 @@
   }
 }
 
-input[type="text"]
+input[label="hide"]
 {
   opacity: 0;
   width: 0;
@@ -164,22 +153,4 @@ h4{
 .teamlist {
     display: block;
     margin: 0 auto;
-}
-
-th, td {
-	white-space: nowrap;
-}
-
-.first-col
-{
-  position:sticky;
-  left:0px;
-  background-color:white;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }

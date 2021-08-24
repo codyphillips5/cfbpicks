@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CFB Picks</title>
+    <title>CFB Picks | Forgot Password</title>
     <link rel="stylesheet" href="styles.css"></link>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -18,7 +18,6 @@
 </head>
 
 <body>
-
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0F0867;">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="#">
@@ -40,8 +39,8 @@
             Profile
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			<li class="logged-out nav-item" style="display: none;"><a class="dropdown-item" href="log.html" id ="login"></span>Login</a></li>
-			<li class=" active logged-out nav-item" style="display: none;"><a class="dropdown-item active" href="signup.html"> Sign Up</a></li><div class="dropdown-divider"></div>
+			<li class="logged-out nav-item" style="display: none;"><a class="dropdown-item active" href="log.html" id ="login"></span>Login</a></li>
+			<li class=" active logged-out nav-item" style="display: none;"><a class="dropdown-item" href="signup.html"> Sign Up</a></li><div class="dropdown-divider"></div>
 			<li class="logged-in dropdown-item" style="display: none;"><a  class="dropdown-item" href="#" id="logout"><i class="bi bi-door-closed-fill"></i>Logout</a></li>
           </ul>
         </li></ul>
@@ -50,32 +49,17 @@
 	</div>
 </nav>
 
-
 <section>
 	<div class="container center_div">
-        <span><h2>Account Sign Up</h2></span> <br><br>
-		<form action="" id="signup-form" class="form-inlin justify-content-center">
-		<div class="mb-3">
-			<label for="signup-email" class="form-label">Email address</label>
-			<input type="email" class="form-control" id="signup-email" aria-describedby="email" placeholder="Enter email" required>
-		</div>
-		<div class="mb-3">
-			<label for="signup-password" class="form-label">Password</label>
-			<input type="password" class="form-control" id="signup-password" placeholder="Must be 6 characters">
-		</div>  
-		<div class="mb-3 row">
-		<label for="signup-firstname" class="form-label">Name</label>
-			<div class="col">
-			  <input type="text" class="form-control" id="signup-firstname" placeholder="First name" required>
-			</div>
-			<div class="col">
-			  <input type="text" class="form-control"  id="signup-lastname" placeholder="Last name" required>
-			</div>
-		  </div>
-		<button type="submit" id="signup" class="btn btn-primary">Sign Up</button><br><br> Existing Account? <a href="log.html">Sign In</a>
-		<br><p class="response"></p><div class="alert" role="alert"><br></div>
-		</form>
-
+		<span><h2>Forgot Password</h2></span><br><br>
+	<form action="" id="forgot-form" class="form-inlin justify-content-center">
+	<div class="mb-3">
+		<label for="forgot-email" class="form-label">Email address</label>
+		<input type="email" class="form-control" id="forgot-email" aria-describedby="email" placeholder="Enter email" required>
+	</div>
+	  <button type="submit" id="submit" class="btn btn-primary">Submit</button> <br><br> Return to <a href="log.html">Sign In</a>
+	  <br><p class="response"></p><div class="alert" role="alert"><br></div>
+	</form>
 	</div>
 
 	<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
@@ -107,8 +91,7 @@
 		<script src="scripts/auth.js"></script>
 		<script src="scripts/index.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </body>
 </html>

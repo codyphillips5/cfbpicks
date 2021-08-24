@@ -12,17 +12,9 @@ auth.onAuthStateChanged(user => {
     }
     else {
         setupUI();
-		document.getElementById("savePicks").disabled = true;
-		document.getElementById("savePicks").innerHTML = "Login to Submit";
         //setupGuides([]);
     }
 })
-
-var firstName;
-var lastName;
-var users = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/users.json", function(json){
-	  usersFile = json;
-  });
 
 // create new guide
 const createForm = document.querySelector('#save_picks');
@@ -30,32 +22,19 @@ if(createForm) {
     createForm.addEventListener('submit', (e) => {
         e.preventDefault();
     
-        db.collection('week15').doc(auth.currentUser.email).set({
+        db.collection('week14').add({
             user: auth.currentUser.email,
-            10: document.getElementById('10').value,
-            20: document.getElementById('20').value,
-            30: document.getElementById('30').value,
-            40: document.getElementById('40').value,
             50: document.getElementById('50').value,
-            POTW: document.getElementById('potw-selection').value
+            40: document.getElementById('40').value,
+            30: document.getElementById('30').value,
+            20: document.getElementById('20').value,
+            10: document.getElementById('10').value
         }).then(() => {
             // close the modal and reset form
             //const modal = document.querySelector('#modal-create');
             //M.Modal.getInstance(modal).close();
- $.when(users).then(function(){	
-	for (var key in usersFile) {
-		for (var i = 0; i < usersFile[key].length; i++) {
-			if(auth.currentUser.email == usersFile[key][i].Email) {
-				firstName = usersFile[key][i].FirstName;
-				lastName = usersFile[key][i].LastName;
-			}
-		}
-	}
-});
             createForm.reset();
-            createForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Your picks have been saved. <br>Good luck, ${firstName} ${lastName}!</div>`;
-			document.getElementById("savePicks").disabled = true;
-			document.getElementById("savePicks").innerHTML = "Saved";
+            createForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Your picks have been saved. At this time, picks may only be submitted ONCE. Please reach out to Kevin with questions or any pick changes.</div>`;
         }).catch(err => {
             console.log(err.message)
             //signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
@@ -108,5 +87,24 @@ if(loginForm) {
         }).catch(err => {
             loginForm.querySelector('.error').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
         })
+    });
+}
+
+// forgot-password
+const forgotForm = document.querySelector('#forgot-form');
+if(forgotForm) {
+	console.log("here");
+    forgotForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        // get user info
+        const email = forgotForm['forgot-email'].value;
+    console.log(email);
+		auth.sendPasswordResetEmail(email).then(cred => {
+			forgotForm.reset();
+            forgotForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Reset Email Sent. Return to <a href='log.html'>Log In</a></div>`;
+		})
+		.catch(err => {
+			forgotForm.querySelector('.error').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
+		});
     });
 }

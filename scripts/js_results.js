@@ -3,10 +3,10 @@ var lastName = "";
 var coversNum = [];
 var coversTeam = [];
 
-var picksList, teamsList, usersList;
+var picksList, teamsList, resultsList, usersList;
 var resultsList = [];
 var badge = document.createElement('div');
-badge.className = 'standings';
+badge.className = 'results';
 var select = `<select class='form-control' id='results_by_week' onchange="getResultsByWeek(this.value);"><option value ='14'> Week 14 </option><option value ='13'> Week 13 </option><option value ='12'> Week 12 </option><option value ='11'> Week 11 </option><option value ='10'> Week 10 </option><option value ='9'> Week 9 </option><option value ='8'> Week 8 </option><option value ='7'> Week 7 </option><option value ='6'> Week 6 </option><option value ='5'> Week 5 </option><option value ='4'> Week 4 </option><option value ='3'> Week 3 </option><option value ='2'> Week 2 </option><option value ='1'> Week 1 </option></select>`;
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);
@@ -14,8 +14,7 @@ document.getElementById("weeks").appendChild(badge);
 getResultsByWeek(14);
 
 function getResultsByWeek(week) {
-	console.log(week);		
-
+	console.log(week);
 	var getPicks = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week"+ week +"_picks.json", function(json){
 		picksList = json;
 	});
@@ -24,11 +23,9 @@ function getResultsByWeek(week) {
 		resultsList = json;
 		// get results
 		for (var result in resultsList) {
-			// reset covers
-			coversNum.length = 0;
-			coversTeam.length = 0;
 			for (var r = 0; r < resultsList[result].length; r++) {
 				coversNum.push(resultsList[result][r].cover);
+				console.log(resultsList[result][r].cover);
 			}
 		}
 	});
@@ -40,6 +37,8 @@ function getResultsByWeek(week) {
 	var getUsers= $.getJSON("https://codyphillips5.github.io/cfbpicks/json/users.json", function(json){
 		usersList = json;
 	});
+	console.log(picksList);
+	console.log(resultsList);
 	$.when(getResults, getTeams).then(function(){
 		for (var cov = 0; cov < coversNum.length; cov++) {
 			for (var team in teamsList) {
@@ -50,17 +49,16 @@ function getResultsByWeek(week) {
 				}
 			}
 		}
-	});	
+	});
 	
 	$.when(getPicks, getResults, getTeams, getUsers).then(function(){
-		var tableStart = `<div class="table-responsive"> <table class="table table-hover" id="results"><thead><tr><th scope="col" class="first-col">Name</th><th scope="col">50</th><th scope="col">40</th><th scope="col">30</th><th scope="col">20</th><th scope="col">10</th><th class="warning" scope="col">GOTW</th><th class="active" scope="col">Total</th></tr></thead><tbody>`;
+		var tableStart = `<table class="table table-hover" id="results"><thead><tr><th scope="col">Name</th><th scope="col">50</th><th scope="col">40</th><th scope="col">30</th><th scope="col">20</th><th scope="col">10</th><th scope="col">Total</th></tr></thead><tbody>`;
 	
 		for (var key in picksList) {
 			for (var i = 0; i < picksList[key].length; i++) {
 				// set starters
 				var pointTotal = 0;
 				var isCorrect;
-				var plusOrMinus;
 	
 				var user = picksList[key][i].userId;
 				// get user info
@@ -72,41 +70,26 @@ function getResultsByWeek(week) {
 						}
 					}
 				}
-				var tableUser = tableUser + `<tr><th class="first-col">${firstName + " " + lastName}</th>`;
+				var tableUser = tableUser + `<tr><th>${firstName + " " + lastName}</th>`;
 				// check user picks against results
-				
 				for (var pointTotals = 50; pointTotals >= 10; pointTotals = pointTotals-10) {
 					if(coversTeam.includes(picksList[key][i][pointTotals])) {
 						isCorrect = "success";
 						pointTotal = pointTotal + pointTotals;
 					}
 					else {
-						isCorrect = "danger";			
+						isCorrect = "danger";				
 					}
-					tableUser = tableUser + `<td class="${isCorrect}">${picksList[key][i][pointTotals]}</td>`;
+					tableUser = tableUser + `<td class="table-${isCorrect}">${picksList[key][i][pointTotals]}</td>`;
 				}
-				
-				//console.log("log it: " + picksList[key][i].POTW);
-				if(coversTeam.includes(picksList[key][i].POTW)) {
-					isCorrect = "success";
-					plusOrMinus = "+";
-					pointTotal = pointTotal + picksList[key][i].POTW_value;
-				}
-				else {
-					isCorrect = "danger";	
-					plusOrMinus = "-";
-					pointTotal = pointTotal - picksList[key][i].POTW_value;					
-				}
-				tableUser = tableUser + `<td class="${isCorrect}">${picksList[key][i].POTW} (${plusOrMinus}${picksList[key][i].POTW_value})</td>`;
-				
 				//calculate score			
-				tableUser = tableUser + `<td class="active">${pointTotal}</td></tr>`;
+				tableUser = tableUser + `<td>${pointTotal}</td></tr>`;
 			}
 		}
 		tableUser = tableUser.replace("undefined","");
 		var tableEnd = `</tbody></table>`;	
 		document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;
-		sortTable(7);
+		sortTable(6);
 	});
 }
 

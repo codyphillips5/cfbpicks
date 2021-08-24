@@ -34,7 +34,9 @@ if(createForm) {
             //const modal = document.querySelector('#modal-create');
             //M.Modal.getInstance(modal).close();
             createForm.reset();
-            createForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Your picks have been saved. At this time, picks may only be submitted ONCE. Please reach out to Kevin with questions or any pick changes.</div>`;
+            createForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Your picks have been saved. <br>Good luck, ${firstName} ${lastName}!</div>`;
+			document.getElementById("savePicks").disabled = true;
+			document.getElementById("savePicks").innerHTML = "Saved";
         }).catch(err => {
             console.log(err.message)
             //signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
@@ -51,12 +53,24 @@ if(signupForm) {
         // get user info
         const email = signupForm['signup-email'].value;
         const password = signupForm['signup-password'].value;
+        const firstName = signupForm['signup-firstname'].value;
+        const lastName = signupForm['signup-lastname'].value;
 
         // sign up the user
         auth.createUserWithEmailAndPassword(email, password).then(cred => {
-            signupForm.reset();
-            signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Account created. Go view the <a href='picks.html'>Lines</a></div>`;
+			var user = db.collection('Users').doc(email);
+				user.set({
+					Email: email,
+					FirstName: firstName,
+					LastName: lastName,
+					UserID: 0
+				});
+			
+			signupForm.reset();
+            signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Account created. Redirecting to <a href='picks.html'>Game Lines</a>...</div>`;
             document.getElementById("signup").disabled = true;
+			setTimeout(function(){
+            window.location.href = 'picks.html';}, 5000);
         }).catch(err => {
                 signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
         });

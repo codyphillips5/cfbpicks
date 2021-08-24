@@ -14,7 +14,7 @@ var getUsers= $.getJSON("https://codyphillips5.github.io/cfbpicks/json/users.jso
 });
 
 $.when(getStandings, getUsers).then(function(){
-	var tableStart = `<div class="table-responsive"> <table class="table table-hover" id="standings-table"><thead><tr><th class="first-col" scope="col">Name</th><th scope="col">Week 1</th><th scope="col">Week 2</th><th scope="col">Week 3</th><th scope="col">Week 4</th><th scope="col">Week 5</th><th scope="col">Week 6</th><th scope="col">Week 7</th><th scope="col">Week 8</th><th scope="col">Week 9</th><th scope="col">Week 10</th><th scope="col">Week 11</th><th scope="col">Week 12</th><th scope="col">Week 13</th><th scope="col">Week 14</th><th scope="col" class="first-col active">Total</th></tr></thead><tbody>`;
+	var tableStart = `<table class="table table-hover" id="standings-table"><thead><tr><th scope="col">Name</th><th scope="col">Week 1</th><th scope="col" class="table-secondary">Total</th></tr></thead><tbody>`;
 
 	for (var key in standings) {
 		for (var i = 0; i < standings[key].length; i++) {
@@ -34,21 +34,21 @@ $.when(getStandings, getUsers).then(function(){
 					}
 				}
 			}
-			var tableUser = tableUser + `<tr><th class="first-col">${firstName + " " + lastName}</th>`;
+			var tableUser = tableUser + `<tr><th>${firstName + " " + lastName}</th>`;
 
-			for(var stand = 1; stand <= 14; stand++) {
+			for(var stand = 1; stand <= 1; stand++) {
 				//tableUser = tableUser + `<td>${standings[key][i]["week_" + stand]}</td>`;
 				pointTotal = pointTotal + standings[key][i]["week_" + stand];
 				weekTotal++;
 				if(standings[key][i]["week_" + stand + "_top"]) {
-					tableUser = tableUser + `<td class='success'>${standings[key][i]["week_" + stand]}</td>`;
+					tableUser = tableUser + `<td class='table-success'>${standings[key][i]["week_" + stand]}</td>`;
 				}
 				else {
 					tableUser = tableUser + `<td>${standings[key][i]["week_" + stand]}</td>`;
 				}
 			}
 			//calculate score			
-			tableUser =  tableUser + `<td class="first-col active">${pointTotal}</td></tr>`;
+			tableUser = tableUser + `<td class="table-secondary">${pointTotal}</td></tr>`;
 		}
 	}
 	tableUser = tableUser.replace("undefined","");

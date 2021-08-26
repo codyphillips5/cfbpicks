@@ -11,6 +11,15 @@ var game = {
 	  thisTeamImg : ""
   };
   
+// week of year, first game
+var week = 0;
+if (week === 0) {
+	document.getElementById("week-title").innerHTML = `<h2>Week 0 Test</h2>`;
+}
+else {
+	document.getElementById("week-title").innerHTML = `<h2>Week ${week}</h2>`;
+}
+  
   var choices = [{teamAbb: "", fullTeam: "", game: "", spread : "", pts : "50"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "40"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "30"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "20"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "10"}];
   
   var gameId = "";

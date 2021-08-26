@@ -188,6 +188,7 @@ var game = {
 				  if (choices[i].pts) {
 					  console.log("goner");
 					  document.getElementById(choices[i].pts).value = "";
+					  document.getElementById(choices[i].pts + "-point-maker").className = "p-3 border bg-light";
 					  document.getElementById("label-choice-" + choices[i].pts).innerHTML = `<label for="${choices[i].pts}" class="choice"></label>`;
 					  document.getElementById("image" + choices[i].pts).innerHTML = ``;
 					  choices[i].teamAbb = "";

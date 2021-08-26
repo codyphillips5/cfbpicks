@@ -80,7 +80,8 @@ var game = {
 			  var number = num + 1; 
 			  col.className = 'col';
 			  col.id = 'col' + number;
-			  var isRequired = "";
+			  var isRequired = false;
+			  var requiredField = "";
 
 			  if (fav != home) {
 				  homeSide = "+";
@@ -92,12 +93,13 @@ var game = {
 				  spread = "PK";
 			  }
 			  if (required) {
-				  isRequired = 'bg-warning bg-gradient';
+				  requiredField = 'bg-warning bg-gradient';
+				  isRequired = true;
 			  }
 			  else {
-				  isRequired = 'bg-light';		
+				  requiredField = 'bg-light';		
 			  }
-			  var header = '<div class=\'p-3 border '+ isRequired +'\'><span class=\'header\'><h5 class=\'pt-4 lh-1\' style=\'margin-bottom: 0px;\'>' + awayTeam + ' vs ' + homeTeam + ' (' + homeSide + spread + ') </h5>';
+			  var header = '<div class=\'p-3 border '+ requiredField +'\'><span class=\'header\'><h5 class=\'pt-4 lh-1\' style=\'margin-bottom: 0px;\'>' + awayTeam + ' vs ' + homeTeam + ' (' + homeSide + spread + ') </h5>';
 			  var gameInfo = '<small class=\'w-100\'> '+ channel + " · " + date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }).replace(/^0+/, '') + '</small>';
 			  var select = '<select class=\'teamlist form-select form-select-sm\' style=\'width:auto;\' id=\'game' + gameId + '\' onchange=\"showPointTotals(\'point_totals_game_' + gameId + '\', this);\"><option value = \"\"> -- Select Team -- </option><option value=\"' + awayTeamVal + '\">' + awayTeam + ' ' + awaySide + spread + '</option><option value=\"' + homeTeamVal + '\">' + homeTeam + ' ' + homeSide + spread + '</option></select>';
 			  var display = '<div class=\'pt-3 lh-1\' id=\"point_totals_game_' + gameId + '\" style=\"display:none;\">';
@@ -105,7 +107,7 @@ var game = {
 			  var radios = [];
 			  for (var j = 0; j < numbers.length; j++) {
 				  if (required) {
-					  var radio = '<label class="radio-inline font-weight-bold px-3"><input class="form-check-input" type=\"radio\" onchange=\"assignPointsByTeam(this.value, ' + gameId +');\" name=\"pick_worth\" value=' + numbers[j] + '0 required> <br>' + numbers[j] + '0</label>'
+					  var radio = '<label class="radio-inline font-weight-bold px-3"><input class="form-check-input" type=\"radio\" onchange=\"assignPointsByTeam(this.value, ' + gameId +', '+ isRequired +');\" name=\"pick_worth\" value=' + numbers[j] + '0 required> <br>' + numbers[j] + '0</label>'
 				  } 
 				  else {
 					  var radio = '<label class="radio-inline font-weight-bold px-3"><input class="form-check-input" type=\"radio\" onchange=\"assignPointsByTeam(this.value, ' + gameId +');\" name=\"pick_worth\" value=' + numbers[j] + '0> <br>' + numbers[j] + '0</label>'
@@ -122,13 +124,16 @@ var game = {
   
   var request;
   
-  function assignPointsByTeam(pts, id) {
+  function assignPointsByTeam(pts, id, req) {
 	  var pick = document.getElementById("game" + id);
 	  var userPick = pick.options[pick.selectedIndex].value;
 	  var fullTeamName = pick.options[pick.selectedIndex].text;
 	  fullTeamSpread = fullTeamName.replace(/[^\d+.-]/g, '');
 	  game.team = userPick;
 	  game.spread = attempt.thisTeamImg;
+	  if (req == true) {
+		document.getElementById(pts + "-point-maker").className = "p-3 border bg-warning bg-gradient gotw";
+	  }
 	  document.getElementById(pts).value = game.team;
 	  document.getElementById("label-choice-" + pts).innerHTML = `<label for="${pts}" class="choice">${game.team} ${fullTeamSpread}</label>`;
 	  getTeamInfo(userPick);
@@ -138,6 +143,7 @@ var game = {
 			  if (game.team == choices[i].teamAbb) {
 				  choices[i].teamAbb = "";
 				  choices[i].fullTeam = "";
+				  document.getElementById(choices[i].pts + "-point-maker").className = "p-3 border bg-light";
 				  document.getElementById(choices[i].pts).value = "";
 				  document.getElementById("label-choice-" + choices[i].pts).innerHTML = `<label for="${choices[i].pts}" class="choice"></label>`;
 				  document.getElementById("image" + choices[i].pts).innerHTML = ``;
@@ -145,6 +151,12 @@ var game = {
 			  if (pts == choices[i].pts) {
 				  if(choices[i].teamAbb != "") {
 					  console.log("game.game = " + game.game);
+					  if (req == true) {
+						document.getElementById(pts + "-point-maker").className = "p-3 border bg-warning bg-gradient gotw";
+					}
+					else {
+						document.getElementById(pts + "-point-maker").className = "p-3 border bg-light";
+					}
 						  if(choices[i].game != game.game) {
 						  var inputs = document.getElementById("point_totals_game_" + choices[i].game).getElementsByTagName("input");
 						  for (j = 0; j < inputs.length; j++) {
@@ -174,6 +186,7 @@ var game = {
 		  if (choices[i].game == gm){ 
 			  if (element.value != choices[i].teamAbb) {
 				  if (choices[i].pts) {
+					  console.log("goner");
 					  document.getElementById(choices[i].pts).value = "";
 					  document.getElementById("label-choice-" + choices[i].pts).innerHTML = `<label for="${choices[i].pts}" class="choice"></label>`;
 					  document.getElementById("image" + choices[i].pts).innerHTML = ``;

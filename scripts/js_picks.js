@@ -105,10 +105,10 @@ var game = {
 			  var radios = [];
 			  for (var j = 0; j < numbers.length; j++) {
 				  if (required) {
-					  var radio = '<label class="radio-inline font-weight-bold px-2"><input class="form-check-input" type=\"radio\" onchange=\"assignPointsByTeam(this.value, ' + gameId +');\" name=\"pick_worth\" value=' + numbers[j] + '0 required> ' + numbers[j] + '0</label>'
+					  var radio = '<label class="radio-inline font-weight-bold px-3"><input class="form-check-input" type=\"radio\" onchange=\"assignPointsByTeam(this.value, ' + gameId +');\" name=\"pick_worth\" value=' + numbers[j] + '0 required> <br>' + numbers[j] + '0</label>'
 				  } 
 				  else {
-					  var radio = '<label class="radio-inline font-weight-bold px-2"><input class="form-check-input" type=\"radio\" onchange=\"assignPointsByTeam(this.value, ' + gameId +');\" name=\"pick_worth\" value=' + numbers[j] + '0> ' + numbers[j] + '0</label>'
+					  var radio = '<label class="radio-inline font-weight-bold px-3"><input class="form-check-input" type=\"radio\" onchange=\"assignPointsByTeam(this.value, ' + gameId +');\" name=\"pick_worth\" value=' + numbers[j] + '0> <br>' + numbers[j] + '0</label>'
 				  }
 				  radios.push(radio);
 			  }

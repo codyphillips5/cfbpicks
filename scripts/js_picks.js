@@ -27,6 +27,7 @@ var game = {
   var homeSide = "";
   var awaySide = "";
   var required = "";
+  var num = 0;
   
   var xFile, yFile;
   
@@ -75,6 +76,12 @@ var game = {
 			  var date2 = new Date(xFile[key][0].gameTime);
 			  var required = xFile[key][i].required;
 			  var badge = document.createElement('div');
+			  var col = document.createElement('div');
+			  var number = num + 1; 
+			  col.className = 'col';
+			  col.id = 'col' + number;
+			  var isRequired = "";
+
 			  if (fav != home) {
 				  homeSide = "+";
 				  awaySide = "-";		
@@ -85,12 +92,12 @@ var game = {
 				  spread = "PK";
 			  }
 			  if (required) {
-				  badge.className = 'required';
+				  isRequired = 'bg-warning bg-gradient';
 			  }
 			  else {
-				  badge.className = 'games-layout';		
+				  isRequired = 'bg-light';		
 			  }
-			  var header = '<span class=\'header\'><h5 class=\'pt-4 lh-1\' style=\'margin-bottom: 0px;\'>' + awayTeam + ' vs ' + homeTeam + ' (' + homeSide + spread + ') </h5>';
+			  var header = '<div class=\'p-3 border '+ isRequired +'\'><span class=\'header\'><h5 class=\'pt-4 lh-1\' style=\'margin-bottom: 0px;\'>' + awayTeam + ' vs ' + homeTeam + ' (' + homeSide + spread + ') </h5>';
 			  var gameInfo = '<small class=\'w-100\'> '+ channel + " · " + date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }).replace(/^0+/, '') + '</small>';
 			  var select = '<select class=\'teamlist form-select form-select-sm\' style=\'width:auto;\' id=\'game' + gameId + '\' onchange=\"showPointTotals(\'point_totals_game_' + gameId + '\', this);\"><option value = \"\"> -- Select Team -- </option><option value=\"' + awayTeamVal + '\">' + awayTeam + ' ' + awaySide + spread + '</option><option value=\"' + homeTeamVal + '\">' + homeTeam + ' ' + homeSide + spread + '</option></select>';
 			  var display = '<div class=\'pt-3 lh-1\' id=\"point_totals_game_' + gameId + '\" style=\"display:none;\">';
@@ -105,8 +112,10 @@ var game = {
 				  }
 				  radios.push(radio);
 			  }
-			  badge.innerHTML = '<form>' + header + gameInfo + select + display + radios.join(' ') + '</form>';		
-			  document.getElementById(key).appendChild(badge);
+			  badge.innerHTML = '<form>' + header + gameInfo + select + display + radios.join(' ') + '</form></div>';		
+			  document.getElementById(key).appendChild(col);
+			  document.getElementById("col" + number).appendChild(badge);
+			  num = number;
 		  }
 	  }
   });

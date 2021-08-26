@@ -108,7 +108,7 @@ else {
 			  else {
 				  requiredField = 'bg-light';		
 			  }
-			  var header = '<div class=\'p-3 border '+ requiredField +'\'><span class=\'header\'><h5 class=\'pt-4 lh-1\' style=\'margin-bottom: 0px;\'>' + awayTeam + ' vs ' + homeTeam + ' (' + homeSide + spread + ') </h5>';
+			  var header = '<div class=\'p-3 border '+ requiredField +'\'><span class=\'header\'><h5 class=\'pt-2 lh-1\' style=\'margin-bottom: 0px;\'>' + awayTeam + ' vs ' + homeTeam + ' (' + homeSide + spread + ') </h5>';
 			  var gameInfo = '<small class=\'w-100\'> '+ channel + " · " + date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }).replace(/^0+/, '') + '</small>';
 			  var select = '<select class=\'teamlist form-select form-select-sm\' style=\'width:auto;\' id=\'game' + gameId + '\' onchange=\"showPointTotals(\'point_totals_game_' + gameId + '\', this);\"><option value = \"\"> -- Select Team -- </option><option value=\"' + awayTeamVal + '\">' + awayTeam + ' ' + awaySide + spread + '</option><option value=\"' + homeTeamVal + '\">' + homeTeam + ' ' + homeSide + spread + '</option></select>';
 			  var display = '<div class=\'pt-3 lh-1\' id=\"point_totals_game_' + gameId + '\" style=\"display:none;\">';

@@ -11,7 +11,7 @@ var select = `<select class='form-control form-select' id='results_by_week' onch
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);
 
-getResultsByWeek(14);
+getResultsByWeek(0);
 
 function getResultsByWeek(week) {
 	console.log(week);

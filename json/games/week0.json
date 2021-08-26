@@ -1,0 +1,54 @@
+{
+  "games": [
+    {
+		"gameId" : 1,
+		"homeTeam" : 5,
+		"awayTeam" : 3,
+		"favorite" : 3,
+		"spread" : 7.5,
+		"required" : true,
+		"gameTime" : "2021-08-28T17:00Z",
+		"channel": "FOX"
+    },
+    {
+		"gameId" : 2,
+		"homeTeam" : 52,
+		"awayTeam" : 65,
+		"favorite" : 52,
+		"spread" : 27.5,
+		"required" : false,
+		"gameTime" : "2021-08-28T18:00Z",
+		"channel": "CBSSN"
+    },
+    {
+		"gameId" : 3,
+		"homeTeam" : 61,
+		"awayTeam" : 60,
+		"favorite" : 61,
+		"spread" : 17.5,
+		"required" : false,
+		"gameTime" : "2021-08-28T19:30Z",
+		"channel": "ESPN"
+    },    
+    {
+		"gameId" : 4,
+		"homeTeam" : 50,
+		"awayTeam" : 124,
+		"favorite" : 124,
+		"spread" : 10.5,
+		"required" : false,
+		"gameTime" : "2021-08-29T01:30Z",
+		"channel": "BSAZ"
+    },
+    {
+		"gameId" : 5,
+		"homeTeam" : 75,
+		"awayTeam" : 78,
+		"favorite" : 75,
+		"spread" : 23.5,
+		"required" : false,
+		"gameTime" : "2021-08-29T02:00Z",
+		"channel": "CBSSN"
+    }
+  ]
+}

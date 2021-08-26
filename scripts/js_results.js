@@ -54,7 +54,7 @@ function getResultsByWeek(week) {
 	});
 	
 	$.when(getPicks, getResults, getTeams, getUsers).then(function(){
-		var tableStart = `<div class="table-responsive"><table class="table table-hover" id="results"><thead><tr><th scope="col" class="first-col">Name</th><th scope="col">50</th><th scope="col">40</th><th scope="col">30</th><th scope="col">20</th><th scope="col">10</th><th scope="col" class="table-secondary">Total</th></tr></thead><tbody>`;
+		var tableStart = `<div class="table-responsive"><table class="table table-hover" id="results"><thead><tr><th scope="col" class="first-col bg-light bg-gradient">Name</th><th scope="col" class="text-center">50</th><th scope="col" class="text-center">40</th><th scope="col" class="text-center">30</th><th scope="col" class="text-center">20</th><th scope="col" class="text-center">10</th><th scope="col" class="bg-light bg-gradient text-center">Total</th></tr></thead><tbody>`;
 	
 		for (var key in picksList) {
 			for (var i = 0; i < picksList[key].length; i++) {
@@ -72,7 +72,7 @@ function getResultsByWeek(week) {
 						}
 					}
 				}
-				var tableUser = tableUser + `<tr><th class="first-col">${firstName + " " + lastName}</th>`;
+				var tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${firstName + " " + lastName}</th>`;
 				// check user picks against results
 				for (var pointTotals = 50; pointTotals >= 10; pointTotals = pointTotals-10) {
 					if(coversTeam.includes(picksList[key][i][pointTotals])) {
@@ -82,10 +82,10 @@ function getResultsByWeek(week) {
 					else {
 						isCorrect = "danger";				
 					}
-					tableUser = tableUser + `<td class="table-${isCorrect}">${picksList[key][i][pointTotals]}</td>`;
+					tableUser = tableUser + `<td class="table-${isCorrect} text-center">${picksList[key][i][pointTotals]}</td>`;
 				}
 				//calculate score			
-				tableUser = tableUser + `<td class="table-secondary">${pointTotal}</td></tr>`;
+				tableUser = tableUser + `<td class="bg-light bg-gradient text-center">${pointTotal}</td></tr>`;
 			}
 		}
 		tableUser = tableUser.replace("undefined","");

@@ -23,6 +23,9 @@ function getResultsByWeek(week) {
 		resultsList = json;
 		// get results
 		for (var result in resultsList) {
+			// reset covers
+			coversNum.length = 0;
+			coversTeam.length = 0;
 			for (var r = 0; r < resultsList[result].length; r++) {
 				coversNum.push(resultsList[result][r].cover);
 				console.log(resultsList[result][r].cover);
@@ -37,8 +40,7 @@ function getResultsByWeek(week) {
 	var getUsers= $.getJSON("https://codyphillips5.github.io/cfbpicks/json/users.json", function(json){
 		usersList = json;
 	});
-	console.log(picksList);
-	console.log(resultsList);
+	
 	$.when(getResults, getTeams).then(function(){
 		for (var cov = 0; cov < coversNum.length; cov++) {
 			for (var team in teamsList) {

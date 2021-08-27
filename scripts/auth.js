@@ -12,17 +12,19 @@ auth.onAuthStateChanged(user => {
     }
     else {
         setupUI();
+		document.getElementById("savePicks").disabled = true;
+		document.getElementById("savePicks").innerHTML = "Login to Submit";
         //setupGuides([]);
     }
 })
-
+  
 // create new guide
 const createForm = document.querySelector('#save_picks');
 if(createForm) {
     createForm.addEventListener('submit', (e) => {
         e.preventDefault();
     
-        db.collection('week14').add({
+        db.collection('week0').doc(auth.currentUser.email).set({
             user: auth.currentUser.email,
             50: document.getElementById('50').value,
             40: document.getElementById('40').value,
@@ -33,6 +35,8 @@ if(createForm) {
             // close the modal and reset form
             //const modal = document.querySelector('#modal-create');
             //M.Modal.getInstance(modal).close();
+			
+			
             createForm.reset();
             createForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Your picks have been saved. <br>Good luck, ${firstName} ${lastName}!</div>`;
 			document.getElementById("savePicks").disabled = true;

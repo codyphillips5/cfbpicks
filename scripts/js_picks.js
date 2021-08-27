@@ -129,6 +129,26 @@ else {
 			  num = number;
 		  }
 	  }
+	  
+	  	// if current time is after start time of first game, lock
+		if (date1.getTime() > date2.getTime()) {
+			document.getElementById("saver").innerHTML = `<button type="submit" disabled id="savePicks" class='btn btn-primary'>Picks Locked</button>`;
+		}
+		else {
+			if (date1.getDay() < 4) {
+				document.getElementById("saver").innerHTML = `<button type="submit" disabled id="savePicks" class='btn btn-primary'>Picks Open Thursday</button>`;	
+			}
+			else {
+				// if day is Thursday before noon, picks open soon
+				if (date1.getDay() == 4 && date1.getHours() < 12) {
+					document.getElementById("saver").innerHTML = `<button type="submit" disabled id="savePicks" class='btn btn-primary'>Picks Open Soon</button>`;
+				}
+				// else picks are open
+				else {
+					document.getElementById("saver").innerHTML = `<button type="submit" id="savePicks" class='btn btn-primary'>Save My Picks</button>`;
+				}
+			}
+		}
   });
   
   var request;

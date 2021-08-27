@@ -38,15 +38,17 @@ else {
   var required = "";
   var num = 0;
   
-  var xFile, yFile;
+	var xFile, yFile;
   
-  var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week0.json", function(json){
-	  xFile = json;
-  });
+	var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week0.json", function(json){
+		xFile = json;
+	});
   
-  var requestY = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/teams.json", function(json){
-	  yFile = json;
-  });
+	var requestY = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/teams.json", function(json){
+		yFile = json;
+	});
+  
+	var date1 = new Date();
   
   $.when(requestX, requestY).then(function(){
 	  for (var key in xFile) {

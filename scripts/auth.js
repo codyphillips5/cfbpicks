@@ -18,6 +18,7 @@ auth.onAuthStateChanged(user => {
     }
 })
   
+var fn;  
 // create new guide
 const createForm = document.querySelector('#save_picks');
 if(createForm) {
@@ -36,9 +37,8 @@ if(createForm) {
             //const modal = document.querySelector('#modal-create');
             //M.Modal.getInstance(modal).close();
 			
-			
             createForm.reset();
-            createForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Your picks have been saved. <br>Good luck, ${firstName} ${lastName}!</div>`;
+            createForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Your picks have been saved. <br>Good luck, ${fn}!</div>`;
 			document.getElementById("savePicks").disabled = true;
 			document.getElementById("savePicks").innerHTML = "Saved";
         }).catch(err => {

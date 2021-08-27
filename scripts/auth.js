@@ -24,6 +24,20 @@ const createForm = document.querySelector('#save_picks');
 if(createForm) {
     createForm.addEventListener('submit', (e) => {
         e.preventDefault();
+		
+		// get user's first name
+		var docRef = db.collection("Users").doc(auth.currentUser.email);
+		docRef.get().then((doc) => {
+			if (doc.exists) {
+				fn = doc.data().FirstName;
+				console.log(fn);
+			} else {
+				// doc.data() will be undefined in this case
+				console.log("No such document!");
+			}
+		}).catch((error) => {
+			console.log("Error getting document:", error);
+		})
     
         db.collection('week0').doc(auth.currentUser.email).set({
             user: auth.currentUser.email,
@@ -32,11 +46,8 @@ if(createForm) {
             30: document.getElementById('30').value,
             20: document.getElementById('20').value,
             10: document.getElementById('10').value
-        }).then(() => {
-            // close the modal and reset form
-            //const modal = document.querySelector('#modal-create');
-            //M.Modal.getInstance(modal).close();
-			
+        }).then(() => {			
+			console.log("still: " + fn);
             createForm.reset();
             createForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Your picks have been saved. <br>Good luck, ${fn}!</div>`;
 			document.getElementById("savePicks").disabled = true;

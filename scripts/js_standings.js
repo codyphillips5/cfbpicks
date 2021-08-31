@@ -1,62 +1,92 @@
-var firtName = "";
-var lastName = "";
-var coversNum = [];
-var coversTeam = [];
+var userTotalPoints = [];
+var allUsers = [];
+var pointCollection;
 
-var standings, usersList;
+var weekNum = 1;
+var userWeekTop = false;
 
-var getStandings = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/standings.json", function(json) {
-		standings = json;
+var users = db.collection("Users").get().then((querySnapshot) => {
+	querySnapshot.forEach((doc) => {
+		allUsers.push(doc.data().Email);
+	})
 });
+
+var tableStart = `<table class="table table-hover" id="standings-table"><thead><tr><th class="first-col bg-light" scope="col">Name</th>`;
+for(var wn = 1; wn <= weekNum; wn++) {
+	tableStart = tableStart + `<th scope="col" class="bg-light text-center bg-gradient">Week ${wn}</th>`;
+}
+tableStart = tableStart + `<th scope="col" class="bg-light text-center bg-gradient">Total</th></tr></thead><tbody>`;
 	
-var getUsers= $.getJSON("https://codyphillips5.github.io/cfbpicks/json/users.json", function(json) {
-		usersList = json;
-});
-
-$.when(getStandings, getUsers).then(function(){
-	//<th class="text-center" scope="col">Week 1</th>
-	var tableStart = `<table class="table table-hover" id="standings-table"><thead><tr><th class="first-col bg-light" scope="col">Name</th><th scope="col" class="bg-light text-center bg-gradient">Total</th></tr></thead><tbody>`;
-
-	for (var key in standings) {
-		for (var i = 0; i < standings[key].length; i++) {
-			
-			// set starters
-			var pointTotal = 0;
-			var isTop;
-			var weekTotal = 0;
-
-			var user = standings[key][i].userId;
-
-			for (var k in usersList) {
-				for (var j = 0; j < usersList[k].length; j++) {
-						if (user == usersList[k][j].userId) {
-							firstName = usersList[k][j].FirstName;
-							lastName = usersList[k][j].LastName;
-					}
-				}
-			}
-			var tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${firstName + " " + lastName}</th>`;
-
-			for(var stand = 1; stand <= 0; stand++) {
-				//tableUser = tableUser + `<td>${standings[key][i]["week_" + stand]}</td>`;
-				pointTotal = pointTotal + standings[key][i]["week_" + stand];
-				weekTotal++;
-				if(standings[key][i]["week_" + stand + "_top"]) {
-					tableUser = tableUser + `<td class='table-success text-center'>${standings[key][i]["week_" + stand]}</td>`;
+$.when(users).then(function(){
+	var tableUser = "";
+	for (var loop = 0; loop < allUsers.length; loop++) {		
+		var names = db.collection('Users').doc(allUsers[loop]);
+		names.get()
+		.then((docSnapshot) => {
+			if (docSnapshot.data())
+				tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${docSnapshot.data().FirstName + " " + docSnapshot.data().LastName}</th>`;
+		})		
+		
+		/*// all other weeks
+		var pointCollection = db.collection('Users').doc(allUsers[loop] + "/Standings/Week1");
+		pointCollection.get()
+			.then((docSnapshot) => {
+				// set starters
+				var pointTotal = 0;
+				var weekTotal = 0;
+				var points = 0;
+				
+				if (docSnapshot.data()) {
+					points = docSnapshot.data().Points;
+					userWeekTop = docSnapshot.data().Top;
 				}
 				else {
-					tableUser = tableUser + `<td class="text-center">${standings[key][i]["week_" + stand]}</td>`;
+					points = 0;
+					userWeekTop = false;
 				}
-			}
-			//calculate score			
-			tableUser = tableUser + `<td class="bg-light first-col text-center">${pointTotal}</td></tr>`;
+				userTotalPoints.push(points);
+				pointTotal = pointTotal + points;
+				weekTotal++;
+				if (userWeekTop) 
+					tableUser = tableUser + `<td class='table-success text-center'>${points}</td>`;
+				else 
+					tableUser = tableUser + `<td class="text-center">${points}</td>`;
+			});
+			*/
+		// most recent week
+		var pointCollection = db.collection('Users').doc(allUsers[loop] + "/Standings/Week" + weekNum);
+		pointCollection.get()
+			.then((docSnapshot) => {
+				// set starters
+				var points = 0;
+				var pointTotal = 0;
+				if (docSnapshot.data()) {
+					points = docSnapshot.data().Points;
+					userWeekTop = docSnapshot.data().Top;
+				}
+				else {
+					points = 0;
+					userWeekTop = false;
+				}
+				userTotalPoints.push(points);
+				for(var i=0; i < userTotalPoints.length; i++) {
+					pointTotal = pointTotal + userTotalPoints[i];
+				}
+				if (userWeekTop) 
+					tableUser = tableUser + `<td class='table-success text-center'>${points}</td>`;
+				else 
+					tableUser = tableUser + `<td class="text-center">${points}</td>`;
+					
+				tableUser = tableUser + `<td class="bg-light first-col text-center">${pointTotal}</td></tr>`;
+				var tableEnd = `</tbody></table>`;	
+				document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;	
+				while(userTotalPoints.length > 0) {
+					userTotalPoints.pop();
+				}
+				sortTable(weekNum + 1);
+			});
 		}
-	}
-	tableUser = tableUser.replace("undefined","");
-	var tableEnd = `</tbody></table>`;	
-	document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;
-	sortTable(weekTotal + 1);
-});
+	});
 
 function sortTable(n) {
   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;

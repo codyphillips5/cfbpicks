@@ -39,7 +39,9 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 			<li class="logged-out nav-item" style="display: none;"><a class="dropdown-item" href="log.html" id ="login"></span>Login</a></li>
-			<li class="logged-out nav-item" style="display: none;"><a class="dropdown-item" href="signup.html"> Sign Up</a></li><div class="dropdown-divider"></div>
+			<li class="logged-out nav-item" style="display: none;"><a class="dropdown-item" href="signup.html"> Sign Up</a></li>
+			<li class="logged-in dropdown-item" style="display: none;"><div id="user-greeting">Hello, </div></li>
+			<div class="dropdown-divider"></div>
 			<li class="logged-in dropdown-item" style="display: none;"><a  class="dropdown-item" href="#" id="logout"><i class="bi bi-door-closed-fill"></i>Logout</a></li>
           </ul>
         </li></ul>
@@ -55,9 +57,12 @@
 
 
 </body>
-<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+<!--<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-firestore.js"></script>-->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
 	 https://firebase.google.com/docs/web/setup#config-web-app -->

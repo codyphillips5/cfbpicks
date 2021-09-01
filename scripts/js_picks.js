@@ -12,7 +12,7 @@ var game = {
   };
   
 // week of year, first game
-var week = 0;
+var week = 1;
 if (week === 0) {
 	document.getElementById("week-title").innerHTML = `<h2>Week 0 Test</h2>`;
 }
@@ -40,7 +40,7 @@ else {
   
 	var xFile, yFile;
   
-	var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week0.json", function(json){
+	var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week" + week + ".json", function(json){
 		xFile = json;
 	});
   

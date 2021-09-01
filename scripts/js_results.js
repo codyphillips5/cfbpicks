@@ -1,26 +1,131 @@
 var firtName = "";
 var lastName = "";
+var allUsers = [];
 var coversNum = [];
 var coversTeam = [];
+var userPickTeams = [];
+var coversArr = [""];
+var weekNum = 1;
+var isCorrect;
+var date1 = new Date();
 
 var picksList, teamsList, resultsList, usersList;
 var resultsList = [];
 var badge = document.createElement('div');
 badge.className = 'results';
-var select = `<select class='form-control form-select' id='results_by_week' onchange="getResultsByWeek(this.value);"><option value ='14'> Week 14 </option><option value ='13'> Week 13 </option><option value ='12'> Week 12 </option><option value ='11'> Week 11 </option><option value ='10'> Week 10 </option><option value ='9'> Week 9 </option><option value ='8'> Week 8 </option><option value ='7'> Week 7 </option><option value ='6'> Week 6 </option><option value ='5'> Week 5 </option><option value ='4'> Week 4 </option><option value ='3'> Week 3 </option><option value ='2'> Week 2 </option><option value ='1'> Week 1 </option></select>`;
+var select = `<select class='form-control form-select' id='results_by_week' onchange="getResultsByWeek(this.value);"><option value ='1'> Week 1 </option></select>`;
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);
 
-getResultsByWeek(0);
+// query for all user emails
+var users = db.collection("Users").get().then((querySnapshot) => {
+	querySnapshot.forEach((doc) => {
+		allUsers.push(doc.data().Email);
+	})
+});
 
+// build top header section of table
+var tableStart = `<div class="table-responsive"><table class="table table-hover" id="results"><thead><tr><th scope="col" class="first-col bg-light bg-gradient">Name</th><th scope="col" class="text-center">50</th><th scope="col" class="text-center">40</th><th scope="col" class="text-center">30</th><th scope="col" class="text-center">20</th><th scope="col" class="text-center">10</th><th scope="col" class="bg-light bg-gradient text-center">Total</th></tr></thead><tbody>`;
+
+// get results
+var getResults = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week" + weekNum + "_results.json", function(json){
+	resultsList = json;
+});
+
+$.when(users).then(function(){
+	var covers = Object.values(resultsList["results"]);
+	var coversArr = Array.from(covers);
+	//getResultsByWeek(weekNum);
+	var tableUser = "";
+	for (var loop = 0; loop < allUsers.length; loop++) {	
+		var names = db.collection('Users').doc(allUsers[loop]);
+		names.get()
+		.then((docSnapshot) => {
+			if (docSnapshot.data())
+				tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${docSnapshot.data().FirstName + " " + docSnapshot.data().LastName}</th>`;
+		})
+		
+		// most recent week
+		var pointCollection = db.collection('week' + weekNum).doc(allUsers[loop]);
+		pointCollection.get()
+		.then((docSnapshot) => {
+			if (docSnapshot.data()) {
+				console.log(date1.getDay() + " " + date1.getHours());
+				if (date1.getDay() != 6 && date1.getHours() < 12) {
+					userPickTeams.push("--");
+					userPickTeams.push("--");
+					userPickTeams.push("--");
+					userPickTeams.push("--");
+					userPickTeams.push("--");
+				}
+				else {
+					userPickTeams.push(docSnapshot.data().Ten);
+					userPickTeams.push(docSnapshot.data().Twenty);
+					userPickTeams.push(docSnapshot.data().Thirty);
+					userPickTeams.push(docSnapshot.data().Forty);
+					userPickTeams.push(docSnapshot.data().Fifty);
+				}
+				console.log(userPickTeams);
+			}
+			else {
+				userPickTeams.push(" ");
+				userPickTeams.push(" ");
+				userPickTeams.push(" ");
+				userPickTeams.push(" ");
+				userPickTeams.push(" ");
+			}
+			// set starters
+			var points = 0;
+			var pointTotal = 0;
+			/*if (docSnapshot.data()) {
+				points = docSnapshot.data().Points;
+				userWeekTop = docSnapshot.data().Top;
+			}
+			else {
+				points = 0;
+				userWeekTop = false;
+			}
+			//userTotalPoints.push(points);
+			for(var i=0; i < userTotalPoints.length; i++) {
+				pointTotal = pointTotal + userTotalPoints[i];
+			}
+			if (userWeekTop) 
+				tableUser = tableUser + `<td class='table-success text-center'>${points}</td>`;
+			else 
+				tableUser = tableUser + `<td class="text-center">${points}</td>`;
+			*/	
+			for (var up = 4; up >= 0; up--) {
+				if (date1.getDay() == 1 && date1.getHours() >= 3) {
+					if (coversArr.includes(userPickTeams[up])) {
+						isCorrect = "success";
+						pointTotals = (up + 1) * 10;
+						pointTotal = pointTotal + pointTotals;
+					}
+					else {
+						isCorrect = "danger";			
+						console.log(coversArr + " does not contain " + userPickTeams[up]);
+					}	
+				}
+				tableUser = tableUser + `<td class="table-${isCorrect} text-center" id="rockyTop">${userPickTeams[up]}</td>`;
+			}
+			tableUser = tableUser + `<td class="bg-light first-col text-center">${pointTotal}</td></tr>`;
+			var tableEnd = `</tbody></table>`;	
+			document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;	
+			while(userPickTeams.length > 0) {
+				userPickTeams.pop();
+			}
+			sortTable(6);		
+		})
+	}	
+});	
+/*
 function getResultsByWeek(week) {
-	console.log(week);
+
+	
 	var getPicks = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week"+ week +"_picks.json", function(json){
 		picksList = json;
 	});
 	
-	var getResults = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week" + week + "_results.json", function(json){
-		resultsList = json;
 		// get results
 		for (var result in resultsList) {
 			// reset covers
@@ -53,14 +158,11 @@ function getResultsByWeek(week) {
 		}
 	});
 	
-	$.when(getPicks, getResults, getTeams, getUsers).then(function(){
-		var tableStart = `<div class="table-responsive"><table class="table table-hover" id="results"><thead><tr><th scope="col" class="first-col bg-light bg-gradient">Name</th><th scope="col" class="text-center">50</th><th scope="col" class="text-center">40</th><th scope="col" class="text-center">30</th><th scope="col" class="text-center">20</th><th scope="col" class="text-center">10</th><th scope="col" class="bg-light bg-gradient text-center">Total</th></tr></thead><tbody>`;
-	
+	$.when(getPicks, getResults, getTeams, getUsers).then(function(){	
 		for (var key in picksList) {
 			for (var i = 0; i < picksList[key].length; i++) {
 				// set starters
 				var pointTotal = 0;
-				var isCorrect;
 	
 				var user = picksList[key][i].userId;
 				// get user info
@@ -88,13 +190,12 @@ function getResultsByWeek(week) {
 				tableUser = tableUser + `<td class="bg-light bg-gradient text-center">${pointTotal}</td></tr>`;
 			}
 		}
-		tableUser = tableUser.replace("undefined","");
 		var tableEnd = `</tbody></table>`;	
 		document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;
 		sortTable(6);
 	});
 }
-
+*/
 function sortTable(n) {
   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
   table = document.getElementById("results");

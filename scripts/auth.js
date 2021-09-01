@@ -41,11 +41,11 @@ if(createForm) {
     
         db.collection('week0').doc(auth.currentUser.email).set({
             user: auth.currentUser.email,
-            50: document.getElementById('50').value,
-            40: document.getElementById('40').value,
-            30: document.getElementById('30').value,
-            20: document.getElementById('20').value,
-            10: document.getElementById('10').value
+            Fifty: document.getElementById('50').value,
+            Forty: document.getElementById('40').value,
+            Thirty: document.getElementById('30').value,
+            Twenty: document.getElementById('20').value,
+            Ten: document.getElementById('10').value
         }).then(() => {			
 			console.log("still: " + fn);
             createForm.reset();

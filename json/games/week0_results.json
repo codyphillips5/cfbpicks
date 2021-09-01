@@ -1,3 +1,9 @@
 {
-  "results": ["NEB","NMSU","HAW","FRES","UTAH"]
+  "results": [
+  "cover": "NEB",
+  "cover": "NMSU",
+  "cover": "HAW",
+  "cover": "FRES",
+  "cover": "UTAH"
+  ]
 }

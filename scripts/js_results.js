@@ -8,6 +8,7 @@ var coversArr = [""];
 var weekNum = 1;
 var isCorrect;
 var date1 = new Date();
+var itsme = false;
 
 var picksList, teamsList, resultsList, usersList;
 var resultsList = [];
@@ -42,6 +43,9 @@ $.when(users).then(function(){
 		names.get()
 		.then((docSnapshot) => {
 			if (docSnapshot.data())
+				if (auth.currentUser.email === docSnapshot.data().Email) {
+					itsme = true;
+				}
 				tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${docSnapshot.data().FirstName + " " + docSnapshot.data().LastName}</th>`;
 		})
 		
@@ -50,8 +54,15 @@ $.when(users).then(function(){
 		pointCollection.get()
 		.then((docSnapshot) => {
 			if (docSnapshot.data()) {
-				console.log(date1.getDay() + " " + date1.getHours());
-				if (date1.getDay() != 6 && date1.getHours() < 12) {
+				console.log( "me : " +itsme);
+				if(itsme) {
+					userPickTeams.push(docSnapshot.data().Ten);
+					userPickTeams.push(docSnapshot.data().Twenty);
+					userPickTeams.push(docSnapshot.data().Thirty);
+					userPickTeams.push(docSnapshot.data().Forty);
+					userPickTeams.push(docSnapshot.data().Fifty);
+				}
+				else if (date1.getDay() != 6 && date1.getHours() < 12) {
 					userPickTeams.push("--");
 					userPickTeams.push("--");
 					userPickTeams.push("--");
@@ -65,7 +76,6 @@ $.when(users).then(function(){
 					userPickTeams.push(docSnapshot.data().Forty);
 					userPickTeams.push(docSnapshot.data().Fifty);
 				}
-				console.log(userPickTeams);
 			}
 			else {
 				userPickTeams.push(" ");
@@ -77,6 +87,7 @@ $.when(users).then(function(){
 			// set starters
 			var points = 0;
 			var pointTotal = 0;
+			itsme = false;
 			/*if (docSnapshot.data()) {
 				points = docSnapshot.data().Points;
 				userWeekTop = docSnapshot.data().Top;

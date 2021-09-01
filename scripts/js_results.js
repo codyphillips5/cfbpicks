@@ -7,6 +7,7 @@ var userPickTeams = [];
 var coversArr = [""];
 var weekNum = 1;
 var isCorrect;
+var isMe;
 var date1 = new Date();
 var itsme = false;
 
@@ -61,6 +62,7 @@ $.when(users).then(function(){
 					userPickTeams.push(docSnapshot.data().Thirty);
 					userPickTeams.push(docSnapshot.data().Forty);
 					userPickTeams.push(docSnapshot.data().Fifty);
+					isCorrect = "primary";
 				}
 				else if (date1.getDay() != 6 && date1.getHours() < 12) {
 					userPickTeams.push("--");
@@ -87,7 +89,6 @@ $.when(users).then(function(){
 			// set starters
 			var points = 0;
 			var pointTotal = 0;
-			itsme = false;
 			/*if (docSnapshot.data()) {
 				points = docSnapshot.data().Points;
 				userWeekTop = docSnapshot.data().Top;
@@ -122,9 +123,14 @@ $.when(users).then(function(){
 			tableUser = tableUser + `<td class="bg-light first-col text-center">${pointTotal}</td></tr>`;
 			var tableEnd = `</tbody></table>`;	
 			document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;	
+			
+			// reset
 			while(userPickTeams.length > 0) {
 				userPickTeams.pop();
 			}
+			itsme = false;
+			isCorrect = "";
+			// sort results
 			sortTable(6);		
 		})
 	}	

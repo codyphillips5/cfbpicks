@@ -39,7 +39,7 @@ if(createForm) {
 			console.log("Error getting document:", error);
 		})
     
-        db.collection('week0').doc(auth.currentUser.email).set({
+        db.collection('week1').doc(auth.currentUser.email).set({
             user: auth.currentUser.email,
             Fifty: document.getElementById('50').value,
             Forty: document.getElementById('40').value,

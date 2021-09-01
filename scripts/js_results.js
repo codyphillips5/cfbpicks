@@ -64,19 +64,19 @@ $.when(users).then(function(){
 					userPickTeams.push(docSnapshot.data().Fifty);
 					isCorrect = "primary";
 				}
-				else if (date1.getDay() != 6 && date1.getHours() < 12) {
-					userPickTeams.push("--");
-					userPickTeams.push("--");
-					userPickTeams.push("--");
-					userPickTeams.push("--");
-					userPickTeams.push("--");
-				}
-				else {
+				else if (date1.getDay() == 6 && date1.getHours() > 12) {
 					userPickTeams.push(docSnapshot.data().Ten);
 					userPickTeams.push(docSnapshot.data().Twenty);
 					userPickTeams.push(docSnapshot.data().Thirty);
 					userPickTeams.push(docSnapshot.data().Forty);
 					userPickTeams.push(docSnapshot.data().Fifty);
+				}
+				else {
+					userPickTeams.push("--");
+					userPickTeams.push("--");
+					userPickTeams.push("--");
+					userPickTeams.push("--");
+					userPickTeams.push("--");
 				}
 			}
 			else {
@@ -135,84 +135,7 @@ $.when(users).then(function(){
 		})
 	}	
 });	
-/*
-function getResultsByWeek(week) {
 
-	
-	var getPicks = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week"+ week +"_picks.json", function(json){
-		picksList = json;
-	});
-	
-		// get results
-		for (var result in resultsList) {
-			// reset covers
-			coversNum.length = 0;
-			coversTeam.length = 0;
-			for (var r = 0; r < resultsList[result].length; r++) {
-				coversNum.push(resultsList[result][r].cover);
-				console.log(resultsList[result][r].cover);
-			}
-		}
-	});
-	
-	var getTeams = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/teams.json", function(json){
-		teamsList = json;
-	});
-	
-	var getUsers= $.getJSON("https://codyphillips5.github.io/cfbpicks/json/users.json", function(json){
-		usersList = json;
-	});
-	
-	$.when(getResults, getTeams).then(function(){
-		for (var cov = 0; cov < coversNum.length; cov++) {
-			for (var team in teamsList) {
-				for (var t = 0; t < teamsList[team].length; t++) {
-					if (coversNum[cov] == teamsList[team][t].teamId) {
-						coversTeam.push(teamsList[team][t].teamValue);
-					}
-				}
-			}
-		}
-	});
-	
-	$.when(getPicks, getResults, getTeams, getUsers).then(function(){	
-		for (var key in picksList) {
-			for (var i = 0; i < picksList[key].length; i++) {
-				// set starters
-				var pointTotal = 0;
-	
-				var user = picksList[key][i].userId;
-				// get user info
-				for (var k in usersList) {
-					for (var j = 0; j < usersList[k].length; j++) {
-							if (user == usersList[k][j].userId) {
-								firstName = usersList[k][j].FirstName;
-								lastName = usersList[k][j].LastName;
-						}
-					}
-				}
-				var tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${firstName + " " + lastName}</th>`;
-				// check user picks against results
-				for (var pointTotals = 50; pointTotals >= 10; pointTotals = pointTotals-10) {
-					if(coversTeam.includes(picksList[key][i][pointTotals])) {
-						isCorrect = "success";
-						pointTotal = pointTotal + pointTotals;
-					}
-					else {
-						isCorrect = "danger";				
-					}
-					tableUser = tableUser + `<td class="table-${isCorrect} text-center">${picksList[key][i][pointTotals]}</td>`;
-				}
-				//calculate score			
-				tableUser = tableUser + `<td class="bg-light bg-gradient text-center">${pointTotal}</td></tr>`;
-			}
-		}
-		var tableEnd = `</tbody></table>`;	
-		document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;
-		sortTable(6);
-	});
-}
-*/
 function sortTable(n) {
   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
   table = document.getElementById("results");

@@ -321,7 +321,7 @@
 		"channel": "FS1"
     },
     {
-		"gameId" : 32,
+		"gameId" : 33,
 		"homeTeam" : 59,
 		"awayTeam" : 79,
 		"favorite" : 79,
@@ -331,7 +331,7 @@
 		"channel": "ESPN"
     },
     {
-		"gameId" : 32,
+		"gameId" : 34,
 		"homeTeam" : 49,
 		"awayTeam" : 89,
 		"favorite" : 49,

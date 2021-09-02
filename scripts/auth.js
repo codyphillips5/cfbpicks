@@ -18,10 +18,30 @@ auth.onAuthStateChanged(user => {
     }
 })
   
+var weekNum = 1;
 var fn;  
 // create new guide
 const createForm = document.querySelector('#save_picks');
 if(createForm) {
+	// show picks if selected
+	firebase.auth().onAuthStateChanged(user => {
+	var week = db.collection('week' + weekNum).doc(auth.currentUser.email);
+
+	week.get()
+		.then((docSnapshot) => {
+			if (docSnapshot.data()) {
+				if (docSnapshot.data().Fifty !== undefined) { 
+					document.getElementById("label-choice-50").innerHTML = `<label for="50" class="choice">${docSnapshot.data().Fifty}</label>`;
+					document.getElementById("label-choice-40").innerHTML = `<label for="40" class="choice">${docSnapshot.data().Forty}</label>`;
+					document.getElementById("label-choice-30").innerHTML = `<label for="30" class="choice">${docSnapshot.data().Thirty}</label>`;
+					document.getElementById("label-choice-20").innerHTML = `<label for="20" class="choice">${docSnapshot.data().Twenty}</label>`;
+					document.getElementById("label-choice-10").innerHTML = `<label for="10" class="choice">${docSnapshot.data().Ten}</label>`;
+				}
+			}
+		});
+	});	
+	
+	// submit picks
     createForm.addEventListener('submit', (e) => {
         e.preventDefault();
 		
@@ -39,7 +59,7 @@ if(createForm) {
 			console.log("Error getting document:", error);
 		})
     
-        db.collection('week1').doc(auth.currentUser.email).set({
+        db.collection('week' + weekNum).doc(auth.currentUser.email).set({
             user: auth.currentUser.email,
             Fifty: document.getElementById('50').value,
             Forty: document.getElementById('40').value,

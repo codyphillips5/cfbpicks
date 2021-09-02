@@ -25,7 +25,7 @@
 		"teamId" : 4,
 		"team" : "South Alabama",
 		"teamMascot" : "Jaguars",
-		"teamValue" : "USA",
+		"teamValue" : "SOALA",
 		"teamImage" : 2549
     },
 	{
@@ -39,7 +39,7 @@
 		"teamId" : 6,
 		"team" : "Akron",
 		"teamMascot" : "Zips",
-		"teamValue" : "AKR",
+		"teamValue" : "AKRON",
 		"teamImage" : 47
     },
 	{
@@ -95,7 +95,7 @@
 		"teamId" : 14,
 		"team" : "Louisiana",
 		"teamMascot" : "Ragin' Cajuns",
-		"teamValue" : "ULL",
+		"teamValue" : "LA",
 		"teamImage" : 45
     },
 	{
@@ -165,7 +165,7 @@
 		"teamId" : 24,
 		"team" : "Georgia State",
 		"teamMascot" : "Panthers",
-		"teamValue" : "GAST",
+		"teamValue" : "GSU",
 		"teamImage" : 2558
     },
 	{
@@ -249,7 +249,7 @@
 		"teamId" : 36,
 		"team" : "Georgia Southern",
 		"teamMascot" : "Eagles",
-		"teamValue" : "GSU",
+		"teamValue" : "GEOSOU",
 		"teamImage" : 175
     },	
 	{
@@ -291,7 +291,7 @@
 		"teamId" : 42,
 		"team" : "Miami (OH)",
 		"teamMascot" : "Redhawks",
-		"teamValue" : "M-OH",
+		"teamValue" : "MIA-OH",
 		"teamImage" : 53
     },
 	{
@@ -305,7 +305,7 @@
 		"teamId" : 44,
 		"team" : "Missouri",
 		"teamMascot" : "Tigers",
-		"teamValue" : "MIZ",
+		"teamValue" : "MIZZOU",
 		"teamImage" : 22
     },
 	{
@@ -326,14 +326,14 @@
 		"teamId" : 47,
 		"team" : "Texas",
 		"teamMascot" : "Longhorns",
-		"teamValue" : "TEX",
+		"teamValue" : "TEXAS",
 		"teamImage" : 83
     },
 	{
 		"teamId" : 48,
 		"team" : "Louisiana Tech",
 		"teamMascot" : "Bulldogs",
-		"teamValue" : "LT",
+		"teamValue" : "LATECH",
 		"teamImage" : 38
     },
 	{
@@ -361,14 +361,14 @@
 		"teamId" : 52,
 		"team" : "Fresno State",
 		"teamMascot" : "Bulldogs",
-		"teamValue" : "FRES",
+		"teamValue" : "FRESNST",
 		"teamImage" : 90
     },	
 	{
 		"teamId" : 53,
 		"team" : "Florida",
 		"teamMascot" : "Gators",
-		"teamValue" : "UF",
+		"teamValue" : "FLA",
 		"teamImage" : 67
     },
 	{
@@ -382,7 +382,7 @@
 		"teamId" : 55,
 		"team" : "Oklahoma",
 		"teamMascot" : "Sooners",
-		"teamValue" : "OKLA",
+		"teamValue" : "OU",
 		"teamImage" : 24
     },
 	{
@@ -403,14 +403,14 @@
 		"teamId" : 58,
 		"team" : "Georgia Tech",
 		"teamMascot" : "Yellow Jackets",
-		"teamValue" : "GTECH",
+		"teamValue" : "GT",
 		"teamImage" : 4
     },
 	{
 		"teamId" : 59,
 		"team" : "Arizona",
 		"teamMascot" : "Wildcats",
-		"teamValue" : "ZONA",
+		"teamValue" : "ARIZ",
 		"teamImage" : 57
     },
 	{
@@ -473,7 +473,7 @@
 		"teamId" : 68,
 		"team" : "Central Michigan",
 		"teamMascot" : "Chippewas",
-		"teamValue" : "CMU",
+		"teamValue" : "CMICH",
 		"teamImage" : 50
     },
 	{
@@ -494,21 +494,21 @@
 		"teamId" : 71,
 		"team" : "Tulane",
 		"teamMascot" : "Green Wave",
-		"teamValue" : "TUL",
+		"teamValue" : "TULANE",
 		"teamImage" : 106
     },
 	{
 		"teamId" : 72,
 		"team" : "Texas State",
 		"teamMascot" : "Bobcats",
-		"teamValue" : "TXST",
+		"teamValue" : "TEXST",
 		"teamImage" : 185
     },
 	{
 		"teamId" : 73,
 		"team" : "Texas A&M",
 		"teamMascot" : "Aggies",
-		"teamValue" : "TXAM",
+		"teamValue" : "TXA&M",
 		"teamImage" : 84
     },
 	{
@@ -676,7 +676,7 @@
 		"teamId" : 97,
 		"team" : "Maryland",
 		"teamMascot" : "Terrapins",
-		"teamValue" : "MARY",
+		"teamValue" : "MD",
 		"teamImage" : 5
     },
 	{
@@ -774,7 +774,7 @@
 		"teamId" : 111,
 		"team" : "Texas Tech",
 		"teamMascot" : "Red Raiders",
-		"teamValue" : "TTU",
+		"teamValue" : "TEXTCH",
 		"teamImage" : 86
     },
 	{
@@ -809,14 +809,14 @@
 		"teamId" : 116,
 		"team" : "Marshall",
 		"teamMascot" : "Thundering Herd",
-		"teamValue" : "MARSH",
+		"teamValue" : "MAR",
 		"teamImage" : 176
     },
 	{
 		"teamId" : 117,
 		"team" : "Kansas State",
 		"teamMascot" : "Wildcats",
-		"teamValue" : "KSST",
+		"teamValue" : "K-STATE",
 		"teamImage" : 21
     },
 	{
@@ -830,7 +830,7 @@
 		"teamId" : 119,
 		"team" : "Northern Illinois",
 		"teamMascot" : "Huskies",
-		"teamValue" : "NILL",
+		"teamValue" : "NIU",
 		"teamImage" : 42
     },
 	{
@@ -851,7 +851,7 @@
 		"teamId" : 122,
 		"team" : "Baylor",
 		"teamMascot" : "Bears",
-		"teamValue" : "BU",
+		"teamValue" : "BAYLOR",
 		"teamImage" : 79
     },
 	{
@@ -884,7 +884,7 @@
     },
 	{
 		"teamId" : 127,
-		"team" : "San Diego State",
+		"team" : "SDSU",
 		"teamMascot" : "Aztecs",
 		"teamValue" : "SDSU",
 		"teamImage" : 93

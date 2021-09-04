@@ -9,6 +9,7 @@ var weekNum = 1;
 var isCorrect;
 var isMe;
 var date1 = new Date();
+var date2;
 var itsme = false;
 
 var picksList, teamsList, resultsList, usersList;
@@ -18,6 +19,14 @@ badge.className = 'results';
 var select = `<select class='form-control form-select' id='results_by_week' onchange="getResultsByWeek(this.value);"><option value ='1'> Week 1 </option></select>`;
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);
+
+var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week" + weekNum + ".json", function(json){
+	xFile = json;
+});
+
+$.when(requestX).then(function(){
+	date2 = new Date(xFile["games"][0].gameTime);
+});
 
 // query for all user emails
 var users = db.collection("Users").get().then((querySnapshot) => {
@@ -34,7 +43,7 @@ var getResults = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/
 	resultsList = json;
 });
 
-$.when(users).then(function(){
+$.when(users, requestX).then(function(){
 	var covers = Object.values(resultsList["results"]);
 	var coversArr = Array.from(covers);
 	//getResultsByWeek(weekNum);
@@ -64,7 +73,7 @@ $.when(users).then(function(){
 					userPickTeams.push(docSnapshot.data().Fifty);
 					isCorrect = "primary";
 				}
-				else if (date1.getDay() == 6 && date1.getHours() > 12) {
+				else if (date1 >= date2) {
 					userPickTeams.push(docSnapshot.data().Ten);
 					userPickTeams.push(docSnapshot.data().Twenty);
 					userPickTeams.push(docSnapshot.data().Thirty);

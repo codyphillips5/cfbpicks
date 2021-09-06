@@ -10,6 +10,8 @@ var isCorrect;
 var isMe;
 var date1 = new Date();
 var date2;
+var date3;
+var days = 1;
 var itsme = false;
 
 var picksList, teamsList, resultsList, usersList;
@@ -48,6 +50,8 @@ $.when(users, requestX).then(function(){
 	var coversArr = Array.from(covers);
 	//getResultsByWeek(weekNum);
 	var tableUser = "";
+	date3 = new Date(date2);
+	date3.setDate(date3.getDate() + days);
 	for (var loop = 0; loop < allUsers.length; loop++) {	
 		var names = db.collection('Users').doc(allUsers[loop]);
 		names.get()
@@ -116,7 +120,7 @@ $.when(users, requestX).then(function(){
 				tableUser = tableUser + `<td class="text-center">${points}</td>`;
 			*/	
 			for (var up = 4; up >= 0; up--) {
-				if (date1.getDay() == 1 && date1.getHours() >= 3) {
+				if (date3 <= date1) {
 					if (coversArr.includes(userPickTeams[up])) {
 						isCorrect = "success";
 						pointTotals = (up + 1) * 10;
@@ -124,7 +128,6 @@ $.when(users, requestX).then(function(){
 					}
 					else {
 						isCorrect = "danger";			
-						console.log(coversArr + " does not contain " + userPickTeams[up]);
 					}	
 				}
 				tableUser = tableUser + `<td class="table-${isCorrect} text-center" id="rockyTop">${userPickTeams[up]}</td>`;

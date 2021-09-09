@@ -1,0 +1,434 @@
+{
+  "games": [
+    {
+		"gameId" : 36,
+		"homeTeam" : 46,
+		"awayTeam" : 5,
+		"favorite" : 46,
+		"spread" : 10.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T15:00:00Z",
+		"channel": "ACCN"
+    },
+    {
+		"gameId" : 37,
+		"homeTeam" : 82,
+		"awayTeam" : 67,
+		"favorite" : 82,
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T15:30:00Z",
+		"channel": "CBSSN"
+    },
+    {
+		"gameId" : 38,
+		"homeTeam" : 16,
+		"awayTeam" : 22,
+		"favorite" : 22,
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T16:00:00Z",
+		"channel": "ESPN2"
+    },
+    {
+		"gameId" : 39,
+		"homeTeam" : 1,
+		"awayTeam" : 40,
+		"favorite" : 1,
+		"spread" : 14.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T16:00:00Z",
+		"channel": "FOX"
+    },
+    {
+		"gameId" : 40,
+		"homeTeam" : 74,
+		"awayTeam" : 42,
+		"favorite" : 74,
+		"spread" : 19.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T16:00:00Z",
+		"channel": "ESPNU"
+    },
+    {
+		"gameId" : 41,
+		"homeTeam" : 95,
+		"awayTeam" : 85,
+		"favorite" : 95,
+		"spread" : 13.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T16:00:00Z",
+		"channel": "FS1"
+    },
+    {
+		"gameId" : 42,
+		"homeTeam" : 23,
+		"awayTeam" : 45,
+		"favorite" : 45,
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T16:00:00Z",
+		"channel": "ESPN"
+    },
+    {
+		"gameId" : 43,
+		"homeTeam" : 84,
+		"awayTeam" : 53,
+		"favorite" : 53,
+		"spread" : 28.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T17:00:00Z",
+		"channel": "ABC"
+    },
+    {
+		"gameId" : 44,
+		"homeTeam" : 119,
+		"awayTeam" : 43,
+		"favorite" : 43,
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T17:30:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 45,
+		"homeTeam" : 108,
+		"awayTeam" : 38,
+		"favorite" : 108,
+		"spread" : 20.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T18:00:00Z",
+		"channel": "ACCN+"
+    },
+    {
+		"gameId" : 46,
+		"homeTeam" : 28,
+		"awayTeam" : 88,
+		"favorite" : 88,
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T18:00:00Z",
+		"channel": "ACCN"
+    },
+    {
+		"gameId" : 47,
+		"homeTeam" : 129,
+		"awayTeam" : 10,
+		"favorite" : 10,
+		"spread" : 17.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T18:30:00Z",
+		"channel": "PCOCK"
+    },
+    {
+		"gameId" : 48,
+		"homeTeam" : 65,
+		"awayTeam" : 91,
+		"favorite" : 91,
+		"spread" : 34.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T19:00:00Z",
+		"channel": "CBSSN"
+    },
+    {
+		"gameId" : 49,
+		"homeTeam" : 105,
+		"awayTeam" : 7,
+		"favorite" : 105,
+		"spread" : 22.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T19:30:00Z",
+		"channel": "FS1"
+    },
+    {
+		"gameId" : 50,
+		"homeTeam" : 6,
+		"awayTeam" : 103,
+		"favorite" : 103,
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T19:30:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 51,
+		"homeTeam" : 3,
+		"awayTeam" : 64,
+		"favorite" : 3,
+		"spread" : 13.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T19:30:00Z",
+		"channel": "BTN"
+    },
+    {
+		"gameId" : 52,
+		"homeTeam" : 104,
+		"awayTeam" : 106,
+		"favorite" : 106,
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T19:30:00Z",
+		"channel": "CBS"
+    },
+    {
+		"gameId" : 53,
+		"homeTeam" : 126,
+		"awayTeam" : 115,
+		"favorite" : 126,
+		"spread" : 11.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T19:30:00Z",
+		"channel": "ESPNU"
+    },
+    {
+		"gameId" : 54,
+		"homeTeam" : 34,
+		"awayTeam" : 69,
+		"favorite" : 34,
+		"spread" : 24.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T19:30:00Z",
+		"channel": "ESPN2"
+    },
+    {
+		"gameId" : 55,
+		"homeTeam" : 87,
+		"awayTeam" : 109,
+		"favorite" : 109,
+		"spread" : 37.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T19:30:00Z",
+		"channel": "FloSports"
+    },
+    {
+		"gameId" : 56,
+		"homeTeam" : 2,
+		"awayTeam" : 36,
+		"favorite" : 2,
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T19:30:00Z",
+		"channel": "STADIUM"
+    },
+    {
+		"gameId" : 57,
+		"homeTeam" : 94,
+		"awayTeam" : 73,
+		"favorite" : 73,
+		"spread" : 17.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T19:30:00Z",
+		"channel": "FOX"
+    },
+    {
+		"gameId" : 58,
+		"homeTeam" : 63,
+		"awayTeam" : 4,
+		"favorite" : 63,
+		"spread" : 14.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T20:00:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 59,
+		"homeTeam" : 99,
+		"awayTeam" : 41,
+		"favorite" : 99,
+		"spread" : 3.5,
+		"required" : true,
+		"gameTime" : "2021-09-11T20:30:00Z",
+		"channel": "ABC"
+    },
+    {
+		"gameId" : 60,
+		"homeTeam" : 81,
+		"awayTeam" : 56,
+		"favorite" : 56,
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T22:30:00Z",
+		"channel": "CBSSN"
+    },
+    {
+		"gameId" : 61,
+		"homeTeam" : 30,
+		"awayTeam" : 123,
+		"favorite" : 30,
+		"spread" : 22.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T23:00:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 62,
+		"homeTeam" : 54,
+		"awayTeam" : 107,
+		"favorite" : 54,
+		"spread" : 9.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T22:30:00Z",
+		"channel": "ESPNU"
+    },
+    {
+		"gameId" : 63,
+		"homeTeam" : 29,
+		"awayTeam" : 11,
+		"favorite" : 11,
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T23:00:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 64,
+		"homeTeam" : 113,
+		"awayTeam" : 50,
+		"favorite" : 113,
+		"spread" : 19.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T23:00:00Z",
+		"channel": "STADIUM"
+    },
+    {
+		"gameId" : 65,
+		"homeTeam" : 83,
+		"awayTeam" : 20,
+		"favorite" : 83,
+		"spread" : 26.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T23:00:00Z",
+		"channel": "FS1"
+    },
+    {
+		"gameId" : 66,
+		"homeTeam" : 70,
+		"awayTeam" : 72,
+		"favorite" : 70,
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T23:00:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 67,
+		"homeTeam" : 13,
+		"awayTeam" : 15,
+		"favorite" : 15,
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T23:00:00Z",
+		"channel": "ESPN2"
+    },
+    {
+		"gameId" : 68,
+		"homeTeam" : 114,
+		"awayTeam" : 27,
+		"favorite" : 27,
+		"spread" : 4.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T23:00:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 69,
+		"homeTeam" : 110,
+		"awayTeam" : 47,
+		"favorite" : 47,
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T23:00:00Z",
+		"channel": "ESPN"
+    },
+    {
+		"gameId" : 70,
+		"homeTeam" : 21,
+		"awayTeam" : 24,
+		"favorite" : 21,
+		"spread" : 25.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T23:30:00Z",
+		"channel": "ESPN3"
+    },
+    {
+		"gameId" : 71,
+		"homeTeam" : 9,
+		"awayTeam" : 44,
+		"favorite" : 9,
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T23:30:00Z",
+		"channel": "SECN"
+    },
+    {
+		"gameId" : 72,
+		"homeTeam" : 37,
+		"awayTeam" : 102,
+		"favorite" : 37,
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T00:00:00Z",
+		"channel": "ABC"
+    },
+    {
+		"gameId" : 73,
+		"homeTeam" : 93,
+		"awayTeam" : 33,
+		"favorite" : 93,
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T02:00:00Z",
+		"channel": "CBSSN"
+    },
+    {
+		"gameId" : 74,
+		"homeTeam" : 59,
+		"awayTeam" : 127,
+		"favorite" : 59,
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T02:00:00Z",
+		"channel": "PACN"
+    },
+    {
+		"gameId" : 75,
+		"homeTeam" : 79,
+		"awayTeam" : 78,
+		"favorite" : 78,
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T02:15:00Z",
+		"channel": "ESPN"
+    },
+    {
+		"gameId" : 76,
+		"homeTeam" : 76,
+		"awayTeam" : 128,
+		"favorite" : 76,
+		"spread" : 33.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T02:30:00Z",
+		"channel": "ESPN2"
+    },
+    {
+		"gameId" : 77,
+		"homeTeam" : 51,
+		"awayTeam" : 25,
+		"favorite" : 51,
+		"spread" : 17.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T02:30:00Z",
+		"channel": "FOX"
+    },
+    {
+		"gameId" : 77,
+		"homeTeam" : 96,
+		"awayTeam" : 60,
+		"favorite" : 96,
+		"spread" : 10.5,
+		"required" : false,
+		"gameTime" : "2021-09-11T03:00:00Z",
+		"channel": "FS1"
+    }
+  ]
+}

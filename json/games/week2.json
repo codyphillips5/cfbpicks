@@ -55,7 +55,7 @@
 		"homeTeam" : 95,
 		"awayTeam" : 85,
 		"favorite" : 95,
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2021-09-11T16:00:00Z",
 		"channel": "FS1"
@@ -95,7 +95,7 @@
 		"homeTeam" : 108,
 		"awayTeam" : 38,
 		"favorite" : 108,
-		"spread" : 19.5,
+		"spread" : 20.5,
 		"required" : false,
 		"gameTime" : "2021-09-11T18:00:00Z",
 		"channel": "ACCN+"
@@ -114,7 +114,7 @@
 		"gameId" : 47,
 		"homeTeam" : 129,
 		"awayTeam" : 10,
-		"favorite" : 10,
+		"favorite" : 129,
 		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2021-09-11T18:30:00Z",
@@ -405,7 +405,7 @@
 		"homeTeam" : 76,
 		"awayTeam" : 128,
 		"favorite" : 76,
-		"spread" : 32.5,
+		"spread" : 33.5,
 		"required" : false,
 		"gameTime" : "2021-09-11T02:30:00Z",
 		"channel": "ESPN2"

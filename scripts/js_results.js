@@ -5,7 +5,7 @@ var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 1;
+var weekNum = 2;
 var isCorrect;
 var isMe;
 var date1 = new Date();
@@ -19,7 +19,7 @@ var picksList, teamsList, resultsList, usersList;
 var resultsList = [];
 var badge = document.createElement('div');
 badge.className = 'results';
-var select = `<select class='form-control form-select' id='results_by_week' onchange="getResultsByWeek(this.value);"><option value ='1'> Week 1 </option></select>`;
+var select = `<select class='form-control form-select' id='results_by_week' onchange="getResultsByWeek(this.value);"><option value ='2'> Week 2 </option><option value ='1'> Week 1 </option></select>`;
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);
 
@@ -103,23 +103,7 @@ $.when(users, requestX).then(function(){
 			// set starters
 			var points = 0;
 			var pointTotal = 0;
-			/*if (docSnapshot.data()) {
-				points = docSnapshot.data().Points;
-				userWeekTop = docSnapshot.data().Top;
-			}
-			else {
-				points = 0;
-				userWeekTop = false;
-			}
-			//userTotalPoints.push(points);
-			for(var i=0; i < userTotalPoints.length; i++) {
-				pointTotal = pointTotal + userTotalPoints[i];
-			}
-			if (userWeekTop) 
-				tableUser = tableUser + `<td class='table-success text-center'>${points}</td>`;
-			else 
-				tableUser = tableUser + `<td class="text-center">${points}</td>`;
-			*/	
+			
 			for (var up = 4; up >= 0; up--) {
 				if (date3 <= date1) {
 					if (coversArr.includes(userPickTeams[up])) {

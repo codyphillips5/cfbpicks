@@ -13,6 +13,7 @@ var date2;
 var date3;
 var days = 1;
 var itsme = false;
+var check = "";
 
 var picksList, teamsList, resultsList, usersList;
 var resultsList = [];
@@ -123,14 +124,16 @@ $.when(users, requestX).then(function(){
 				if (date3 <= date1) {
 					if (coversArr.includes(userPickTeams[up])) {
 						isCorrect = "success";
+						check = "✅";
 						pointTotals = (up + 1) * 10;
 						pointTotal = pointTotal + pointTotals;
 					}
 					else {
 						isCorrect = "danger";			
+						check = "❌";
 					}	
 				}
-				tableUser = tableUser + `<td class="table-${isCorrect} text-center" id="rockyTop">${userPickTeams[up]}</td>`;
+				tableUser = tableUser + `<td class="table-${isCorrect} text-center" id="rockyTop">${userPickTeams[up]} ${check}</td>`;
 			}
 			tableUser = tableUser + `<td class="bg-light first-col text-center">${pointTotal}</td></tr>`;
 			var tableEnd = `</tbody></table>`;	

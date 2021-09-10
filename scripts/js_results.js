@@ -23,117 +23,129 @@ var select = `<select class='form-control form-select' id='results_by_week' onch
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);
 
-var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week" + weekNum + ".json", function(json){
-	xFile = json;
-});
+getResultsByWeek(weekNum)
 
-$.when(requestX).then(function(){
-	date2 = new Date(xFile["games"][0].gameTime);
-});
-
-// query for all user emails
-var users = db.collection("Users").get().then((querySnapshot) => {
-	querySnapshot.forEach((doc) => {
-		allUsers.push(doc.data().Email);
-	})
-});
-
-// build top header section of table
-var tableStart = `<div class="table-responsive"><table class="table table-hover" id="results"><thead><tr><th scope="col" class="first-col bg-light bg-gradient">Name</th><th scope="col" class="text-center">50</th><th scope="col" class="text-center">40</th><th scope="col" class="text-center">30</th><th scope="col" class="text-center">20</th><th scope="col" class="text-center">10</th><th scope="col" class="bg-light bg-gradient text-center">Total</th></tr></thead><tbody>`;
-
-// get results
-var getResults = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week" + weekNum + "_results.json", function(json){
-	resultsList = json;
-});
-
-$.when(users, requestX).then(function(){
-	var covers = Object.values(resultsList["results"]);
-	var coversArr = Array.from(covers);
-	//getResultsByWeek(weekNum);
+function getResultsByWeek(x) {
+	var tableStart = "";
 	var tableUser = "";
-	date3 = new Date(date2);
-	date3.setDate(date3.getDate() + days);
-	for (var loop = 0; loop < allUsers.length; loop++) {	
-		var names = db.collection('Users').doc(allUsers[loop]);
-		names.get()
-		.then((docSnapshot) => {
-			if (docSnapshot.data())
-				if (auth.currentUser.email === docSnapshot.data().Email) {
-					itsme = true;
-				}
-				tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${docSnapshot.data().FirstName + " " + docSnapshot.data().LastName}</th>`;
+	var tableEnd = "";
+	
+	var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week" + x + ".json", function(json){
+		xFile = json;
+	});
+
+	$.when(requestX).then(function(){
+		date2 = new Date(xFile["games"][0].gameTime);
+	});
+
+	// query for all user emails
+	var users = db.collection("Users").get().then((querySnapshot) => {
+		querySnapshot.forEach((doc) => {
+			allUsers.push(doc.data().Email);
 		})
+	});
+
+	// build top header section of table
+	tableStart = `<div class="table-responsive"><table class="table table-hover" id="results"><thead><tr><th scope="col" class="first-col bg-light bg-gradient">Name</th><th scope="col" class="text-center">50</th><th scope="col" class="text-center">40</th><th scope="col" class="text-center">30</th><th scope="col" class="text-center">20</th><th scope="col" class="text-center">10</th><th scope="col" class="bg-light bg-gradient text-center">Total</th></tr></thead><tbody>`;
+
+	// get results
+	var getResults = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week" + x + "_results.json", function(json){
+		resultsList = json;
+	});
+	$.when(users, requestX, getResults).then(function(){
+		var covers = Object.values(resultsList["results"]);
+		var coversArr = Array.from(covers);
 		
-		// most recent week
-		var pointCollection = db.collection('week' + weekNum).doc(allUsers[loop]);
-		pointCollection.get()
-		.then((docSnapshot) => {
-			if (docSnapshot.data()) {
-				console.log( "me : " +itsme);
-				if(itsme) {
-					userPickTeams.push(docSnapshot.data().Ten);
-					userPickTeams.push(docSnapshot.data().Twenty);
-					userPickTeams.push(docSnapshot.data().Thirty);
-					userPickTeams.push(docSnapshot.data().Forty);
-					userPickTeams.push(docSnapshot.data().Fifty);
-					isCorrect = "primary";
-				}
-				else if (date1 >= date2) {
-					userPickTeams.push(docSnapshot.data().Ten);
-					userPickTeams.push(docSnapshot.data().Twenty);
-					userPickTeams.push(docSnapshot.data().Thirty);
-					userPickTeams.push(docSnapshot.data().Forty);
-					userPickTeams.push(docSnapshot.data().Fifty);
-				}
-				else {
-					userPickTeams.push("--");
-					userPickTeams.push("--");
-					userPickTeams.push("--");
-					userPickTeams.push("--");
-					userPickTeams.push("--");
-				}
-			}
-			else {
-				userPickTeams.push(" ");
-				userPickTeams.push(" ");
-				userPickTeams.push(" ");
-				userPickTeams.push(" ");
-				userPickTeams.push(" ");
-			}
-			// set starters
-			var points = 0;
-			var pointTotal = 0;
+		console.log(allUsers);
+		date3 = new Date(date2);
+		date3.setDate(date3.getDate() + days);
+		for (var loop = 0; loop < allUsers.length; loop++) {	
+			var names = db.collection('Users').doc(allUsers[loop]);
+			names.get()
+			.then((docSnapshot) => {
+				if (docSnapshot.data())
+					if (auth.currentUser.email === docSnapshot.data().Email) {
+						itsme = true;
+					}
+					tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${docSnapshot.data().FirstName + " " + docSnapshot.data().LastName}</th>`;
+			})
 			
-			for (var up = 4; up >= 0; up--) {
-				if (date3 <= date1) {
-					if (coversArr.includes(userPickTeams[up])) {
-						isCorrect = "success";
-						check = "✅";
-						pointTotals = (up + 1) * 10;
-						pointTotal = pointTotal + pointTotals;
+			// most recent week
+			var pointCollection = db.collection('week' + x).doc(allUsers[loop]);
+			pointCollection.get()
+			.then((docSnapshot) => {
+				if (docSnapshot.data()) {
+					if(itsme) {
+						userPickTeams.push(docSnapshot.data().Ten);
+						userPickTeams.push(docSnapshot.data().Twenty);
+						userPickTeams.push(docSnapshot.data().Thirty);
+						userPickTeams.push(docSnapshot.data().Forty);
+						userPickTeams.push(docSnapshot.data().Fifty);
+						isCorrect = "primary";
+					}
+					else if (date1 >= date2) {
+						userPickTeams.push(docSnapshot.data().Ten);
+						userPickTeams.push(docSnapshot.data().Twenty);
+						userPickTeams.push(docSnapshot.data().Thirty);
+						userPickTeams.push(docSnapshot.data().Forty);
+						userPickTeams.push(docSnapshot.data().Fifty);
 					}
 					else {
-						isCorrect = "danger";			
-						check = "❌";
-					}	
+						userPickTeams.push("--");
+						userPickTeams.push("--");
+						userPickTeams.push("--");
+						userPickTeams.push("--");
+						userPickTeams.push("--");
+					}
 				}
-				tableUser = tableUser + `<td class="table-${isCorrect} text-center" id="rockyTop">${userPickTeams[up]} ${check}</td>`;
-			}
-			tableUser = tableUser + `<td class="bg-light first-col text-center">${pointTotal}</td></tr>`;
-			var tableEnd = `</tbody></table>`;	
-			document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;	
-			
-			// reset
-			while(userPickTeams.length > 0) {
-				userPickTeams.pop();
-			}
-			itsme = false;
-			isCorrect = "";
-			// sort results
-			sortTable(6);		
-		})
-	}	
-});	
+				else {
+					userPickTeams.push(" ");
+					userPickTeams.push(" ");
+					userPickTeams.push(" ");
+					userPickTeams.push(" ");
+					userPickTeams.push(" ");
+				}
+				// set starters
+				var points = 0;
+				var pointTotal = 0;
+				
+				for (var up = 4; up >= 0; up--) {
+					if (date3 <= date1) {
+						if (coversArr.includes(userPickTeams[up])) {
+							isCorrect = "success";
+							check = "✅";
+							pointTotals = (up + 1) * 10;
+							pointTotal = pointTotal + pointTotals;
+						}
+						else {
+							isCorrect = "danger";			
+							check = "❌";
+						}	
+					}
+					tableUser = tableUser + `<td class="table-${isCorrect} text-center" id="rockyTop">${userPickTeams[up]} ${check}</td>`;
+				}
+				tableUser = tableUser + `<td class="bg-light first-col text-center">${pointTotal}</td></tr>`;
+				tableEnd = `</tbody></table>`;
+				document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;	
+				
+				// reset
+				while(userPickTeams.length > 0) {
+					userPickTeams.pop();
+				}
+				itsme = false;
+				isCorrect = "";
+				check = "";
+				// sort results
+				sortTable(6);		
+			})
+		}
+		while(allUsers.length > 0) {
+					allUsers.pop();
+		}
+		console.log(allUsers);
+	});		
+				
+}
 
 function sortTable(n) {
   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;

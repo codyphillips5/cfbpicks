@@ -56,7 +56,6 @@ function getResultsByWeek(x) {
 		var covers = Object.values(resultsList["results"]);
 		var coversArr = Array.from(covers);
 		
-		console.log(allUsers);
 		date3 = new Date(date2);
 		date3.setDate(date3.getDate() + days);
 		for (var loop = 0; loop < allUsers.length; loop++) {	
@@ -142,7 +141,6 @@ function getResultsByWeek(x) {
 		while(allUsers.length > 0) {
 					allUsers.pop();
 		}
-		console.log(allUsers);
 	});		
 				
 }

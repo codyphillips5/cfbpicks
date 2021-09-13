@@ -2,7 +2,7 @@ var userTotalPoints = [];
 var allUsers = [];
 var pointCollection;
 
-var weekNum = 1;
+var weekNum = 2;
 var userWeekTop = false;
 
 var users = db.collection("Users").get().then((querySnapshot) => {
@@ -23,11 +23,12 @@ $.when(users).then(function(){
 		var names = db.collection('Users').doc(allUsers[loop]);
 		names.get()
 		.then((docSnapshot) => {
+			console.log(loop);
 			if (docSnapshot.data())
 				tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${docSnapshot.data().FirstName + " " + docSnapshot.data().LastName}</th>`;
 		})		
 		
-		/*// all other weeks
+		// all other weeks
 		var pointCollection = db.collection('Users').doc(allUsers[loop] + "/Standings/Week1");
 		pointCollection.get()
 			.then((docSnapshot) => {
@@ -52,7 +53,7 @@ $.when(users).then(function(){
 				else 
 					tableUser = tableUser + `<td class="text-center">${points}</td>`;
 			});
-			*/
+			
 		// most recent week
 		var pointCollection = db.collection('Users').doc(allUsers[loop] + "/Standings/Week" + weekNum);
 		pointCollection.get()

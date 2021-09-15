@@ -29,6 +29,96 @@
 		"required" : false,
 		"gameTime" : "2021-09-18T16:00:00Z",
 		"channel": "SECN"
+    },
+    {
+		"gameId" : 82,
+		"homeTeam" : "WVU",
+		"awayTeam" : "VT",
+		"favorite" : "WVU",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2021-09-18T16:00:00Z",
+		"channel": "FS1"
+    },
+    {
+		"gameId" : 83,
+		"homeTeam" : "MICH",
+		"awayTeam" : "NIU",
+		"favorite" : "MICH",
+		"spread" : 27.5,
+		"required" : false,
+		"gameTime" : "2021-09-18T16:00:00Z",
+		"channel": "BTN"
+    },
+    {
+		"gameId" : 84,
+		"homeTeam" : "PITT",
+		"awayTeam" : "WMU",
+		"favorite" : "PITT",
+		"spread" : 14.5,
+		"required" : false,
+		"gameTime" : "2021-09-18T16:00:00Z",
+		"channel": "ESPN3"
+    },
+    {
+		"gameId" : 85,
+		"homeTeam" : "OU",
+		"awayTeam" : "NEB",
+		"favorite" : "OU",
+		"spread" : 22.5,
+		"required" : false,
+		"gameTime" : "2021-09-18T16:00:00Z",
+		"channel": "FOX"
+    },
+    {
+		"gameId" : 86,
+		"homeTeam" : "BUFF",
+		"awayTeam" : "COCAR",
+		"favorite" : "COCAR",
+		"spread" : 13.5,
+		"required" : false,
+		"gameTime" : "2021-09-18T16:00:00Z",
+		"channel": "ESPN2"
+    },
+    {
+		"gameId" : 87,
+		"homeTeam" : "TEMPLE",
+		"awayTeam" : "BC",
+		"favorite" : "BC",
+		"spread" : 14.5,
+		"required" : false,
+		"gameTime" : "2021-09-18T16:00:00Z",
+		"channel": "ESPNU"
+    },
+    {
+		"gameId" : 88,
+		"homeTeam" : "MIA",
+		"awayTeam" : "MSU",
+		"favorite" : "MIA",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2021-09-18T16:00:00Z",
+		"channel": "ABC"
+    },
+    {
+		"gameId" : 89,
+		"homeTeam" : "CU",
+		"awayTeam" : "MINN",
+		"favorite" : "CU",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2021-09-18T17:00:00Z",
+		"channel": "PACN"
+    },
+    {
+		"gameId" : 90,
+		"homeTeam" : "K-STATE",
+		"awayTeam" : "NEV",
+		"favorite" : "NEV",
+		"spread" : 1.5,
+		"required" : false,
+		"gameTime" : "2021-09-18T18:00:00Z",
+		"channel": "ESPN+"
     }
   ]
 }

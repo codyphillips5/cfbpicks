@@ -179,7 +179,7 @@
 		"teamId" : 26,
 		"team" : "Northwestern",
 		"teamMascot" : "Wildcats",
-		"teamValue" : "NW",
+		"teamValue" : "NU",
 		"teamImage" : 32
     },
 	{
@@ -634,7 +634,7 @@
 		"teamId" : 91,
 		"team" : "Purdue",
 		"teamMascot" : "Boilermakers",
-		"teamValue" : "PURD",
+		"teamValue" : "PUR",
 		"teamImage" : 35
     },
 	{
@@ -683,7 +683,7 @@
 		"teamId" : 98,
 		"team" : "Kansas",
 		"teamMascot" : "Jayhawks",
-		"teamValue" : "KU",
+		"teamValue" : "KAN",
 		"teamImage" : 20
     },
 	{

@@ -200,7 +200,7 @@ else {
 				  choices[i].fullTeam = fullTeamName;
 				  choices[i].game = id;
 				  choices[i].spread = attempt.thisTeamImg;
-				  document.getElementById("image" + pts).innerHTML = `<img src="https://b.fssta.com/uploads/content/dam/fsdigital/fscom/global/dev/static_resources/ncaaf/teams/retina/${choices[i].spread}.vresize.200.200.medium.2.png">`;
+				  document.getElementById("image" + pts).innerHTML = `<img src="https://b.fssta.com/uploads/application/college/team-logos/${choices[i].spread}.vresize.200.200.medium.0.png">`;
 				  game.game = id;
 			  }
 		  }

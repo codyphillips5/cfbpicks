@@ -5,7 +5,7 @@ var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 2;
+var weekNum = 3;
 var isCorrect;
 var isMe;
 var date1 = new Date();
@@ -19,7 +19,9 @@ var picksList, teamsList, resultsList, usersList;
 var resultsList = [];
 var badge = document.createElement('div');
 badge.className = 'results';
-var select = `<select class='form-control form-select' id='results_by_week' onchange="getResultsByWeek(this.value);"><option value ='2'> Week 2 </option><option value ='1'> Week 1 </option></select>`;
+var select = `<select class='form-control form-select' id='results_by_week' onchange="getResultsByWeek(this.value);">
+<option value ='3'> Week 3 </option><option value ='2'> Week 2 </option><option value ='1'> Week 1 </option>
+</select>`;
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);
 

@@ -15,7 +15,7 @@
 		"homeTeam" : "ARMY",
 		"awayTeam" : "UCONN",
 		"favorite" : "ARMY",
-		"spread" : 32.5,
+		"spread" : 34.5,
 		"required" : false,
 		"gameTime" : "2021-09-18T16:00:00Z",
 		"channel": "CBSSN"
@@ -25,7 +25,7 @@
 		"homeTeam" : "TXA&M",
 		"awayTeam" : "UNM",
 		"favorite" : "TXA&M",
-		"spread" : 28.5,
+		"spread" : 29.5,
 		"required" : false,
 		"gameTime" : "2021-09-18T16:00:00Z",
 		"channel": "SECN"
@@ -35,7 +35,7 @@
 		"homeTeam" : "WVU",
 		"awayTeam" : "VT",
 		"favorite" : "WVU",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2021-09-18T16:00:00Z",
 		"channel": "FS1"
@@ -85,7 +85,7 @@
 		"homeTeam" : "TEMPLE",
 		"awayTeam" : "BC",
 		"favorite" : "BC",
-		"spread" : 14.5,
+		"spread" : 15.5,
 		"required" : false,
 		"gameTime" : "2021-09-18T16:00:00Z",
 		"channel": "ESPNU"
@@ -135,7 +135,7 @@
 		"homeTeam" : "IOWA",
 		"awayTeam" : "KENT",
 		"favorite" : "IOWA",
-		"spread" : 22.5,
+		"spread" : 23.5,
 		"required" : false,
 		"gameTime" : "2021-09-18T19:30:00Z",
 		"channel": "BTN"
@@ -145,7 +145,7 @@
 		"homeTeam" : "KAN",
 		"awayTeam" : "BAYLOR",
 		"favorite" : "BAYLOR",
-		"spread" : 18.5,
+		"spread" : 17.5,
 		"required" : false,
 		"gameTime" : "2021-09-18T19:30:00Z",
 		"channel": "ESPN+"
@@ -195,7 +195,7 @@
 		"homeTeam" : "LATECH",
 		"awayTeam" : "SMU",
 		"favorite" : "SMU",
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2021-09-18T19:30:00Z",
 		"channel": "CBSSN"
@@ -235,7 +235,7 @@
 		"homeTeam" : "WYO",
 		"awayTeam" : "BALLST",
 		"favorite" : "WYO",
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2021-09-18T20:00:00Z",
 		"channel": "STADIUM"
@@ -265,7 +265,7 @@
 		"homeTeam" : "DUKE",
 		"awayTeam" : "NU",
 		"favorite" : "NU",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2021-09-18T20:00:00Z",
 		"channel": "ACCN"
@@ -275,7 +275,7 @@
 		"homeTeam" : "WASH",
 		"awayTeam" : "ARKST",
 		"favorite" : "WASH",
-		"spread" : 17.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2021-09-18T20:15:00Z",
 		"channel": "PACN"
@@ -285,7 +285,7 @@
 		"homeTeam" : "UTSA",
 		"awayTeam" : "MIDTN",
 		"favorite" : "UTSA",
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2021-09-18T22:00:00Z",
 		"channel": "ESPN+"
@@ -365,7 +365,7 @@
 		"homeTeam" : "PSU",
 		"awayTeam" : "AUB",
 		"favorite" : "PSU",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : true,
 		"gameTime" : "2021-09-18T23:30:00Z",
 		"channel": "ABC"
@@ -395,7 +395,7 @@
 		"homeTeam" : "UNC",
 		"awayTeam" : "UVA",
 		"favorite" : "UNC",
-		"spread" : 9.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2021-09-18T23:30:00Z",
 		"channel": "ACCN"
@@ -465,7 +465,7 @@
 		"homeTeam" : "UNLV",
 		"awayTeam" : "IOWAST",
 		"favorite" : "IOWAST",
-		"spread" : 30.5,
+		"spread" : 31.5,
 		"required" : false,
 		"gameTime" : "2021-09-19T02:30:00Z",
 		"channel": "CBSSN"

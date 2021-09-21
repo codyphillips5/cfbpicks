@@ -407,7 +407,7 @@
 		"favorite" : "OU",
 		"spread" : 16.5,
 		"required" : false,
-		"gameTime" : "2021-09-25T22:00:00Z",
+		"gameTime" : "2021-09-25T23:30:00Z",
 		"channel": "ABC"
     },
     {
@@ -417,7 +417,7 @@
 		"favorite" : "UNC",
 		"spread" : 12.5,
 		"required" : false,
-		"gameTime" : "2021-09-25T22:00:00Z",
+		"gameTime" : "2021-09-25T23:30:00Z",
 		"channel": "ACCN"
     },
     {

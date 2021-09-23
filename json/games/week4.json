@@ -15,7 +15,7 @@
 		"awayTeam" : "OHIO",
 		"homeTeam" : "NU",
 		"favorite" : "NU",
-		"spread" : 15.5,
+		"spread" : 14.5,
 		"required" : false,
 		"gameTime" : "2021-09-25T16:00:00Z",
 		"channel": "BTN"
@@ -35,7 +35,7 @@
 		"awayTeam" : "MIA-OH",
 		"homeTeam" : "ARMY",
 		"favorite" : "ARMY",
-		"spread" : 7.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2021-09-25T16:00:00Z",
 		"channel": "CBSSN"
@@ -55,7 +55,7 @@
 		"awayTeam" : "SMU",
 		"homeTeam" : "TCU",
 		"favorite" : "TCU",
-		"spread" : 8.5,
+		"spread" : 9.5,
 		"required" : false,
 		"gameTime" : "2021-09-25T16:00:00Z",
 		"channel": "FS1"
@@ -65,7 +65,7 @@
 		"awayTeam" : "TEXTCH",
 		"homeTeam" : "TEXAS",
 		"favorite" : "TEXAS",
-		"spread" : 8.5,
+		"spread" : 7.5,
 		"required" : false,
 		"gameTime" : "2021-09-25T16:00:00Z",
 		"channel": "ABC"
@@ -85,7 +85,7 @@
 		"awayTeam" : "MIZZOU",
 		"homeTeam" : "BC",
 		"favorite" : "MIZZOU",
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2021-09-25T16:00:00Z",
 		"channel": "ESPN2"
@@ -105,7 +105,7 @@
 		"awayTeam" : "ND",
 		"homeTeam" : "WIS",
 		"favorite" : "WIS",
-		"spread" : 5.5,
+		"spread" : 6.5,
 		"required" : true,
 		"gameTime" : "2021-09-25T16:00:00Z",
 		"channel": "FOX"
@@ -115,7 +115,7 @@
 		"awayTeam" : "UMASS",
 		"homeTeam" : "COCAR",
 		"favorite" : "COCAR",
-		"spread" : 35.5,
+		"spread" : 36.5,
 		"required" : false,
 		"gameTime" : "2021-09-25T17:00:00Z",
 		"channel": "ESPN+"
@@ -175,7 +175,7 @@
 		"awayTeam" : "WYO",
 		"homeTeam" : "UCONN",
 		"favorite" : "WYO",
-		"spread" : 29.5,
+		"spread" : 30.5,
 		"required" : false,
 		"gameTime" : "2021-09-25T19:30:00Z",
 		"channel": "CBSSN"
@@ -195,7 +195,7 @@
 		"awayTeam" : "RUTG",
 		"homeTeam" : "MICH",
 		"favorite" : "MICH",
-		"spread" : 21.5,
+		"spread" : 20.5,
 		"required" : false,
 		"gameTime" : "2021-09-25T19:30:00Z",
 		"channel": "ABC"
@@ -275,7 +275,7 @@
 		"awayTeam" : "KAN",
 		"homeTeam" : "DUKE",
 		"favorite" : "DUKE",
-		"spread" : 15.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2021-09-25T20:00:00Z",
 		"channel": "ACCN"
@@ -365,7 +365,7 @@
 		"awayTeam" : "TENN",
 		"homeTeam" : "FLA",
 		"favorite" : "FLA",
-		"spread" : 20.5,
+		"spread" : 19.5,
 		"required" : false,
 		"gameTime" : "2021-09-25T23:00:00Z",
 		"channel": "ESPN"
@@ -375,7 +375,7 @@
 		"awayTeam" : "NEB",
 		"homeTeam" : "MSU",
 		"favorite" : "MSU",
-		"spread" : 5.5,
+		"spread" : 4.5,
 		"required" : false,
 		"gameTime" : "2021-09-25T23:00:00Z",
 		"channel": "FS1"
@@ -405,7 +405,7 @@
 		"awayTeam" : "WVU",
 		"homeTeam" : "OU",
 		"favorite" : "OU",
-		"spread" : 16.5,
+		"spread" : 17.5,
 		"required" : false,
 		"gameTime" : "2021-09-25T23:30:00Z",
 		"channel": "ABC"
@@ -435,7 +435,7 @@
 		"awayTeam" : "UAB",
 		"homeTeam" : "TULANE",
 		"favorite" : "TULANE",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2021-09-26T00:00:00Z",
 		"channel": "ESPN+"
@@ -495,7 +495,7 @@
 		"awayTeam" : "USF",
 		"homeTeam" : "BYU",
 		"favorite" : "BYU",
-		"spread" : 22.5,
+		"spread" : 23.5,
 		"required" : false,
 		"gameTime" : "2021-09-26T02:15:00Z",
 		"channel": "ESPN2"

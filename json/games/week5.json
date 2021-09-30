@@ -189,7 +189,7 @@
 		"required" : false,
 		"gameTime" : "2021-10-02T19:30:00Z",
 		"channel": "STADIUM"
-    },,
+    },
     {
 		"gameId" : 200,
 		"awayTeam" : "OSU",
@@ -199,7 +199,7 @@
 		"required" : false,
 		"gameTime" : "2021-10-02T19:30:00Z",
 		"channel": "BTN"
-    }
+    },
     {
 		"gameId" : 201,
 		"awayTeam" : "MISS",
@@ -399,16 +399,6 @@
 		"required" : false,
 		"gameTime" : "2021-10-02T22:30:00Z",
 		"channel": "FS2"
-    },
-    {
-		"gameId" : 221,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
-		"required" : false,
-		"gameTime" : "2021-10-02T19:30:00Z",
-		"channel": ""
     },
     {
 		"gameId" : 222,

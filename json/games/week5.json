@@ -155,7 +155,7 @@
 		"awayTeam" : "CIN",
 		"homeTeam" : "ND",
 		"favorite" : "CIN",
-		"spread" : 1.5,
+		"spread" : 2.5,
 		"required" : true,
 		"gameTime" : "2021-10-02T18:30:00Z",
 		"channel": "NBC"

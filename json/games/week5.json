@@ -5,7 +5,7 @@
 		"awayTeam" : "DUKE",
 		"homeTeam" : "UNC",
 		"favorite" : "UNC",
-		"spread" : 20.5,
+		"spread" : 19.5,
 		"required" : false,
 		"gameTime" : "2021-10-02T16:00:00Z",
 		"channel": "ESPN2"
@@ -75,7 +75,7 @@
 		"awayTeam" : "TENN",
 		"homeTeam" : "MIZZOU",
 		"favorite" : "MIZZOU",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2021-10-02T16:00:00Z",
 		"channel": "SECN"
@@ -85,7 +85,7 @@
 		"awayTeam" : "MEM",
 		"homeTeam" : "TEMPLE",
 		"favorite" : "MEM",
-		"spread" : 10.5,
+		"spread" : 11.5,
 		"required" : false,
 		"gameTime" : "2021-10-02T16:00:00Z",
 		"channel": "ESPNU"
@@ -155,7 +155,7 @@
 		"awayTeam" : "CIN",
 		"homeTeam" : "ND",
 		"favorite" : "CIN",
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : true,
 		"gameTime" : "2021-10-02T18:30:00Z",
 		"channel": "NBC"
@@ -245,7 +245,7 @@
 		"awayTeam" : "BGSU",
 		"homeTeam" : "KENT",
 		"favorite" : "KENT",
-		"spread" : 17.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2021-10-02T19:30:00Z",
 		"channel": "ESPN+"
@@ -295,7 +295,7 @@
 		"awayTeam" : "SYR",
 		"homeTeam" : "FSU",
 		"favorite" : "FSU",
-		"spread" : 4.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2021-10-02T19:30:00Z",
 		"channel": "ACCN"
@@ -305,7 +305,7 @@
 		"awayTeam" : "OU",
 		"homeTeam" : "K-STATE",
 		"favorite" : "OU",
-		"spread" : 11.5,
+		"spread" : 10.5,
 		"required" : false,
 		"gameTime" : "2021-10-02T19:30:00Z",
 		"channel": "FOX"
@@ -445,7 +445,7 @@
 		"awayTeam" : "LIB",
 		"homeTeam" : "UAB",
 		"favorite" : "UAB",
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2021-10-02T23:00:00Z",
 		"channel": "CBSSN"
@@ -465,7 +465,7 @@
 		"awayTeam" : "BC",
 		"homeTeam" : "CLEM",
 		"favorite" : "CLEM",
-		"spread" : 14.5,
+		"spread" : 15.5,
 		"required" : false,
 		"gameTime" : "2021-10-02T23:30:00Z",
 		"channel": "ACCN"
@@ -475,7 +475,7 @@
 		"awayTeam" : "NU",
 		"homeTeam" : "NEB",
 		"favorite" : "NEB",
-		"spread" : 12.5,
+		"spread" : 11.5,
 		"required" : false,
 		"gameTime" : "2021-10-02T23:30:00Z",
 		"channel": "BTN"
@@ -505,7 +505,7 @@
 		"awayTeam" : "LA",
 		"homeTeam" : "SOALA",
 		"favorite" : "LA",
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2021-10-03T00:00:00Z",
 		"channel": "ESPN+"
@@ -525,7 +525,7 @@
 		"awayTeam" : "ODU",
 		"homeTeam" : "UTEP",
 		"favorite" : "UTEP",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2021-10-03T01:00:00Z",
 		"channel": "ESPN+"

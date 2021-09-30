@@ -541,7 +541,7 @@
 		"channel": "ESPN"
     },
     {
-		"gameId" : 235,
+		"gameId" : 236,
 		"awayTeam" : "ASU",
 		"homeTeam" : "UCLA",
 		"favorite" : "UCLA",
@@ -551,7 +551,7 @@
 		"channel": "FS1"
     },
     {
-		"gameId" : 235,
+		"gameId" : 237,
 		"awayTeam" : "NMSU",
 		"homeTeam" : "SJSU",
 		"favorite" : "SJSU",
@@ -561,7 +561,7 @@
 		"channel": "MWN"
     },
     {
-		"gameId" : 235,
+		"gameId" : 238,
 		"awayTeam" : "FRESNST",
 		"homeTeam" : "HAW",
 		"favorite" : "FRESNST",

@@ -2,7 +2,7 @@ var userTotalPoints = [];
 var allUsers = [];
 var pointCollection;
 
-var weekNum = 4;
+var weekNum = 5;
 var userWeekTop = false;
 
 var users = db.collection("Users").get().then((querySnapshot) => {
@@ -28,120 +28,68 @@ $.when(users).then(function(){
 		})		
 		
 		// all other weeks
-		var pointCollection = db.collection('Users').doc(allUsers[loop] + "/Standings/Week1");
-		pointCollection.get()
-			.then((docSnapshot) => {
-				// set starters
-				var pointTotal = 0;
-				var weekTotal = 0;
-				var points = 0;
-				
-				if (docSnapshot.data()) {
-					points = docSnapshot.data().Points;
-					userWeekTop = docSnapshot.data().Top;
-				}
-				else {
-					points = 0;
-					userWeekTop = false;
-				}
-				userTotalPoints.push(points);
-				pointTotal = pointTotal + points;
-				weekTotal++;
-				if (userWeekTop) 
-					tableUser = tableUser + `<td class='table-success text-center' id='week1'>${points}</td>`;
-				else 
-					tableUser = tableUser + `<td class="text-center" id="week1">${points}</td>`;
-			});
-			
-		var pointCollection = db.collection('Users').doc(allUsers[loop] + "/Standings/Week2");
-		pointCollection.get()
-			.then((docSnapshot) => {
-				// set starters
-				var pointTotal = 0;
-				var weekTotal = 0;
-				var points = 0;
-				
-				if (docSnapshot.data()) {
-					points = docSnapshot.data().Points;
-					userWeekTop = docSnapshot.data().Top;
-				}
-				else {
-					points = 0;
-					userWeekTop = false;
-				}
-				userTotalPoints.push(points);
-				pointTotal = pointTotal + points;
-				weekTotal++;
-				if (userWeekTop) 
-					tableUser = tableUser + `<td class='table-success text-center' id='week1'>${points}</td>`;
-				else 
-					tableUser = tableUser + `<td class="text-center" id="week1">${points}</td>`;
-			});
-
-			var pointCollection = db.collection('Users').doc(allUsers[loop] + "/Standings/Week3");
-				pointCollection.get()
-			.then((docSnapshot) => {
-				// set starters
-				var pointTotal = 0;
-				var weekTotal = 0;
-				var points = 0;
-				
-				if (docSnapshot.data()) {
-					points = docSnapshot.data().Points;
-					userWeekTop = docSnapshot.data().Top;
-				}
-				else {
-					points = 0;
-					userWeekTop = false;
-				}
-				userTotalPoints.push(points);
-				pointTotal = pointTotal + points;
-				weekTotal++;
-				if (userWeekTop) 
-					tableUser = tableUser + `<td class='table-success text-center' id='week1'>${points}</td>`;
-				else 
-					tableUser = tableUser + `<td class="text-center" id="week1">${points}</td>`;
-			});
-			
-			for(var weekOfYr = 3; weekOfYr < weekNum; weekOfYr++) {
-				// most recent week
-				var dataWeek = weekOfYr + 1;
-				var pointCollection = db.collection('Users').doc(allUsers[loop] + "/Standings/Week" + dataWeek);
-				pointCollection.get()
-					.then((docSnapshot) => {
-						// set starters
-						var points = 0;
-						var pointTotal = 0;
-						if (docSnapshot.data()) {
-							points = docSnapshot.data().Points;
-							userWeekTop = docSnapshot.data().Top;
+		
+		for(var weekOfYr = 1; weekOfYr < weekNum; weekOfYr++) {
+			var pointCollection = db.collection('Users').doc(allUsers[loop] + "/Standings/Week" + weekOfYr);
+			pointCollection.get()
+				.then((docSnapshot) => {
+					// set starters
+					var pointTotal = 0;
+					var weekTotal = 0;
+					var points = 0;
+					
+					if (docSnapshot.data()) {
+						points = docSnapshot.data().Points;
+						userWeekTop = docSnapshot.data().Top;
+					}
+					else {
+						points = 0;
+						userWeekTop = false;
+					}
+					userTotalPoints.push(points);
+					pointTotal = pointTotal + points;
+					weekTotal++;
+					if (userWeekTop) 
+						tableUser = tableUser + `<td class='table-success text-center' id='week1'>${points}</td>`;
+					else 
+						tableUser = tableUser + `<td class="text-center" id="week1">${points}</td>`;
+				});	
+		}
+		
+		// most recent week
+		var pointCollection = db.collection('Users').doc(allUsers[loop] + "/Standings/Week" + weekNum);
+			pointCollection.get()
+				.then((docSnapshot) => {
+					// set starters
+					var points = 0;
+					var pointTotal = 0;
+					if (docSnapshot.data()) {
+						points = docSnapshot.data().Points;
+						userWeekTop = docSnapshot.data().Top;
+					}
+					else {
+						points = 0;
+						userWeekTop = false;
+					}
+					if (userWeekTop) 
+						tableUser = tableUser + `<td class='table-success text-center' id='week${weekNum}'>${points}</td>`;
+					else 
+						tableUser = tableUser + `<td class="text-center" id='week${weekNum}'>${points}</td>`;
+					
+						userTotalPoints.push(points);
+						console.log(userTotalPoints);
+						for(var i=0; i < userTotalPoints.length; i++) {
+							pointTotal = pointTotal + userTotalPoints[i];
 						}
-						else {
-							points = 0;
-							userWeekTop = false;
-						}
-						if (userWeekTop) 
-							tableUser = tableUser + `<td class='table-success text-center' id='week${dataWeek}'>${points}</td>`;
-						else 
-							tableUser = tableUser + `<td class="text-center" id='week${dataWeek}'>${points}</td>`;
-								
-						//
-						if (dataWeek == weekNum) {
-							userTotalPoints.push(points);
-							console.log(userTotalPoints);
-							for(var i=0; i < userTotalPoints.length; i++) {
-								pointTotal = pointTotal + userTotalPoints[i];
-							}
-							tableUser = tableUser + `<td class="bg-light first-col text-center">${pointTotal}</td></tr>`;
-						}
-						var tableEnd = `</tbody></table>`;	
-						document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;	
-						while(userTotalPoints.length > 0) {
-							userTotalPoints.pop();
-						}
+						tableUser = tableUser + `<td class="bg-light first-col text-center">${pointTotal}</td></tr>`;
+						
+					var tableEnd = `</tbody></table>`;	
+					document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;	
+					while(userTotalPoints.length > 0) {
+						userTotalPoints.pop();
+					}
 				sortTable(weekNum + 1);
-					});				
-			}
+			});
 		}
 	});
 

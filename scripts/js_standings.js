@@ -11,7 +11,7 @@ var users = db.collection("Users").get().then((querySnapshot) => {
 	})
 });
 
-var tableStart = `<table class="table table-hover" id="standings-table"><thead><tr><th class="first-col bg-light" scope="col">Name</th>`;
+var tableStart = `<div class="table-responsive"><table class="table table-hover" id="standings-table"><thead><tr><th class="first-col bg-light" scope="col">Name</th>`;
 for(var wn = 1; wn <= weekNum; wn++) {
 	tableStart = tableStart + `<th scope="col" class="bg-light text-center bg-gradient">Week ${wn}</th>`;
 }

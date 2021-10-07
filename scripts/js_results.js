@@ -19,9 +19,13 @@ var picksList, teamsList, resultsList, usersList;
 var resultsList = [];
 var badge = document.createElement('div');
 badge.className = 'results';
-var select = `<select class='form-control form-select' id='results_by_week' onchange="getResultsByWeek(this.value);">
-<option value ='5'> Week 5 </option><option value ='4'> Week 4 </option><option value ='3'> Week 3 </option><option value ='2'> Week 2 </option><option value ='1'> Week 1 </option>
-</select>`;
+var select = `<select class='form-control form-select' id='results_by_week' onchange="getResultsByWeek(this.value);">`;
+/*for (var theWeekOfTheYear = weekNum; theWeekOfTheYear <= 1; theWeekOfTheYear++) {
+	select = select + `<option vale = '${theWeekOfTheYear}'> Week ${theWeekOfTheYear} </option>`;
+}*/
+
+select = select + `<option value ='6'> Week 6 </option><option value ='5'> Week 5 </option><option value ='4'> Week 4 </option><option value ='3'> Week 3 </option><option value ='2'> Week 2 </option><option value ='1'> Week 1 </option>`;
+select = select + `</select>`;
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);
 

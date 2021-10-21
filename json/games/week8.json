@@ -1,0 +1,444 @@
+{
+  "games": [
+	{
+		"gameId" : 328,
+		"awayTeam" : "EMU",
+		"homeTeam" : "BGSU",
+		"favorite" : "EMU",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T16:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 329,
+		"awayTeam" : "UMASS",
+		"homeTeam" : "FSU",
+		"favorite" : "FSU",
+		"spread" : 35.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T16:00:00Z",
+		"channel": "ACCN"
+    },
+	{
+		"gameId" : 330,
+		"awayTeam" : "WAKE",
+		"homeTeam" : "ARMY",
+		"favorite" : "WAKE",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T16:00:00Z",
+		"channel": "CBSSN"
+    },
+	{
+		"gameId" : 331,
+		"awayTeam" : "CIN",
+		"homeTeam" : "NAVY",
+		"favorite" : "CIN",
+		"spread" : 28.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T16:00:00Z",
+		"channel": "ESPN2"
+    },
+	{
+		"gameId" : 332,
+		"awayTeam" : "NIU",
+		"homeTeam" : "CMICH",
+		"favorite" : "CMICH",
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T16:00:00Z",
+		"channel": "ESPNU"
+    },
+	{
+		"gameId" : 333,
+		"awayTeam" : "ILL",
+		"homeTeam" : "PSU",
+		"favorite" : "PSU",
+		"spread" : 23.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T16:00:00Z",
+		"channel": "ABC"
+    },
+	{
+		"gameId" : 334,
+		"awayTeam" : "NU",
+		"homeTeam" : "MICH",
+		"favorite" : "MICH",
+		"spread" : 23.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T16:00:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 335,
+		"awayTeam" : "OU",
+		"homeTeam" : "KAN",
+		"favorite" : "OU",
+		"spread" : 38.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T16:00:00Z",
+		"channel": "ESPN"
+    },
+	{
+		"gameId" : 336,
+		"awayTeam" : "K-STATE",
+		"homeTeam" : "TEXTCH",
+		"favorite" : "TEXTCH",
+		"spread" : 0,
+		"required" : false,
+		"gameTime" : "2021-10-23T16:00:00Z",
+		"channel": "FS1"
+    },
+	{
+		"gameId" : 337,
+		"awayTeam" : "SYR",
+		"homeTeam" : "VT",
+		"favorite" : "VT",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T16:30:00Z",
+		"channel": "ESPN3"
+    },
+	{
+		"gameId" : 338,
+		"awayTeam" : "KENT",
+		"homeTeam" : "OHIO",
+		"favorite" : "KENT",
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T17:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 339,
+		"awayTeam" : "TEXST",
+		"homeTeam" : "GSU",
+		"favorite" : "GSU",
+		"spread" : 10.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T18:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 340,
+		"awayTeam" : "WIS",
+		"homeTeam" : "PUR",
+		"favorite" : "WIS",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T19:00:00Z",
+		"channel": "BTN"
+    },
+	{
+		"gameId" : 341,
+		"awayTeam" : "LSU",
+		"homeTeam" : "MISS",
+		"favorite" : "MISS",
+		"spread" : 9.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T19:30:00Z",
+		"channel": "CBS"
+    },
+	{
+		"gameId" : 342,
+		"awayTeam" : "OKST",
+		"homeTeam" : "IOWAST",
+		"favorite" : "IOWAST",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T19:30:00Z",
+		"channel": "FOX"
+    },
+	{
+		"gameId" : 343,
+		"awayTeam" : "BYU",
+		"homeTeam" : "WSU",
+		"favorite" : "BYU",
+		"spread" : 4.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T19:30:00Z",
+		"channel": "FS1"
+    },
+	{
+		"gameId" : 344,
+		"awayTeam" : "MIA-OH",
+		"homeTeam" : "BALLST",
+		"favorite" : "BALLST",
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T19:30:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 345,
+		"awayTeam" : "BUFF",
+		"homeTeam" : "AKRON",
+		"favorite" : "BUFF",
+		"spread" : 11.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T19:30:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 346,
+		"awayTeam" : "WMU",
+		"homeTeam" : "TOLEDO",
+		"favorite" : "WMU",
+		"spread" : 1.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T19:30:00Z",
+		"channel": "CBSSN"
+    },
+	{
+		"gameId" : 347,
+		"awayTeam" : "CLEM",
+		"homeTeam" : "PITT",
+		"favorite" : "PITT",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T19:30:00Z",
+		"channel": "ESPN"
+    },
+	{
+		"gameId" : 348,
+		"awayTeam" : "MD",
+		"homeTeam" : "MINN",
+		"favorite" : "MINN",
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T19:30:00Z",
+		"channel": "ESPN2"
+    },
+	{
+		"gameId" : 349,
+		"awayTeam" : "ORE",
+		"homeTeam" : "UCLA",
+		"favorite" : "UCLA",
+		"spread" : 1.5,
+		"required" : true,
+		"gameTime" : "2021-10-23T19:30:00Z",
+		"channel": "ABC"
+    },
+	{
+		"gameId" : 350,
+		"awayTeam" : "RICE",
+		"homeTeam" : "UAB",
+		"favorite" : "UAB",
+		"spread" : 23.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T19:30:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 351,
+		"awayTeam" : "UNM",
+		"homeTeam" : "WYO",
+		"favorite" : "WYO",
+		"spread" : 20.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T19:30:00Z",
+		"channel": "STADIUM"
+    },
+	{
+		"gameId" : 352,
+		"awayTeam" : "CU",
+		"homeTeam" : "CAL",
+		"favorite" : "CAL",
+		"spread" : 8.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T19:30:00Z",
+		"channel": "PACN"
+    },
+	{
+		"gameId" : 353,
+		"awayTeam" : "MSST",
+		"homeTeam" : "VANDY",
+		"favorite" : "MSST",
+		"spread" : 20.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T20:00:00Z",
+		"channel": "SECN"
+    },
+	{
+		"gameId" : 354,
+		"awayTeam" : "LIB",
+		"homeTeam" : "UNT",
+		"favorite" : "LIB",
+		"spread" : 21.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T20:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 355,
+		"awayTeam" : "ECU",
+		"homeTeam" : "HOU",
+		"favorite" : "HOU",
+		"spread" : 13.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T20:00:00Z",
+		"channel": "ESPNU"
+    },
+	{
+		"gameId" : 356,
+		"awayTeam" : "BC",
+		"homeTeam" : "LOU",
+		"favorite" : "LOU",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T20:00:00Z",
+		"channel": "ACCN"
+    },
+	{
+		"gameId" : 357,
+		"awayTeam" : "NEV",
+		"homeTeam" : "FRESNST",
+		"favorite" : "FRESNST",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:00:00Z",
+		"channel": "FS2"
+    },
+	{
+		"gameId" : 358,
+		"awayTeam" : "UTSA",
+		"homeTeam" : "LATECH",
+		"favorite" : "UTSA",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:00:00Z",
+		"channel": "STADIUM"
+    },
+	{
+		"gameId" : 359,
+		"awayTeam" : "TEMPLE",
+		"homeTeam" : "USF",
+		"favorite" : "USF",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 360,
+		"awayTeam" : "WKU",
+		"homeTeam" : "FIU",
+		"favorite" : "WKU",
+		"spread" : 15.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 361,
+		"awayTeam" : "TENN",
+		"homeTeam" : "ALA",
+		"favorite" : "ALA",
+		"spread" : 25.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:00:00Z",
+		"channel": "ESPN"
+    },
+	{
+		"gameId" : 362,
+		"awayTeam" : "SDSU",
+		"homeTeam" : "AFA",
+		"favorite" : "AFA",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:00:00Z",
+		"channel": "CBSSN"
+    },
+	{
+		"gameId" : 363,
+		"awayTeam" : "SOALA",
+		"homeTeam" : "LAMON",
+		"favorite" : "SOALA",
+		"spread" : 13.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:00:00Z",
+		"channel": "ESPN3"
+    },
+	{
+		"gameId" : 364,
+		"awayTeam" : "NCST",
+		"homeTeam" : "MIA",
+		"favorite" : "NCST",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:30:00Z",
+		"channel": "ESPN2"
+    },
+	{
+		"gameId" : 365,
+		"awayTeam" : "OSU",
+		"homeTeam" : "IND",
+		"favorite" : "OSU",
+		"spread" : 21.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:30:00Z",
+		"channel": "ABC"
+    },
+	{
+		"gameId" : 366,
+		"awayTeam" : "SCAR",
+		"homeTeam" : "TXA&M",
+		"favorite" : "TXA&M",
+		"spread" : 20.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:30:00Z",
+		"channel": "SECN"
+    },
+	{
+		"gameId" : 367,
+		"awayTeam" : "UTAH",
+		"homeTeam" : "OREST",
+		"favorite" : "UTAH",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:30:00Z",
+		"channel": "PACN"
+    },
+	{
+		"gameId" : 368,
+		"awayTeam" : "WVU",
+		"homeTeam" : "TCU",
+		"favorite" : "TCU",
+		"spread" : 4.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:30:00Z",
+		"channel": "ESPNU"
+    },
+	{
+		"gameId" : 369,
+		"awayTeam" : "USC",
+		"homeTeam" : "ND",
+		"favorite" : "ND",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:30:00Z",
+		"channel": "NBC"
+    },
+	{
+		"gameId" : 370,
+		"awayTeam" : "GT",
+		"homeTeam" : "UVA",
+		"favorite" : "UVA",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2021-10-23T23:30:00Z",
+		"channel": "ACCN"
+    },
+	{
+		"gameId" : 371,
+		"awayTeam" : "NMSU",
+		"homeTeam" : "HAW",
+		"favorite" : "HAW",
+		"spread" : 18.5,
+		"required" : false,
+		"gameTime" : "2021-10-24T04:00:00Z",
+		"channel": "Team 1 Sports"
+    }
+  ]
+}

@@ -225,7 +225,7 @@
 		"awayTeam" : "PUR",
 		"homeTeam" : "OSU",
 		"favorite" : "OSU",
-		"spread" : 20.5,
+		"spread" : 21.5,
 		"required" : false,
 		"gameTime" : "2021-11-13T20:30:00Z",
 		"channel": "ABC"
@@ -285,7 +285,7 @@
 		"awayTeam" : "FIU",
 		"homeTeam" : "MIDTN",
 		"favorite" : "MIDTN",
-		"spread" : 9.5,
+		"spread" : 10.5,
 		"required" : false,
 		"gameTime" : "2021-11-13T20:30:00Z",
 		"channel": "ESPN3"

@@ -485,7 +485,7 @@
 		"awayTeam" : "LAMON",
 		"homeTeam" : "LSU",
 		"favorite" : "LSU",
-		"spread" : .5,
+		"spread" : 28.5,
 		"required" : false,
 		"gameTime" : "2021-11-21T02:00:00Z",
 		"channel": "ESPN2"
@@ -495,7 +495,7 @@
 		"awayTeam" : "ASU",
 		"homeTeam" : "OREST",
 		"favorite" : "ASU",
-		"spread" : 28.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2021-11-21T03:30:00Z",
 		"channel": "ESPN"

@@ -98,7 +98,7 @@
 		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2021-11-20T17:00:00Z",
-		"channel": ""
+		"channel": "ESPN2"
     },
 	{
 		"gameId" : 533,
@@ -108,7 +108,7 @@
 		"spread" : 36.5,
 		"required" : false,
 		"gameTime" : "2021-11-20T17:00:00Z",
-		"channel": ""
+		"channel": "SECN"
     },
 	{
 		"gameId" : 534,

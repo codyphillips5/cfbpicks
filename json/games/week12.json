@@ -446,7 +446,7 @@
 		"homeTeam" : "UTAH",
 		"favorite" : "UTAH",
 		"spread" : 3.5,
-		"required" : false,
+		"required" : true,
 		"gameTime" : "2021-11-21T00:30:00Z",
 		"channel": "ABC"
     },

@@ -53,8 +53,8 @@
 	{
 		"gameId" : 579,
 		"awayTeam" : "NAVY",
-		"homeTeam" : "NAVY",
-		"favorite" : "TEMPLE",
+		"homeTeam" : "TEMPLE",
+		"favorite" : "NAVY",
 		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2021-11-27T17:00:00Z",

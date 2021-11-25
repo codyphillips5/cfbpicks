@@ -248,17 +248,17 @@
 		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2021-11-27T20:30:00Z",
-		"channel": ""
+		"channel": "CBSSN"
     },	
 	{
 		"gameId" : 599,
 		"awayTeam" : "ALA",
 		"homeTeam" : "AUB",
 		"favorite" : "ALA",
-		"spread" : .5,
+		"spread" : 19.5,
 		"required" : false,
 		"gameTime" : "2021-11-27T20:30:00Z",
-		"channel": ""
+		"channel": "CBS"
     },	
 	{
 		"gameId" : 600,

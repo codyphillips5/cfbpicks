@@ -19,8 +19,6 @@ if (week === 0) {
 else if (week === 14) {
 	document.getElementById("week-title").innerHTML = `<h2>Enjoy the Bowls!</h2>`;
 }
-	
-}
 else {
 	document.getElementById("week-title").innerHTML = `<h2>Week ${week}</h2>`;
 }

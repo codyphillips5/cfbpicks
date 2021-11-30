@@ -12,9 +12,14 @@ var game = {
   };
   
 // week of year, first game
-var week = 13;
+var week = 14;
 if (week === 0) {
 	document.getElementById("week-title").innerHTML = `<h2>Week 0 Test</h2>`;
+}
+else if (week === 14) {
+	document.getElementById("week-title").innerHTML = `<h2>Enjoy the Bowls!</h2>`;
+}
+	
 }
 else {
 	document.getElementById("week-title").innerHTML = `<h2>Week ${week}</h2>`;

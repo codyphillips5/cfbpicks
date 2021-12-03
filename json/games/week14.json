@@ -1,25 +1,5 @@
 {
-  "games": [
-	{
-		"gameId" : 619,
-		"awayTeam" : "WKU",
-		"homeTeam" : "UTSA",
-		"favorite" : "WKU",
-		"spread" : 3.5,
-		"required" : false,
-		"gameTime" : "2021-12-04T00:00:00Z",
-		"channel": "CBSSN"
-    },	
-	{
-		"gameId" : 620,
-		"awayTeam" : "ORE",
-		"homeTeam" : "UTAH",
-		"favorite" : "UTAH",
-		"spread" : 2.5,
-		"required" : false,
-		"gameTime" : "2021-12-04T01:00:00Z",
-		"channel": "ABC"
-    },	
+  "games": [	
 	{
 		"gameId" : 621,
 		"awayTeam" : "KENT",
@@ -81,16 +61,6 @@
 		"channel": "ABC"
     },	
 	{
-		"gameId" : 627,
-		"awayTeam" : "PITT",
-		"homeTeam" : "WAKE",
-		"favorite" : "PITT",
-		"spread" : 3.5,
-		"required" : false,
-		"gameTime" : "2021-12-05T01:00:00Z",
-		"channel": "ABC"
-    },	
-	{
 		"gameId" : 628,
 		"awayTeam" : "MICH",
 		"homeTeam" : "IOWA",
@@ -99,6 +69,16 @@
 		"required" : false,
 		"gameTime" : "2021-12-05T01:00:00Z",
 		"channel": "FOX"
+    },	
+	{
+		"gameId" : 627,
+		"awayTeam" : "PITT",
+		"homeTeam" : "WAKE",
+		"favorite" : "PITT",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2021-12-05T01:00:00Z",
+		"channel": "ABC"
     }
   ]
 }

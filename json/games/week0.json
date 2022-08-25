@@ -45,7 +45,7 @@
 		"awayTeam" : "UNT",
 		"homeTeam" : "UTEP",
 		"favorite" : "UNT",
-		"spread" : 1.5,
+		"spread" : 0,
 		"required" : false,
 		"gameTime" : "2022-08-28T01:00Z",
 		"channel": "STADIUM"

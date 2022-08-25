@@ -5,7 +5,7 @@ var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 14;
+var weekNum = 0;
 var isCorrect;
 var isMe;
 var date1 = new Date();
@@ -24,7 +24,7 @@ var select = `<select class='form-control form-select' id='results_by_week' onch
 	select = select + `<option vale = '${theWeekOfTheYear}'> Week ${theWeekOfTheYear} </option>`;
 }*/
 
-select = select + `<option value ='14'> Champ Week </option><option value ='13'> Week 13 </option><option value ='12'> Week 12 </option><option value ='11'> Week 11 </option><option value ='10'> Week 10 </option><option value ='9'> Week 9 </option><option value ='8'> Week 8 </option><option value ='7'> Week 7 </option><option value ='6'> Week 6 </option><option value ='5'> Week 5 </option><option value ='4'> Week 4 </option><option value ='3'> Week 3 </option><option value ='2'> Week 2 </option><option value ='1'> Week 1 </option>`;
+select = select + `<option value ='0'> Week 0 </option><option value ='1'> Week 1 </option>`;
 select = select + `</select>`;
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);

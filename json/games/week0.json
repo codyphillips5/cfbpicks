@@ -2,52 +2,72 @@
   "games": [
     {
 		"gameId" : 1,
-		"homeTeam" : 5,
-		"awayTeam" : 3,
-		"favorite" : 3,
-		"spread" : 7.5,
+		"awayTeam" : "NEB",
+		"homeTeam" : "NU",
+		"favorite" : "NEB",
+		"spread" : 13.5,
 		"required" : true,
-		"gameTime" : "2021-08-28T17:00Z",
+		"gameTime" : "2022-08-27T16:30Z",
 		"channel": "FOX"
     },
     {
 		"gameId" : 2,
-		"homeTeam" : 52,
-		"awayTeam" : 65,
-		"favorite" : 52,
+		"awayTeam" : "UCONN",
+		"homeTeam" : "USU",
+		"favorite" : "USU",
 		"spread" : 27.5,
 		"required" : false,
-		"gameTime" : "2021-08-28T18:00Z",
-		"channel": "CBSSN"
+		"gameTime" : "2022-08-27T20:00Z",
+		"channel": "FS1"
     },
     {
 		"gameId" : 3,
-		"homeTeam" : 61,
-		"awayTeam" : 60,
-		"favorite" : 61,
-		"spread" : 17.5,
+		"awayTeam" : "WYO",
+		"homeTeam" : "ILL",
+		"favorite" : "ILL",
+		"spread" : 11.5,
 		"required" : false,
-		"gameTime" : "2021-08-28T19:30Z",
-		"channel": "ESPN"
+		"gameTime" : "2022-08-27T20:00Z",
+		"channel": "BTN"
     },    
     {
 		"gameId" : 4,
-		"homeTeam" : 50,
-		"awayTeam" : 124,
-		"favorite" : 124,
-		"spread" : 10.5,
+		"awayTeam" : "CHAR",
+		"homeTeam" : "FAU",
+		"favorite" : "FAU",
+		"spread" : 7.5,
 		"required" : false,
-		"gameTime" : "2021-08-29T01:30Z",
-		"channel": "BSAZ"
+		"gameTime" : "2022-08-27T23:00Z",
+		"channel": "CBSSN"
     },
     {
 		"gameId" : 5,
-		"homeTeam" : 75,
-		"awayTeam" : 78,
-		"favorite" : 75,
-		"spread" : 23.5,
+		"awayTeam" : "UNT",
+		"homeTeam" : "UTEP",
+		"favorite" : "UNT",
+		"spread" : 1.5,
 		"required" : false,
-		"gameTime" : "2021-08-29T02:00Z",
+		"gameTime" : "2022-08-28T01:00Z",
+		"channel": "STADIUM"
+    },
+    {
+		"gameId" : 6,
+		"awayTeam" : "NEV",
+		"homeTeam" : "NMSU",
+		"favorite" : "NEV",
+		"spread" : 9.5,
+		"required" : false,
+		"gameTime" : "2022-08-28T02:00Z",
+		"channel": ""
+    },
+    {
+		"gameId" : 7,
+		"awayTeam" : "VANDY",
+		"homeTeam" : "HAW",
+		"favorite" : "VANDY",
+		"spread" : 8.5,
+		"required" : false,
+		"gameTime" : "2022-08-28T03:00Z",
 		"channel": "CBSSN"
     }
   ]

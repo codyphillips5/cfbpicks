@@ -58,7 +58,7 @@
 		"spread" : 9.5,
 		"required" : false,
 		"gameTime" : "2022-08-28T02:00Z",
-		"channel": ""
+		"channel": "ESPN2"
     },
     {
 		"gameId" : 7,

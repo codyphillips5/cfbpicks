@@ -141,14 +141,14 @@ function getResultsByWeek(x) {
 				isCorrect = "";
 				check = "";
 				// sort results
-				sortTable(6);		
+				sortTable(6);	
+				
 			})
 		}
 		while(allUsers.length > 0) {
 					allUsers.pop();
 		}
-	});		
-				
+	});
 }
 
 function sortTable(n) {
@@ -160,6 +160,7 @@ function sortTable(n) {
   /*Make a loop that will continue until
   no switching has been done:*/
   while (switching) {
+	document.getElementById("loader").innerHTML = `<img src='https://clipartix.com/wp-content/uploads/2018/03/thinking-gif-2018-1.gif'><br><img src='https://raw.githubusercontent.com/codyphillips5/cfbpicks/master/sort.gif'><br>`;
     //start by saying: no switching is done:
     switching = false;
     rows = table.rows;
@@ -194,7 +195,7 @@ function sortTable(n) {
       rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
       switching = true;
       //Each time a switch is done, increase this count by 1:
-      switchcount ++;      
+      switchcount ++;     
     } else {
       /*If no switching has been done AND the direction is "asc",
       set the direction to "desc" and run the while loop again.*/
@@ -203,5 +204,8 @@ function sortTable(n) {
         switching = true;
       }
     }
+	if ((rows.length-1) == allUsers.length) {
+		document.getElementById("loader").innerHTML = ``;
+	}
   }
 }

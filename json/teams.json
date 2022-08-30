@@ -909,6 +909,13 @@
 		"teamMascot" : "Cardinals",
 		"teamValue" : "LOU",
 		"teamImage" : "Louisville"
+    },
+	{
+		"teamId" : 131,
+		"team" : "James Madison",
+		"teamMascot" : "Dukes",
+		"teamValue" : "JMU",
+		"teamImage" : "JamesMadison"
     }
   ]
 }

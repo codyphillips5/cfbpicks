@@ -204,7 +204,9 @@ function sortTable(n) {
         switching = true;
       }
     }
-	if ((rows.length-1) == allUsers.length) {
+	console.log("rows: " + rows.length);
+	console.log("users: " + allUsers.length);
+	if ((rows.length-1) == allUsers.length || allUsers.length == 0) {
 		document.getElementById("loader").innerHTML = ``;
 	}
   }

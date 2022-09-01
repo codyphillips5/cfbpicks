@@ -15,7 +15,7 @@
 		"awayTeam" : "BUFF",
 		"homeTeam" : "MD",
 		"favorite" : "MD",
-		"spread" : 23.5,
+		"spread" : 24.5,
 		"required" : false,
 		"gameTime" : "2022-09-03T16:00Z",
 		"channel": "B1G"
@@ -55,7 +55,7 @@
 		"awayTeam" : "BGSU",
 		"homeTeam" : "UCLA",
 		"favorite" : "UCLA",
-		"spread" : 24.5,
+		"spread" : 23.5,
 		"required" : false,
 		"gameTime" : "2022-09-03T18:30Z",
 		"channel": "PACN"
@@ -65,7 +65,7 @@
 		"awayTeam" : "UTEP",
 		"homeTeam" : "OU",
 		"favorite" : "OU",
-		"spread" : 31.5,
+		"spread" : 30.5,
 		"required" : false,
 		"gameTime" : "2022-09-03T19:30Z",
 		"channel": "FOX"
@@ -235,7 +235,7 @@
 		"awayTeam" : "MEM",
 		"homeTeam" : "MSST",
 		"favorite" : "MSST",
-		"spread" : 14.5,
+		"spread" : 15.5,
 		"required" : false,
 		"gameTime" : "2022-09-03T23:30Z",
 		"channel": "ESPNU"
@@ -315,7 +315,7 @@
 		"awayTeam" : "BSU",
 		"homeTeam" : "OREST",
 		"favorite" : "OREST",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2022-09-04T02:30Z",
 		"channel": "ESPN"

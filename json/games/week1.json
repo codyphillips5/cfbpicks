@@ -125,7 +125,7 @@
 		"awayTeam" : "BYU",
 		"homeTeam" : "USF",
 		"favorite" : "BYU",
-		"spread" : 12.5,
+		"spread" : 11.5,
 		"required" : false,
 		"gameTime" : "2022-09-03T20:00Z",
 		"channel": "ESPNU"
@@ -225,7 +225,7 @@
 		"awayTeam" : "UTAH",
 		"homeTeam" : "FLA",
 		"favorite" : "UTAH",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2022-09-03T23:00Z",
 		"channel": "ESPN"

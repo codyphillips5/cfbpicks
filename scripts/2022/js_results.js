@@ -24,7 +24,7 @@ var select = `<select class='form-control form-select' id='results_by_week' onch
 	select = select + `<option vale = '${theWeekOfTheYear}'> Week ${theWeekOfTheYear} </option>`;
 }*/
 
-select = select + `<option value ='1'> Week 1 </option><option value ='0'> Week 0 </option>`;
+select = select + `<option value ='1'> Week 1 </option>`;
 select = select + `</select>`;
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);

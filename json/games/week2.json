@@ -5,7 +5,7 @@
 		"awayTeam" : "WAKE",
 		"homeTeam" : "VANDY",
 		"favorite" : "WAKE",
-		"spread" : 11.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2022-09-10T16:00:00Z",
 		"channel": "SECN"
@@ -105,7 +105,7 @@
 		"awayTeam" : "SOALA",
 		"homeTeam" : "CMICH",
 		"favorite" : "CMICH",
-		"spread" : 5.5,
+		"spread" : 4.5,
 		"required" : false,
 		"gameTime" : "2022-09-10T17:00:00Z",
 		"channel": "ESPN+"
@@ -125,7 +125,7 @@
 		"awayTeam" : "MAR",
 		"homeTeam" : "ND",
 		"favorite" : "ND",
-		"spread" : 21.5,
+		"spread" : 20.5,
 		"required" : false,
 		"gameTime" : "2022-09-10T18:30:00Z",
 		"channel": "NBC"
@@ -145,7 +145,7 @@
 		"awayTeam" : "MEM",
 		"homeTeam" : "NAVY",
 		"favorite" : "MEM",
-		"spread" : 5.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2022-09-10T19:30:00Z",
 		"channel": "CBSSN"
@@ -215,7 +215,7 @@
 		"awayTeam" : "UNLV",
 		"homeTeam" : "CAL",
 		"favorite" : "CAL",
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2022-09-10T20:00:00Z",
 		"channel": "PACN"
@@ -305,7 +305,7 @@
 		"awayTeam" : "UK",
 		"homeTeam" : "FLA",
 		"favorite" : "FLA",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2022-09-10T23:00:00Z",
 		"channel": "ESPN"
@@ -315,7 +315,7 @@
 		"awayTeam" : "KENT",
 		"homeTeam" : "OU",
 		"favorite" : "OU",
-		"spread" : 34.5,
+		"spread" : 33.5,
 		"required" : false,
 		"gameTime" : "2022-09-10T23:00:00Z",
 		"channel": "ESPN+"
@@ -365,7 +365,7 @@
 		"awayTeam" : "GEOSOU",
 		"homeTeam" : "NEB",
 		"favorite" : "NEB",
-		"spread" : 22.5,
+		"spread" : 23.5,
 		"required" : false,
 		"gameTime" : "2022-09-10T23:30:00Z",
 		"channel": "FS1"
@@ -375,7 +375,7 @@
 		"awayTeam" : "USC",
 		"homeTeam" : "STAN",
 		"favorite" : "USC",
-		"spread" : 7.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2022-09-10T23:30:00Z",
 		"channel": "ABC"
@@ -385,7 +385,7 @@
 		"awayTeam" : "SJSU",
 		"homeTeam" : "AUB",
 		"favorite" : "AUB",
-		"spread" : 23.5,
+		"spread" : 22.5,
 		"required" : false,
 		"gameTime" : "2022-09-10T23:30:00Z",
 		"channel": "ESPNU"
@@ -415,7 +415,7 @@
 		"awayTeam" : "NMSU",
 		"homeTeam" : "UTEP",
 		"favorite" : "UTEP",
-		"spread" : 15.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2022-09-11T01:00:00Z",
 		"channel": "ESPN+"
@@ -435,7 +435,7 @@
 		"awayTeam" : "OREST",
 		"homeTeam" : "FRESNST",
 		"favorite" : "OREST",
-		"spread" : 1.5,
+		"spread" : 0,
 		"required" : false,
 		"gameTime" : "2022-09-11T02:30:00Z",
 		"channel": "CBSSN"

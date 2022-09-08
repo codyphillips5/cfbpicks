@@ -17,6 +17,7 @@ var check = "";
 
 var picksList, teamsList, resultsList, usersList;
 var resultsList = [];
+document.getElementById("loader").innerHTML = `<button onclick='sortTable(6);return false;' class='btn btn-primary'>Sort Results</button>`;
 var badge = document.createElement('div');
 badge.className = 'results';
 var select = `<select class='form-control form-select' id='results_by_week' onchange="getResultsByWeek(this.value);">`;
@@ -141,7 +142,7 @@ function getResultsByWeek(x) {
 				isCorrect = "";
 				check = "";
 				// sort results
-				sortTable(6);	
+				//sortTable(6);	
 				
 			})
 		}

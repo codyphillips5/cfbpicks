@@ -5,7 +5,7 @@ var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 1;
+var weekNum = 2;
 var isCorrect;
 var isMe;
 var date1 = new Date();
@@ -20,19 +20,33 @@ var resultsList = [];
 document.getElementById("loader").innerHTML = `<button onclick='sortTable(6);return false;' class='btn btn-primary'>Sort Results</button>`;
 var badge = document.createElement('div');
 badge.className = 'results';
-var select = `<select class='form-control form-select' id='results_by_week' onchange="getResultsByWeek(this.value);">`;
+var select = `
+<button onclick='getResultsByWeek(2);return false;' id='button2' class='btn btn-secondary active'>Week 2</button>
+<button onclick='getResultsByWeek(1);return false;' id='button1' class='btn btn-secondary'>Week 1</button>`;
+//var select = `<select class='form-control form-select' id='results_by_week' onload="getResultsByWeek(this)" onchange="getResultsByWeek(this);">`;
 /*for (var theWeekOfTheYear = weekNum; theWeekOfTheYear <= 1; theWeekOfTheYear++) {
 	select = select + `<option vale = '${theWeekOfTheYear}'> Week ${theWeekOfTheYear} </option>`;
 }*/
 
-select = select + `<option value ='1'> Week 1 </option>`;
-select = select + `</select>`;
+//select = select + weekNum + `<option value ='1'> Week 1 </option>`;
+//select = select + `</select>`;
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);
 
 getResultsByWeek(weekNum)
 
 function getResultsByWeek(x) {
+	console.log(x);
+	var btns = document.getElementsByClassName("btn btn-secondary");
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function() {
+	  var current = document.getElementsByClassName("btn btn-secondary active");
+	  current[0].className = current[0].className.replace(" active", "");
+	  this.className += " active";
+	  });
+	}
+	
+	
 	var tableStart = "";
 	var tableUser = "";
 	var tableEnd = "";

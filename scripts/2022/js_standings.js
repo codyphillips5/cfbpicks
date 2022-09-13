@@ -2,7 +2,7 @@ var userTotalPoints = [];
 var allUsers = [];
 var pointCollection;
 
-var weekNum = 1;
+var weekNum = 2;
 var userWeekTop = false;
 
 var users = db.collection("Users").get().then((querySnapshot) => {
@@ -10,6 +10,8 @@ var users = db.collection("Users").get().then((querySnapshot) => {
 		allUsers.push(doc.data().Email);
 	})
 });
+
+document.getElementById("loader").innerHTML = `<button onclick='sortTable(${weekNum + 1});return false;' class='btn btn-primary'>Sort Standings</button>`;
 
 var tableStart = `<div class="table-responsive"><table class="table table-hover" id="standings-table"><thead><tr><th class="first-col bg-light" scope="col">Name</th>`;
 for(var wn = 1; wn <= weekNum; wn++) {
@@ -88,7 +90,7 @@ $.when(users).then(function(){
 					while(userTotalPoints.length > 0) {
 						userTotalPoints.pop();
 					}
-				sortTable(weekNum + 1);
+				//sortTable(weekNum + 1);
 			});
 		}
 	});
@@ -102,7 +104,7 @@ function sortTable(n) {
   /*Make a loop that will continue until
   no switching has been done:*/
   while (switching) {
-	document.getElementById("loader").innerHTML = `<img src='https://clipartix.com/wp-content/uploads/2018/03/thinking-gif-2018-1.gif'><br><img src='https://raw.githubusercontent.com/codyphillips5/cfbpicks/master/sort.gif'><br>`;
+	document.getElementById("loader").innerHTML = `<img src='https://clipartix.com/wp-content/uploads/2018/03/thinking-gif-2018-1.gif'><br><img src='https://raw.githubusercontent.com/codyphillips5/cfbpicks/master/sort.gif'>`;
     //start by saying: no switching is done:
     switching = false;
     rows = table.rows;

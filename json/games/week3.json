@@ -75,7 +75,7 @@
 		"awayTeam" : "BUFF",
 		"homeTeam" : "COCAR",
 		"favorite" : "COCAR",
-		"spread" : 14.5,
+		"spread" : 13.5,
 		"required" : false,
 		"gameTime" : "2022-09-17T17:00:00Z",
 		"channel": "ESPN+"
@@ -115,7 +115,7 @@
 		"awayTeam" : "ODU",
 		"homeTeam" : "UVA",
 		"favorite" : "UVA",
-		"spread" : 9.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2022-09-17T18:00:00Z",
 		"channel": "ACCN"
@@ -395,7 +395,7 @@
 		"awayTeam" : "LA",
 		"homeTeam" : "RICE",
 		"favorite" : "LA",
-		"spread" : 13.5,
+		"spread" : 11.5,
 		"required" : false,
 		"gameTime" : "2022-09-17T23:30:00Z",
 		"channel": "ESPN+"
@@ -445,7 +445,7 @@
 		"awayTeam" : "MIA",
 		"homeTeam" : "TXA&M",
 		"favorite" : "TXA&M",
-		"spread" : 4.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2022-09-18T01:00:00Z",
 		"channel": "ESPN"
@@ -465,7 +465,7 @@
 		"awayTeam" : "FRESNST",
 		"homeTeam" : "USC",
 		"favorite" : "USC",
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2022-09-18T02:30:00Z",
 		"channel": "FOX"

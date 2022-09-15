@@ -415,7 +415,7 @@
 		"awayTeam" : "UTEP",
 		"homeTeam" : "UNM",
 		"favorite" : "UTEP",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2022-09-18T00:00:00Z",
 		"channel": "MWN"

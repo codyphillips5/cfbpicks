@@ -1,11 +1,12 @@
 var firtName = "";
 var lastName = "";
 var allUsers = [];
+var storeUsers = [];
 var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 2;
+var weekNum = 3;
 var isCorrect;
 var isMe;
 var date1 = new Date();
@@ -21,22 +22,16 @@ document.getElementById("loader").innerHTML = `<button onclick='sortTable(6);ret
 var badge = document.createElement('div');
 badge.className = 'results';
 var select = `
-<button onclick='getResultsByWeek(2);return false;' id='button2' class='btn btn-secondary active'>Week 2</button>
+<button onclick='getResultsByWeek(3);return false;' id='button2' class='btn btn-secondary active'>Week 3</button>
+<button onclick='getResultsByWeek(2);return false;' id='button2' class='btn btn-secondary'>Week 2</button>
 <button onclick='getResultsByWeek(1);return false;' id='button1' class='btn btn-secondary'>Week 1</button>`;
-//var select = `<select class='form-control form-select' id='results_by_week' onload="getResultsByWeek(this)" onchange="getResultsByWeek(this);">`;
-/*for (var theWeekOfTheYear = weekNum; theWeekOfTheYear <= 1; theWeekOfTheYear++) {
-	select = select + `<option vale = '${theWeekOfTheYear}'> Week ${theWeekOfTheYear} </option>`;
-}*/
 
-//select = select + weekNum + `<option value ='1'> Week 1 </option>`;
-//select = select + `</select>`;
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);
 
 getResultsByWeek(weekNum)
 
 function getResultsByWeek(x) {
-	console.log(x);
 	var btns = document.getElementsByClassName("btn btn-secondary");
 	for (var i = 0; i < btns.length; i++) {
 	  btns[i].addEventListener("click", function() {
@@ -73,13 +68,15 @@ function getResultsByWeek(x) {
 	var getResults = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week" + x + "_results.json", function(json){
 		resultsList = json;
 	});
+	
 	$.when(users, requestX, getResults).then(function(){
 		var covers = Object.values(resultsList["results"]);
 		var coversArr = Array.from(covers);
 		
 		date3 = new Date(date2);
-		date3.setDate(date3.getDate() + days);
-		for (var loop = 0; loop < allUsers.length; loop++) {	
+		date3.setDate(date3.getDate() + days);	
+		
+		for (var loop = 0; loop < allUsers.length; loop++) {
 			var names = db.collection('Users').doc(allUsers[loop]);
 			names.get()
 			.then((docSnapshot) => {
@@ -89,7 +86,7 @@ function getResultsByWeek(x) {
 					}
 					tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${docSnapshot.data().FirstName + " " + docSnapshot.data().LastName}</th>`;
 			})
-			
+
 			// most recent week
 			var pointCollection = db.collection('week' + x).doc(allUsers[loop]);
 			pointCollection.get()
@@ -160,6 +157,7 @@ function getResultsByWeek(x) {
 				
 			})
 		}
+		storeUsers = allUsers;
 		while(allUsers.length > 0) {
 					allUsers.pop();
 		}

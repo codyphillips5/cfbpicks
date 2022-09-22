@@ -18,7 +18,7 @@
 		"spread" : 45.5,
 		"required" : false,
 		"gameTime" : "2022-09-24T16:00:00Z",
-		"channel": "ESPN+"
+		"channel": "SECN+"
     },
     {
 		"gameId" : 129,
@@ -458,7 +458,7 @@
 		"spread" : 31.5,
 		"required" : false,
 		"gameTime" : "2022-09-24T23:30:00Z",
-		"channel": "ESPN+"
+		"channel": "SECN+"
     },
     {
 		"gameId" : 173,

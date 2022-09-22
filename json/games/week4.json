@@ -22,8 +22,8 @@
     },
     {
 		"gameId" : 129,
-		"awayTeam" : "KAN",
-		"homeTeam" : "DUKE",
+		"awayTeam" : "DUKE",
+		"homeTeam" : "KAN",
 		"favorite" : "KAN",
 		"spread" : 7.5,
 		"required" : false,

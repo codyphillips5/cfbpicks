@@ -345,7 +345,7 @@
 		"awayTeam" : "UTEP",
 		"homeTeam" : "CHAR",
 		"favorite" : "UTEP",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2022-10-01T22:00:00Z",
 		"channel": "ESPN3"
@@ -355,7 +355,7 @@
 		"awayTeam" : "LSU",
 		"homeTeam" : "AUB",
 		"favorite" : "LSU",
-		"spread" : 9.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2022-10-01T23:00:00Z",
 		"channel": "ESPN"
@@ -395,7 +395,7 @@
 		"awayTeam" : "UVA",
 		"homeTeam" : "DUKE",
 		"favorite" : "DUKE",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2022-10-01T23:30:00Z",
 		"channel": "ESPN3"

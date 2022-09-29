@@ -505,7 +505,7 @@
 		"awayTeam" : "STAN",
 		"homeTeam" : "ORE",
 		"favorite" : "ORE",
-		"spread" : .5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2021-10-02T03:00:00Z",
 		"channel": "FS1"

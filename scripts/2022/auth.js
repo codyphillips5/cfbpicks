@@ -18,7 +18,7 @@ auth.onAuthStateChanged(user => {
     }
 })
   
-var weekNum = 5;
+var weekNum = 6;
 var fn;  
 // create new guide
 const createForm = document.querySelector('#save_picks');
@@ -61,6 +61,7 @@ if(createForm) {
     
         db.collection('week' + weekNum).doc(auth.currentUser.email).set({
             user: auth.currentUser.email,
+            lastUpdate: firebase.firestore.Timestamp.fromDate(new Date()),
             Fifty: document.getElementById('50').value,
             Forty: document.getElementById('40').value,
             Thirty: document.getElementById('30').value,

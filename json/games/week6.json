@@ -95,7 +95,7 @@
 		"awayTeam" : "TEXAS",
 		"homeTeam" : "OU",
 		"favorite" : "TEXAS",
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2022-10-08T16:00:00Z",
 		"channel": "ABC"
@@ -215,7 +215,7 @@
 		"awayTeam" : "MIDTN",
 		"homeTeam" : "UAB",
 		"favorite" : "UAB",
-		"spread" : 8.5,
+		"spread" : 9.5,
 		"required" : false,
 		"gameTime" : "2022-10-08T19:30:00Z",
 		"channel": "STADIUM"
@@ -515,7 +515,7 @@
 		"awayTeam" : "OREST",
 		"homeTeam" : "STAN",
 		"favorite" : "OREST",
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2022-10-09T03:00:00Z",
 		"channel": "ESPN"

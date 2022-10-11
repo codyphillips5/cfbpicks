@@ -2,7 +2,7 @@ var userTotalPoints = [];
 var allUsers = [];
 var pointCollection;
 
-var weekNum = 5;
+var weekNum = 6;
 var userWeekTop = false;
 
 var users = db.collection("Users").get().then((querySnapshot) => {

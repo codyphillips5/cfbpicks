@@ -435,7 +435,7 @@
 		"awayTeam" : "AFA",
 		"homeTeam" : "UNLV",
 		"favorite" : "AFA",
-		"spread" : .5,
+		"spread" : 10.5,
 		"required" : false,
 		"gameTime" : "2022-10-16T02:30:00Z",
 		"channel": "CBSSN"

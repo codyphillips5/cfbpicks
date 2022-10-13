@@ -25,7 +25,7 @@
 		"awayTeam" : "PSU",
 		"homeTeam" : "MICH",
 		"favorite" : "MICH",
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2022-10-15T16:00:00Z",
 		"channel": "FOX"
@@ -55,7 +55,7 @@
 		"awayTeam" : "KAN",
 		"homeTeam" : "OU",
 		"favorite" : "OU",
-		"spread" : 9.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2022-10-15T16:00:00Z",
 		"channel": "ESPN2"
@@ -115,7 +115,7 @@
 		"awayTeam" : "CAL",
 		"homeTeam" : "CU",
 		"favorite" : "CAL",
-		"spread" : 15.5,
+		"spread" : 14.5,
 		"required" : false,
 		"gameTime" : "2022-10-15T18:00:00Z",
 		"channel": "PACN"
@@ -385,7 +385,7 @@
 		"awayTeam" : "STAN",
 		"homeTeam" : "ND",
 		"favorite" : "ND",
-		"spread" : 17.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2022-10-15T23:30:00Z",
 		"channel": "NBC"

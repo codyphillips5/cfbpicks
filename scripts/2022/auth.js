@@ -18,7 +18,7 @@ auth.onAuthStateChanged(user => {
     }
 })
   
-var weekNum = 7;
+var weekNum = 8;
 var fn;  
 // create new guide
 const createForm = document.querySelector('#save_picks');

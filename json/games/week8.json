@@ -385,7 +385,7 @@
 		"awayTeam" : "BSU",
 		"homeTeam" : "AFA",
 		"favorite" : "AFA",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2022-10-22T23:00:00Z",
 		"channel": "CBSSN"

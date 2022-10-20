@@ -1,0 +1,484 @@
+{
+  "games": [
+	{
+		"gameId" : 331,
+		"awayTeam" : "IND",
+		"homeTeam" : "RUTG",
+		"favorite" : "RUTG",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T16:00:00Z",
+		"channel": "B1G"
+    },
+	{
+		"gameId" : 332,
+		"awayTeam" : "HOU",
+		"homeTeam" : "NAVY",
+		"favorite" : "HOU",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T16:00:00Z",
+		"channel": "ESPNU"
+    },
+	{
+		"gameId" : 333,
+		"awayTeam" : "LAMON",
+		"homeTeam" : "ARMY",
+		"favorite" : "ARMY",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T16:00:00Z",
+		"channel": "CBSSN"
+    },
+	{
+		"gameId" : 334,
+		"awayTeam" : "SYR",
+		"homeTeam" : "CLEM",
+		"favorite" : "CLEM",
+		"spread" : 13.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T16:00:00Z",
+		"channel": "ABC"
+    },
+	{
+		"gameId" : 335,
+		"awayTeam" : "KAN",
+		"homeTeam" : "BAYLOR",
+		"favorite" : "BAYLOR",
+		"spread" : 9.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T16:00:00Z",
+		"channel": "ESPN2"
+    },
+	{
+		"gameId" : 336,
+		"awayTeam" : "IOWA",
+		"homeTeam" : "OSU",
+		"favorite" : "OSU",
+		"spread" : 29.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T16:00:00Z",
+		"channel": "FOX"
+    },
+	{
+		"gameId" : 337,
+		"awayTeam" : "AKRON",
+		"homeTeam" : "KENT",
+		"favorite" : "KENT",
+		"spread" : 18.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T16:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 338,
+		"awayTeam" : "CIN",
+		"homeTeam" : "SMU",
+		"favorite" : "CIN",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T16:00:00Z",
+		"channel": "ESPN"
+    },
+	{
+		"gameId" : 339,
+		"awayTeam" : "DUKE",
+		"homeTeam" : "MIA",
+		"favorite" : "MIA",
+		"spread" : 8.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T16:30:00Z",
+		"channel": "ESPN3"
+    },
+	{
+		"gameId" : 340,
+		"awayTeam" : "TOLEDO",
+		"homeTeam" : "BUFF",
+		"favorite" : "TOLEDO",
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T17:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 341,
+		"awayTeam" : "BGSU",
+		"homeTeam" : "CMICH",
+		"favorite" : "CMICH",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T17:00:00Z",
+		"channel": "ESPN3"
+    },
+	{
+		"gameId" : 342,
+		"awayTeam" : "NIU",
+		"homeTeam" : "OHIO",
+		"favorite" : "NIU",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T18:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 343,
+		"awayTeam" : "EMU",
+		"homeTeam" : "BALLST",
+		"favorite" : "BALLST",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T18:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 344,
+		"awayTeam" : "UNLV",
+		"homeTeam" : "ND",
+		"favorite" : "ND",
+		"spread" : 26.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T18:30:00Z",
+		"channel": "PEACOCK"
+    },
+	{
+		"gameId" : 345,
+		"awayTeam" : "WVU",
+		"homeTeam" : "TEXTCH",
+		"favorite" : "TEXTCH",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:00:00Z",
+		"channel": "FS1"
+    },
+	{
+		"gameId" : 346,
+		"awayTeam" : "RICE",
+		"homeTeam" : "LATECH",
+		"favorite" : "RICE",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 347,
+		"awayTeam" : "MISS",
+		"homeTeam" : "LSU",
+		"favorite" : "LSU",
+		"spread" : 1.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:30:00Z",
+		"channel": "CBS"
+    },
+	{
+		"gameId" : 348,
+		"awayTeam" : "UCLA",
+		"homeTeam" : "ORE",
+		"favorite" : "ORE",
+		"spread" : 6.5,
+		"required" : true,
+		"gameTime" : "2022-10-22T19:30:00Z",
+		"channel": "FOX"
+    },
+	{
+		"gameId" : 349,
+		"awayTeam" : "MEM",
+		"homeTeam" : "TULANE",
+		"favorite" : "TULANE",
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:30:00Z",
+		"channel": "ESPN2"
+    },
+	{
+		"gameId" : 350,
+		"awayTeam" : "TEXAS",
+		"homeTeam" : "OKST",
+		"favorite" : "TEXAS",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:30:00Z",
+		"channel": "ABC"
+    },
+	{
+		"gameId" : 351,
+		"awayTeam" : "MAR",
+		"homeTeam" : "JMU",
+		"favorite" : "JMU",
+		"spread" : 12.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:30:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 352,
+		"awayTeam" : "BYU",
+		"homeTeam" : "LIB",
+		"favorite" : "BYU",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:30:00Z",
+		"channel": "ESPNU"
+    },
+	{
+		"gameId" : 353,
+		"awayTeam" : "BC",
+		"homeTeam" : "WAKE",
+		"favorite" : "WAKE",
+		"spread" : 20.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:30:00Z",
+		"channel": "ACCN"
+    },
+	{
+		"gameId" : 354,
+		"awayTeam" : "GEOSOU",
+		"homeTeam" : "ODU",
+		"favorite" : "ODU",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:30:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 355,
+		"awayTeam" : "WMU",
+		"homeTeam" : "MIA-OH",
+		"favorite" : "MIA-OH",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:30:00Z",
+		"channel": "CBSSN"
+    },
+	{
+		"gameId" : 356,
+		"awayTeam" : "PUR",
+		"homeTeam" : "WIS",
+		"favorite" : "WIS",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:30:00Z",
+		"channel": "ESPN"
+    },
+	{
+		"gameId" : 357,
+		"awayTeam" : "UNT",
+		"homeTeam" : "UTSA",
+		"favorite" : "UTSA",
+		"spread" : 10.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:30:00Z",
+		"channel": "STADIUM"
+    },
+	{
+		"gameId" : 358,
+		"awayTeam" : "NU",
+		"homeTeam" : "MD",
+		"favorite" : "MD",
+		"spread" : 13.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:30:00Z",
+		"channel": "B1G"
+    },
+	{
+		"gameId" : 359,
+		"awayTeam" : "FIU",
+		"homeTeam" : "CHAR",
+		"favorite" : "CHAR",
+		"spread" : 14.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T19:30:00Z",
+		"channel": "ESPN3"
+    },
+	{
+		"gameId" : 360,
+		"awayTeam" : "VANDY",
+		"homeTeam" : "MIZZOU",
+		"favorite" : "MIZZOU",
+		"spread" : 14.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T20:00:00Z",
+		"channel": "SECN"
+    },
+	{
+		"gameId" : 361,
+		"awayTeam" : "HAW",
+		"homeTeam" : "CSU",
+		"favorite" : "CSU",
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T20:00:00Z",
+		"channel": "TEAM1"
+    },
+	{
+		"gameId" : 362,
+		"awayTeam" : "ASU",
+		"homeTeam" : "STAN",
+		"favorite" : "STAN",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T20:00:00Z",
+		"channel": "PACN"
+    },
+	{
+		"gameId" : 363,
+		"awayTeam" : "FAU",
+		"homeTeam" : "UTEP",
+		"favorite" : "FAU",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T20:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 364,
+		"awayTeam" : "ARKST",
+		"homeTeam" : "LA",
+		"favorite" : "LA",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T21:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 365,
+		"awayTeam" : "SMISS",
+		"homeTeam" : "TEXST",
+		"favorite" : "SMISS",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T21:00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 366,
+		"awayTeam" : "SJSU",
+		"homeTeam" : "NMSU",
+		"favorite" : "SJSU",
+		"spread" : 21.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T22:00:00Z",
+		"channel": "FloSports"
+    },
+	{
+		"gameId" : 367,
+		"awayTeam" : "FRESNST",
+		"homeTeam" : "UNM",
+		"favorite" : "FRESNST",
+		"spread" : 10.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T22:30:00Z",
+		"channel": "FS2"
+    },
+	{
+		"gameId" : 368,
+		"awayTeam" : "MSST",
+		"homeTeam" : "ALA",
+		"favorite" : "ALA",
+		"spread" : 21.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T23:00:00Z",
+		"channel": "ESPN"
+    },
+	{
+		"gameId" : 369,
+		"awayTeam" : "BSU",
+		"homeTeam" : "AFA",
+		"favorite" : "AFA",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T23:00:00Z",
+		"channel": "CBSSN"
+    },
+	{
+		"gameId" : 370,
+		"awayTeam" : "TXA&M",
+		"homeTeam" : "SCAR",
+		"favorite" : "TXA&M",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T23:30:00Z",
+		"channel": "SECN"
+    },
+	{
+		"gameId" : 371,
+		"awayTeam" : "UCF",
+		"homeTeam" : "ECU",
+		"favorite" : "UCF",
+		"spread" : 4.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T23:30:00Z",
+		"channel": "ESPNU"
+    },
+	{
+		"gameId" : 372,
+		"awayTeam" : "MINN",
+		"homeTeam" : "PSU",
+		"favorite" : "PSU",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2022-10-22T23:30:00Z",
+		"channel": "ABC"
+    },
+	{
+		"gameId" : 373,
+		"awayTeam" : "K-STATE",
+		"homeTeam" : "TCU",
+		"favorite" : "TCU",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2022-10-23T00:00:00Z",
+		"channel": "FS1"
+    },
+	{
+		"gameId" : 374,
+		"awayTeam" : "CU",
+		"homeTeam" : "OREST",
+		"favorite" : "OREST",
+		"spread" : 23.5,
+		"required" : false,
+		"gameTime" : "2022-10-23T00:00:00Z",
+		"channel": "PACN"
+    },
+	{
+		"gameId" : 375,
+		"awayTeam" : "PITT",
+		"homeTeam" : "LOU",
+		"favorite" : "LOU",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2022-10-23T00:00:00Z",
+		"channel": "ACCN"
+    },
+	{
+		"gameId" : 376,
+		"awayTeam" : "USU",
+		"homeTeam" : "WYO",
+		"favorite" : "WYO",
+		"spread" : 4.5,
+		"required" : false,
+		"gameTime" : "2022-10-23T01:45:00Z",
+		"channel": "FS2"
+    },
+	{
+		"gameId" : 377,
+		"awayTeam" : "WASH",
+		"homeTeam" : "CAL",
+		"favorite" : "WASH",
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2022-10-23T02:30:00Z",
+		"channel": "ESPN"
+    },
+	{
+		"gameId" : 378,
+		"awayTeam" : "SDSU",
+		"homeTeam" : "NEV",
+		"favorite" : "SDSU",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2022-10-23T02:30:00Z",
+		"channel": "CBSSN"
+    }
+  ]
+}

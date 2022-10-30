@@ -24,7 +24,7 @@ badge.className = 'results';
 var select = `
 <button onclick='getResultsByWeek(9);return false;' id='all' class='btn btn-secondary active'>Week 9</button>
 <button onclick='getResultsByWeek(8);return false;' id='all' class='btn btn-secondary'>Week 8</button>
-<button onclick='getResultsByWeek(7);return false;' id='all' class='btn btn-secondary'>Week 7</button>
+<button onclick='getResultsByWeek(7);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 7</button>
 <button onclick='getResultsByWeek(6);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 6</button>
 <button onclick='getResultsByWeek(5);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 5</button>
 <button onclick='getResultsByWeek(4);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 4</button>

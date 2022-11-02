@@ -6,7 +6,7 @@ var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 9;
+var weekNum = 10;
 var isCorrect;
 var isMe;
 var date1 = new Date();

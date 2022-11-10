@@ -345,7 +345,7 @@
 		"awayTeam" : "SCAR",
 		"homeTeam" : "FLA",
 		"favorite" : "FLA",
-		"spread" : .5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2022-11-12T21:00:00Z",
 		"channel": "SECN"

@@ -235,7 +235,7 @@
 		"awayTeam" : "ALA",
 		"homeTeam" : "MISS",
 		"favorite" : "ALA",
-		"spread" : 12.5,
+		"spread" : 11.5,
 		"required" : false,
 		"gameTime" : "2022-11-12T20:30:00Z",
 		"channel": "CBS"

@@ -23,7 +23,7 @@ var badge = document.createElement('div');
 badge.className = 'results';
 var select = `
 <button onclick='getResultsByWeek(11);return false;' id='all' class='btn btn-secondary active'>Week 11</button>
-<button onclick='getResultsByWeek(10);return false;' id='all' class='btn btn-secondary active'>Week 10</button>
+<button onclick='getResultsByWeek(10);return false;' id='all' class='btn btn-secondary'>Week 10</button>
 <button onclick='getResultsByWeek(9);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 9</button>
 <button onclick='getResultsByWeek(8);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 8</button>
 <button onclick='getResultsByWeek(7);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 7</button>

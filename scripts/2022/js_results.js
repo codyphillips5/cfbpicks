@@ -6,7 +6,7 @@ var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 11;
+var weekNum = 12;
 var isCorrect;
 var isMe;
 var date1 = new Date();
@@ -22,8 +22,9 @@ document.getElementById("loader").innerHTML = `<button onclick='sortTable(6);ret
 var badge = document.createElement('div');
 badge.className = 'results';
 var select = `
-<button onclick='getResultsByWeek(11);return false;' id='all' class='btn btn-secondary active'>Week 11</button>
-<button onclick='getResultsByWeek(10);return false;' id='all' class='btn btn-secondary'>Week 10</button>
+<button onclick='getResultsByWeek(12);return false;' id='all' class='btn btn-secondary active'>Week 12</button>
+<button onclick='getResultsByWeek(11);return false;' id='all' class='btn btn-secondary'>Week 11</button>
+<button onclick='getResultsByWeek(10);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 10</button>
 <button onclick='getResultsByWeek(9);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 9</button>
 <button onclick='getResultsByWeek(8);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 8</button>
 <button onclick='getResultsByWeek(7);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 7</button>
@@ -37,6 +38,7 @@ var select = `
       Previous
   </a>
     <ul class="dropdown-menu" aria-labelledby="mobile_buttons">
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(10);return false;' href="#"></span>Week 10</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(9);return false;' href="#"></span>Week 9</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(8);return false;' href="#"></span>Week 8</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(7);return false;' href="#"></span>Week 7</a> </a></li>

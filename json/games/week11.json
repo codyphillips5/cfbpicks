@@ -511,7 +511,7 @@
 		"channel": "FOX"
     },
 	{
-		"gameId" : 522,
+		"gameId" : 523,
 		"awayTeam" : "BSU",
 		"homeTeam" : "NEV",
 		"favorite" : "BSU",
@@ -521,7 +521,7 @@
 		"channel": "CBSSN"
     },
 	{
-		"gameId" : 522,
+		"gameId" : 524,
 		"awayTeam" : "USU",
 		"homeTeam" : "HAW",
 		"favorite" : "USU",

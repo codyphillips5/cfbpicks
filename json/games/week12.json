@@ -456,7 +456,7 @@
 		"homeTeam" : "UCLA",
 		"favorite" : "USC",
 		"spread" : 2.5,
-		"required" : false,
+		"required" : true,
 		"gameTime" : "2022-11-20T01:00:00Z",
 		"channel": "FOX"
     },

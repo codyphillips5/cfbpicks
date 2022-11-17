@@ -535,7 +535,7 @@
 		"awayTeam" : "UNLV",
 		"homeTeam" : "HAW",
 		"favorite" : "UNLV",
-		"spread" : .5,
+		"spread" : 10.5,
 		"required" : false,
 		"gameTime" : "2022-11-20T04:00:00Z",
 		"channel": "TEAM1"

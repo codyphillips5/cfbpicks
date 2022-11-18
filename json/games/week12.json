@@ -282,16 +282,6 @@
     },
 	{
 		"gameId" : 553,
-		"awayTeam" : "AKRON",
-		"homeTeam" : "BUFF",
-		"favorite" : "BUFF",
-		"spread" : 14.5,
-		"required" : false,
-		"gameTime" : "2022-11-19T20:30:00Z",
-		"channel": "CBSSN"
-    },
-	{
-		"gameId" : 554,
 		"awayTeam" : "LATECH",
 		"homeTeam" : "CHAR",
 		"favorite" : "LATECH",
@@ -301,7 +291,7 @@
 		"channel": "ESPN3"
     },
 	{
-		"gameId" : 555,
+		"gameId" : 554,
 		"awayTeam" : "FAU",
 		"homeTeam" : "MIDTN",
 		"favorite" : "FAU",
@@ -311,7 +301,7 @@
 		"channel": "ESPN+"
     },
 	{
-		"gameId" : 556,
+		"gameId" : 555,
 		"awayTeam" : "WKU",
 		"homeTeam" : "AUB",
 		"favorite" : "AUB",
@@ -321,7 +311,7 @@
 		"channel": "SECN"
     },
 	{
-		"gameId" : 557,
+		"gameId" : 556,
 		"awayTeam" : "IOWA",
 		"homeTeam" : "MINN",
 		"favorite" : "MINN",
@@ -331,7 +321,7 @@
 		"channel": "FOX"
     },
 	{
-		"gameId" : 558,
+		"gameId" : 557,
 		"awayTeam" : "CIN",
 		"homeTeam" : "TEMPLE",
 		"favorite" : "CIN",
@@ -341,7 +331,7 @@
 		"channel": "ESPNU"
     },
 	{
-		"gameId" : 559,
+		"gameId" : 558,
 		"awayTeam" : "FIU",
 		"homeTeam" : "UTEP",
 		"favorite" : "UTEP",
@@ -351,7 +341,7 @@
 		"channel": "ESPN+"
     },
 	{
-		"gameId" : 560,
+		"gameId" : 559,
 		"awayTeam" : "ARKST",
 		"homeTeam" : "TEXST",
 		"favorite" : "TEXST",
@@ -361,7 +351,7 @@
 		"channel": "ESPN3"
     },
 	{
-		"gameId" : 561,
+		"gameId" : 560,
 		"awayTeam" : "GT",
 		"homeTeam" : "UNC",
 		"favorite" : "UNC",
@@ -371,7 +361,7 @@
 		"channel": "ESPN2"
     },
 	{
-		"gameId" : 562,
+		"gameId" : 561,
 		"awayTeam" : "STAN",
 		"homeTeam" : "CAL",
 		"favorite" : "CAL",
@@ -381,7 +371,7 @@
 		"channel": "PACN"
     },
 	{
-		"gameId" : 563,
+		"gameId" : 562,
 		"awayTeam" : "MAR",
 		"homeTeam" : "GEOSOU",
 		"favorite" : "MAR",
@@ -391,7 +381,7 @@
 		"channel": "ESPN+"
     },
 	{
-		"gameId" : 564,
+		"gameId" : 563,
 		"awayTeam" : "TEXTCH",
 		"homeTeam" : "IOWAST",
 		"favorite" : "IOWAST",
@@ -401,7 +391,7 @@
 		"channel": "FS1"
     },
 	{
-		"gameId" : 565,
+		"gameId" : 564,
 		"awayTeam" : "TENN",
 		"homeTeam" : "SCAR",
 		"favorite" : "TENN",
@@ -411,7 +401,7 @@
 		"channel": "ESPN"
     },
 	{
-		"gameId" : 566,
+		"gameId" : 565,
 		"awayTeam" : "BSU",
 		"homeTeam" : "WYO",
 		"favorite" : "BSU",
@@ -421,7 +411,7 @@
 		"channel": "CBSSN"
     },
 	{
-		"gameId" : 567,
+		"gameId" : 566,
 		"awayTeam" : "NMSU",
 		"homeTeam" : "MIZZOU",
 		"favorite" : "MIZZOU",
@@ -431,7 +421,7 @@
 		"channel": "ESPNU"
     },
 	{
-		"gameId" : 568,
+		"gameId" : 567,
 		"awayTeam" : "OKST",
 		"homeTeam" : "OU",
 		"favorite" : "OU",
@@ -441,7 +431,7 @@
 		"channel": "ABC"
     },
 	{
-		"gameId" : 569,
+		"gameId" : 568,
 		"awayTeam" : "MISS",
 		"homeTeam" : "ARK",
 		"favorite" : "MISS",
@@ -451,7 +441,7 @@
 		"channel": "SECN"
     },
 	{
-		"gameId" : 570,
+		"gameId" : 569,
 		"awayTeam" : "USC",
 		"homeTeam" : "UCLA",
 		"favorite" : "USC",
@@ -461,7 +451,7 @@
 		"channel": "FOX"
     },
 	{
-		"gameId" : 571,
+		"gameId" : 570,
 		"awayTeam" : "SYR",
 		"homeTeam" : "WAKE",
 		"favorite" : "WAKE",
@@ -471,7 +461,7 @@
 		"channel": "ACCN"
     },
 	{
-		"gameId" : 572,
+		"gameId" : 571,
 		"awayTeam" : "CSU",
 		"homeTeam" : "AFA",
 		"favorite" : "AFA",
@@ -481,7 +471,7 @@
 		"channel": "FS2"
     },
 	{
-		"gameId" : 573,
+		"gameId" : 572,
 		"awayTeam" : "UAB",
 		"homeTeam" : "LSU",
 		"favorite" : "LSU",
@@ -491,7 +481,7 @@
 		"channel": "ESPN2"
     },
 	{
-		"gameId" : 574,
+		"gameId" : 573,
 		"awayTeam" : "CU",
 		"homeTeam" : "WASH",
 		"favorite" : "WASH",
@@ -501,7 +491,7 @@
 		"channel": "PACN"
     },
 	{
-		"gameId" : 575,
+		"gameId" : 574,
 		"awayTeam" : "SJSU",
 		"homeTeam" : "USU",
 		"favorite" : "SJSU",
@@ -511,7 +501,7 @@
 		"channel": "FS1"
     },
 	{
-		"gameId" : 576,
+		"gameId" : 575,
 		"awayTeam" : "UTAH",
 		"homeTeam" : "ORE",
 		"favorite" : "UTAH",
@@ -521,7 +511,7 @@
 		"channel": "ESPN"
     },
 	{
-		"gameId" : 577,
+		"gameId" : 576,
 		"awayTeam" : "FRESNST",
 		"homeTeam" : "NEV",
 		"favorite" : "FRESNST",
@@ -531,7 +521,7 @@
 		"channel": "CBSSN"
     },
 	{
-		"gameId" : 578,
+		"gameId" : 577,
 		"awayTeam" : "UNLV",
 		"homeTeam" : "HAW",
 		"favorite" : "UNLV",

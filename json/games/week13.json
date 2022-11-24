@@ -309,19 +309,9 @@
 		"required" : false,
 		"gameTime" : "2022-11-26T22:00:00Z",
 		"channel": "ESPN+"
-    },	
+    },
 	{
 		"gameId" : 609,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
-		"required" : false,
-		"gameTime" : "2022-11-26T17:00:00Z",
-		"channel": ""
-    },	
-	{
-		"gameId" : 610,
 		"awayTeam" : "SMISS",
 		"homeTeam" : "LAMON",
 		"favorite" : "SMISS",
@@ -331,7 +321,7 @@
 		"channel": "ESPN+"
     },	
 	{
-		"gameId" : 611,
+		"gameId" : 610,
 		"awayTeam" : "APP",
 		"homeTeam" : "GEOSOU",
 		"favorite" : "APP",
@@ -341,7 +331,7 @@
 		"channel": "ESPN+"
     },	
 	{
-		"gameId" : 612,
+		"gameId" : 611,
 		"awayTeam" : "MIDTN",
 		"homeTeam" : "FIU",
 		"favorite" : "MIDTN",
@@ -351,7 +341,7 @@
 		"channel": "ESPN3"
     },	
 	{
-		"gameId" : 613,
+		"gameId" : 612,
 		"awayTeam" : "NEV",
 		"homeTeam" : "UNLV",
 		"favorite" : "UNLV",
@@ -361,7 +351,7 @@
 		"channel": "MWN"
     },	
 	{
-		"gameId" : 614,
+		"gameId" : 613,
 		"awayTeam" : "UCF",
 		"homeTeam" : "USF",
 		"favorite" : "UCF",
@@ -371,7 +361,7 @@
 		"channel": "ESPN2"
     },	
 	{
-		"gameId" : 615,
+		"gameId" : 614,
 		"awayTeam" : "LSU",
 		"homeTeam" : "TXA&M",
 		"favorite" : "LSU",
@@ -381,7 +371,7 @@
 		"channel": "ESPN"
     },
 	{
-		"gameId" : 616,
+		"gameId" : 615,
 		"awayTeam" : "TULSA",
 		"homeTeam" : "HOU",
 		"favorite" : "HOU",
@@ -391,7 +381,7 @@
 		"channel": "ESPNU"
     },	
 	{
-		"gameId" : 617,
+		"gameId" : 616,
 		"awayTeam" : "TENN",
 		"homeTeam" : "VANDY",
 		"favorite" : "TENN",
@@ -401,7 +391,7 @@
 		"channel": "SECN"
     },	
 	{
-		"gameId" : 618,
+		"gameId" : 617,
 		"awayTeam" : "ND",
 		"homeTeam" : "USC",
 		"favorite" : "USC",
@@ -411,7 +401,7 @@
 		"channel": "ABC"
     },	
 	{
-		"gameId" : 619,
+		"gameId" : 618,
 		"awayTeam" : "OU",
 		"homeTeam" : "TEXTCH",
 		"favorite" : "OU",
@@ -421,7 +411,7 @@
 		"channel": "FS1"
     },	
 	{
-		"gameId" : 620,
+		"gameId" : 619,
 		"awayTeam" : "SYR",
 		"homeTeam" : "BC",
 		"favorite" : "SYR",
@@ -431,7 +421,7 @@
 		"channel": "ESPN3"
     },	
 	{
-		"gameId" : 621,
+		"gameId" : 620,
 		"awayTeam" : "PITT",
 		"homeTeam" : "MIA",
 		"favorite" : "PITT",
@@ -441,7 +431,7 @@
 		"channel": "ACCN"
     },	
 	{
-		"gameId" : 622,
+		"gameId" : 621,
 		"awayTeam" : "KAN",
 		"homeTeam" : "K-STATE",
 		"favorite" : "K-STATE",
@@ -451,7 +441,7 @@
 		"channel": "FOX"
     },	
 	{
-		"gameId" : 623,
+		"gameId" : 622,
 		"awayTeam" : "AFA",
 		"homeTeam" : "SDSU",
 		"favorite" : "AFA",
@@ -461,7 +451,7 @@
 		"channel": "CBSSN"
     },	
 	{
-		"gameId" : 624,
+		"gameId" : 623,
 		"awayTeam" : "WASH",
 		"homeTeam" : "WSU",
 		"favorite" : "WASH",
@@ -471,7 +461,7 @@
 		"channel": "ESPN"
     },	
 	{
-		"gameId" : 625,
+		"gameId" : 624,
 		"awayTeam" : "BYU",
 		"homeTeam" : "STAN",
 		"favorite" : "BYU",

@@ -2,7 +2,7 @@ var userTotalPoints = [];
 var allUsers = [];
 var pointCollection;
 
-var weekNum = 13;
+var weekNum = 0;
 var userWeekTop = false;
 
 var users = db.collection("Users").get().then((querySnapshot) => {
@@ -32,7 +32,7 @@ $.when(users).then(function(){
 		// all other weeks
 		
 		for(var weekOfYr = 1; weekOfYr < weekNum; weekOfYr++) {
-			var pointCollection = db.collection('Users').doc(allUsers[loop] + "/2022/Week" + weekOfYr);
+			var pointCollection = db.collection('Users').doc(allUsers[loop] + "/2023/Week" + weekOfYr);
 			pointCollection.get()
 				.then((docSnapshot) => {
 					// set starters

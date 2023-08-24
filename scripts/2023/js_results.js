@@ -21,6 +21,7 @@ var resultsList = [];
 document.getElementById("loader").innerHTML = `<button onclick='sortTable(6);return false;' class='btn btn-primary'>Sort Results</button>`;
 var badge = document.createElement('div');
 badge.className = 'results';
+/*
 var select = `
 <button onclick='getResultsByWeek(13);return false;' id='all' class='btn btn-secondary active'>Week 13</button>
 <button onclick='getResultsByWeek(12);return false;' id='all' class='btn btn-secondary'>Week 12</button>
@@ -50,7 +51,7 @@ var select = `
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(3);return false;' href="#"></span>Week 3</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(2);return false;' href="#"></span>Week 2</a> </a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(1);return false;' id =""></span>Week 1</a></li>
-     </ul>`;
+     </ul>`; */
 
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);

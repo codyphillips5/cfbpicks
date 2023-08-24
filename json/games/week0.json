@@ -7,7 +7,7 @@
 		"favorite" : "ND",
 		"spread" : 20.5,
 		"required" : false,
-		"gameTime" : "2023-08-27T18:30Z",
+		"gameTime" : "2023-08-26T18:30Z",
 		"channel": "NBC"
     },
     {
@@ -17,7 +17,7 @@
 		"favorite" : "UTEP",
 		"spread" : 1.5,
 		"required" : false,
-		"gameTime" : "2023-08-27T21:30Z",
+		"gameTime" : "2023-08-26T21:30Z",
 		"channel": "CBSSN"
     },
     {
@@ -27,7 +27,7 @@
 		"favorite" : "NMSU",
 		"spread" : 6.5,
 		"required" : false,
-		"gameTime" : "2023-08-27T23:00Z",
+		"gameTime" : "2023-08-26T23:00Z",
 		"channel": "ESPN"
     },    
     {
@@ -37,7 +37,7 @@
 		"favorite" : "SDSU",
 		"spread" : 2.5,
 		"required" : true,
-		"gameTime" : "2023-08-27T23:00Z",
+		"gameTime" : "2023-08-26T23:00Z",
 		"channel": "FS1"
     },
     {
@@ -47,7 +47,7 @@
 		"favorite" : "VANDY",
 		"spread" : 17.5,
 		"required" : false,
-		"gameTime" : "2023-08-27T23:30Z",
+		"gameTime" : "2023-08-26T23:30Z",
 		"channel": "SECN"
     },
     {
@@ -57,7 +57,7 @@
 		"favorite" : "USC",
 		"spread" : 30.5,
 		"required" : false,
-		"gameTime" : "2023-08-27T00:00Z",
+		"gameTime" : "2023-08-26T00:00Z",
 		"channel": "PACN"
     },
     {
@@ -67,7 +67,7 @@
 		"favorite" : "LATECH",
 		"spread" : 10.5,
 		"required" : false,
-		"gameTime" : "2023-08-27T01:00Z",
+		"gameTime" : "2023-08-26T01:00Z",
 		"channel": "CBSSN"
     }
   ]

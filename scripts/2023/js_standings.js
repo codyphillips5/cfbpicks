@@ -59,7 +59,7 @@ $.when(users).then(function(){
 		}
 		
 		// most recent week
-		var pointCollection = db.collection('Users').doc(allUsers[loop] + "/2022/Week" + weekNum);
+		var pointCollection = db.collection('Users').doc(allUsers[loop] + "/2023/Week" + weekNum);
 			pointCollection.get()
 				.then((docSnapshot) => {
 					// set starters

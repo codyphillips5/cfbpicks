@@ -916,6 +916,13 @@
 		"teamMascot" : "Dukes",
 		"teamValue" : "JMU",
 		"teamImage" : "JamesMadison"
+    },
+	{
+		"teamId" : 132,
+		"team" : "Jacksonville State",
+		"teamMascot" : "Gamecocks",
+		"teamValue" : "JSU",
+		"teamImage" : "JacksonvilleState"
     }
   ]
 }

@@ -268,67 +268,77 @@
 		"spread" : 20.5,
 		"required" : false,
 		"gameTime" : "2023-09-02T23:30Z",
-		"channel": "NBC/Peacock"
+		"channel": "NBC"
     },
     {
 		"gameId" : 28,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "MIDTN",
+		"homeTeam" : "ALA",
+		"favorite" : "ALA",
+		"spread" : 39.5,
 		"required" : false,
 		"gameTime" : "2023-09-02T23:30Z",
-		"channel": ""
+		"channel": "SECN"
     },
     {
 		"gameId" : 29,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "TEXTCH",
+		"homeTeam" : "WYO",
+		"favorite" : "TEXTCH",
+		"spread" : 14.5,
 		"required" : false,
 		"gameTime" : "2023-09-02T23:30Z",
-		"channel": ""
+		"channel": "CBS"
     },
     {
 		"gameId" : 30,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
-		"required" : false,
-		"gameTime" : "2023-09-02T16:00Z",
-		"channel": ""
+		"awayTeam" : "UNC",
+		"homeTeam" : "SCAR",
+		"favorite" : "UNC",
+		"spread" : 2.5,
+		"required" : true,
+		"gameTime" : "2023-09-02T23:30Z",
+		"channel": "ABC"
     },
     {
 		"gameId" : 31,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "ODU",
+		"homeTeam" : "VT",
+		"favorite" : "VT",
+		"spread" : 16.5,
 		"required" : false,
-		"gameTime" : "2023-09-02T16:00Z",
-		"channel": ""
+		"gameTime" : "2023-09-03T00:00Z",
+		"channel": "ACCN"
     },
     {
 		"gameId" : 32,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "SOALA",
+		"homeTeam" : "TULANE",
+		"favorite" : "TULANE",
+		"spread" : 6.5,
 		"required" : false,
-		"gameTime" : "2023-09-02T16:00Z",
-		"channel": ""
+		"gameTime" : "2023-09-03T00:00Z",
+		"channel": "ESPNU"
     },
     {
 		"gameId" : 33,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "SHSU",
+		"homeTeam" : "BYU",
+		"favorite" : "BYU",
+		"spread" : 20.5,
 		"required" : false,
-		"gameTime" : "2023-09-02T16:00Z",
-		"channel": ""
+		"gameTime" : "2023-09-03T02:15Z",
+		"channel": "FS1"
+    },
+    {
+		"gameId" : 34,
+		"awayTeam" : "COCAR",
+		"homeTeam" : "UCLA",
+		"favorite" : "UCLA",
+		"spread" : 14.5,
+		"required" : false,
+		"gameTime" : "2023-09-03T02:30Z",
+		"channel": "ESPN"
     }
   ]
 }

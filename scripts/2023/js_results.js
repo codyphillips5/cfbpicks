@@ -1,6 +1,14 @@
 var firtName = "";
 var lastName = "";
+var allEntries = [];
+var allFifties = [];
+var allForties = [];
+var allThirties = [];
+var allTwenties = [];
+var allTens = [];
 var allUsers = [];
+var allFirst = [];
+var allLast = [];
 var storeUsers = [];
 var coversNum = [];
 var coversTeam = [];
@@ -15,6 +23,7 @@ var date3;
 var days = 1;
 var itsme = false;
 var check = "";
+var myUsername = "";
 
 var picksList, teamsList, resultsList, usersList;
 var resultsList = [];
@@ -22,7 +31,7 @@ document.getElementById("loader").innerHTML = `<button onclick='sortTable(6);ret
 var badge = document.createElement('div');
 badge.className = 'results';
 
-var select = /*`
+/*
 <button onclick='getResultsByWeek(13);return false;' id='all' class='btn btn-secondary active'>Week 13</button>
 <button onclick='getResultsByWeek(12);return false;' id='all' class='btn btn-secondary'>Week 12</button>
 <button onclick='getResultsByWeek(11);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 11</button>
@@ -35,12 +44,8 @@ var select = /*`
 <button onclick='getResultsByWeek(4);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 4</button>
 <button onclick='getResultsByWeek(3);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 3</button>
 <button onclick='getResultsByWeek(2);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 2</button>
-<button onclick='getResultsByWeek(1);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 1</button>
- <a class="btn btn-secondary dropdown-toggle" href="#" id="mobile_buttons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Previous
-  </a>
-    <ul class="dropdown-menu" aria-labelledby="mobile_buttons">
-		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(11);return false;' href="#"></span>Week 11</a> </a></li>
+*/
+/*<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(11);return false;' href="#"></span>Week 11</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(10);return false;' href="#"></span>Week 10</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(9);return false;' href="#"></span>Week 9</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(8);return false;' href="#"></span>Week 8</a> </a></li>
@@ -49,9 +54,16 @@ var select = /*`
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(5);return false;' href="#"></span>Week 5</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(4);return false;' href="#"></span>Week 4</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(3);return false;' href="#"></span>Week 3</a> </a></li>
-		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(2);return false;' href="#"></span>Week 2</a> </a></li>
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(2);return false;' href="#"></span>Week 2</a> </a></li>*/
+
+var select = `<button onclick='getResultsByWeek(1);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 1</button>
+ <a class="btn btn-secondary dropdown-toggle" href="#" id="mobile_buttons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Previous
+  </a>
+    <ul class="dropdown-menu" aria-labelledby="mobile_buttons">
+		
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(1);return false;' id =""></span>Week 1</a></li>
-     </ul>`; */ ``;
+     </ul>`;
 
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);
@@ -81,74 +93,85 @@ function getResultsByWeek(x) {
 		date2 = new Date(xFile["games"][0].gameTime);
 	});
 
-	// query for all user emails
+	// query for all user emails and names
 	var users = db.collection("Users").get().then((querySnapshot) => {
 		querySnapshot.forEach((doc) => {
 			allUsers.push(doc.data().Email);
+			allFirst.push(doc.data().FirstName);
+			allLast.push(doc.data().LastName);
 		})
 	});
-
+	
 	// build top header section of table
 	tableStart = `<div class="table-responsive"><table class="table table-hover" id="results"><thead><tr><th scope="col" class="first-col bg-light bg-gradient">Name</th><th scope="col" class="text-center">50</th><th scope="col" class="text-center">40</th><th scope="col" class="text-center">30</th><th scope="col" class="text-center">20</th><th scope="col" class="text-center">10</th><th scope="col" class="bg-light bg-gradient text-center">Total</th></tr></thead><tbody>`;
 
 	// get results
 	var getResults = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week" + x + "_results.json", function(json){
 		resultsList = json;
+	});	
+
+	// query for all user picks for the current week
+	var names = db.collection("week" + x).get().then((querySnapshot) => {
+		querySnapshot.forEach((doc) => {
+			allEntries.push(doc.data().user);
+			allFifties.push(doc.data().Fifty);
+			allForties.push(doc.data().Forty);
+			allThirties.push(doc.data().Thirty);
+			allTwenties.push(doc.data().Twenty);
+			allTens.push(doc.data().Ten);
+		})
 	});
 	
-	$.when(users, requestX, getResults).then(function(){
+	$.when(users, names, requestX, getResults).then(function(){
 		var covers = Object.values(resultsList["results"]);
 		var coversArr = Array.from(covers);
 		
 		date3 = new Date(date2);
 		date3.setDate(date3.getDate() + days);	
-		
-		for (var loop = 0; loop < allUsers.length; loop++) {
-			var names = db.collection('Users').doc(allUsers[loop]);
-			names.get()
-			.then((docSnapshot) => {
-				if (docSnapshot.data())
-					if (auth.currentUser.email === docSnapshot.data().Email) {
-						itsme = true;
-					}
-					tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${docSnapshot.data().FirstName + " " + docSnapshot.data().LastName}</th>`;
-			})
 
-			// most recent week
-			var pointCollection = db.collection('week' + x).doc(allUsers[loop]);
-			pointCollection.get()
-			.then((docSnapshot) => {
-				if (docSnapshot.data()) {
-					if(itsme) {
-						userPickTeams.push(docSnapshot.data().Ten);
-						userPickTeams.push(docSnapshot.data().Twenty);
-						userPickTeams.push(docSnapshot.data().Thirty);
-						userPickTeams.push(docSnapshot.data().Forty);
-						userPickTeams.push(docSnapshot.data().Fifty);
-						isCorrect = "primary";
-					}
-					else if (date1 >= date2) {
-						userPickTeams.push(docSnapshot.data().Ten);
-						userPickTeams.push(docSnapshot.data().Twenty);
-						userPickTeams.push(docSnapshot.data().Thirty);
-						userPickTeams.push(docSnapshot.data().Forty);
-						userPickTeams.push(docSnapshot.data().Fifty);
-					}
-					else {
-						userPickTeams.push("--");
-						userPickTeams.push("--");
-						userPickTeams.push("--");
-						userPickTeams.push("--");
-						userPickTeams.push("--");
+		for (var loop = 0; loop < allUsers.length; loop++) {
+			if (allEntries.includes(allUsers[loop])) {
+				for (var testLoop = 0; testLoop < allEntries.length; testLoop++) {
+					if (allUsers[loop] === allEntries[testLoop]) {
+						if(allUsers[loop] === auth.currentUser.email) {
+							itsme = true;
+							console.log(auth.currentUser.email);
+							userPickTeams.push(allTens[testLoop]);
+							userPickTeams.push(allTwenties[testLoop]);
+							userPickTeams.push(allThirties[testLoop]);
+							userPickTeams.push(allForties[testLoop]);
+							userPickTeams.push(allFifties[testLoop]);
+							isCorrect = "primary";
+							myUsername = "table-primary";
+						}
+						else if (date1 >= date2) {
+							myUsername = "bg-light";
+							userPickTeams.push(allTens[testLoop]);
+							userPickTeams.push(allTwenties[testLoop]);
+							userPickTeams.push(allThirties[testLoop]);
+							userPickTeams.push(allForties[testLoop]);
+							userPickTeams.push(allFifties[testLoop]);
+						}
+						else {
+							userPickTeams.push("--");
+							userPickTeams.push("--");
+							userPickTeams.push("--");
+							userPickTeams.push("--");
+							userPickTeams.push("--");
+						}
+						tableUser = tableUser + `<tr><th class="first-col ${myUsername} bg-gradient">${allFirst[loop] + " " +allLast[loop]}</th>`;
 					}
 				}
-				else {
-					userPickTeams.push(" ");
-					userPickTeams.push(" ");
-					userPickTeams.push(" ");
-					userPickTeams.push(" ");
-					userPickTeams.push(" ");
-				}
+			}
+			else {
+				tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${allFirst[loop] + " " +allLast[loop]}</th>`;
+				userPickTeams.push(" ");
+				userPickTeams.push(" ");
+				userPickTeams.push(" ");
+				userPickTeams.push(" ");
+				userPickTeams.push(" ");
+			}
+			
 				// set starters
 				var points = 0;
 				var pointTotal = 0;
@@ -168,7 +191,11 @@ function getResultsByWeek(x) {
 					}
 					tableUser = tableUser + `<td class="table-${isCorrect} text-center" id="rockyTop">${userPickTeams[up]} ${check}</td>`;
 				}
-				tableUser = tableUser + `<td class="bg-light first-col text-center">${pointTotal}</td></tr>`;
+				if (itsme)
+					myUsername = "table-primary";
+				else 
+					myUsername = "bg-light";
+				tableUser = tableUser + `<td class="${myUsername} first-col text-center">${pointTotal}</td></tr>`;
 				tableEnd = `</tbody></table>`;
 				document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;	
 				
@@ -179,10 +206,7 @@ function getResultsByWeek(x) {
 				itsme = false;
 				isCorrect = "";
 				check = "";
-				// sort results
-				//sortTable(6);	
-				
-			})
+
 		}
 		storeUsers = allUsers;
 		while(allUsers.length > 0) {

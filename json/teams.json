@@ -923,6 +923,13 @@
 		"teamMascot" : "Gamecocks",
 		"teamValue" : "JSU",
 		"teamImage" : "JacksonvilleState"
+    },
+	{
+		"teamId" : 133,
+		"team" : "Sam Houston State",
+		"teamMascot" : "Bearkats",
+		"teamValue" : "SHSU",
+		"teamImage" : "SamHoustonState"
     }
   ]
 }

@@ -208,7 +208,7 @@ function getResultsByWeek(x) {
 		}
 		storeUsers = allUsers;
 		while(allUsers.length > 0) {
-					allUsers.pop();
+			allUsers.pop();
 		}
 	});
 }
@@ -222,7 +222,7 @@ document.getElementById("loader2").innerHTML = `<button type="submit" id="saveRe
 		  try {
 			  e.preventDefault();
 			  const userName = document.getElementById('user1').innerHTML;
-			  const pointsValue = document.getElementById('points1').innerHTML;
+			  const pointsValue = Number(document.getElementById('points1').innerHTML);
 			  const topBool = document.getElementById('top1').checked;
 			  console.log(topBool);
 		  }

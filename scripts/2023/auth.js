@@ -98,7 +98,7 @@ if(saveResults) {
 				
 				for (var r = 1; r < userNames; r++) {
 					usercheck = document.getElementById('user' + r).innerHTML;
-					pointscheck = document.getElementById('points' + r).innerHTML;
+					pointscheck = Number(document.getElementById('points' + r).innerHTML);
 					topcheck = document.getElementById('top' + r).checked;
 					
 					db.collection('week' + weekNum + 'results').doc(usercheck).set({

@@ -5,7 +5,7 @@
 		"awayTeam" : "ECU",
 		"homeTeam" : "MICH",
 		"favorite" : "MICH",
-		"spread" : 36.5,
+		"spread" : 35.5,
 		"required" : false,
 		"gameTime" : "2023-09-02T16:00Z",
 		"channel": "Peacock"
@@ -35,7 +35,7 @@
 		"awayTeam" : "USU",
 		"homeTeam" : "IOWA",
 		"favorite" : "IOWA",
-		"spread" : 24.5,
+		"spread" : 23.5,
 		"required" : false,
 		"gameTime" : "2023-09-02T16:00Z",
 		"channel": "FS1"
@@ -55,7 +55,7 @@
 		"awayTeam" : "ARKST",
 		"homeTeam" : "OU",
 		"favorite" : "OU",
-		"spread" : 35.5,
+		"spread" : 36.5,
 		"required" : false,
 		"gameTime" : "2023-09-02T16:00Z",
 		"channel": "ESPN"
@@ -85,7 +85,7 @@
 		"awayTeam" : "FRESNST",
 		"homeTeam" : "PUR",
 		"favorite" : "PUR",
-		"spread" : 3.5,
+		"spread" : 4.5,
 		"required" : false,
 		"gameTime" : "2023-09-02T16:00Z",
 		"channel": "B1G"
@@ -99,19 +99,9 @@
 		"required" : false,
 		"gameTime" : "2023-09-02T16:00Z",
 		"channel": "ABC"
-    },   
+    },  
     {
 		"gameId" : 11,
-		"awayTeam" : "WCU",
-		"homeTeam" : "ARK",
-		"favorite" : "ARK",
-		"spread" : 34.5,
-		"required" : false,
-		"gameTime" : "2023-09-02T17:00Z",
-		"channel": "SECN+"
-    },
-    {
-		"gameId" : 12,
 		"awayTeam" : "AKRON",
 		"homeTeam" : "TEMPLE",
 		"favorite" : "TEMPLE",
@@ -121,7 +111,7 @@
 		"channel": "ESPN+"
     },
     {
-		"gameId" : 13,
+		"gameId" : 12,
 		"awayTeam" : "RICE",
 		"homeTeam" : "TEXAS",
 		"favorite" : "TEXAS",
@@ -131,17 +121,17 @@
 		"channel": "FOX"
     },
     {
-		"gameId" : 14,
+		"gameId" : 13,
 		"awayTeam" : "USF",
 		"homeTeam" : "WKU",
 		"favorite" : "WKU",
-		"spread" : 11.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2023-09-02T19:30Z",
 		"channel": "CBSSN"
     },
     {
-		"gameId" : 15,
+		"gameId" : 14,
 		"awayTeam" : "UMASS",
 		"homeTeam" : "AUB",
 		"favorite" : "AUB",
@@ -151,7 +141,7 @@
 		"channel": "ESPN"
     },
     {
-		"gameId" : 16,
+		"gameId" : 15,
 		"awayTeam" : "BUFF",
 		"homeTeam" : "WIS",
 		"favorite" : "WIS",
@@ -161,17 +151,17 @@
 		"channel": "FS1"
     },
     {
-		"gameId" : 17,
+		"gameId" : 16,
 		"awayTeam" : "OSU",
 		"homeTeam" : "IND",
 		"favorite" : "OSU",
-		"spread" : 30.5,
+		"spread" : 29.5,
 		"required" : false,
 		"gameTime" : "2023-09-02T19:30Z",
 		"channel": "CBS"
     },
     {
-		"gameId" : 18,
+		"gameId" : 17,
 		"awayTeam" : "BSU",
 		"homeTeam" : "WASH",
 		"favorite" : "WASH",
@@ -181,7 +171,7 @@
 		"channel": "ABC"
     },
     {
-		"gameId" : 19,
+		"gameId" : 18,
 		"awayTeam" : "CAL",
 		"homeTeam" : "UNT",
 		"favorite" : "CAL",
@@ -191,7 +181,7 @@
 		"channel": "ESPNU"
     },
     {
-		"gameId" : 20,
+		"gameId" : 19,
 		"awayTeam" : "NEV",
 		"homeTeam" : "USC",
 		"favorite" : "USC",
@@ -201,17 +191,17 @@
 		"channel": "PACN"
     },
     {
-		"gameId" : 21,
+		"gameId" : 20,
 		"awayTeam" : "WSU",
 		"homeTeam" : "CSU",
 		"favorite" : "WSU",
-		"spread" : 11.5,
+		"spread" : 10.5,
 		"required" : false,
 		"gameTime" : "2023-09-02T23:00Z",
 		"channel": "CBSSN"
     },
     {
-		"gameId" : 22,
+		"gameId" : 21,
 		"awayTeam" : "TEXST",
 		"homeTeam" : "BAYLOR",
 		"favorite" : "BAYLOR",
@@ -221,7 +211,7 @@
 		"channel": "ESPN+"
     },
     {
-		"gameId" : 23,
+		"gameId" : 22,
 		"awayTeam" : "UNM",
 		"homeTeam" : "TXA&M",
 		"favorite" : "TXA&M",
@@ -231,27 +221,27 @@
 		"channel": "ESPN"
     },
     {
-		"gameId" : 24,
+		"gameId" : 23,
 		"awayTeam" : "ARMY",
 		"homeTeam" : "LAMON",
 		"favorite" : "ARMY",
-		"spread" : 10.5,
+		"spread" : 9.5,
 		"required" : false,
 		"gameTime" : "2023-09-02T23:00Z",
 		"channel": "NFLN"
     },
     {
-		"gameId" : 25,
+		"gameId" : 24,
 		"awayTeam" : "UTSA",
 		"homeTeam" : "HOU",
 		"favorite" : "UTSA",
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2023-09-02T23:00Z",
 		"channel": "FS1"
     },
     {
-		"gameId" : 26,
+		"gameId" : 25,
 		"awayTeam" : "TOLEDO",
 		"homeTeam" : "ILL",
 		"favorite" : "ILL",
@@ -261,7 +251,7 @@
 		"channel": "B1G"
     },
     {
-		"gameId" : 27,
+		"gameId" : 26,
 		"awayTeam" : "WVU",
 		"homeTeam" : "PSU",
 		"favorite" : "PSU",
@@ -271,7 +261,7 @@
 		"channel": "NBC"
     },
     {
-		"gameId" : 28,
+		"gameId" : 27,
 		"awayTeam" : "MIDTN",
 		"homeTeam" : "ALA",
 		"favorite" : "ALA",
@@ -281,7 +271,7 @@
 		"channel": "SECN"
     },
     {
-		"gameId" : 29,
+		"gameId" : 28,
 		"awayTeam" : "TEXTCH",
 		"homeTeam" : "WYO",
 		"favorite" : "TEXTCH",
@@ -291,7 +281,7 @@
 		"channel": "CBS"
     },
     {
-		"gameId" : 30,
+		"gameId" : 29,
 		"awayTeam" : "UNC",
 		"homeTeam" : "SCAR",
 		"favorite" : "UNC",
@@ -301,17 +291,17 @@
 		"channel": "ABC"
     },
     {
-		"gameId" : 31,
+		"gameId" : 30,
 		"awayTeam" : "ODU",
 		"homeTeam" : "VT",
 		"favorite" : "VT",
-		"spread" : 16.5,
+		"spread" : 15.5,
 		"required" : false,
 		"gameTime" : "2023-09-03T00:00Z",
 		"channel": "ACCN"
     },
     {
-		"gameId" : 32,
+		"gameId" : 31,
 		"awayTeam" : "SOALA",
 		"homeTeam" : "TULANE",
 		"favorite" : "TULANE",
@@ -321,17 +311,17 @@
 		"channel": "ESPNU"
     },
     {
-		"gameId" : 33,
+		"gameId" : 32,
 		"awayTeam" : "SHSU",
 		"homeTeam" : "BYU",
 		"favorite" : "BYU",
-		"spread" : 20.5,
+		"spread" : 19.5,
 		"required" : false,
 		"gameTime" : "2023-09-03T02:15Z",
 		"channel": "FS1"
     },
     {
-		"gameId" : 34,
+		"gameId" : 33,
 		"awayTeam" : "COCAR",
 		"homeTeam" : "UCLA",
 		"favorite" : "UCLA",

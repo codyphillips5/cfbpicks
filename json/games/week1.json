@@ -195,7 +195,7 @@
 		"awayTeam" : "WSU",
 		"homeTeam" : "CSU",
 		"favorite" : "WSU",
-		"spread" : 10.5,
+		"spread" : 11.5,
 		"required" : false,
 		"gameTime" : "2023-09-02T23:00Z",
 		"channel": "CBSSN"

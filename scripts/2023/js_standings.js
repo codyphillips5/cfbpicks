@@ -1,5 +1,10 @@
 var userTotalPoints = [];
 var allUsers = [];
+var week1Scores = [];
+var week2Scores = [];
+var week3Scores = [];
+var week4Scores = [];
+var week5Scores = [];
 var pointCollection;
 
 var weekNum = 1;
@@ -18,7 +23,8 @@ for(var wn = 1; wn <= weekNum; wn++) {
 	tableStart = tableStart + `<th scope="col" class="bg-light text-center bg-gradient">Week ${wn}</th>`;
 }
 tableStart = tableStart + `<th scope="col" class="bg-light text-center bg-gradient">Total</th></tr></thead><tbody>`;
-	
+
+
 $.when(users).then(function(){
 	var tableUser = "";
 	for (var loop = 0; loop < allUsers.length; loop++) {		
@@ -30,7 +36,24 @@ $.when(users).then(function(){
 		})		
 		
 		// all other weeks
-		
+		var weeks = db.collection("Users/"+ allUsers[loop] +"/2023").get().then((querySnapshot) => {
+			querySnapshot.forEach((doc) => {
+				switch(doc.id) {
+					case 'Week1':
+						week1Scores.push(doc.data);
+						console.log(week1Scores[0]);
+						break;
+					case 'Week2':
+						console.log(doc.data());
+						break;
+					default:
+						console.log("0 data");
+						break;
+				}
+				
+			})
+		});
+	
 		for(var weekOfYr = 1; weekOfYr < weekNum; weekOfYr++) {
 			var pointCollection = db.collection('Users').doc(allUsers[loop] + "/2023/Week" + weekOfYr);
 			pointCollection.get()
@@ -79,7 +102,7 @@ $.when(users).then(function(){
 						tableUser = tableUser + `<td class="text-center" id='week${weekNum}'>${points}</td>`;
 					
 						userTotalPoints.push(points);
-						console.log(userTotalPoints);
+						//console.log(userTotalPoints);
 						for(var i=0; i < userTotalPoints.length; i++) {
 							pointTotal = pointTotal + userTotalPoints[i];
 						}

@@ -80,6 +80,47 @@ if(createForm) {
     });
 }
 
+
+// create new guide
+const saveResults = document.querySelector('#save_results');
+if(saveResults) {
+	// show picks if selected
+	firebase.auth().onAuthStateChanged(user => {
+		if (auth.currentUser.email === 'codyphill5@gmail.com') {
+			// submit picks
+			saveResults.addEventListener('submit', (e) => {
+				e.preventDefault();
+				
+				var userNames = document.getElementsByClassName('points').length;
+				var usercheck;
+				var pointscheck;
+				var topcheck;
+				
+				for (var r = 1; r < userNames; r++) {
+					usercheck = document.getElementById('user' + r).innerHTML;
+					pointscheck = document.getElementById('points' + r).innerHTML;
+					topcheck = document.getElementById('top' + r).checked;
+					
+					db.collection('week' + weekNum + 'results').doc(usercheck).set({
+						user: usercheck,
+						Points: pointscheck,
+						Top: topcheck
+					
+				}).then(() => {
+					saveResults.reset();
+					saveResults.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Week ${weekNum} picks saved! </div>`;
+					document.getElementById("saveResults").disabled = true;
+					document.getElementById("saveResults").innerHTML = "Saved";
+				}).catch(err => {
+					console.log(err.message)
+					//signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
+				});
+				}
+			});
+		}
+	})
+}
+
 // signup
 const signupForm = document.querySelector('#signup-form');
 if(signupForm) {

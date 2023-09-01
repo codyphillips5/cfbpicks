@@ -153,11 +153,11 @@ function getResultsByWeek(x) {
 							userPickTeams.push(allFifties[testLoop]);
 						}
 						else {
-							userPickTeams.push("--");
-							userPickTeams.push("--");
-							userPickTeams.push("--");
-							userPickTeams.push("--");
-							userPickTeams.push("--");
+							userPickTeams.push("🔒");
+							userPickTeams.push("🔒");
+							userPickTeams.push("🔒");
+							userPickTeams.push("🔒");
+							userPickTeams.push("🔒");
 						}
 						tableUser = tableUser + `<tr><th class="first-col ${myUsername} bg-gradient">${allFirst[loop] + " " +allLast[loop]}</th>`;
 					}

@@ -93,20 +93,27 @@ if(saveResults) {
 				
 				var userNames = document.getElementsByClassName('points').length;
 				var usercheck;
+				var weekcheck;
 				var pointscheck;
 				var topcheck;
 				
-				for (var r = 1; r < userNames; r++) {
+				for (var r = 1; r <= userNames; r++) {
 					usercheck = document.getElementById('user' + r).innerHTML;
+					weekcheck = "week" + weekNum;
 					pointscheck = Number(document.getElementById('points' + r).innerHTML);
 					topcheck = document.getElementById('top' + r).checked;
 					
-					db.collection('week' + weekNum + 'results').doc(usercheck).set({
+					// update the number every week 
+					const data = {
 						user: usercheck,
-						Points: pointscheck,
-						Top: topcheck
+						week0: {
+							id: weekcheck,
+							points: pointscheck,
+							top: topcheck
+						}
+					};
 					
-				}).then(() => {
+					db.collection('Results').doc(usercheck).set(data).then(() => {
 					saveResults.reset();
 					saveResults.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Week ${weekNum} picks saved! </div>`;
 					document.getElementById("saveResults").disabled = true;

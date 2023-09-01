@@ -1,10 +1,9 @@
 var userTotalPoints = [];
 var allUsers = [];
-var week1Scores = [];
-var week2Scores = [];
-var week3Scores = [];
-var week4Scores = [];
-var week5Scores = [];
+var allNames = [];
+var allEntries = [];
+const entry = {};
+var scores = [];
 var pointCollection;
 
 var weekNum = 1;
@@ -16,6 +15,19 @@ var users = db.collection("Users").get().then((querySnapshot) => {
 	})
 });
 
+var names = db.collection("Users").get().then((querySnapshot) => {
+	querySnapshot.forEach((doc) => {
+		allNames.push(doc.data().FirstName + " " + doc.data().LastName);
+	})
+});
+		
+var results = db.collection("Results").get().then((querySnapshot) => {
+	querySnapshot.forEach((doc) => {
+		allEntries.push(doc.data().user);
+		scores.push(doc.data());
+	})
+});	
+
 document.getElementById("loader").innerHTML = `<button onclick='sortTable(${weekNum + 1});return false;' class='btn btn-primary'>Sort Standings</button>`;
 
 var tableStart = `<div class="table-responsive"><table class="table table-hover" id="standings-table"><thead><tr><th class="first-col bg-light" scope="col">Name</th>`;
@@ -24,97 +36,42 @@ for(var wn = 1; wn <= weekNum; wn++) {
 }
 tableStart = tableStart + `<th scope="col" class="bg-light text-center bg-gradient">Total</th></tr></thead><tbody>`;
 
-
-$.when(users).then(function(){
+$.when(users, results).then(function(){
 	var tableUser = "";
-	for (var loop = 0; loop < allUsers.length; loop++) {		
-		var names = db.collection('Users').doc(allUsers[loop]);
-		names.get()
-		.then((docSnapshot) => {
-			if (docSnapshot.data())
-				tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${docSnapshot.data().FirstName + " " + docSnapshot.data().LastName}</th>`;
-		})		
-		
-		// all other weeks
-		var weeks = db.collection("Users/"+ allUsers[loop] +"/2023").get().then((querySnapshot) => {
-			querySnapshot.forEach((doc) => {
-				switch(doc.id) {
-					case 'Week1':
-						week1Scores.push(doc.data);
-						console.log(week1Scores[0]);
-						break;
-					case 'Week2':
-						console.log(doc.data());
-						break;
-					default:
-						console.log("0 data");
-						break;
-				}
-				
-			})
-		});
 	
-		for(var weekOfYr = 1; weekOfYr < weekNum; weekOfYr++) {
-			var pointCollection = db.collection('Users').doc(allUsers[loop] + "/2023/Week" + weekOfYr);
-			pointCollection.get()
-				.then((docSnapshot) => {
-					// set starters
-					var pointTotal = 0;
-					var weekTotal = 0;
-					var points = 0;
-					
-					if (docSnapshot.data()) {
-						points = docSnapshot.data().Points;
-						userWeekTop = docSnapshot.data().Top;
-					}
-					else {
-						points = 0;
-						userWeekTop = false;
-					}
-					userTotalPoints.push(points);
-					pointTotal = pointTotal + points;
-					weekTotal++;
-					if (userWeekTop) 
-						tableUser = tableUser + `<td class='table-success text-center' id='week1'>${points}</td>`;
-					else 
-						tableUser = tableUser + `<td class="text-center" id="week1">${points}</td>`;
-				});	
+	for (var loop = 0; loop <= allUsers.length; loop++) {		
+		tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${allNames[loop]}</th>`;
+		for(var weekOfYr = 1; weekOfYr <= weekNum; weekOfYr++) {
+			// set starters
+			var pointTotal = 0;
+			var weekTotal = 0;
+			var points = 0;
+			
+			if (scores[loop]["week" + weekOfYr] === undefined) {
+				points = 0;
+				userWeekTop = false;
+			}
+			else {
+				points = scores[loop]["week" + weekOfYr]["points"];
+				userWeekTop = scores[loop]["week" + weekOfYr]["top"];
+			}
+			userTotalPoints.push(points);
+			weekTotal++;
+			if (userWeekTop) 
+				tableUser = tableUser + `<td class='table-success text-center' id='week1'>${points}</td>`;
+			else 
+				tableUser = tableUser + `<td class="text-center" id="week1">${points}</td>`;	
 		}
-		
-		// most recent week
-		var pointCollection = db.collection('Users').doc(allUsers[loop] + "/2023/Week" + weekNum);
-			pointCollection.get()
-				.then((docSnapshot) => {
-					// set starters
-					var points = 0;
-					var pointTotal = 0;
-					if (docSnapshot.data()) {
-						points = docSnapshot.data().Points;
-						userWeekTop = docSnapshot.data().Top;
-					}
-					else {
-						points = 0;
-						userWeekTop = false;
-					}
-					if (userWeekTop) 
-						tableUser = tableUser + `<td class='table-success text-center' id='week${weekNum}'>${points}</td>`;
-					else 
-						tableUser = tableUser + `<td class="text-center" id='week${weekNum}'>${points}</td>`;
-					
-						userTotalPoints.push(points);
-						//console.log(userTotalPoints);
-						for(var i=0; i < userTotalPoints.length; i++) {
-							pointTotal = pointTotal + userTotalPoints[i];
-						}
-						tableUser = tableUser + `<td class="bg-light first-col text-center">${pointTotal}</td></tr>`;
-						
-					var tableEnd = `</tbody></table>`;	
-					document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;	
-					while(userTotalPoints.length > 0) {
-						userTotalPoints.pop();
-					}
-				//sortTable(weekNum + 1);
-			});
+			for(var i=0; i < userTotalPoints.length; i++) {
+				pointTotal = pointTotal + userTotalPoints[i];
+			}
+			tableUser = tableUser + `<td class="bg-light first-col text-center">${pointTotal}</td></tr>`;
+			
+			var tableEnd = `</tbody></table>`;	
+			document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;	
+			while(userTotalPoints.length > 0) {
+				userTotalPoints.pop();
+			}
 		}
 	});
 

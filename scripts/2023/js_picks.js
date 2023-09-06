@@ -110,8 +110,8 @@ else {
 			  if (required) {
 				  requiredField = 'bg-warning bg-gradient';
 				  isRequired = true;
-				  requiredMatch.push(homeTeamVal);
 				  requiredMatch.push(awayTeamVal);
+				  requiredMatch.push(homeTeamVal);
 			  }
 			  else {
 				  requiredField = 'bg-light';		
@@ -265,7 +265,7 @@ else {
 			savePicks.querySelector('.response').innerHTML = ``;
 		  }
 		  catch (err) {
-			savePicks.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" id="alert-alert" role="alert">${err.message}</div>`;
+			savePicks.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" id="alert-alert" role="alert">NOT SO FAST MY FRIEND! <br> ${err.message}<br> Must select a team from the required game (${requiredMatch[0]} vs ${requiredMatch[1]}) and resubmit.</div>`;
 		  }
 	  })
   }
@@ -302,6 +302,6 @@ function isRequiredTeamIncluded(fif, fort, thirt, twet, te) {
 		requiredSelected = true;
 	}
 	else {
-		throw new Error('PICKS NOT SAVED! Must select a team from required game in yellow below and resubmit.');
+		throw new Error('These picks cannot be saved.');
 	}
 }

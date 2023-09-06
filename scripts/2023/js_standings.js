@@ -84,7 +84,6 @@ function sortTable(n) {
   /*Make a loop that will continue until
   no switching has been done:*/
   while (switching) {
-	document.getElementById("loader").innerHTML = `<img src='https://clipartix.com/wp-content/uploads/2018/03/thinking-gif-2018-1.gif'><br><img src='https://raw.githubusercontent.com/codyphillips5/cfbpicks/master/sort.gif'>`;
     //start by saying: no switching is done:
     switching = false;
     rows = table.rows;

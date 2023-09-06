@@ -19,7 +19,8 @@ auth.onAuthStateChanged(user => {
 })
   
 var weekNum = 2;
-var fn;  
+var fn;
+var requiredSelected = true;
 // create new guide
 const createForm = document.querySelector('#save_picks');
 if(createForm) {
@@ -41,46 +42,51 @@ if(createForm) {
 		});
 	});	
 	
-	// submit picks
-    createForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-		
-		// get user's first name
-		var docRef = db.collection("Users").doc(auth.currentUser.email);
-		docRef.get().then((doc) => {
-			if (doc.exists) {
-				fn = doc.data().FirstName;
-				console.log(fn);
-			} else {
-				// doc.data() will be undefined in this case
-				console.log("No such document!");
+	// submit picks	
+		createForm.addEventListener('submit', (e) => {
+			e.preventDefault();
+			
+			// get user's first name
+			var docRef = db.collection("Users").doc(auth.currentUser.email);
+			docRef.get().then((doc) => {
+				if (doc.exists) {
+					fn = doc.data().FirstName;
+					console.log(fn);
+				} else {
+					// doc.data() will be undefined in this case
+					console.log("No such document!");
+				}
+			}).catch((error) => {
+				console.log("Error getting document:", error);
+			})
+			
+			var elem = document.getElementById('alert-alert');
+			
+			if(elem !== null) {
+				return;
 			}
-		}).catch((error) => {
-			console.log("Error getting document:", error);
-		})
-    
-        db.collection('week' + weekNum).doc(auth.currentUser.email).set({
-            user: auth.currentUser.email,
-            lastUpdate: firebase.firestore.Timestamp.fromDate(new Date()),
-            Fifty: document.getElementById('50').value,
-            Forty: document.getElementById('40').value,
-            Thirty: document.getElementById('30').value,
-            Twenty: document.getElementById('20').value,
-            Ten: document.getElementById('10').value
-        }).then(() => {			
-			console.log("still: " + fn);
-            createForm.reset();
-            createForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Your picks have been saved. <br>Good luck, ${fn}!</div>`;
-			document.getElementById("savePicks").disabled = true;
-			document.getElementById("savePicks").innerHTML = "Saved";
-        }).catch(err => {
-            console.log(err.message)
-            //signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
-        });
-    });
+
+		db.collection('week' + weekNum).doc(auth.currentUser.email).set({
+				user: auth.currentUser.email,
+				lastUpdate: firebase.firestore.Timestamp.fromDate(new Date()),
+				Fifty: document.getElementById('50').value,
+				Forty: document.getElementById('40').value,
+				Thirty: document.getElementById('30').value,
+				Twenty: document.getElementById('20').value,
+				Ten: document.getElementById('10').value
+			}).then(() => {			
+				console.log("still: " + fn);
+				createForm.reset();
+				createForm.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Your picks have been saved. <br>Good luck, ${fn}!</div>`;
+				document.getElementById("savePicks").disabled = true;
+				document.getElementById("savePicks").innerHTML = "Saved";
+			}).catch(err => {
+				console.log(err.message)
+				signupForm.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" role="alert">${err.message}</div>`;
+			});
+		});
+		
 }
-
-
 // create new guide
 const saveResults = document.querySelector('#save_results');
 if(saveResults) {

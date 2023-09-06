@@ -40,6 +40,7 @@ else {
   var awaySide = "";
   var required = "";
   var num = 0;
+  var requiredMatch = [];
   
 	var xFile, yFile;
   
@@ -109,6 +110,8 @@ else {
 			  if (required) {
 				  requiredField = 'bg-warning bg-gradient';
 				  isRequired = true;
+				  requiredMatch.push(homeTeamVal);
+				  requiredMatch.push(awayTeamVal);
 			  }
 			  else {
 				  requiredField = 'bg-light';		
@@ -251,17 +254,18 @@ else {
   if(savePicks) {
 	  savePicks.addEventListener('submit', (e) => {
 		  try {
-			  e.preventDefault();
-			  const fifty = document.getElementById('50').value;
-			  const forty = document.getElementById('40').value;
-			  const thirty = document.getElementById('30').value;
-			  const twenty = document.getElementById('20').value;
-			  const ten = document.getElementById('10').value;
-			  console.log(fifty);
+			e.preventDefault();
+			const fifty = document.getElementById('50').value;
+			const forty = document.getElementById('40').value;
+			const thirty = document.getElementById('30').value;
+			const twenty = document.getElementById('20').value;
+			const ten = document.getElementById('10').value;
+			  
+			isRequiredTeamIncluded(fifty, forty, thirty, twenty, ten);
+			savePicks.querySelector('.response').innerHTML = ``;
 		  }
 		  catch (err) {
-			  console.log(err);
-			  console.log(err.message);
+			savePicks.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" id="alert-alert" role="alert">${err.message}</div>`;
 		  }
 	  })
   }
@@ -279,3 +283,25 @@ else {
 	  }
   });	
   }
+  
+   {
+
+
+  }
+  
+  
+function isRequiredTeamIncluded(fif, fort, thirt, twet, te) {
+	const allOfThePicks = [];
+	allOfThePicks.push(fif);
+	allOfThePicks.push(fort);
+	allOfThePicks.push(thirt);
+	allOfThePicks.push(twet);
+	allOfThePicks.push(te);
+			
+	if (allOfThePicks.includes(requiredMatch[0]) || allOfThePicks.includes(requiredMatch[1])) {
+		requiredSelected = true;
+	}
+	else {
+		throw new Error('PICKS NOT SAVED! Must select a team from required game in yellow below and resubmit.');
+	}
+}

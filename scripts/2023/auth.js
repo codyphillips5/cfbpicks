@@ -18,7 +18,7 @@ auth.onAuthStateChanged(user => {
     }
 })
   
-var weekNum = 1;
+var weekNum = 2;
 var fn;  
 // create new guide
 const createForm = document.querySelector('#save_picks');
@@ -106,7 +106,7 @@ if(saveResults) {
 					// update the number every week 
 					const data = {
 						user: usercheck,
-						week1: {
+						week2: {
 							id: weekcheck,
 							points: pointscheck,
 							top: topcheck

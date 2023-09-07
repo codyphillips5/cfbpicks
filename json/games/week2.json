@@ -145,7 +145,7 @@
 		"awayTeam" : "IOWA",
 		"homeTeam" : "IOWAST",
 		"favorite" : "IOWA",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2023-09-09T19:30Z",
 		"channel": "FOX"
@@ -235,7 +235,7 @@
 		"awayTeam" : "LA",
 		"homeTeam" : "ODU",
 		"favorite" : "LA",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2023-09-09T22:00Z",
 		"channel": "ESPN+"
@@ -335,7 +335,7 @@
 		"awayTeam" : "UCONN",
 		"homeTeam" : "GSU",
 		"favorite" : "GSU",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2023-09-09T23:00Z",
 		"channel": "ESPN+"

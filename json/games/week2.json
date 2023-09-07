@@ -35,7 +35,7 @@
 		"awayTeam" : "PUR",
 		"homeTeam" : "VT",
 		"favorite" : "VT",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2023-09-09T16:00Z",
 		"channel": "ESPN2"
@@ -175,7 +175,7 @@
 		"awayTeam" : "KENT",
 		"homeTeam" : "ARK",
 		"favorite" : "ARK",
-		"spread" : 38.5,
+		"spread" : 37.5,
 		"required" : false,
 		"gameTime" : "2023-09-09T20:00Z",
 		"channel": "SECN"
@@ -275,7 +275,7 @@
 		"awayTeam" : "HOU",
 		"homeTeam" : "RICE",
 		"favorite" : "HOU",
-		"spread" : 10.5,
+		"spread" : 9.5,
 		"required" : false,
 		"gameTime" : "2023-09-09T23:00Z",
 		"channel": "NFLN"
@@ -285,7 +285,7 @@
 		"awayTeam" : "JSU",
 		"homeTeam" : "COCAR",
 		"favorite" : "COCAR",
-		"spread" : 13.5,
+		"spread" : 14.5,
 		"required" : false,
 		"gameTime" : "2023-09-09T23:00Z",
 		"channel": "ESPN+"
@@ -415,7 +415,7 @@
 		"awayTeam" : "AFA",
 		"homeTeam" : "SHSU",
 		"favorite" : "AFA",
-		"spread" : 14.5,
+		"spread" : 13.5,
 		"required" : false,
 		"gameTime" : "2023-09-10T00:00Z",
 		"channel": "CBSSN"

@@ -265,7 +265,11 @@ else {
 			savePicks.querySelector('.response').innerHTML = ``;
 		  }
 		  catch (err) {
-			savePicks.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" id="alert-alert" role="alert">NOT SO FAST MY FRIEND! <br> ${err.message}<br> Must select a team from the required game (${requiredMatch[0]} vs ${requiredMatch[1]}) and resubmit.</div>`;
+			savePicks.querySelector('.response').innerHTML = `<br><div class="alert alert-danger" id="alert-alert" role="alert">
+			<p class='h2'>NOT SO FAST!</p> 
+			<p> ${err.message} Must select a team from the required game (${requiredMatch[0]} vs ${requiredMatch[1]}) and resubmit.</p>
+			<p><iframe width="480" height="270" src="https://video.twimg.com/ext_tw_video/1553867879166070784/pu/vid/480x270/OCHuLYGIIWW_sKBa.mp4?tag=12" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></p>
+			</div>`;
 		  }
 	  })
   }

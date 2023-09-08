@@ -55,7 +55,7 @@ badge.className = 'results';
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(3);return false;' href="#"></span>Week 3</a> </a></li>*/
 
 var select = `
-<button onclick='getResultsByWeek(2);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 2</button>
+<button onclick='getResultsByWeek(2);return false;' id='desktop_buttons' class='btn btn-secondary active'>Week 2</button>
 <button onclick='getResultsByWeek(1);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 1</button>
  <a class="btn btn-secondary dropdown-toggle" href="#" id="mobile_buttons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
       Previous

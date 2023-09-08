@@ -14,7 +14,7 @@ var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 1;
+var weekNum = 2;
 var isCorrect;
 var isMe;
 var date1 = new Date();
@@ -43,7 +43,6 @@ badge.className = 'results';
 <button onclick='getResultsByWeek(5);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 5</button>
 <button onclick='getResultsByWeek(4);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 4</button>
 <button onclick='getResultsByWeek(3);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 3</button>
-<button onclick='getResultsByWeek(2);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 2</button>
 */
 /*<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(11);return false;' href="#"></span>Week 11</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(10);return false;' href="#"></span>Week 10</a> </a></li>
@@ -53,15 +52,17 @@ badge.className = 'results';
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(6);return false;' href="#"></span>Week 6</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(5);return false;' href="#"></span>Week 5</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(4);return false;' href="#"></span>Week 4</a> </a></li>
-		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(3);return false;' href="#"></span>Week 3</a> </a></li>
-		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(2);return false;' href="#"></span>Week 2</a> </a></li>*/
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(3);return false;' href="#"></span>Week 3</a> </a></li>*/
 
-var select = `<button onclick='getResultsByWeek(1);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 1</button>
+var select = `
+<button onclick='getResultsByWeek(2);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 2</button>
+<button onclick='getResultsByWeek(1);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 1</button>
  <a class="btn btn-secondary dropdown-toggle" href="#" id="mobile_buttons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
       Previous
   </a>
     <ul class="dropdown-menu" aria-labelledby="mobile_buttons">
 		
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(2);return false;' href="#"></span>Week 2</a> </a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(1);return false;' id =""></span>Week 1</a></li>
      </ul>`;
 

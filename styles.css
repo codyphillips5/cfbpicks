@@ -88,6 +88,11 @@
     display: none;
   }
 }
+@media screen and (max-width: 509px) {
+  .video{
+	  width: 80%;
+  }
+}
 .games-layout {
     width: 33%;
     height: 180px;

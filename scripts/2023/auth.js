@@ -112,7 +112,7 @@ if(saveResults) {
 					// update the number every week 
 					const data = {
 						user: usercheck,
-						week1: {
+						week2: {
 							id: weekcheck,
 							points: pointscheck,
 							top: topcheck

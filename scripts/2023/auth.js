@@ -18,7 +18,7 @@ auth.onAuthStateChanged(user => {
     }
 })
   
-var weekNum = 2;
+var weekNum = 1;
 var fn;
 var requiredSelected = true;
 // create new guide
@@ -112,14 +112,14 @@ if(saveResults) {
 					// update the number every week 
 					const data = {
 						user: usercheck,
-						week2: {
+						week1: {
 							id: weekcheck,
 							points: pointscheck,
 							top: topcheck
 						}
 					};
 					
-					db.collection('Results').doc(usercheck).set(data).then(() => {
+					db.collection('Results').doc(usercheck).update(data).then(() => {
 					saveResults.reset();
 					saveResults.querySelector('.response').innerHTML = `<br><div class="alert alert-success" role="alert">Success! Week ${weekNum} picks saved! </div>`;
 					document.getElementById("saveResults").disabled = true;

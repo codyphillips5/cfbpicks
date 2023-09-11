@@ -6,7 +6,7 @@ const entry = {};
 var scores = [];
 var pointCollection;
 
-var weekNum = 1;
+var weekNum = 2;
 var userWeekTop = false;
 
 var users = db.collection("Users").get().then((querySnapshot) => {

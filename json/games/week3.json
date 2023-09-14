@@ -15,7 +15,7 @@
 		"awayTeam" : "K-STATE",
 		"homeTeam" : "MIZZOU",
 		"favorite" : "K-STATE",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2023-09-16T16:00:00Z",
 		"channel": "SECN"
@@ -125,7 +125,7 @@
 		"awayTeam" : "ALA",
 		"homeTeam" : "USF",
 		"favorite" : "ALA",
-		"spread" : 32.5,
+		"spread" : 31.5,
 		"required" : false,
 		"gameTime" : "2023-09-16T19:30:00Z",
 		"channel": "ABC"
@@ -185,7 +185,7 @@
 		"awayTeam" : "VT",
 		"homeTeam" : "RUTG",
 		"favorite" : "RUTG",
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2023-09-16T19:30:00Z",
 		"channel": "B1G"
@@ -225,7 +225,7 @@
 		"awayTeam" : "TULANE",
 		"homeTeam" : "SMISS",
 		"favorite" : "TULANE",
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2023-09-16T20:00:00Z",
 		"channel": "ESPNU"
@@ -305,7 +305,7 @@
 		"awayTeam" : "NIU",
 		"homeTeam" : "NEB",
 		"favorite" : "NEB",
-		"spread" : 11.5,
+		"spread" : 10.5,
 		"required" : false,
 		"gameTime" : "2023-09-16T23:00:00Z",
 		"channel": "FS1"
@@ -335,7 +335,7 @@
 		"awayTeam" : "JMU",
 		"homeTeam" : "TROY",
 		"favorite" : "TROY",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2023-09-16T23:00:00Z",
 		"channel": "NFLN"
@@ -435,7 +435,7 @@
 		"awayTeam" : "HAW",
 		"homeTeam" : "ORE",
 		"favorite" : "ORE",
-		"spread" : 38.5,
+		"spread" : 37.5,
 		"required" : false,
 		"gameTime" : "2023-09-17T00:00:00Z",
 		"channel": "PACN"
@@ -455,7 +455,7 @@
 		"awayTeam" : "FAU",
 		"homeTeam" : "CLEM",
 		"favorite" : "CLEM",
-		"spread" : 24.5,
+		"spread" : 25.5,
 		"required" : false,
 		"gameTime" : "2023-09-17T00:00:00Z",
 		"channel": "ACCN"
@@ -465,7 +465,7 @@
 		"awayTeam" : "CSU",
 		"homeTeam" : "CU",
 		"favorite" : "CU",
-		"spread" : 23.5,
+		"spread" : 22.5,
 		"required" : false,
 		"gameTime" : "2023-09-17T02:00:00Z",
 		"channel": "ESPN"
@@ -475,7 +475,7 @@
 		"awayTeam" : "KAN",
 		"homeTeam" : "NEV",
 		"favorite" : "KAN",
-		"spread" : 28.5,
+		"spread" : 27.5,
 		"required" : false,
 		"gameTime" : "2023-09-17T02:30:00Z",
 		"channel": "CBSSN"
@@ -495,7 +495,7 @@
 		"awayTeam" : "UTEP",
 		"homeTeam" : "ARIZ",
 		"favorite" : "ARIZ",
-		"spread" : 18.5,
+		"spread" : 17.5,
 		"required" : false,
 		"gameTime" : "2023-09-17T03:00:00Z",
 		"channel": "PACN"

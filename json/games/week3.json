@@ -465,7 +465,7 @@
 		"awayTeam" : "CSU",
 		"homeTeam" : "CU",
 		"favorite" : "CU",
-		"spread" : 22.5,
+		"spread" : 23.5,
 		"required" : false,
 		"gameTime" : "2023-09-17T02:00:00Z",
 		"channel": "ESPN"

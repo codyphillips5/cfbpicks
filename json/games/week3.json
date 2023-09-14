@@ -475,7 +475,7 @@
 		"awayTeam" : "KAN",
 		"homeTeam" : "NEV",
 		"favorite" : "KAN",
-		"spread" : .5,
+		"spread" : 28.5,
 		"required" : false,
 		"gameTime" : "2023-09-17T02:30:00Z",
 		"channel": "CBSSN"

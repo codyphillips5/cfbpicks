@@ -127,7 +127,7 @@ function getResultsByWeek(x) {
 		
 		date3 = new Date(date2);
 		date3.setDate(date3.getDate() + days);	
-				
+		
 		for (var loop = 0; loop < allUsers.length; loop++) {
 			if (allEntries.includes(allUsers[loop])) {
 				for (var testLoop = 0; testLoop < allEntries.length; testLoop++) {
@@ -159,7 +159,6 @@ function getResultsByWeek(x) {
 							userPickTeams.push("🔒");
 							userPickTeams.push("🔒");
 						}
-						console.log(myUsername);
 						tableUser = tableUser + `<tr><th class="first-col ${myUsername} bg-gradient">${allFirst[loop] + " " +allLast[loop]}</th>`;
 					}
 				}

@@ -5,6 +5,9 @@ var allEntries = [];
 const entry = {};
 var scores = [];
 var pointCollection;
+var myUsername = "";
+var myPoints = "";
+var itsme = false;
 
 var weekNum = 3;
 var userWeekTop = false;
@@ -40,7 +43,17 @@ $.when(users, results).then(function(){
 	var tableUser = "";
 	
 	for (var loop = 0; loop <= allUsers.length; loop++) {		
-		tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${allNames[loop]}</th>`;
+		myUsername = "bg-light";
+		if(allUsers[loop] === auth.currentUser.email) {
+			itsme = true;
+			myUsername = "table-primary";
+		}
+		else {
+			itsme = false;
+			myUsername = "bg-light";
+		}
+		
+		tableUser = tableUser + `<tr><th class="first-col ${myUsername} bg-gradient">${allNames[loop]}</th>`;
 		for(var weekOfYr = 1; weekOfYr <= weekNum; weekOfYr++) {
 			// set starters
 			var pointTotal = 0;
@@ -58,14 +71,18 @@ $.when(users, results).then(function(){
 			userTotalPoints.push(points);
 			weekTotal++;
 			if (userWeekTop) 
-				tableUser = tableUser + `<td class='table-success text-center' id='week1'>${points}</td>`;
+				myPoints = "table-success";
+			else if (itsme) 
+				myPoints = "table-primary";
 			else 
-				tableUser = tableUser + `<td class="text-center" id="week1">${points}</td>`;	
+				myPoints = "";
+			
+			tableUser = tableUser + `<td class="${myPoints} text-center" id="week1">${points}</td>`;
 		}
 			for(var i=0; i < userTotalPoints.length; i++) {
 				pointTotal = pointTotal + userTotalPoints[i];
 			}
-			tableUser = tableUser + `<td class="bg-light first-col text-center">${pointTotal}</td></tr>`;
+			tableUser = tableUser + `<td class="${myUsername} first-col text-center">${pointTotal}</td></tr>`;
 			
 			var tableEnd = `</tbody></table>`;	
 			document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;	

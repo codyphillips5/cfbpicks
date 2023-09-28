@@ -155,7 +155,7 @@
 		"awayTeam" : "BAYLOR",
 		"homeTeam" : "UCF",
 		"favorite" : "UCF",
-		"spread" : 11.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2023-09-30T19:30:00Z",
 		"channel": "FS1"
@@ -175,7 +175,7 @@
 		"awayTeam" : "ARKST",
 		"homeTeam" : "UMASS",
 		"favorite" : "UMASS",
-		"spread" : 1.5,
+		"spread" : 0,
 		"required" : false,
 		"gameTime" : "2023-09-30T19:30:00Z",
 		"channel": "ESPN+"
@@ -275,7 +275,7 @@
 		"awayTeam" : "HAW",
 		"homeTeam" : "UNLV",
 		"favorite" : "UNLV",
-		"spread" : 11.5,
+		"spread" : 10.5,
 		"required" : false,
 		"gameTime" : "2023-09-30T20:00:00Z",
 		"channel": "MWN"
@@ -355,7 +355,7 @@
 		"awayTeam" : "IOWAST",
 		"homeTeam" : "OU",
 		"favorite" : "OU",
-		"spread" : 20.5,
+		"spread" : 19.5,
 		"required" : false,
 		"gameTime" : "2023-09-30T23:00:00Z",
 		"channel": "FS1"
@@ -475,7 +475,7 @@
 		"awayTeam" : "WASH",
 		"homeTeam" : "ARIZ",
 		"favorite" : "WASH",
-		"spread" : 18.5,
+		"spread" : 17.5,
 		"required" : false,
 		"gameTime" : "2023-10-01T02:00:00Z",
 		"channel": "PACN"

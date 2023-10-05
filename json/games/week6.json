@@ -247,7 +247,7 @@
 		"favorite" : "USF",
 		"spread" : 3.5,
 		"required" : false,
-		"gameTime" : "2023-10-07T20:00:00Z"
+		"gameTime" : "2023-10-07T20:00:00Z",
 		"channel": "ESPN2"
     },
 	{
@@ -257,7 +257,7 @@
 		"favorite" : "TROY",
 		"spread" : 15.5,
 		"required" : false,
-		"gameTime" : "2023-10-07T20:00:00Z"
+		"gameTime" : "2023-10-07T20:00:00Z",
 		"channel": "ESPN+"
     },
 	{
@@ -267,7 +267,7 @@
 		"favorite" : "RICE",
 		"spread" : 9.5,
 		"required" : false,
-		"gameTime" : "2023-10-07T21:00:00Z"
+		"gameTime" : "2023-10-07T21:00:00Z",
 		"channel": "ESPN+"
     },
 	{

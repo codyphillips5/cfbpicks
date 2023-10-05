@@ -428,7 +428,7 @@
 		"spread" : 21.5,
 		"required" : false,
 		"gameTime" : "2023-10-08T02:30:00Z",
-		"channel": ESPN""
+		"channel": "ESPN"
     }
   ]
 }

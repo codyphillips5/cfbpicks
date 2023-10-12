@@ -265,7 +265,7 @@
 		"awayTeam" : "IOWA",
 		"homeTeam" : "WIS",
 		"favorite" : "WIS",
-		"spread" : 10.5,
+		"spread" : 9.5,
 		"required" : false,
 		"gameTime" : "2023-10-14T20:00:00Z",
 		"channel": "FOX"

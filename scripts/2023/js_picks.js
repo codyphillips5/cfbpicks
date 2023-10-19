@@ -172,7 +172,7 @@ else {
 	  game.team = userPick;
 	  game.spread = attempt.thisTeamImg;
 	  if (req == true) {
-		document.getElementById(pts + "-point-maker").className = "p-3 border bg-warning bg-gradient gotw";
+		document.getElementById(pts + "-point-maker").className = "p-2 border bg-warning bg-gradient gotw";
 	  }
 	  document.getElementById(pts).value = game.team;
 	  document.getElementById("label-choice-" + pts).innerHTML = `<label for="${pts}" class="choice">${game.team} ${fullTeamSpread}</label>`;
@@ -210,7 +210,7 @@ else {
 				  choices[i].game = id;
 				  choices[i].timegame = timeofgame;
 				  choices[i].spread = attempt.thisTeamImg;
-				  document.getElementById("image" + pts).innerHTML = `<img class="pt-2" src="https://b.fssta.com/uploads/application/college/team-logos/${choices[i].spread}.vresize.200.200.medium.0.png">`;
+				  document.getElementById("image" + pts).innerHTML = `<img class="pt-1" src="https://b.fssta.com/uploads/application/college/team-logos/${choices[i].spread}.vresize.200.200.medium.0.png">`;
 				  document.getElementById("time" + pts).innerHTML = `<span class="badge rounded-pill bg-secondary">${choices[i].timegame}</span>`;
 				  game.game = id;
 			  }

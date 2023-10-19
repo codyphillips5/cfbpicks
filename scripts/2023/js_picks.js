@@ -183,19 +183,23 @@ else {
 			  if (game.team == choices[i].teamAbb) {
 				  choices[i].teamAbb = "";
 				  choices[i].fullTeam = "";
-				  document.getElementById(choices[i].pts + "-point-maker").className = "p-3 border bg-light";
+				  choices[i].game = "";
+				  choices[i].timegame = "";
+				  choices[i].spread = "";
+				  document.getElementById(choices[i].pts + "-point-maker").className = "p-2 border bg-light";
 				  document.getElementById(choices[i].pts).value = "";
 				  document.getElementById("label-choice-" + choices[i].pts).innerHTML = `<label for="${choices[i].pts}" class="choice"></label>`;
 				  document.getElementById("image" + choices[i].pts).innerHTML = ``;
+				  document.getElementById("time" + choices[i].pts).innerHTML = ``;
 			  }
 			  if (pts == choices[i].pts) {
 				  if(choices[i].teamAbb != "") {
 					  console.log("game.game = " + game.game);
 					  if (req == true) {
-						document.getElementById(pts + "-point-maker").className = "p-3 border bg-warning bg-gradient gotw";
+						document.getElementById(pts + "-point-maker").className = "p-2 border bg-warning bg-gradient gotw";
 					}
 					else {
-						document.getElementById(pts + "-point-maker").className = "p-3 border bg-light";
+						document.getElementById(pts + "-point-maker").className = "p-2 border bg-light";
 					}
 						  if(choices[i].game != game.game) {
 						  var inputs = document.getElementById("point_totals_game_" + choices[i].game).getElementsByTagName("input");
@@ -230,12 +234,14 @@ else {
 				  if (choices[i].pts) {
 					  console.log("goner");
 					  document.getElementById(choices[i].pts).value = "";
-					  document.getElementById(choices[i].pts + "-point-maker").className = "p-3 border bg-light";
+					  document.getElementById(choices[i].pts + "-point-maker").className = "p-2 border bg-light";
 					  document.getElementById("label-choice-" + choices[i].pts).innerHTML = `<label for="${choices[i].pts}" class="choice"></label>`;
 					  document.getElementById("image" + choices[i].pts).innerHTML = ``;
+					  document.getElementById("time" + choices[i].pts).innerHTML = ``;
 					  choices[i].teamAbb = "";
 					  choices[i].fullTeam = "";
 					  choices[i].game = "";
+					  choices[i].timegame = "";
 					  choices[i].spread = "";
 				  }
 			  }

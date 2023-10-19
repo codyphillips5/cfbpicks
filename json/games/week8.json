@@ -35,7 +35,7 @@
 		"awayTeam" : "UCF",
 		"homeTeam" : "OU",
 		"favorite" : "OU",
-		"spread" : 19.5,
+		"spread" : 18.5,
 		"required" : false,
 		"gameTime" : "2023-10-21T16:00:00Z",
 		"channel": "ABC"
@@ -45,7 +45,7 @@
 		"awayTeam" : "MSST",
 		"homeTeam" : "ARK",
 		"favorite" : "ARK",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2023-10-21T16:00:00Z",
 		"channel": "ESPN"
@@ -65,7 +65,7 @@
 		"awayTeam" : "WMU",
 		"homeTeam" : "OHIO",
 		"favorite" : "OHIO",
-		"spread" : 17.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2023-10-21T16:00:00Z",
 		"channel": "CBSSN"
@@ -95,7 +95,7 @@
 		"awayTeam" : "ULM",
 		"homeTeam" : "GEOSOU",
 		"favorite" : "GEOSOU",
-		"spread" : 17.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2023-10-21T18:00:00Z",
 		"channel": "ESPN+"
@@ -135,7 +135,7 @@
 		"awayTeam" : "WSU",
 		"homeTeam" : "ORE",
 		"favorite" : "ORE",
-		"spread" : 20.5,
+		"spread" : 19.5,
 		"required" : false,
 		"gameTime" : "2023-10-21T19:30:00Z",
 		"channel": "ABC"
@@ -165,7 +165,7 @@
 		"awayTeam" : "EMU",
 		"homeTeam" : "NIU",
 		"favorite" : "NIU",
-		"spread" : 12.5,
+		"spread" : 11.5,
 		"required" : false,
 		"gameTime" : "2023-10-21T19:30:00Z",
 		"channel": "ESPN+"
@@ -235,7 +235,7 @@
 		"awayTeam" : "BUFF",
 		"homeTeam" : "KENT",
 		"favorite" : "BUFF",
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2023-10-21T19:30:00Z",
 		"channel": "ESPN+"
@@ -255,7 +255,7 @@
 		"awayTeam" : "TEXAS",
 		"homeTeam" : "HOU",
 		"favorite" : "TEXAS",
-		"spread" : 23.5,
+		"spread" : 22.5,
 		"required" : false,
 		"gameTime" : "2023-10-21T20:00:00Z",
 		"channel": "FOX"
@@ -325,7 +325,7 @@
 		"awayTeam" : "COCAR",
 		"homeTeam" : "ARKST",
 		"favorite" : "COCAR",
-		"spread" : 10.5,
+		"spread" : 9.5,
 		"required" : false,
 		"gameTime" : "2023-10-21T23:00:00Z",
 		"channel": "ESPN+"
@@ -335,7 +335,7 @@
 		"awayTeam" : "CSU",
 		"homeTeam" : "UNLV",
 		"favorite" : "UNLV",
-		"spread" : 8.5,
+		"spread" : 7.5,
 		"required" : false,
 		"gameTime" : "2023-10-21T23:00:00Z",
 		"channel": "MWN"
@@ -375,7 +375,7 @@
 		"awayTeam" : "ARMY",
 		"homeTeam" : "LSU",
 		"favorite" : "LSU",
-		"spread" : 31.5,
+		"spread" : 30.5,
 		"required" : false,
 		"gameTime" : "2023-10-21T23:30:00Z",
 		"channel": "SECN"
@@ -445,7 +445,7 @@
 		"awayTeam" : "ASU",
 		"homeTeam" : "WASH",
 		"favorite" : "WASH",
-		"spread" : 26.5,
+		"spread" : 27.5,
 		"required" : false,
 		"gameTime" : "2023-10-22T02:30:00Z",
 		"channel": "FS1"

@@ -185,7 +185,7 @@
 		"awayTeam" : "SCAR",
 		"homeTeam" : "MIZZOU",
 		"favorite" : "MIZZOU",
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2023-10-21T19:30:00Z",
 		"channel": "SECN"

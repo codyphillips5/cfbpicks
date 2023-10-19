@@ -2,7 +2,8 @@ var game = {
 	team: "",
 	spread : "",
 	pts : "",
-	game : "" 
+	game : "",
+	timegame : ""
   };
   var attempt = {
 	  thisTeam : "",
@@ -23,7 +24,7 @@ else {
 	document.getElementById("week-title").innerHTML = `<h2>Week ${week}</h2>`;
 }
   
-  var choices = [{teamAbb: "", fullTeam: "", game: "", spread : "", pts : "50"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "40"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "30"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "20"}, {teamAbb: "", fullTeam: "", game: "", spread : "", pts : "10"}];
+  var choices = [{teamAbb: "", fullTeam: "", game: "", timegame: "", spread : "", pts : "50"}, {teamAbb: "", fullTeam: "", game: "", timegame: "", spread : "", pts : "40"}, {teamAbb: "", fullTeam: "", game: "", timegame: "", spread : "", pts : "30"}, {teamAbb: "", fullTeam: "", game: "", timegame: "", spread : "", pts : "20"}, {teamAbb: "", fullTeam: "", game: "", timegame: "", spread : "", pts : "10"}];
   
   var gameId = "";
   var home = "";
@@ -117,7 +118,7 @@ else {
 				  requiredField = 'bg-light';		
 			  }
 			  var header = '<div class=\'p-3 border '+ requiredField +'\'><span class=\'header\'><h5 class=\'pt-2 lh-1\' style=\'margin-bottom: 0px;\'>' + awayTeam + ' vs ' + homeTeam + ' (' + homeSide + spread + ') </h5>';
-			  var gameInfo = '<small class=\'w-100\'> '+ channel + " · " + date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }).replace(/^0+/, '') + '</small>';
+			  var gameInfo = '<small class=\'w-100\' id=\'time-game' + gameId + '\' > '+ channel + " · " + date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }).replace(/^0+/, '') + '</small>';
 			  var select = '<select class=\'teamlist form-select form-select-sm\' style=\'width:auto;\' id=\'game' + gameId + '\' onchange=\"showPointTotals(\'point_totals_game_' + gameId + '\', this);\"><option value = \"\"> -- Select Team -- </option><option value=\"' + awayTeamVal + '\">' + awayTeam + ' ' + awaySide + spread + '</option><option value=\"' + homeTeamVal + '\">' + homeTeam + ' ' + homeSide + spread + '</option></select>';
 			  var display = '<div class=\'pt-3 lh-1\' id=\"point_totals_game_' + gameId + '\" style=\"display:none;\">';
 			  var numbers = [5, 4, 3, 2, 1];
@@ -163,7 +164,9 @@ else {
   
   function assignPointsByTeam(pts, id, req) {
 	  var pick = document.getElementById("game" + id);
+	  console.log(pick.selectedIndex);
 	  var userPick = pick.options[pick.selectedIndex].value;
+	  var timeofgame = document.getElementById("time-game" + id).innerText;
 	  var fullTeamName = pick.options[pick.selectedIndex].text;
 	  fullTeamSpread = fullTeamName.replace(/[^\d+.-]/g, '');
 	  game.team = userPick;
@@ -205,8 +208,10 @@ else {
 				  choices[i].teamAbb = userPick;
 				  choices[i].fullTeam = fullTeamName;
 				  choices[i].game = id;
+				  choices[i].timegame = timeofgame;
 				  choices[i].spread = attempt.thisTeamImg;
 				  document.getElementById("image" + pts).innerHTML = `<img class="pt-2" src="https://b.fssta.com/uploads/application/college/team-logos/${choices[i].spread}.vresize.200.200.medium.0.png">`;
+				  document.getElementById("time" + pts).innerHTML = `<span class="badge rounded-pill bg-secondary">${choices[i].timegame}</span>`;
 				  game.game = id;
 			  }
 		  }

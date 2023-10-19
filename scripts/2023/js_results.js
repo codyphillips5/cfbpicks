@@ -14,7 +14,7 @@ var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 7;
+var weekNum = 8;
 var isCorrect;
 var isMe;
 var date1 = new Date();
@@ -36,6 +36,7 @@ var select = `
       Previous
   </a>
 	<ul class="dropdown-menu" aria-labelledby="desktop_buttons">
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(7);return false;' href="#"></span>Week 7</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(6);return false;' href="#"></span>Week 6</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(5);return false;' href="#"></span>Week 5</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(4);return false;' href="#"></span>Week 4</a> </a></li>

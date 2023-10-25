@@ -15,7 +15,7 @@
 		"awayTeam" : "TULSA",
 		"homeTeam" : "SMU",
 		"favorite" : "SMU",
-		"spread" : 21.5,
+		"spread" : 20.5,
 		"required" : false,
 		"gameTime" : "2023-10-28T16:00:00Z",
 		"channel": "ESPNU"
@@ -55,7 +55,7 @@
 		"awayTeam" : "IND",
 		"homeTeam" : "PSU",
 		"favorite" : "PSU",
-		"spread" : 32.5,
+		"spread" : 31.5,
 		"required" : false,
 		"gameTime" : "2023-10-28T16:00:00Z",
 		"channel": "CBS"
@@ -215,7 +215,7 @@
 		"awayTeam" : "UVA",
 		"homeTeam" : "MIA",
 		"favorite" : "MIA",
-		"spread" : 19.5,
+		"spread" : 18.5,
 		"required" : false,
 		"gameTime" : "2023-10-28T19:30:00Z",
 		"channel": "ACCN"
@@ -225,7 +225,7 @@
 		"awayTeam" : "MIA-OH",
 		"homeTeam" : "OHIO",
 		"favorite" : "OHIO",
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2023-10-28T19:30:00Z",
 		"channel": "CBSSN"
@@ -235,7 +235,7 @@
 		"awayTeam" : "SMISS",
 		"homeTeam" : "APP",
 		"favorite" : "APP",
-		"spread" : 17.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2023-10-28T19:30:00Z",
 		"channel": "ESPN+"
@@ -265,7 +265,7 @@
 		"awayTeam" : "USC",
 		"homeTeam" : "CAL",
 		"favorite" : "USC",
-		"spread" : 11.5,
+		"spread" : 10.5,
 		"required" : false,
 		"gameTime" : "2023-10-28T20:00:00Z",
 		"channel": "PACN"
@@ -395,7 +395,7 @@
 		"awayTeam" : "ODU",
 		"homeTeam" : "JMU",
 		"favorite" : "JMU",
-		"spread" : 20.5,
+		"spread" : 19.5,
 		"required" : false,
 		"gameTime" : "2023-10-29T00:00:00Z",
 		"channel": "ESPNU"
@@ -405,7 +405,7 @@
 		"awayTeam" : "WSU",
 		"homeTeam" : "ASU",
 		"favorite" : "WSU",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2023-10-29T00:00:00Z",
 		"channel": "PACN"

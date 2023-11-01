@@ -485,7 +485,7 @@
 		"awayTeam" : "STAN",
 		"homeTeam" : "WSU",
 		"favorite" : "WSU",
-		"spread" : .5,
+		"spread" : 13.5,
 		"required" : false,
 		"gameTime" : "2023-11-05T01:00:00Z",
 		"channel": "PACN"

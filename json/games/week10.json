@@ -466,7 +466,7 @@
 		"homeTeam" : "ALA",
 		"favorite" : "ALA",
 		"spread" : 3.5,
-		"required" : false,
+		"required" : true,
 		"gameTime" : "2023-11-04T23:45:00Z",
 		"channel": "CBS"
     },

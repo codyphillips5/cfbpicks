@@ -5,7 +5,7 @@
 		"awayTeam" : "ARK",
 		"homeTeam" : "FLA",
 		"favorite" : "FLA",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2023-11-04T16:00:00Z",
 		"channel": "ESPN2"
@@ -175,7 +175,7 @@
 		"awayTeam" : "UCF",
 		"homeTeam" : "CIN",
 		"favorite" : "UCF",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2023-11-04T19:30:00Z",
 		"channel": "FS1"
@@ -205,7 +205,7 @@
 		"awayTeam" : "COCAR",
 		"homeTeam" : "ODU",
 		"favorite" : "COCAR",
-		"spread" : 1.5,
+		"spread" : 0,
 		"required" : false,
 		"gameTime" : "2023-11-04T19:30:00Z",
 		"channel": "ESPN+"
@@ -215,7 +215,7 @@
 		"awayTeam" : "ILL",
 		"homeTeam" : "MINN",
 		"favorite" : "MINN",
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2023-11-04T19:30:00Z",
 		"channel": "B1G"
@@ -225,7 +225,7 @@
 		"awayTeam" : "OU",
 		"homeTeam" : "OKST",
 		"favorite" : "OU",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2023-11-04T19:30:00Z",
 		"channel": "ABC"
@@ -255,7 +255,7 @@
 		"awayTeam" : "HOU",
 		"homeTeam" : "BAYLOR",
 		"favorite" : "BAYLOR",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2023-11-04T19:30:00Z",
 		"channel": "ESPN+"
@@ -295,7 +295,7 @@
 		"awayTeam" : "CHAR",
 		"homeTeam" : "TULSA",
 		"favorite" : "TULSA",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2023-11-04T20:00:00Z",
 		"channel": "ESPN+"
@@ -375,7 +375,7 @@
 		"awayTeam" : "UNLV",
 		"homeTeam" : "UNM",
 		"favorite" : "UNLV",
-		"spread" : 10.5,
+		"spread" : 9.5,
 		"required" : false,
 		"gameTime" : "2023-11-04T22:00:00Z",
 		"channel": "MWN"
@@ -385,7 +385,7 @@
 		"awayTeam" : "LATECH",
 		"homeTeam" : "LIB",
 		"favorite" : "LIB",
-		"spread" : 17.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2023-11-04T22:00:00Z",
 		"channel": "CBSSN"

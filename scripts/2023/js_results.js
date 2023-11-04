@@ -14,7 +14,7 @@ var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 9;
+var weekNum = 10;
 var isCorrect;
 var isMe;
 var date1 = new Date();
@@ -36,6 +36,7 @@ var select = `
       Previous
   </a>
 	<ul class="dropdown-menu" aria-labelledby="desktop_buttons">
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(9);return false;' href="#"></span>Week 9</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(8);return false;' href="#"></span>Week 8</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(7);return false;' href="#"></span>Week 7</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(6);return false;' href="#"></span>Week 6</a> </a></li>
@@ -49,7 +50,13 @@ var select = `
       Previous
   </a>
     <ul class="dropdown-menu" aria-labelledby="mobile_buttons">
-		
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(9);return false;' href="#"></span>Week 9</a> </a></li>
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(8);return false;' href="#"></span>Week 8</a> </a></li>
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(7);return false;' href="#"></span>Week 7</a> </a></li>
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(6);return false;' href="#"></span>Week 6</a> </a></li>
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(5);return false;' href="#"></span>Week 5</a> </a></li>
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(4);return false;' href="#"></span>Week 4</a> </a></li>
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(3);return false;' href="#"></span>Week 3</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(2);return false;' href="#"></span>Week 2</a> </a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(1);return false;' id =""></span>Week 1</a></li>
 		

@@ -14,7 +14,7 @@ var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 10;
+var weekNum = 11;
 var isCorrect;
 var isMe;
 var date1 = new Date();
@@ -36,6 +36,7 @@ var select = `
       Previous
   </a>
 	<ul class="dropdown-menu" aria-labelledby="desktop_buttons">
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(10);return false;' href="#"></span>Week 10</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(9);return false;' href="#"></span>Week 9</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(8);return false;' href="#"></span>Week 8</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(7);return false;' href="#"></span>Week 7</a> </a></li>
@@ -50,6 +51,7 @@ var select = `
       Previous
   </a>
     <ul class="dropdown-menu" aria-labelledby="mobile_buttons">
+		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(10);return false;' href="#"></span>Week 10</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(9);return false;' href="#"></span>Week 9</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(8);return false;' href="#"></span>Week 8</a> </a></li>
 		<li class=""><a class="dropdown-item"  onclick='getResultsByWeek(7);return false;' href="#"></span>Week 7</a> </a></li>

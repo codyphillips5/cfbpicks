@@ -455,7 +455,7 @@
 		"awayTeam" : "MSST",
 		"homeTeam" : "TXA&M",
 		"favorite" : "TXA&M",
-		"spread" : 19.5,
+		"spread" : 18.5,
 		"required" : false,
 		"gameTime" : "2023-11-12T00:30:00Z",
 		"channel": "ESPN2"
@@ -525,7 +525,7 @@
 		"awayTeam" : "FRESNST",
 		"homeTeam" : "SJSU",
 		"favorite" : "SJSU",
-		"spread" : 1.5,
+		"spread" : 0,
 		"required" : false,
 		"gameTime" : "2023-11-11T03:30:00Z",
 		"channel": "CBSSN"

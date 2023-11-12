@@ -34,10 +34,15 @@ if(createForm) {
 			if (docSnapshot.data()) {
 				if (docSnapshot.data().Fifty !== undefined) { 
 					document.getElementById("label-choice-50").innerHTML = `<label for="50" class="choice">${docSnapshot.data().Fifty}</label>`;
+					//document.getElementById('50').value = `${docSnapshot.data().Fifty}`;
 					document.getElementById("label-choice-40").innerHTML = `<label for="40" class="choice">${docSnapshot.data().Forty}</label>`;
+					//document.getElementById('40').value = `${docSnapshot.data().Forty}`;
 					document.getElementById("label-choice-30").innerHTML = `<label for="30" class="choice">${docSnapshot.data().Thirty}</label>`;
+					//document.getElementById('30').value = `${docSnapshot.data().Thirty}`;
 					document.getElementById("label-choice-20").innerHTML = `<label for="20" class="choice">${docSnapshot.data().Twenty}</label>`;
+					//document.getElementById('20').value = `${docSnapshot.data().Twenty}`;
 					document.getElementById("label-choice-10").innerHTML = `<label for="10" class="choice">${docSnapshot.data().Ten}</label>`;
+					//document.getElementById('10').value = `${docSnapshot.data().Ten}`;
 				}
 			}
 		});

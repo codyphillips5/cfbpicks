@@ -5,7 +5,7 @@
 		"awayTeam" : "SMISS",
 		"homeTeam" : "MSST",
 		"favorite" : "MSST",
-		"spread" : 14.5,
+		"spread" : 13.5,
 		"required" : false,
 		"gameTime" : "2023-11-18T17:00:00Z",
 		"channel": "SEC+"
@@ -155,7 +155,7 @@
 		"awayTeam" : "APP",
 		"homeTeam" : "JMU",
 		"favorite" : "JMU",
-		"spread" : 9.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2023-11-18T19:00:00Z",
 		"channel": "ESPN+"
@@ -165,7 +165,7 @@
 		"awayTeam" : "KENT",
 		"homeTeam" : "BALLST",
 		"favorite" : "BALLST",
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2023-11-18T19:00:00Z",
 		"channel": "ESPN+"
@@ -194,7 +194,7 @@
 		"gameId" : 544,
 		"awayTeam" : "UTAH",
 		"homeTeam" : "ARIZ",
-		"favorite" : "ARIZ",
+		"favorite" : "UTAH",
 		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2023-11-18T19:30:00Z",
@@ -275,7 +275,7 @@
 		"awayTeam" : "UNC",
 		"homeTeam" : "CLEM",
 		"favorite" : "CLEM",
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2023-11-18T20:30:00Z",
 		"channel": "ESPN"
@@ -295,7 +295,7 @@
 		"awayTeam" : "BAYLOR",
 		"homeTeam" : "TCU",
 		"favorite" : "TCU",
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2023-11-18T20:30:00Z",
 		"channel": "ESPN+"
@@ -355,7 +355,7 @@
 		"awayTeam" : "SHSU",
 		"homeTeam" : "WKU",
 		"favorite" : "WKU",
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2023-11-18T20:30:00Z",
 		"channel": "ESPN+"
@@ -375,7 +375,7 @@
 		"awayTeam" : "NMSU",
 		"homeTeam" : "AUB",
 		"favorite" : "AUB",
-		"spread" : 24.5,
+		"spread" : 23.5,
 		"required" : false,
 		"gameTime" : "2023-11-18T21:00:00Z",
 		"channel": "SECN"
@@ -385,7 +385,7 @@
 		"awayTeam" : "OKST",
 		"homeTeam" : "HOU",
 		"favorite" : "OKST",
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2023-11-18T21:00:00Z",
 		"channel": "ESPN2"
@@ -405,7 +405,7 @@
 		"awayTeam" : "UCF",
 		"homeTeam" : "TEXTCH",
 		"favorite" : "TEXTCH",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2023-11-18T22:00:00Z",
 		"channel": "FS2"
@@ -425,7 +425,7 @@
 		"awayTeam" : "ODU",
 		"homeTeam" : "GEOSOU",
 		"favorite" : "GEOSOU",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2023-11-18T23:00:00Z",
 		"channel": "ESPN+"
@@ -535,7 +535,7 @@
 		"awayTeam" : "TEXAS",
 		"homeTeam" : "IOWAST",
 		"favorite" : "TEXAS",
-		"spread" : .5,
+		"spread" : 7.5,
 		"required" : false,
 		"gameTime" : "2023-11-19T01:00:00Z",
 		"channel": "FOX"

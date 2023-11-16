@@ -194,8 +194,8 @@
 		"gameId" : 544,
 		"awayTeam" : "UTAH",
 		"homeTeam" : "ARIZ",
-		"favorite" : "UTAH",
-		"spread" : 1.5,
+		"favorite" : "ARIZ",
+		"spread" : 0,
 		"required" : false,
 		"gameTime" : "2023-11-18T19:30:00Z",
 		"channel": "PACN"

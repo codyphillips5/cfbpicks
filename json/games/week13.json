@@ -35,7 +35,7 @@
 		"awayTeam" : "UK",
 		"homeTeam" : "LOU",
 		"favorite" : "LOU",
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2023-11-25T17:00:00Z",
 		"channel": "ABC"
@@ -65,7 +65,7 @@
 		"awayTeam" : "TROY",
 		"homeTeam" : "SMISS",
 		"favorite" : "TROY",
-		"spread" : 17.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2023-11-25T17:00:00Z",
 		"channel": "ESPNU"
@@ -85,7 +85,7 @@
 		"awayTeam" : "NIU",
 		"homeTeam" : "KENT",
 		"favorite" : "NIU",
-		"spread" : 19.5,
+		"spread" : 18.5,
 		"required" : false,
 		"gameTime" : "2023-11-25T17:00:00Z",
 		"channel": "ESPN+"
@@ -125,7 +125,7 @@
 		"awayTeam" : "FAU",
 		"homeTeam" : "RICE",
 		"favorite" : "RICE",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2023-11-25T18:00:00Z",
 		"channel": "ESPN+"
@@ -155,7 +155,7 @@
 		"awayTeam" : "TULSA",
 		"homeTeam" : "ECU",
 		"favorite" : "ECU",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2023-11-25T19:00:00Z",
 		"channel": "ESPN+"
@@ -195,7 +195,7 @@
 		"awayTeam" : "CU",
 		"homeTeam" : "UTAH",
 		"favorite" : "UTAH",
-		"spread" : 22.5,
+		"spread" : 21.5,
 		"required" : false,
 		"gameTime" : "2023-11-25T20:00:00Z",
 		"channel": "PACN"
@@ -205,7 +205,7 @@
 		"awayTeam" : "WKU",
 		"homeTeam" : "FIU",
 		"favorite" : "WKU",
-		"spread" : 10.5,
+		"spread" : 9.5,
 		"required" : false,
 		"gameTime" : "2023-11-25T20:00:00Z",
 		"channel": "ESPN+"
@@ -215,7 +215,7 @@
 		"awayTeam" : "JMU",
 		"homeTeam" : "COCAR",
 		"favorite" : "JMU",
-		"spread" : 9.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2023-11-25T20:30:00Z",
 		"channel": "ESPN2"
@@ -225,7 +225,7 @@
 		"awayTeam" : "BYU",
 		"homeTeam" : "OKST",
 		"favorite" : "OKST",
-		"spread" : 17.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2023-11-25T20:30:00Z",
 		"channel": "ABC"
@@ -235,7 +235,7 @@
 		"awayTeam" : "NU",
 		"homeTeam" : "ILL",
 		"favorite" : "ILL",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2023-11-25T20:30:00Z",
 		"channel": "B1G"
@@ -325,7 +325,7 @@
 		"awayTeam" : "LIB",
 		"homeTeam" : "UTEP",
 		"favorite" : "LIB",
-		"spread" : 17.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2023-11-25T20:30:00Z",
 		"channel": "CBSSN"
@@ -335,7 +335,7 @@
 		"awayTeam" : "JSU",
 		"homeTeam" : "NMSU",
 		"favorite" : "JSU",
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2023-11-25T21:00:00Z",
 		"channel": "ESPN+"
@@ -365,7 +365,7 @@
 		"awayTeam" : "SOALA",
 		"homeTeam" : "TEXST",
 		"favorite" : "SOALA",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2023-11-26T00:00:00Z",
 		"channel": "NFLN"
@@ -375,7 +375,7 @@
 		"awayTeam" : "WVU",
 		"homeTeam" : "BAYLOR",
 		"favorite" : "WVU",
-		"spread" : 9.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2023-11-26T00:00:00Z",
 		"channel": "FS1"
@@ -385,7 +385,7 @@
 		"awayTeam" : "ND",
 		"homeTeam" : "STAN",
 		"favorite" : "ND",
-		"spread" : 26.5,
+		"spread" : 25.5,
 		"required" : false,
 		"gameTime" : "2023-11-26T00:00:00Z",
 		"channel": "PACN"
@@ -435,7 +435,7 @@
 		"awayTeam" : "IOWAST",
 		"homeTeam" : "K-STATE",
 		"favorite" : "K-STATE",
-		"spread" : 10.5,
+		"spread" : 9.5,
 		"required" : false,
 		"gameTime" : "2023-11-26T01:00:00Z",
 		"channel": "FOX"
@@ -455,7 +455,7 @@
 		"awayTeam" : "WYO",
 		"homeTeam" : "NEV",
 		"favorite" : "WYO",
-		"spread" : 11.5,
+		"spread" : 10.5,
 		"required" : false,
 		"gameTime" : "2023-11-26T02:00:00Z",
 		"channel": "CBSSN"

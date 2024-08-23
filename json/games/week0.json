@@ -2,73 +2,43 @@
   "games": [
     {
 		"gameId" : 1,
-		"awayTeam" : "NAVY",
-		"homeTeam" : "ND",
-		"favorite" : "ND",
-		"spread" : 20.5,
-		"required" : false,
-		"gameTime" : "2023-08-26T18:30Z",
-		"channel": "NBC"
+		"awayTeam" : "FSU",
+		"homeTeam" : "GT",
+		"favorite" : "FSU",
+		"spread" : 10.5,
+		"required" : true,
+		"gameTime" : "2024-08-24T16:00Z",
+		"channel": "ESPN"
     },
     {
 		"gameId" : 2,
-		"awayTeam" : "UTEP",
-		"homeTeam" : "JSU",
-		"favorite" : "UTEP",
-		"spread" : 1.5,
+		"awayTeam" : "MONTST",
+		"homeTeam" : "UNM",
+		"favorite" : "MONST",
+		"spread" : 13.5,
 		"required" : false,
-		"gameTime" : "2023-08-26T21:30Z",
-		"channel": "CBSSN"
-    },
-    {
-		"gameId" : 3,
-		"awayTeam" : "UMASS",
-		"homeTeam" : "NMSU",
-		"favorite" : "NMSU",
-		"spread" : 6.5,
-		"required" : false,
-		"gameTime" : "2023-08-26T23:00Z",
-		"channel": "ESPN"
-    },    
-    {
-		"gameId" : 4,
-		"awayTeam" : "OHIO",
-		"homeTeam" : "SDSU",
-		"favorite" : "SDSU",
-		"spread" : 2.5,
-		"required" : true,
-		"gameTime" : "2023-08-26T23:00Z",
+		"gameTime" : "2024-08-24T20:00Z",
 		"channel": "FS1"
     },
     {
-		"gameId" : 5,
-		"awayTeam" : "HAW",
-		"homeTeam" : "VANDY",
-		"favorite" : "VANDY",
-		"spread" : 17.5,
+		"gameId" : 3,
+		"awayTeam" : "SMU",
+		"homeTeam" : "NEV",
+		"favorite" : "NEV",
+		"spread" : 24.5,
 		"required" : false,
-		"gameTime" : "2023-08-26T23:30Z",
-		"channel": "SECN"
-    },
-    {
-		"gameId" : 6,
-		"awayTeam" : "SJSU",
-		"homeTeam" : "USC",
-		"favorite" : "USC",
-		"spread" : 30.5,
-		"required" : false,
-		"gameTime" : "2023-08-26T00:00Z",
-		"channel": "PACN"
-    },
-    {
-		"gameId" : 7,
-		"awayTeam" : "FIU",
-		"homeTeam" : "LATECH",
-		"favorite" : "LATECH",
-		"spread" : 10.5,
-		"required" : false,
-		"gameTime" : "2023-08-26T01:00Z",
+		"gameTime" : "2024-08-25T00:00Z",
 		"channel": "CBSSN"
+    },    
+    {
+		"gameId" : 4,
+		"awayTeam" : "DSU",
+		"homeTeam" : "HAW",
+		"favorite" : "HAW",
+		"spread" : 40.5,
+		"required" : false,
+		"gameTime" : "2024-08-25T:00Z",
+		"channel": "Team1Sports"
     }
   ]
 }

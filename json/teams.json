@@ -930,6 +930,13 @@
 		"teamMascot" : "Bearkats",
 		"teamValue" : "SHSU",
 		"teamImage" : "SamHoustonState"
+    },
+	{
+		"teamId" : 134,
+		"team" : "Kennesaw State",
+		"teamMascot" : "Owls",
+		"teamValue" : "KennSt",
+		"teamImage" : "KennesawState"
     }
   ]
 }

@@ -278,7 +278,7 @@
 		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2024-09-01T02:30Z",
-		"channel": ""
+		"channel": "FS1"
     },
     {
 		"gameId" : 29,

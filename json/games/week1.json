@@ -85,7 +85,7 @@
 		"awayTeam" : "MIA-OH",
 		"homeTeam" : "NU",
 		"favorite" : "NU",
-		"spread" : 2.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2024-08-31T19:30Z",
 		"channel": "B1G"
@@ -105,7 +105,7 @@
 		"awayTeam" : "KENNST",
 		"homeTeam" : "UTSA",
 		"favorite" : "UTSA",
-		"spread" : 24.5,
+		"spread" : 25.5,
 		"required" : false,
 		"gameTime" : "2024-08-31T19:30Z",
 		"channel": "ESPN+"
@@ -125,7 +125,7 @@
 		"awayTeam" : "EMU",
 		"homeTeam" : "UMASS",
 		"favorite" : "UMASS",
-		"spread" : 1.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2024-08-31T19:30Z",
 		"channel": "ESPN+"
@@ -135,7 +135,7 @@
 		"awayTeam" : "AKRON",
 		"homeTeam" : "OSU",
 		"favorite" : "OSU",
-		"spread" : 50.5,
+		"spread" : 48.5,
 		"required" : false,
 		"gameTime" : "2024-08-31T19:30Z",
 		"channel": "CBS"
@@ -155,7 +155,7 @@
 		"awayTeam" : "ODU",
 		"homeTeam" : "SCAR",
 		"favorite" : "SCAR",
-		"spread" : 20.5,
+		"spread" : 21.5,
 		"required" : false,
 		"gameTime" : "2024-08-31T20:15Z",
 		"channel": "SECN"
@@ -185,7 +185,7 @@
 		"awayTeam" : "UNLV",
 		"homeTeam" : "HOU",
 		"favorite" : "HOU",
-		"spread" : 1.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2024-08-31T23:00Z",
 		"channel": "FS1"
@@ -195,7 +195,7 @@
 		"awayTeam" : "NEV",
 		"homeTeam" : "TROY",
 		"favorite" : "TROY",
-		"spread" : 9.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2024-08-31T23:00Z",
 		"channel": "ESPN+"
@@ -265,7 +265,7 @@
 		"awayTeam" : "JMU",
 		"homeTeam" : "CHAR",
 		"favorite" : "JMU",
-		"spread" : 6.5,
+		"spread" : 9.5,
 		"required" : false,
 		"gameTime" : "2024-09-01T00:00Z",
 		"channel": "ESPNU"
@@ -275,7 +275,7 @@
 		"awayTeam" : "WYO",
 		"homeTeam" : "ASU",
 		"favorite" : "ASU",
-		"spread" : 6.5,
+		"spread" : 7.5,
 		"required" : false,
 		"gameTime" : "2024-09-01T02:30Z",
 		"channel": "FS1"
@@ -285,7 +285,7 @@
 		"awayTeam" : "UNM",
 		"homeTeam" : "ARIZ",
 		"favorite" : "ARIZ",
-		"spread" : 30.5,
+		"spread" : 31.5,
 		"required" : false,
 		"gameTime" : "2024-09-01T02:30Z",
 		"channel": "ESPN"

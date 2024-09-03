@@ -14,7 +14,7 @@ var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 1;
+var weekNum = 2;
 var isCorrect;
 var isMe;
 var date1 = new Date();
@@ -31,7 +31,7 @@ var resultsList = [];
 var badge = document.createElement('div');
 badge.className = 'results';
 
-var select = `<button onclick='getResultsByWeek(13);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 13</button>`;
+var select = `<button onclick='getResultsByWeek(13);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 2</button>`;
 	 
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);

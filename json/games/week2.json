@@ -23,7 +23,7 @@
 		"awayTeam" : "BGSU",
 		"homeTeam" : "PSU",
 		"favorite" : "PSU",
-		"spread" : 34.5,
+		"spread" : 35.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T16:00Z",
 		"channel": "B1G"
@@ -381,7 +381,7 @@
 		"awayTeam" : "TENN",
 		"homeTeam" : "NCST",
 		"favorite" : "TENN",
-		"spread" : 7.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T23:30Z",
 		"channel": "ABC"

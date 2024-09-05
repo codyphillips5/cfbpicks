@@ -14,7 +14,7 @@
 		"awayTeam" : "GT",
 		"homeTeam" : "SYR",
 		"favorite" : "GT",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T16:00Z",
 		"channel": "ACCN"
@@ -32,7 +32,7 @@
 		"awayTeam" : "AKRON",
 		"homeTeam" : "RUTG",
 		"favorite" : "RUTG",
-		"spread" : 23.5,
+		"spread" : 22.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T16:00Z",
 		"channel": "B1G"
@@ -101,7 +101,7 @@
 		"awayTeam" : "TEMPLE",
 		"homeTeam" : "NAVY",
 		"favorite" : "NAVY",
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T19:30Z",
 		"channel": "CBSSN"
@@ -121,7 +121,7 @@
 		"awayTeam" : "MSU",
 		"homeTeam" : "MD",
 		"favorite" : "MD",
-		"spread" : 8.5,
+		"spread" : 9.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T19:30Z",
 		"channel": "B1G"
@@ -131,7 +131,7 @@
 		"awayTeam" : "UMASS",
 		"homeTeam" : "TOLEDO",
 		"favorite" : "TOLEDO",
-		"spread" : 20.5,
+		"spread" : 18.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T19:30Z",
 		"channel": "ESPN+"
@@ -161,7 +161,7 @@
 		"awayTeam" : "JSU",
 		"homeTeam" : "LOU",
 		"favorite" : "LOU",
-		"spread" : 28.5,
+		"spread" : 30.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T19:30Z",
 		"channel": "ACCNX"
@@ -171,7 +171,7 @@
 		"awayTeam" : "EMU",
 		"homeTeam" : "WASH",
 		"favorite" : "WASH",
-		"spread" : 27.5,
+		"spread" : 24.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T19:30Z",
 		"channel": "B1G"
@@ -261,7 +261,7 @@
 		"awayTeam" : "SHSU",
 		"homeTeam" : "UCF",
 		"favorite" : "UCF",
-		"spread" : 21.5,
+		"spread" : 22.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T22:30Z",
 		"channel": "ESPN+"
@@ -281,7 +281,7 @@
 		"awayTeam" : "SJSU",
 		"homeTeam" : "AFA",
 		"favorite" : "AFA",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T23:00Z",
 		"channel": "CBSSN"
@@ -291,7 +291,7 @@
 		"awayTeam" : "UVA",
 		"homeTeam" : "WAKE",
 		"favorite" : "WAKE",
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T23:00Z",
 		"channel": "ESPN2"
@@ -301,7 +301,7 @@
 		"awayTeam" : "UAB",
 		"homeTeam" : "ULM",
 		"favorite" : "UAB",
-		"spread" : 12.5,
+		"spread" : 13.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T23:00Z",
 		"channel": "ESPN+"
@@ -331,7 +331,7 @@
 		"awayTeam" : "LA",
 		"homeTeam" : "KENNST",
 		"favorite" : "LA",
-		"spread" : 15.5,
+		"spread" : 14.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T23:00Z",
 		"channel": "ESPN+"
@@ -351,7 +351,7 @@
 		"awayTeam" : "USF",
 		"homeTeam" : "ALA",
 		"favorite" : "ALA",
-		"spread" : 31.5,
+		"spread" : 30.5,
 		"required" : false,
 		"gameTime" : "2024-09-07T23:00Z",
 		"channel": "ESPN"
@@ -420,7 +420,7 @@
 		"gameId" : 72,
 		"awayTeam" : "TEXTCH",
 		"homeTeam" : "WSU",
-		"favorite" : "TEXTCH",
+		"favorite" : "WSU",
 		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2024-09-08T02:00Z",
@@ -451,7 +451,7 @@
 		"awayTeam" : "OREST",
 		"homeTeam" : "SDSU",
 		"favorite" : "OREST",
-		"spread" : 4.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2024-09-08T02:30Z",
 		"channel": "CBSSN"

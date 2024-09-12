@@ -25,7 +25,7 @@
 		"awayTeam" : "OKST",
 		"homeTeam" : "TULSA",
 		"favorite" : "OKST",
-		"spread" : 20.5,
+		"spread" : 19.5,
 		"required" : false,
 		"gameTime" : "2024-09-14T16:00:00Z",
 		"channel": "ESPN2"
@@ -35,7 +35,7 @@
 		"awayTeam" : "LSU",
 		"homeTeam" : "SCAR",
 		"favorite" : "LSU",
-		"spread" : 6.5,
+		"spread" : 7.5,
 		"required" : false,
 		"gameTime" : "2024-09-14T16:00:00Z",
 		"channel": "ABC"
@@ -45,7 +45,7 @@
 		"awayTeam" : "CMICH",
 		"homeTeam" : "ILL",
 		"favorite" : "ILL",
-		"spread" : 20.5,
+		"spread" : 18.5,
 		"required" : false,
 		"gameTime" : "2024-09-14T16:00:00Z",
 		"channel": "Peacock"
@@ -55,7 +55,7 @@
 		"awayTeam" : "ALA",
 		"homeTeam" : "WIS",
 		"favorite" : "ALA",
-		"spread" : 15.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2024-09-14T16:00:00Z",
 		"channel": "FOX"
@@ -86,7 +86,7 @@
 		"homeTeam" : "MIA-OH",
 		"favorite" : "CIN",
 		"spread" : 3.5,
-		"required" : false,
+		"required" : true,
 		"gameTime" : "2024-09-14T16:00:00Z",
 		"channel": "ESPNU"
     },
@@ -95,7 +95,7 @@
 		"awayTeam" : "BC",
 		"homeTeam" : "MIZZOU",
 		"favorite" : "MIZZOU",
-		"spread" : 17.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2024-09-14T16:45:00Z",
 		"channel": "SECN"
@@ -105,7 +105,7 @@
 		"awayTeam" : "UMASS",
 		"homeTeam" : "BUFF",
 		"favorite" : "BUFF",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2024-09-14T17:00:00Z",
 		"channel": "CBSSN"
@@ -145,7 +145,7 @@
 		"awayTeam" : "NEV",
 		"homeTeam" : "MINN",
 		"favorite" : "MINN",
-		"spread" : 16.5,
+		"spread" : 17.5,
 		"required" : false,
 		"gameTime" : "2024-09-14T19:30:00Z",
 		"channel": "B1G"
@@ -165,7 +165,7 @@
 		"awayTeam" : "TXA&M",
 		"homeTeam" : "FLA",
 		"favorite" : "TXA&M",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2024-09-14T19:30:00Z",
 		"channel": "ABC"
@@ -175,7 +175,7 @@
 		"awayTeam" : "WVU",
 		"homeTeam" : "PITT",
 		"favorite" : "WVU",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2024-09-14T19:30:00Z",
 		"channel": "ESPN2"
@@ -285,7 +285,7 @@
 		"awayTeam" : "MISS",
 		"homeTeam" : "WAKE",
 		"favorite" : "MISS",
-		"spread" : 23.5,
+		"spread" : 22.5,
 		"required" : false,
 		"gameTime" : "2024-09-14T22:30:00Z",
 		"channel": "CW"

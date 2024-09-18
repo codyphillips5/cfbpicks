@@ -31,7 +31,7 @@ var resultsList = [];
 var badge = document.createElement('div');
 badge.className = 'results';
 
-var select = `<button onclick='getResultsByWeek(3);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 3</button>`;
+var select = `<button onclick='getResultsByWeek(4);return false;' id='desktop_buttons' class='btn btn-secondary'>Week 4</button>`;
 	 
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);

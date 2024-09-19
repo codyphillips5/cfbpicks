@@ -5,7 +5,7 @@
 		"awayTeam" : "RICE",
 		"homeTeam" : "ARMY",
 		"favorite" : "ARMY",
-		"spread" : 5.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2024-09-21T16:00:00Z",
 		"channel": "CBSSN"
@@ -254,7 +254,7 @@
 		"gameId" : 155,
 		"awayTeam" : "UTAH",
 		"homeTeam" : "OKST",
-		"favorite" : "UTAH",
+		"favorite" : "OKST",
 		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2024-09-21T20:00:00Z",
@@ -275,7 +275,7 @@
 		"awayTeam" : "VANDY",
 		"homeTeam" : "MIZZOU",
 		"favorite" : "MIZZOU",
-		"spread" : 21.5,
+		"spread" : 20.5,
 		"required" : false,
 		"gameTime" : "2024-09-21T20:15:00Z",
 		"channel": "SECN"

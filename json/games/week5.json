@@ -23,7 +23,7 @@
 		"awayTeam" : "BUFF",
 		"homeTeam" : "UCONN",
 		"favorite" : "UCONN",
-		"spread" : 5.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2024-09-28T16:00:00Z",
 		"channel": "CBSSN"
@@ -50,7 +50,7 @@
 		"awayTeam" : "WKU",
 		"homeTeam" : "BC",
 		"favorite" : "BC",
-		"spread" : 13.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2024-09-28T16:00:00Z",
 		"channel": "ACCN"
@@ -68,7 +68,7 @@
 		"awayTeam" : "OKST",
 		"homeTeam" : "K-STATE",
 		"favorite" : "K-STATE",
-		"spread" : 4.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2024-09-28T16:00:00Z",
 		"channel": "ESPN"
@@ -97,7 +97,7 @@
 		"awayTeam" : "USF",
 		"homeTeam" : "TULANE",
 		"favorite" : "TULANE",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2024-09-28T16:00:00Z",
 		"channel": "ESPNU"
@@ -127,7 +127,7 @@
 		"awayTeam" : "WMU",
 		"homeTeam" : "MAR",
 		"favorite" : "MAR",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2024-09-28T19:30:00Z",
 		"channel": "ESPN+"
@@ -147,7 +147,7 @@
 		"awayTeam" : "AKRON",
 		"homeTeam" : "OHIO",
 		"favorite" : "OHIO",
-		"spread" : 11.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2024-09-28T19:30:00Z",
 		"channel": "ESPN+"
@@ -157,7 +157,7 @@
 		"awayTeam" : "SDSU",
 		"homeTeam" : "CMICH",
 		"favorite" : "CMICH",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2024-09-28T19:30:00Z",
 		"channel": "CBSSN"
@@ -227,7 +227,7 @@
 		"awayTeam" : "CU",
 		"homeTeam" : "UCF",
 		"favorite" : "UCF",
-		"spread" : 15.5,
+		"spread" : 14.5,
 		"required" : false,
 		"gameTime" : "2024-09-28T19:30:00Z",
 		"channel": "FOX"
@@ -287,7 +287,7 @@
 		"awayTeam" : "UTSA",
 		"homeTeam" : "ECU",
 		"favorite" : "ECU",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2024-09-28T20:00:00Z",
 		"channel": "ESPN+"
@@ -337,7 +337,7 @@
 		"awayTeam" : "IOWAST",
 		"homeTeam" : "HOU",
 		"favorite" : "IOWAST",
-		"spread" : 13.5,
+		"spread" : 14.5,
 		"required" : false,
 		"gameTime" : "2024-09-28T23:00:00Z",
 		"channel": "FS1"
@@ -417,7 +417,7 @@
 		"awayTeam" : "SOALA",
 		"homeTeam" : "LSU",
 		"favorite" : "LSU",
-		"spread" : 22.5,
+		"spread" : 21.5,
 		"required" : false,
 		"gameTime" : "2024-09-28T23:45:00Z",
 		"channel": "SECN"
@@ -427,7 +427,7 @@
 		"awayTeam" : "FSU",
 		"homeTeam" : "SMU",
 		"favorite" : "SMU",
-		"spread" : 5.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2024-09-29T00:00:00Z",
 		"channel": "ACCN"
@@ -487,7 +487,7 @@
 		"awayTeam" : "ORE",
 		"homeTeam" : "UCLA",
 		"favorite" : "ORE",
-		"spread" : 24.5,
+		"spread" : 25.5,
 		"required" : false,
 		"gameTime" : "2024-09-29T03:00:00Z",
 		"channel": "FOX"

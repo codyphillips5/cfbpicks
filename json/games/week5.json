@@ -174,16 +174,6 @@
     },
     {
 		"gameId" : 198,
-		"awayTeam" : "LIB",
-		"homeTeam" : "APP",
-		"favorite" : "LIB",
-		"spread" : 3.5,
-		"required" : false,
-		"gameTime" : "2024-09-28T19:30:00Z",
-		"channel": "ESPN+"
-    },
-    {
-		"gameId" : 199,
 		"awayTeam" : "UMASS",
 		"homeTeam" : "MIA-OH",
 		"favorite" : "MIA-OH",
@@ -193,7 +183,7 @@
 		"channel": "ESPN+"
     },
     {
-		"gameId" : 200,
+		"gameId" : 199,
 		"awayTeam" : "LA",
 		"homeTeam" : "WAKE",
 		"favorite" : "WAKE",
@@ -203,7 +193,7 @@
 		"channel": "ACCN"
     },
     {
-		"gameId" : 201,
+		"gameId" : 200,
 		"awayTeam" : "OU",
 		"homeTeam" : "AUB",
 		"favorite" : "OU",
@@ -213,7 +203,7 @@
 		"channel": "ABC"
     },
     {
-		"gameId" : 202,
+		"gameId" : 201,
 		"awayTeam" : "EMU",
 		"homeTeam" : "KENT",
 		"favorite" : "EMU",
@@ -223,7 +213,7 @@
 		"channel": "ESPN+"
     },
     {
-		"gameId" : 203,
+		"gameId" : 202,
 		"awayTeam" : "CU",
 		"homeTeam" : "UCF",
 		"favorite" : "UCF",
@@ -233,7 +223,7 @@
 		"channel": "FOX"
     },
     {
-		"gameId" : 204,
+		"gameId" : 203,
 		"awayTeam" : "FRESNST",
 		"homeTeam" : "UNLV",
 		"favorite" : "UNLV",
@@ -243,7 +233,7 @@
 		"channel": "FS1"
     },
     {
-		"gameId" : 205,
+		"gameId" : 204,
 		"awayTeam" : "LOU",
 		"homeTeam" : "ND",
 		"favorite" : "ND",
@@ -253,7 +243,7 @@
 		"channel": "Peacock"
     },
     {
-		"gameId" : 206,
+		"gameId" : 205,
 		"awayTeam" : "TCU",
 		"homeTeam" : "KAN",
 		"favorite" : "KAN",
@@ -263,7 +253,7 @@
 		"channel": "ESPN+"
     },
     {
-		"gameId" : 207,
+		"gameId" : 206,
 		"awayTeam" : "ARK",
 		"homeTeam" : "TXA&M",
 		"favorite" : "TXA&M",
@@ -273,7 +263,7 @@
 		"channel": "ESPN"
     },
     {
-		"gameId" : 208,
+		"gameId" : 207,
 		"awayTeam" : "UNC",
 		"homeTeam" : "DUKE",
 		"favorite" : "DUKE",
@@ -283,7 +273,7 @@
 		"channel": "ESPN2"
     },
     {
-		"gameId" : 209,
+		"gameId" : 208,
 		"awayTeam" : "UTSA",
 		"homeTeam" : "ECU",
 		"favorite" : "ECU",
@@ -293,7 +283,7 @@
 		"channel": "ESPN+"
     },
     {
-		"gameId" : 210,
+		"gameId" : 209,
 		"awayTeam" : "MSST",
 		"homeTeam" : "TEXAS",
 		"favorite" : "TEXAS",
@@ -303,7 +293,7 @@
 		"channel": "SECN"
     },
     {
-		"gameId" : 211,
+		"gameId" : 210,
 		"awayTeam" : "ODU",
 		"homeTeam" : "BGSU",
 		"favorite" : "BGSU",
@@ -313,7 +303,7 @@
 		"channel": "ESPN+"
     },
     {
-		"gameId" : 212,
+		"gameId" : 211,
 		"awayTeam" : "LATECH",
 		"homeTeam" : "FIU",
 		"favorite" : "LATECH",
@@ -323,7 +313,7 @@
 		"channel": "ESPN+"
     },
     {
-		"gameId" : 213,
+		"gameId" : 212,
 		"awayTeam" : "ULM",
 		"homeTeam" : "TROY",
 		"favorite" : "TROY",
@@ -333,7 +323,7 @@
 		"channel": "ESPN+"
     },
     {
-		"gameId" : 214,
+		"gameId" : 213,
 		"awayTeam" : "IOWAST",
 		"homeTeam" : "HOU",
 		"favorite" : "IOWAST",
@@ -343,7 +333,7 @@
 		"channel": "FS1"
     },
     {
-		"gameId" : 215,
+		"gameId" : 214,
 		"awayTeam" : "TULSA",
 		"homeTeam" : "UNT",
 		"favorite" : "UNT",
@@ -353,7 +343,7 @@
 		"channel": "ESPN+"
     },
     {
-		"gameId" : 216,
+		"gameId" : 215,
 		"awayTeam" : "STAN",
 		"homeTeam" : "CLEM",
 		"favorite" : "CLEM",
@@ -363,7 +353,7 @@
 		"channel": "ESPN"
     },
     {
-		"gameId" : 217,
+		"gameId" : 216,
 		"awayTeam" : "CHAR",
 		"homeTeam" : "RICE",
 		"favorite" : "RICE",
@@ -373,7 +363,7 @@
 		"channel": "ESPN+"
     },
     {
-		"gameId" : 218,
+		"gameId" : 217,
 		"awayTeam" : "MIDTN",
 		"homeTeam" : "MEM",
 		"favorite" : "MEM",
@@ -383,7 +373,7 @@
 		"channel": "ESPNU"
     },
     {
-		"gameId" : 219,
+		"gameId" : 218,
 		"awayTeam" : "OSU",
 		"homeTeam" : "MSU",
 		"favorite" : "OSU",
@@ -393,7 +383,7 @@
 		"channel": "Peacock"
     },
     {
-		"gameId" : 220,
+		"gameId" : 219,
 		"awayTeam" : "ILL",
 		"homeTeam" : "PSU",
 		"favorite" : "PSU",
@@ -403,7 +393,7 @@
 		"channel": "NBC"
     },
     {
-		"gameId" : 221,
+		"gameId" : 220,
 		"awayTeam" : "UGA",
 		"homeTeam" : "ALA",
 		"favorite" : "UGA",
@@ -413,7 +403,7 @@
 		"channel": "ABC"
     },
     {
-		"gameId" : 222,
+		"gameId" : 221,
 		"awayTeam" : "SOALA",
 		"homeTeam" : "LSU",
 		"favorite" : "LSU",
@@ -423,7 +413,7 @@
 		"channel": "SECN"
     },
     {
-		"gameId" : 223,
+		"gameId" : 222,
 		"awayTeam" : "FSU",
 		"homeTeam" : "SMU",
 		"favorite" : "SMU",
@@ -433,7 +423,7 @@
 		"channel": "ACCN"
     },
     {
-		"gameId" : 224,
+		"gameId" : 223,
 		"awayTeam" : "AFA",
 		"homeTeam" : "WYO",
 		"favorite" : "AFA",
@@ -443,7 +433,7 @@
 		"channel": "CBSSN"
     },
     {
-		"gameId" : 225,
+		"gameId" : 224,
 		"awayTeam" : "UNM",
 		"homeTeam" : "NMSU",
 		"favorite" : "UNM",
@@ -453,7 +443,7 @@
 		"channel": "ESPN+"
     },
     {
-		"gameId" : 226,
+		"gameId" : 225,
 		"awayTeam" : "CIN",
 		"homeTeam" : "TEXTCH",
 		"favorite" : "TEXTCH",
@@ -463,7 +453,7 @@
 		"channel": "ESPN2"
     },
     {
-		"gameId" : 227,
+		"gameId" : 226,
 		"awayTeam" : "WSU",
 		"homeTeam" : "BSU",
 		"favorite" : "BSU",
@@ -473,7 +463,7 @@
 		"channel": "FS1"
     },
     {
-		"gameId" : 228,
+		"gameId" : 227,
 		"awayTeam" : "ARIZ",
 		"homeTeam" : "UTAH",
 		"favorite" : "UTAH",
@@ -483,7 +473,7 @@
 		"channel": "ESPN"
     },
     {
-		"gameId" : 229,
+		"gameId" : 228,
 		"awayTeam" : "ORE",
 		"homeTeam" : "UCLA",
 		"favorite" : "ORE",

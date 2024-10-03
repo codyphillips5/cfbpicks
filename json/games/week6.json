@@ -45,7 +45,7 @@
 		"awayTeam" : "PITT",
 		"homeTeam" : "UNC",
 		"favorite" : "PITT",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2024-10-05T16:00:00Z",
 		"channel": "ESPN2"
@@ -75,7 +75,7 @@
 		"awayTeam" : "UCLA",
 		"homeTeam" : "PSU",
 		"favorite" : "PSU",
-		"spread" : 28.5,
+		"spread" : 27.5,
 		"required" : false,
 		"gameTime" : "2024-10-05T16:00:00Z",
 		"channel": "FOX"
@@ -95,7 +95,7 @@
 		"awayTeam" : "ARMY",
 		"homeTeam" : "TULSA",
 		"favorite" : "ARMY",
-		"spread" : 11.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2024-10-05T16:00:00Z",
 		"channel": "ESPNU"
@@ -135,7 +135,7 @@
 		"awayTeam" : "BGSU",
 		"homeTeam" : "AKRON",
 		"favorite" : "BGSU",
-		"spread" : 14.5,
+		"spread" : 15.5,
 		"required" : false,
 		"gameTime" : "2024-10-05T19:30:00Z",
 		"channel": "ESPN+"
@@ -165,7 +165,7 @@
 		"awayTeam" : "ECU",
 		"homeTeam" : "CHAR",
 		"favorite" : "ECU",
-		"spread" : 9.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2024-10-05T19:30:00Z",
 		"channel": "ESPNU"
@@ -245,7 +245,7 @@
 		"awayTeam" : "ALA",
 		"homeTeam" : "VANDY",
 		"favorite" : "ALA",
-		"spread" : 23.5,
+		"spread" : 22.5,
 		"required" : false,
 		"gameTime" : "2024-10-05T20:15:00Z",
 		"channel": "SECN"
@@ -355,7 +355,7 @@
 		"awayTeam" : "BAYLOR",
 		"homeTeam" : "IOWAST",
 		"favorite" : "IOWAST",
-		"spread" : 12.5,
+		"spread" : 11.5,
 		"required" : false,
 		"gameTime" : "2024-10-05T23:30:00Z",
 		"channel": "FOX"
@@ -375,7 +375,7 @@
 		"awayTeam" : "UCF",
 		"homeTeam" : "FLA",
 		"favorite" : "UCF",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2024-10-05T23:45:00Z",
 		"channel": "SECN"
@@ -385,7 +385,7 @@
 		"awayTeam" : "DUKE",
 		"homeTeam" : "GT",
 		"favorite" : "GT",
-		"spread" : 7.5,
+		"spread" : 9.5,
 		"required" : false,
 		"gameTime" : "2024-10-06T00:00:00Z",
 		"channel": "ACCN"
@@ -395,7 +395,7 @@
 		"awayTeam" : "KAN",
 		"homeTeam" : "ASU",
 		"favorite" : "ASU",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2024-10-06T00:00:00Z",
 		"channel": "ESPN2"

@@ -1,6 +1,46 @@
 {
   "games": [
 	{
+		"gameId" : 316,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-10-19T16:00:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 317,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-10-19T16:00:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 318,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-10-19T16:00:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 319,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-10-19T16:00:00Z",
+		"channel": ""
+    },
+	{
 		"gameId" : 320,
 		"awayTeam" : "",
 		"homeTeam" : "",

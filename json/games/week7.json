@@ -427,7 +427,7 @@
 		"favorite" : "K-STATE",
 		"spread" : 4.5,
 		"required" : false,
-		"gameTime" : "2024-10-13T00:00:00Z",
+		"gameTime" : "2024-10-13T02:15:00Z",
 		"channel": "ESPN"
     },
 	{
@@ -437,7 +437,7 @@
 		"favorite" : "BSU",
 		"spread" : 20.5,
 		"required" : false,
-		"gameTime" : "2024-10-13T00:00:00Z",
+		"gameTime" : "2024-10-13T03:00:00Z",
 		"channel": "CBSSN"
     }
   ]

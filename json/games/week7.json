@@ -125,7 +125,7 @@
 		"awayTeam" : "NIU",
 		"homeTeam" : "BGSU",
 		"favorite" : "BGSU",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2024-10-12T19:30:00Z",
 		"channel": "ESPN+"
@@ -165,7 +165,7 @@
 		"awayTeam" : "PSU",
 		"homeTeam" : "USC",
 		"favorite" : "PSU",
-		"spread" : 5.5,
+		"spread" : 4.5,
 		"required" : false,
 		"gameTime" : "2024-10-12T19:30:00Z",
 		"channel": "CBS"
@@ -175,7 +175,7 @@
 		"awayTeam" : "PUR",
 		"homeTeam" : "ILL",
 		"favorite" : "ILL",
-		"spread" : 19.5,
+		"spread" : 22.5,
 		"required" : false,
 		"gameTime" : "2024-10-12T19:30:00Z",
 		"channel": "FS1"
@@ -245,7 +245,7 @@
 		"awayTeam" : "ARIZ",
 		"homeTeam" : "BYU",
 		"favorite" : "BYU",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2024-10-12T20:00:00Z",
 		"channel": "FOX"
@@ -365,7 +365,7 @@
 		"awayTeam" : "OREST",
 		"homeTeam" : "NEV",
 		"favorite" : "OREST",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2024-10-12T23:30:00Z",
 		"channel": "CBSSN"

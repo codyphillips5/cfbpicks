@@ -89,7 +89,7 @@
 		"required" : false,
 		"gameTime" : "2024-10-19T16:00:00Z",
 		"channel": "ABC"
-    }
+    },
 	{
 		"gameId" : 325,
 		"awayTeam" : "WIS",

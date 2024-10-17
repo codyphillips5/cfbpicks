@@ -55,7 +55,7 @@
 		"awayTeam" : "ASU",
 		"homeTeam" : "CIN",
 		"favorite" : "CIN",
-		"spread" : 3.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2024-10-19T16:00:00Z",
 		"channel": "ESPN+"
@@ -105,7 +105,7 @@
 		"awayTeam" : "SCAR",
 		"homeTeam" : "OU",
 		"favorite" : "OU",
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2024-10-19T16:45:00Z",
 		"channel": "SECN"
@@ -115,7 +115,7 @@
 		"awayTeam" : "CMICH",
 		"homeTeam" : "EMU",
 		"favorite" : "EMU",
-		"spread" : 2.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2024-10-19T18:00:00Z",
 		"channel": "ESPN+"
@@ -155,7 +155,7 @@
 		"awayTeam" : "FAU",
 		"homeTeam" : "UTSA",
 		"favorite" : "UTSA",
-		"spread" : 3.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2024-10-19T19:30:00Z",
 		"channel": "ESPN+"
@@ -205,7 +205,7 @@
 		"awayTeam" : "RICE",
 		"homeTeam" : "TULANE",
 		"favorite" : "TULANE",
-		"spread" : 21.5,
+		"spread" : 22.5,
 		"required" : false,
 		"gameTime" : "2024-10-19T19:30:00Z",
 		"channel": "ESPN+"
@@ -255,7 +255,7 @@
 		"awayTeam" : "CHAR",
 		"homeTeam" : "NAVY",
 		"favorite" : "NAVY",
-		"spread" : 17.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2024-10-19T19:30:00Z",
 		"channel": "CBSSN"
@@ -265,7 +265,7 @@
 		"awayTeam" : "HOU",
 		"homeTeam" : "KAN",
 		"favorite" : "KAN",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2024-10-19T19:30:00Z",
 		"channel": "ESPN+"
@@ -345,7 +345,7 @@
 		"awayTeam" : "TXA&M",
 		"homeTeam" : "MSST",
 		"favorite" : "TXA&M",
-		"spread" : 14.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2024-10-19T20:15:00Z",
 		"channel": "SECN"
@@ -385,7 +385,7 @@
 		"awayTeam" : "UGA",
 		"homeTeam" : "TEXAS",
 		"favorite" : "TEXAS",
-		"spread" : 3.5,
+		"spread" : 4.5,
 		"required" : true,
 		"gameTime" : "2024-10-19T23:30:00Z",
 		"channel": "ABC"
@@ -425,7 +425,7 @@
 		"awayTeam" : "UNT",
 		"homeTeam" : "MEM",
 		"favorite" : "MEM",
-		"spread" : 10.5,
+		"spread" : 11.5,
 		"required" : false,
 		"gameTime" : "2024-10-19T23:30:00Z",
 		"channel": "ESPNU"
@@ -445,7 +445,7 @@
 		"awayTeam" : "SMU",
 		"homeTeam" : "STAN",
 		"favorite" : "SMU",
-		"spread" : 16.5,
+		"spread" : 15.5,
 		"required" : false,
 		"gameTime" : "2024-10-20T00:00:00Z",
 		"channel": "ACCN"

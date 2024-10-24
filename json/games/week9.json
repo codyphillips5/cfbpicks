@@ -105,7 +105,7 @@
 		"awayTeam" : "GSU",
 		"homeTeam" : "APP",
 		"favorite" : "APP",
-		"spread" : 8.5,
+		"spread" : 7.5,
 		"required" : false,
 		"gameTime" : "2024-10-26T17:00:00Z",
 		"channel": "ESPN+"
@@ -195,7 +195,7 @@
 		"awayTeam" : "MIZZOU",
 		"homeTeam" : "ALA",
 		"favorite" : "ALA",
-		"spread" : 13.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2024-10-26T19:30:00Z",
 		"channel": "ABC"
@@ -215,7 +215,7 @@
 		"awayTeam" : "BYU",
 		"homeTeam" : "UCF",
 		"favorite" : "UCF",
-		"spread" : 1.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2024-10-26T19:30:00Z",
 		"channel": "ESPN"
@@ -364,7 +364,7 @@
 		"gameId" : 400,
 		"awayTeam" : "USU",
 		"homeTeam" : "WYO",
-		"favorite" : "WYO",
+		"favorite" : "USU",
 		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2024-10-26T23:00:00Z",
@@ -425,7 +425,7 @@
 		"awayTeam" : "SMU",
 		"homeTeam" : "DUKE",
 		"favorite" : "SMU",
-		"spread" : 12.5,
+		"spread" : 11.5,
 		"required" : false,
 		"gameTime" : "2024-10-27T00:00:00Z",
 		"channel": "ACCN"

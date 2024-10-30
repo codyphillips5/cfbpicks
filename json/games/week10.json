@@ -365,7 +365,7 @@
 		"awayTeam" : "PITT",
 		"homeTeam" : "SMU",
 		"favorite" : "SMU",
-		"spread" : .5,
+		"spread" : 7.5,
 		"required" : false,
 		"gameTime" : "2024-11-03T00:00:00Z",
 		"channel": ""

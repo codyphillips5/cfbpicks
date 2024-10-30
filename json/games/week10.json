@@ -358,7 +358,7 @@
 		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2024-11-02T23:45:00Z",
-		"channel": ""
+		"channel": "SECN"
     },
 	{
 		"gameId" : 447,
@@ -368,7 +368,7 @@
 		"spread" : 7.5,
 		"required" : false,
 		"gameTime" : "2024-11-03T00:00:00Z",
-		"channel": ""
+		"channel": "ACCN"
     },
 	{
 		"gameId" : 448,

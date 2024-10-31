@@ -55,7 +55,7 @@
 		"awayTeam" : "DUKE",
 		"homeTeam" : "MIA",
 		"favorite" : "MIA",
-		"spread" : 21.5,
+		"spread" : 20.5,
 		"required" : false,
 		"gameTime" : "2024-11-02T16:00:00Z",
 		"channel": "ABC"
@@ -115,7 +115,7 @@
 		"awayTeam" : "VANDY",
 		"homeTeam" : "AUB",
 		"favorite" : "AUB",
-		"spread" : 6.5,
+		"spread" : 7.5,
 		"required" : false,
 		"gameTime" : "2024-11-02T16:45:00Z",
 		"channel": "SECN"
@@ -155,7 +155,7 @@
 		"awayTeam" : "ORE",
 		"homeTeam" : "MICH",
 		"favorite" : "ORE",
-		"spread" : 15.5,
+		"spread" : 14.5,
 		"required" : false,
 		"gameTime" : "2024-11-02T19:30:00Z",
 		"channel": "CBS"
@@ -275,7 +275,7 @@
 		"awayTeam" : "UMASS",
 		"homeTeam" : "MSST",
 		"favorite" : "MSST",
-		"spread" : 18.5,
+		"spread" : 17.5,
 		"required" : false,
 		"gameTime" : "2024-11-02T20:15:00Z",
 		"channel": "SECN"
@@ -295,7 +295,7 @@
 		"awayTeam" : "ASU",
 		"homeTeam" : "OKST",
 		"favorite" : "ASU",
-		"spread" : 2.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2024-11-02T23:00:00Z",
 		"channel": "FS1"
@@ -385,7 +385,7 @@
 		"awayTeam" : "CSU",
 		"homeTeam" : "NEV",
 		"favorite" : "CSU",
-		"spread" : 1.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2024-11-03T00:00:00Z",
 		"channel": "CBSSN"

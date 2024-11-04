@@ -36,6 +36,7 @@ var select = `
       Previous
   </a>
 	<ul class="dropdown-menu" aria-labelledby="desktop_buttons">
+		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(10);return false;' id =""></span>Week 10</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(9);return false;' id =""></span>Week 9</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(8);return false;' id =""></span>Week 8</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(7);return false;' id =""></span>Week 7</a></li>
@@ -50,6 +51,7 @@ var select = `
       Previous
   </a>
     <ul class="dropdown-menu" aria-labelledby="mobile_buttons">
+		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(10);return false;' id =""></span>Week 10</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(9);return false;' id =""></span>Week 9</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(8);return false;' id =""></span>Week 8</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(7);return false;' id =""></span>Week 7</a></li>

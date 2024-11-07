@@ -15,7 +15,7 @@
 		"awayTeam" : "PUR",
 		"homeTeam" : "OSU",
 		"favorite" : "OSU",
-		"spread" : 37.5,
+		"spread" : 38.5,
 		"required" : false,
 		"gameTime" : "2024-11-09T17:00:00Z",
 		"channel": "FOX"
@@ -25,7 +25,7 @@
 		"awayTeam" : "SYR",
 		"homeTeam" : "BC",
 		"favorite" : "BC",
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2024-11-09T17:00:00Z",
 		"channel": "CW"
@@ -45,7 +45,7 @@
 		"awayTeam" : "MIA",
 		"homeTeam" : "GT",
 		"favorite" : "MIA",
-		"spread" : 11.5,
+		"spread" : 10.5,
 		"required" : false,
 		"gameTime" : "2024-11-09T17:00:00Z",
 		"channel": "ESPN"
@@ -55,7 +55,7 @@
 		"awayTeam" : "NAVY",
 		"homeTeam" : "USF",
 		"favorite" : "NAVY",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2024-11-09T17:00:00Z",
 		"channel": "ESPN2"
@@ -215,7 +215,7 @@
 		"awayTeam" : "KENNST",
 		"homeTeam" : "UTEP",
 		"favorite" : "UTEP",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2024-11-09T21:00:00Z",
 		"channel": "ESPN+"
@@ -245,7 +245,7 @@
 		"awayTeam" : "ARKST",
 		"homeTeam" : "LA",
 		"favorite" : "LA",
-		"spread" : 16.5,
+		"spread" : 15.5,
 		"required" : false,
 		"gameTime" : "2024-11-09T22:00:00Z",
 		"channel": "ESPN+"
@@ -285,7 +285,7 @@
 		"awayTeam" : "MD",
 		"homeTeam" : "ORE",
 		"favorite" : "ORE",
-		"spread" : 25.5,
+		"spread" : 24.5,
 		"required" : false,
 		"gameTime" : "2024-11-10T00:00:00Z",
 		"channel": "B1G"
@@ -385,7 +385,7 @@
 		"awayTeam" : "BYU",
 		"homeTeam" : "UTAH",
 		"favorite" : "BYU",
-		"spread" : 4.5,
+		"spread" : 3.5,
 		"required" : false,
 		"gameTime" : "2024-11-10T03:15:00Z",
 		"channel": "ESPN"

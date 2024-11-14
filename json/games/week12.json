@@ -145,7 +145,7 @@
 		"awayTeam" : "SHSU",
 		"homeTeam" : "KENNST",
 		"favorite" : "SHSU",
-		"spread" : 14.5,
+		"spread" : 15.5,
 		"required" : false,
 		"gameTime" : "2024-11-16T20:00:00Z",
 		"channel": "ESPN+"
@@ -155,7 +155,7 @@
 		"awayTeam" : "BC",
 		"homeTeam" : "SMU",
 		"favorite" : "SMU",
-		"spread" : 17.5,
+		"spread" : 19.5,
 		"required" : false,
 		"gameTime" : "2024-11-16T20:30:00Z",
 		"channel": "ESPN"
@@ -305,7 +305,7 @@
 		"awayTeam" : "ASU",
 		"homeTeam" : "K-STATE",
 		"favorite" : "K-STATE",
-		"spread" : 9.5,
+		"spread" : 8.5,
 		"required" : false,
 		"gameTime" : "2024-11-17T00:00:00Z",
 		"channel": "ESPN"
@@ -395,7 +395,7 @@
 		"awayTeam" : "WSU",
 		"homeTeam" : "UNM",
 		"favorite" : "WSU",
-		"spread" : 12.5,
+		"spread" : 10.5,
 		"required" : false,
 		"gameTime" : "2024-11-17T02:30:00Z",
 		"channel": "FS1"

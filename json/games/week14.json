@@ -1,6 +1,156 @@
 {
   "games": [
 	{
+		"gameId" : 585,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 586,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 587,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 588,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 589,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 590,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 591,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 592,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 593,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 594,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 595,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 596,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 597,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 598,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
+		"gameId" : 599,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"gameTime" : "2024-11-30T17:00:00Z",
+		"channel": ""
+    },	
+	{
 		"gameId" : 600,
 		"awayTeam" : "",
 		"homeTeam" : "",
@@ -231,7 +381,7 @@
 		"channel": ""
     },	
 	{
-		"gameId" : 623,
+		"gameId" : 630,
 		"awayTeam" : "",
 		"homeTeam" : "",
 		"favorite" : "",

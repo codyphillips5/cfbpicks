@@ -19,7 +19,7 @@ auth.onAuthStateChanged(user => {
 })
  
 // also update line 121
-var weekNum = 13;
+var weekNum = 14;
 var fn;
 var requiredSelected = true;
 // create new guide

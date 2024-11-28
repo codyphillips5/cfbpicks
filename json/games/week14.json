@@ -175,7 +175,7 @@
 		"awayTeam" : "PITT",
 		"homeTeam" : "BC",
 		"favorite" : "BC",
-		"spread" : 5.5,
+		"spread" : 4.5,
 		"required" : false,
 		"gameTime" : "2024-11-30T20:00:00Z",
 		"channel": "CW"
@@ -244,7 +244,7 @@
 		"gameId" : 609,
 		"awayTeam" : "FAU",
 		"homeTeam" : "TULSA",
-		"favorite" : "FAU",
+		"favorite" : "TULSA",
 		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2024-11-30T20:30:00Z",
@@ -395,7 +395,7 @@
 		"awayTeam" : "FLA",
 		"homeTeam" : "FSU",
 		"favorite" : "FLA",
-		"spread" : 14.5,
+		"spread" : 16.5,
 		"required" : false,
 		"gameTime" : "2024-12-01T00:00:00Z",
 		"channel": "ESPN2"

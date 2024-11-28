@@ -75,7 +75,7 @@
 		"awayTeam" : "TENN",
 		"homeTeam" : "VANDY",
 		"favorite" : "TENN",
-		"spread" : 11.5,
+		"spread" : 10.5,
 		"required" : false,
 		"gameTime" : "2024-11-30T17:00:00Z",
 		"channel": "ABC"

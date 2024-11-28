@@ -5,7 +5,7 @@
 		"awayTeam" : "UTSA",
 		"homeTeam" : "ARMY",
 		"favorite" : "ARMY",
-		"spread" : 7.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2024-11-30T17:00:00Z",
 		"channel": "CBSSN"

@@ -13,12 +13,12 @@ var game = {
   };
   
 // week of year, first game
-var week = 14;
+var week = 15;
 if (week === 0) {
 	document.getElementById("week-title").innerHTML = `<h2>🚨 TESTING 🏈 TESTING 🚨</h2><h4>This is a test of the system for Week 0</h4><h4>Come back next week for pick submission and the start of the season!</h4>`;
 }
 else if (week === 15) {
-	document.getElementById("week-title").innerHTML = `<h2>Enjoy the Playoff!</h2>`;
+	document.getElementById("week-title").innerHTML = `<h3 style="background-color:orange;">It's Nico Time in America</h3><h2>Enjoy the Playoff!</h2>`;
 }
 else {
 	document.getElementById("week-title").innerHTML = `<h2>Week ${week}</h2>`;

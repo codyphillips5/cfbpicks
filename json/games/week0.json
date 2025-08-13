@@ -2,43 +2,53 @@
   "games": [
     {
 		"gameId" : 1,
-		"awayTeam" : "FSU",
-		"homeTeam" : "GT",
-		"favorite" : "FSU",
-		"spread" : 10.5,
+		"awayTeam" : "IOWAST",
+		"homeTeam" : "K-STATE",
+		"favorite" : "K-STATE",
+		"spread" : 3.5,
 		"required" : true,
-		"gameTime" : "2024-08-24T16:00Z",
+		"gameTime" : "2025-08-23T16:00Z",
 		"channel": "ESPN"
     },
     {
 		"gameId" : 2,
-		"awayTeam" : "MONTST",
-		"homeTeam" : "UNM",
-		"favorite" : "MONST",
-		"spread" : 13.5,
+		"awayTeam" : "ISU",
+		"homeTeam" : "UNLV",
+		"favorite" : "UNLV",
+		"spread" : 25.5,
 		"required" : false,
-		"gameTime" : "2024-08-24T20:00Z",
-		"channel": "FS1"
+		"gameTime" : "2025-08-23T20:00Z",
+		"channel": "MWN"
     },
     {
 		"gameId" : 3,
-		"awayTeam" : "SMU",
-		"homeTeam" : "NEV",
-		"favorite" : "NEV",
-		"spread" : 24.5,
+		"awayTeam" : "FRESNST",
+		"homeTeam" : "KAN",
+		"favorite" : "KAN",
+		"spread" : 12.5,
 		"required" : false,
-		"gameTime" : "2024-08-25T00:00Z",
-		"channel": "CBSSN"
+		"gameTime" : "2025-08-25T22:30Z",
+		"channel": "FOX"
     },    
     {
 		"gameId" : 4,
-		"awayTeam" : "DSU",
+		"awayTeam" : "SHSU",
+		"homeTeam" : "WKU",
+		"favorite" : "WKU",
+		"spread" : 10.5,
+		"required" : false,
+		"gameTime" : "2025-08-25T23:00Z",
+		"channel": "CBSSN"
+    },    
+    {
+		"gameId" : 5,
+		"awayTeam" : "STAN",
 		"homeTeam" : "HAW",
 		"favorite" : "HAW",
-		"spread" : 40.5,
+		"spread" : 2.5,
 		"required" : false,
-		"gameTime" : "2024-08-25T03:59Z",
-		"channel": "Team1Sports"
+		"gameTime" : "2025-08-25T23:30Z",
+		"channel": "CBS"
     }
   ]
 }

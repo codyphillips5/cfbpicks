@@ -1,0 +1,470 @@
+{
+  "games": [
+    {
+		"gameId" : 30,
+		"awayTeam" : "TEXAS",
+		"homeTeam" : "MICH",
+		"favorite" : "TEXAS",
+		"spread" : 7.5,
+		"required" : true,
+		"gameTime" : "2024-09-07T16:00Z",
+		"channel": "FOX"
+    },{
+		"gameId" : 31,
+		"awayTeam" : "GT",
+		"homeTeam" : "SYR",
+		"favorite" : "GT",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T16:00Z",
+		"channel": "ACCN"
+    },{
+		"gameId" : 32,
+		"awayTeam" : "BGSU",
+		"homeTeam" : "PSU",
+		"favorite" : "PSU",
+		"spread" : 35.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T16:00Z",
+		"channel": "B1G"
+    },{
+		"gameId" : 33,
+		"awayTeam" : "AKRON",
+		"homeTeam" : "RUTG",
+		"favorite" : "RUTG",
+		"spread" : 22.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T16:00Z",
+		"channel": "B1G"
+    },{
+		"gameId" : 34,
+		"awayTeam" : "TROY",
+		"homeTeam" : "MEM",
+		"favorite" : "MEM",
+		"spread" : 18.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T16:00Z",
+		"channel": "ESPNU"
+    },
+    {
+		"gameId" : 35,
+		"awayTeam" : "ARMY",
+		"homeTeam" : "FAU",
+		"favorite" : "FAU",
+		"spread" : 3.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T16:00Z",
+		"channel": "CBSSN"
+    },
+    {
+		"gameId" : 36,
+		"awayTeam" : "PITT",
+		"homeTeam" : "CIN",
+		"favorite" : "CIN",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T16:00Z",
+		"channel": "ESPN2"
+    },
+    {
+		"gameId" : 37,
+		"awayTeam" : "K-STATE",
+		"homeTeam" : "TULANE",
+		"favorite" : "K-STATE",
+		"spread" : 9.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T16:00Z",
+		"channel": "ESPN"
+    },
+    {
+		"gameId" : 38,
+		"awayTeam" : "ARK",
+		"homeTeam" : "OKST",
+		"favorite" : "OKST",
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T16:00Z",
+		"channel": "ABC"
+    },
+    {
+		"gameId" : 39,
+		"awayTeam" : "SCAR",
+		"homeTeam" : "UK",
+		"favorite" : "UK",
+		"spread" : 10.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T19:30Z",
+		"channel": "ABC"
+    },
+    {
+		"gameId" : 40,
+		"awayTeam" : "TEMPLE",
+		"homeTeam" : "NAVY",
+		"favorite" : "NAVY",
+		"spread" : 12.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T19:30Z",
+		"channel": "CBSSN"
+    },
+    {
+		"gameId" : 41,
+		"awayTeam" : "BAYLOR",
+		"homeTeam" : "UTAH",
+		"favorite" : "UTAH",
+		"spread" : 14.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T19:30Z",
+		"channel": "FOX"
+    },
+    {
+		"gameId" : 42,
+		"awayTeam" : "MSU",
+		"homeTeam" : "MD",
+		"favorite" : "MD",
+		"spread" : 9.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T19:30Z",
+		"channel": "B1G"
+    },
+    {
+		"gameId" : 43,
+		"awayTeam" : "UMASS",
+		"homeTeam" : "TOLEDO",
+		"favorite" : "TOLEDO",
+		"spread" : 18.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T19:30Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 44,
+		"awayTeam" : "CHAR",
+		"homeTeam" : "UNC",
+		"favorite" : "UNC",
+		"spread" : 22.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T19:30Z",
+		"channel": "ACCN"
+    },
+    {
+		"gameId" : 45,
+		"awayTeam" : "CAL",
+		"homeTeam" : "AUB",
+		"favorite" : "AUB",
+		"spread" : 13.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T19:30Z",
+		"channel": "ESPN2"
+    },
+    {
+		"gameId" : 46,
+		"awayTeam" : "JSU",
+		"homeTeam" : "LOU",
+		"favorite" : "LOU",
+		"spread" : 30.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T19:30Z",
+		"channel": "ACCNX"
+    },
+    {
+		"gameId" : 47,
+		"awayTeam" : "EMU",
+		"homeTeam" : "WASH",
+		"favorite" : "WASH",
+		"spread" : 24.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T19:30Z",
+		"channel": "B1G"
+    },
+    {
+		"gameId" : 48,
+		"awayTeam" : "NIU",
+		"homeTeam" : "ND",
+		"favorite" : "ND",
+		"spread" : 28.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T19:30Z",
+		"channel": "NBC"
+    },
+    {
+		"gameId" : 49,
+		"awayTeam" : "IOWAST",
+		"homeTeam" : "IOWA",
+		"favorite" : "IOWA",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T19:30Z",
+		"channel": "CBS"
+    },
+    {
+		"gameId" : 50,
+		"awayTeam" : "UTSA",
+		"homeTeam" : "TEXST",
+		"favorite" : "TEXST",
+		"spread" : 1.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T20:00Z",
+		"channel": "ESPNU"
+    },
+    {
+		"gameId" : 51,
+		"awayTeam" : "MIDTN",
+		"homeTeam" : "MISS",
+		"favorite" : "MISS",
+		"spread" : 41.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T20:15Z",
+		"channel": "SECN"
+    },
+    {
+		"gameId" : 52,
+		"awayTeam" : "MAR",
+		"homeTeam" : "VT",
+		"favorite" : "VT",
+		"spread" : 20.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T20:30Z",
+		"channel": "CW"
+    },
+    {
+		"gameId" : 53,
+		"awayTeam" : "ECU",
+		"homeTeam" : "ODU",
+		"favorite" : "ECU",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T22:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 54,
+		"awayTeam" : "SOALA",
+		"homeTeam" : "OHIO",
+		"favorite" : "SOALA",
+		"spread" : 2.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T22:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 55,
+		"awayTeam" : "CMICH",
+		"homeTeam" : "FIU",
+		"favorite" : "CMICH",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T22:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 56,
+		"awayTeam" : "SHSU",
+		"homeTeam" : "UCF",
+		"favorite" : "UCF",
+		"spread" : 22.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T22:30Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 57,
+		"awayTeam" : "BUFF",
+		"homeTeam" : "MIZZOU",
+		"favorite" : "MIZZOU",
+		"spread" : 34.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T23:00Z",
+		"channel": "SECN+"
+    },
+    {
+		"gameId" : 58,
+		"awayTeam" : "SJSU",
+		"homeTeam" : "AFA",
+		"favorite" : "AFA",
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T23:00Z",
+		"channel": "CBSSN"
+    },
+    {
+		"gameId" : 59,
+		"awayTeam" : "UVA",
+		"homeTeam" : "WAKE",
+		"favorite" : "WAKE",
+		"spread" : 1.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T23:00Z",
+		"channel": "ESPN2"
+    },
+    {
+		"gameId" : 60,
+		"awayTeam" : "UAB",
+		"homeTeam" : "ULM",
+		"favorite" : "UAB",
+		"spread" : 13.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T23:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 61,
+		"awayTeam" : "TULSA",
+		"homeTeam" : "ARKST",
+		"favorite" : "ARKST",
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T23:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 62,
+		"awayTeam" : "GEOSOU",
+		"homeTeam" : "NEV",
+		"favorite" : "GEOSOU",
+		"spread" : 1.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T23:00Z",
+		"channel": "TruTV"
+    },
+    {
+		"gameId" : 63,
+		"awayTeam" : "LA",
+		"homeTeam" : "KENNST",
+		"favorite" : "LA",
+		"spread" : 14.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T23:00Z",
+		"channel": "ESPN+"
+    },
+    {
+		"gameId" : 64,
+		"awayTeam" : "KAN",
+		"homeTeam" : "ILL",
+		"favorite" : "KAN",
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T23:00Z",
+		"channel": "FS1"
+    },
+    {
+		"gameId" : 65,
+		"awayTeam" : "USF",
+		"homeTeam" : "ALA",
+		"favorite" : "ALA",
+		"spread" : 30.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T23:00Z",
+		"channel": "ESPN"
+    },
+    {
+		"gameId" : 66,
+		"awayTeam" : "WMU",
+		"homeTeam" : "OSU",
+		"favorite" : "OSU",
+		"spread" : 38.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T23:30Z",
+		"channel": "B1G"
+    },
+    {
+		"gameId" : 67,
+		"awayTeam" : "CU",
+		"homeTeam" : "NEB",
+		"favorite" : "NEB",
+		"spread" : 7.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T23:30Z",
+		"channel": "NBC"
+    },
+    {
+		"gameId" : 68,
+		"awayTeam" : "TENN",
+		"homeTeam" : "NCST",
+		"favorite" : "TENN",
+		"spread" : 8.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T23:30Z",
+		"channel": "ABC"
+    },
+    {
+		"gameId" : 69,
+		"awayTeam" : "HOU",
+		"homeTeam" : "OU",
+		"favorite" : "OU",
+		"spread" : 29.5,
+		"required" : false,
+		"gameTime" : "2024-09-07T23:45Z",
+		"channel": "SECN"
+    },
+    {
+		"gameId" : 70,
+		"awayTeam" : "APP",
+		"homeTeam" : "CLEM",
+		"favorite" : "CLEM",
+		"spread" : 17.5,
+		"required" : false,
+		"gameTime" : "2024-09-08T00:00Z",
+		"channel": "ACCN"
+    },
+    {
+		"gameId" : 71,
+		"awayTeam" : "BSU",
+		"homeTeam" : "ORE",
+		"favorite" : "ORE",
+		"spread" : 19.5,
+		"required" : false,
+		"gameTime" : "2024-09-08T02:00Z",
+		"channel": "Peacock"
+    },
+    {
+		"gameId" : 72,
+		"awayTeam" : "TEXTCH",
+		"homeTeam" : "WSU",
+		"favorite" : "WSU",
+		"spread" : 1.5,
+		"required" : false,
+		"gameTime" : "2024-09-08T02:00Z",
+		"channel": "FOX"
+    },
+    {
+		"gameId" : 73,
+		"awayTeam" : "LIB",
+		"homeTeam" : "NMSU",
+		"favorite" : "LIB",
+		"spread" : 22.5,
+		"required" : false,
+		"gameTime" : "2024-09-08T02:15Z",
+		"channel": "ESPN2"
+    },
+    {
+		"gameId" : 74,
+		"awayTeam" : "MSST",
+		"homeTeam" : "ASU",
+		"favorite" : "ASU",
+		"spread" : 6.5,
+		"required" : false,
+		"gameTime" : "2024-09-08T02:30Z",
+		"channel": "ESPN"
+    },
+    {
+		"gameId" : 75,
+		"awayTeam" : "OREST",
+		"homeTeam" : "SDSU",
+		"favorite" : "OREST",
+		"spread" : 5.5,
+		"required" : false,
+		"gameTime" : "2024-09-08T02:30Z",
+		"channel": "CBSSN"
+    },
+    {
+		"gameId" : 76,
+		"awayTeam" : "USU",
+		"homeTeam" : "USC",
+		"favorite" : "USC",
+		"spread" : 28.5,
+		"required" : false,
+		"gameTime" : "2024-09-08T03:00Z",
+		"channel": "B1G"
+    }
+  ]
+}

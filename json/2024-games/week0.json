@@ -1,0 +1,44 @@
+{
+  "games": [
+    {
+		"gameId" : 1,
+		"awayTeam" : "FSU",
+		"homeTeam" : "GT",
+		"favorite" : "FSU",
+		"spread" : 10.5,
+		"required" : true,
+		"gameTime" : "2024-08-24T16:00Z",
+		"channel": "ESPN"
+    },
+    {
+		"gameId" : 2,
+		"awayTeam" : "MONTST",
+		"homeTeam" : "UNM",
+		"favorite" : "MONST",
+		"spread" : 13.5,
+		"required" : false,
+		"gameTime" : "2024-08-24T20:00Z",
+		"channel": "FS1"
+    },
+    {
+		"gameId" : 3,
+		"awayTeam" : "SMU",
+		"homeTeam" : "NEV",
+		"favorite" : "NEV",
+		"spread" : 24.5,
+		"required" : false,
+		"gameTime" : "2024-08-25T00:00Z",
+		"channel": "CBSSN"
+    },    
+    {
+		"gameId" : 4,
+		"awayTeam" : "DSU",
+		"homeTeam" : "HAW",
+		"favorite" : "HAW",
+		"spread" : 40.5,
+		"required" : false,
+		"gameTime" : "2024-08-25T03:59Z",
+		"channel": "Team1Sports"
+    }
+  ]
+}

@@ -937,6 +937,20 @@
 		"teamMascot" : "Owls",
 		"teamValue" : "KENNST",
 		"teamImage" : "KennesawState"
+    },
+	{
+		"teamId" : 135,
+		"team" : "Delaware",
+		"teamMascot" : "Blue Hens",
+		"teamValue" : "DEL",
+		"teamImage" : "Delaware"
+    },
+	{
+		"teamId" : 136,
+		"team" : "Missouri State",
+		"teamMascot" : "Bears",
+		"teamValue" : "MOST",
+		"teamImage" : "MissouriState"
     }
   ]
 }

@@ -951,6 +951,13 @@
 		"teamMascot" : "Bears",
 		"teamValue" : "MOST",
 		"teamImage" : "MissouriState"
+    },
+	{
+		"teamId" : 137,
+		"team" : "Idaho State (FCS)",
+		"teamMascot" : "Bengals",
+		"teamValue" : "ISU",
+		"teamImage" : "IdahoState"
     }
   ]
 }

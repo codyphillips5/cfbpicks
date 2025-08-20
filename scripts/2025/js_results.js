@@ -14,7 +14,7 @@ var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 14;
+var weekNum = 0;
 var isCorrect;
 var isMe;
 var date1 = new Date();
@@ -31,11 +31,8 @@ document.getElementById("loader").innerHTML = `<button onclick='sortTable(6);ret
 var badge = document.createElement('div');
 badge.className = 'results';
 
-var select = `
- <a class="btn btn-secondary dropdown-toggle" href="#" id="desktop_buttons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Previous
-  </a>
-	<ul class="dropdown-menu" aria-labelledby="desktop_buttons">
+// future weeks 
+/*
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(13);return false;' id =""></span>Week 13</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(12);return false;' id =""></span>Week 12</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(11);return false;' id =""></span>Week 11</a></li>
@@ -48,24 +45,20 @@ var select = `
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(4);return false;' id =""></span>Week 4</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(3);return false;' id =""></span>Week 3</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(2);return false;' id =""></span>Week 2</a></li>
+*/
+
+var select = `
+ <a class="btn btn-secondary dropdown-toggle" href="#" id="desktop_buttons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Previous
+  </a>
+	<ul class="dropdown-menu" aria-labelledby="desktop_buttons">
+
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(1);return false;' id =""></span>Week 1</a></li>
 	</ul>
  <a class="btn btn-secondary dropdown-toggle" href="#" id="mobile_buttons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
       Previous
   </a>
     <ul class="dropdown-menu" aria-labelledby="mobile_buttons">
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(13);return false;' id =""></span>Week 13</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(12);return false;' id =""></span>Week 12</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(11);return false;' id =""></span>Week 11</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(10);return false;' id =""></span>Week 10</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(9);return false;' id =""></span>Week 9</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(8);return false;' id =""></span>Week 8</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(7);return false;' id =""></span>Week 7</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(6);return false;' id =""></span>Week 6</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(5);return false;' id =""></span>Week 5</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(4);return false;' id =""></span>Week 4</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(3);return false;' id =""></span>Week 3</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(2);return false;' id =""></span>Week 2</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(1);return false;' id =""></span>Week 1</a></li>
      </ul>`;
 

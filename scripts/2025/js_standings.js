@@ -86,6 +86,7 @@ $.when(users, results).then(function(){
 			
 			var tableEnd = `</tbody></table>`;	
 			document.getElementById("standings").innerHTML = tableStart + tableUser + tableEnd;	
+			sortTable(weekNum+1);
 			while(userTotalPoints.length > 0) {
 				userTotalPoints.pop();
 			}

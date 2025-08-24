@@ -65,7 +65,7 @@
 		"awayTeam" : "TOLEDO",
 		"homeTeam" : "UK",
 		"favorite" : "UK",
-		"spread" : 8.5,
+		"spread" : 7.5,
 		"required" : false,
 		"gameTime" : "2025-08-30T16:45",
 		"channel": "SECN"
@@ -105,7 +105,7 @@
 		"awayTeam" : "TEMPLE",
 		"homeTeam" : "UMASS",
 		"favorite" : "TEMPLE",
-		"spread" : 3.5,
+		"spread" : 2.5,
 		"required" : false,
 		"gameTime" : "2025-08-30T19:30Z",
 		"channel": "ESPN+"
@@ -135,7 +135,7 @@
 		"awayTeam" : "UTSA",
 		"homeTeam" : "TXA&M",
 		"favorite" : "TXA&M",
-		"spread" : 21.5,
+		"spread" : 22.5,
 		"required" : false,
 		"gameTime" : "2025-08-30T23:00Z",
 		"channel": "ESPN"
@@ -145,7 +145,7 @@
 		"awayTeam" : "UTEP",
 		"homeTeam" : "USU",
 		"favorite" : "USU",
-		"spread" : 3.5,
+		"spread" : 6.5,
 		"required" : false,
 		"gameTime" : "2025-08-30T23:30Z",
 		"channel": "CBSS"
@@ -215,7 +215,7 @@
 		"awayTeam" : "GEOSOU",
 		"homeTeam" : "FRESNST",
 		"favorite" : "FRESNST",
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2025-08-31T01:30Z",
 		"channel": "FS1"

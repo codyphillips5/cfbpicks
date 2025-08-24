@@ -202,6 +202,7 @@ function getResultsByWeek(x) {
 					//allEntries.pop();
 					//userPickTeams.pop();
 		}
+		sortTable(6);
 		clearAll();
 	});
 }

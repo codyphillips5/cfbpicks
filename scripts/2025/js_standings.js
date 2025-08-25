@@ -31,7 +31,7 @@ var results = db.collection("Results").get().then((querySnapshot) => {
 	})
 });	
 
-document.getElementById("loader").innerHTML = `<button onclick='sortTable(${weekNum + 1});return false;' class='btn btn-primary'>Sort Standings</button>`;
+//document.getElementById("loader").innerHTML = `<button onclick='sortTable(${weekNum + 1});return false;' class='btn btn-primary'>Sort Standings</button>`;
 
 var tableStart = `<div class="table-responsive"><table class="table table-hover" id="standings-table"><thead><tr><th class="first-col bg-light" scope="col">Name</th>`;
 for(var wn = 1; wn <= weekNum; wn++) {

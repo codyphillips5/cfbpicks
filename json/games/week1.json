@@ -15,7 +15,7 @@
 		"awayTeam" : "NU",
 		"homeTeam" : "TULANE",
 		"favorite" : "TULANE",
-		"spread" : 6.5,
+		"spread" : 5.5,
 		"required" : false,
 		"gameTime" : "2025-08-30T16:00Z",
 		"channel": "ESPNU"
@@ -25,7 +25,7 @@
 		"awayTeam" : "MSST",
 		"homeTeam" : "SMISS",
 		"favorite" : "MSST",
-		"spread" : 11.5,
+		"spread" : 12.5,
 		"required" : false,
 		"gameTime" : "2025-08-30T16:00Z",
 		"channel": "ESPN"
@@ -55,7 +55,7 @@
 		"awayTeam" : "SYR",
 		"homeTeam" : "TENN",
 		"favorite" : "TENN",
-		"spread" : 14.5,
+		"spread" : 13.5,
 		"required" : false,
 		"gameTime" : "2025-08-30T16:00Z",
 		"channel": "ABC"
@@ -75,7 +75,7 @@
 		"awayTeam" : "ODU",
 		"homeTeam" : "IND",
 		"favorite" : "IND",
-		"spread" : 22.5,
+		"spread" : 23.5,
 		"required" : false,
 		"gameTime" : "2025-08-30T18:30Z",
 		"channel": "FS1"
@@ -125,7 +125,7 @@
 		"awayTeam" : "COCAR",
 		"homeTeam" : "UVA",
 		"favorite" : "UVA",
-		"spread" : 12.5,
+		"spread" : 11.5,
 		"required" : false,
 		"gameTime" : "2025-08-30T22:00Z",
 		"channel": "ACCN"
@@ -135,7 +135,7 @@
 		"awayTeam" : "UTSA",
 		"homeTeam" : "TXA&M",
 		"favorite" : "TXA&M",
-		"spread" : 22.5,
+		"spread" : 24.5,
 		"required" : false,
 		"gameTime" : "2025-08-30T23:00Z",
 		"channel": "ESPN"
@@ -165,7 +165,7 @@
 		"awayTeam" : "UNM",
 		"homeTeam" : "MICH",
 		"favorite" : "MICH",
-		"spread" : 36.5,
+		"spread" : 34.5,
 		"required" : false,
 		"gameTime" : "2025-08-30T23:30Z",
 		"channel": "NBC"
@@ -185,7 +185,7 @@
 		"awayTeam" : "GSU",
 		"homeTeam" : "MISS",
 		"favorite" : "MISS",
-		"spread" : 38.5,
+		"spread" : 35.5,
 		"required" : false,
 		"gameTime" : "2025-08-30T23:45Z",
 		"channel": "SECN"
@@ -205,7 +205,7 @@
 		"awayTeam" : "RICE",
 		"homeTeam" : "LA",
 		"favorite" : "LA",
-		"spread" : 13.5,
+		"spread" : 11.5,
 		"required" : false,
 		"gameTime" : "2025-08-31T00:00Z",
 		"channel": "ESPN+"
@@ -214,7 +214,7 @@
 		"gameId" : 22,
 		"awayTeam" : "GEOSOU",
 		"homeTeam" : "FRESNST",
-		"favorite" : "FRESNST",
+		"favorite" : "GEOSOU",
 		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2025-08-31T01:30Z",
@@ -225,7 +225,7 @@
 		"awayTeam" : "CAL",
 		"homeTeam" : "OREST",
 		"favorite" : "OREST",
-		"spread" : 3.5,
+		"spread" : 1.5,
 		"required" : false,
 		"gameTime" : "2025-08-31T02:30Z",
 		"channel": "ESPN"
@@ -235,7 +235,7 @@
 		"awayTeam" : "HAW",
 		"homeTeam" : "ARIZ",
 		"favorite" : "ARIZ",
-		"spread" : 13.5,
+		"spread" : 17.5,
 		"required" : false,
 		"gameTime" : "2025-08-31T02:30Z",
 		"channel": "TNT"
@@ -255,7 +255,7 @@
 		"awayTeam" : "CSU",
 		"homeTeam" : "WASH",
 		"favorite" : "WASH",
-		"spread" : 19.5,
+		"spread" : 22.5,
 		"required" : false,
 		"gameTime" : "2025-08-31T03:00Z",
 		"channel": "B1G"

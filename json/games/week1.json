@@ -7,6 +7,7 @@
 		"favorite" : "OSU",
 		"spread" : 2.5,
 		"required" : true,
+		"foxId" : 41199,
 		"gameTime" : "2025-08-30T16:00Z",
 		"channel": "FOX"
     },
@@ -17,6 +18,7 @@
 		"favorite" : "TULANE",
 		"spread" : 5.5,
 		"required" : false,
+		"foxId" : 41200,
 		"gameTime" : "2025-08-30T16:00Z",
 		"channel": "ESPNU"
     },
@@ -27,6 +29,7 @@
 		"favorite" : "MSST",
 		"spread" : 12.5,
 		"required" : false,
+		"foxId" : 41201,
 		"gameTime" : "2025-08-30T16:00Z",
 		"channel": "ESPN"
     },    
@@ -37,6 +40,7 @@
 		"favorite" : "PUR",
 		"spread" : 17.5,
 		"required" : false,
+		"foxId" : 41204,
 		"gameTime" : "2025-08-30T16:00Z",
 		"channel": "B1G"
     },
@@ -47,6 +51,7 @@
 		"favorite" : "MD",
 		"spread" : 14.5,
 		"required" : false,
+		"foxId" : 41208,
 		"gameTime" : "2025-08-30T16:00Z",
 		"channel": "B1G"
     },
@@ -57,6 +62,7 @@
 		"favorite" : "TENN",
 		"spread" : 13.5,
 		"required" : false,
+		"foxId" : 42833,
 		"gameTime" : "2025-08-30T16:00Z",
 		"channel": "ABC"
     },
@@ -67,6 +73,7 @@
 		"favorite" : "UK",
 		"spread" : 7.5,
 		"required" : false,
+		"foxId" : 41209,
 		"gameTime" : "2025-08-30T16:45",
 		"channel": "SECN"
     },
@@ -77,6 +84,7 @@
 		"favorite" : "IND",
 		"spread" : 23.5,
 		"required" : false,
+		"foxId" : 41228,
 		"gameTime" : "2025-08-30T18:30Z",
 		"channel": "FS1"
     },
@@ -87,6 +95,7 @@
 		"favorite" : "ALA",
 		"spread" : 13.5,
 		"required" : false,
+		"foxId" : 41233,
 		"gameTime" : "2025-08-30T19:30Z",
 		"channel": "ABC"
     },
@@ -97,6 +106,7 @@
 		"favorite" : "PSU",
 		"spread" : 44.5,
 		"required" : false,
+		"foxId" : 41236,
 		"gameTime" : "2025-08-30T19:30Z",
 		"channel": "CBS"
     },  
@@ -107,6 +117,7 @@
 		"favorite" : "TEMPLE",
 		"spread" : 2.5,
 		"required" : false,
+		"foxId" : 41230,
 		"gameTime" : "2025-08-30T19:30Z",
 		"channel": "ESPN+"
     },
@@ -117,6 +128,7 @@
 		"favorite" : "UGA",
 		"spread" : 39.5,
 		"required" : false,
+		"foxId" : 41231,
 		"gameTime" : "2025-08-30T19:30Z",
 		"channel": "ESPN"
     },
@@ -127,6 +139,7 @@
 		"favorite" : "UVA",
 		"spread" : 11.5,
 		"required" : false,
+		"foxId" : 41244,
 		"gameTime" : "2025-08-30T22:00Z",
 		"channel": "ACCN"
     },
@@ -137,6 +150,7 @@
 		"favorite" : "TXA&M",
 		"spread" : 24.5,
 		"required" : false,
+		"foxId" : 41258,
 		"gameTime" : "2025-08-30T23:00Z",
 		"channel": "ESPN"
     },
@@ -147,6 +161,7 @@
 		"favorite" : "USU",
 		"spread" : 6.5,
 		"required" : false,
+		"foxId" : 41263,
 		"gameTime" : "2025-08-30T23:30Z",
 		"channel": "CBSS"
     },
@@ -157,6 +172,7 @@
 		"favorite" : "USC",
 		"spread" : 35.5,
 		"required" : false,
+		"foxId" : 41265,
 		"gameTime" : "2025-08-30T23:30Z",
 		"channel": "B1G"
     },
@@ -167,6 +183,7 @@
 		"favorite" : "MICH",
 		"spread" : 34.5,
 		"required" : false,
+		"foxId" : 41266,
 		"gameTime" : "2025-08-30T23:30Z",
 		"channel": "NBC"
     },
@@ -177,6 +194,7 @@
 		"favorite" : "CLEM",
 		"spread" : 3.5,
 		"required" : false,
+		"foxId" : 41267,
 		"gameTime" : "2025-08-30T23:30Z",
 		"channel": "ABC"
     },
@@ -187,6 +205,7 @@
 		"favorite" : "MISS",
 		"spread" : 35.5,
 		"required" : false,
+		"foxId" : 41269,
 		"gameTime" : "2025-08-30T23:45Z",
 		"channel": "SECN"
     },
@@ -197,6 +216,7 @@
 		"favorite" : "TEXST",
 		"spread" : 13.5,
 		"required" : false,
+		"foxId" : 41270,
 		"gameTime" : "2025-08-31T00:00Z",
 		"channel": "ESPN+"
     },
@@ -207,6 +227,7 @@
 		"favorite" : "LA",
 		"spread" : 11.5,
 		"required" : false,
+		"foxId" : 41271,
 		"gameTime" : "2025-08-31T00:00Z",
 		"channel": "ESPN+"
     },
@@ -217,6 +238,7 @@
 		"favorite" : "GEOSOU",
 		"spread" : 1.5,
 		"required" : false,
+		"foxId" : 41280,
 		"gameTime" : "2025-08-31T01:30Z",
 		"channel": "FS1"
     },
@@ -227,6 +249,7 @@
 		"favorite" : "OREST",
 		"spread" : 1.5,
 		"required" : false,
+		"foxId" : 41283,
 		"gameTime" : "2025-08-31T02:30Z",
 		"channel": "ESPN"
     },
@@ -237,6 +260,7 @@
 		"favorite" : "ARIZ",
 		"spread" : 17.5,
 		"required" : false,
+		"foxId" : 41284,
 		"gameTime" : "2025-08-31T02:30Z",
 		"channel": "TNT"
     },
@@ -247,6 +271,7 @@
 		"favorite" : "UTAH",
 		"spread" : 6.5,
 		"required" : false,
+		"foxId" : 41285,
 		"gameTime" : "2025-08-31T03:00Z",
 		"channel": "FOX"
     },
@@ -257,6 +282,7 @@
 		"favorite" : "WASH",
 		"spread" : 22.5,
 		"required" : false,
+		"foxId" : 41286,
 		"gameTime" : "2025-08-31T03:00Z",
 		"channel": "B1G"
     }

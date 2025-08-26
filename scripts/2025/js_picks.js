@@ -95,7 +95,7 @@ else {
 			  var badge = document.createElement('div');
 			  var col = document.createElement('div');
 			  var number = num + 1; 
-			  col.className = 'col';
+			  col.className = 'col mt-2 mb-2';
 			  col.id = 'col' + number;
 			  var isRequired = false;
 			  var requiredField = "";
@@ -118,7 +118,7 @@ else {
 			  else {
 				  requiredField = 'bg-light';		
 			  }
-			  var header = '<div class=\'p-3 border '+ requiredField +'\'><span class=\'header\'><h5 class=\'pt-2 lh-1\' style=\'margin-bottom: 0px;\'>' + awayTeam + ' vs ' + homeTeam + ' (' + homeSide + spread + ') </h5>';
+			  var header = '<div class=\'p-3 border '+ requiredField +'\'><span class=\'header\'><div class=\'h5 pt-2 lh-1\' style=\'margin-bottom: 0px;\'>' + awayTeam + ' vs ' + homeTeam + ' (' + homeSide + spread + ') </div>';
 			  var gameInfo = '<small class=\'w-100\' id=\'time-game' + gameId + '\' > '+ channel + " · " + date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }).replace(/^0+/, '') + '</small>';
 			  var select = '<select class=\'teamlist form-select form-select-sm\' style=\'width:auto;\' id=\'game' + gameId + '\' onchange=\"showPointTotals(\'point_totals_game_' + gameId + '\', this);\"><option value = \"\"> -- Select Team -- </option><option value=\"' + awayTeamVal + '\">' + awayTeam + ' ' + awaySide + spread + '</option><option value=\"' + homeTeamVal + '\">' + homeTeam + ' ' + homeSide + spread + '</option></select>';
 			  var display = '<div class=\'pt-3 lh-1\' id=\"point_totals_game_' + gameId + '\" style=\"display:none;\">';

@@ -19,7 +19,7 @@ auth.onAuthStateChanged(user => {
 })
  
 // also update line 121
-var weekNum = 1;
+var weekNum = 2;
 var fn;
 var requiredSelected = true;
 // create new guide
@@ -118,7 +118,7 @@ if(saveResults) {
 					// update the number every week 
 					const data = {
 						user: usercheck,
-						week1: {
+						week2: {
 							id: weekcheck,
 							points: pointscheck,
 							top: topcheck

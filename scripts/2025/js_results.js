@@ -27,7 +27,7 @@ var myUsername = "";
 
 var picksList, teamsList, resultsList, usersList;
 var resultsList = [];
-document.getElementById("loader").innerHTML = `<button onclick='sortTable(6);return false;' class='btn btn-primary'>Sort Results</button>`;
+//document.getElementById("loader").innerHTML = `<button onclick='sortTable(6);return false;' class='btn btn-primary'>Sort Results</button>`;
 var badge = document.createElement('div');
 badge.className = 'results';
 

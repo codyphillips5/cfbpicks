@@ -512,6 +512,17 @@
 		"foxId" : 41419,
 		"gameTime" : "2025-09-07T02:15Z",
 		"channel": "CW"
+    },
+    {
+		"gameId" : 74,
+		"awayTeam" : "SHSU",
+		"homeTeam" : "HAW",
+		"favorite" : "HAW",
+		"spread" : 7.5,
+		"required" : false,
+		"foxId" : 41324,
+		"gameTime" : "2025-09-07T03:59Z",
+		"channel": "MWN"
     }
   ]
 }

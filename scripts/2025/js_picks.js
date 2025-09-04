@@ -19,7 +19,7 @@ if (week === 0) {
 	<hr><p>This is a test of the system for <strong>Week 0</strong>.</p><p>Return for <strong> Week 1 </strong> - <strong>opening August 28<sup>th</sup></strong> - for pick submission and the start of the season!</p></div>`;
 }
 else if (week === 15) {
-	document.getElementById("week-title").innerHTML = `<h3 style="background-color:orange;">It's Nico Time in America</h3><h2>Enjoy the Playoff!</h2>`;
+	document.getElementById("week-title").innerHTML = `<div class="h3" style="background-color:orange;">Thanks for a great season</div><div class="h2">Enjoy the Playoff!</div>`;
 }
 else {
 	document.getElementById("week-title").innerHTML = `<h2>Week ${week}</h2>`;

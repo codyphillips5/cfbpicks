@@ -21,7 +21,7 @@
 		"foxId" : 41429,
 		"gameTime" : "2025-09-13T16:00Z",
 		"channel": "FOX"
-    }
+    },
     {
 		"gameId" : 77,
 		"awayTeam" : "OU",
@@ -392,7 +392,7 @@
 		"favorite" : "NAVY",
 		"spread" : 14.5,
 		"required" : false,
-		"foxId" : ,
+		"foxId" : 41533,
 		"gameTime" : "2025-09-14T00:00Z",
 		"channel": "ESPN+"
     },

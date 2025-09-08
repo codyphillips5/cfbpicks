@@ -44,7 +44,6 @@ badge.className = 'results';
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(5);return false;' id =""></span>Week 5</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(4);return false;' id =""></span>Week 4</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(3);return false;' id =""></span>Week 3</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(2);return false;' id =""></span>Week 2</a></li>
 */
 
 var select = `
@@ -53,12 +52,14 @@ var select = `
   </a>
 	<ul class="dropdown-menu" aria-labelledby="desktop_buttons">
 
+		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(2);return false;' id =""></span>Week 2</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(1);return false;' id =""></span>Week 1</a></li>
 	</ul>
  <a class="btn btn-secondary dropdown-toggle" href="#" id="mobile_buttons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
       Previous
   </a>
     <ul class="dropdown-menu" aria-labelledby="mobile_buttons">
+		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(2);return false;' id =""></span>Week 2</a></li>
 		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(1);return false;' id =""></span>Week 1</a></li>
      </ul>`;
 

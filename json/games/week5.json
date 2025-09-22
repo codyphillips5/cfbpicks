@@ -497,25 +497,25 @@
     },
     {
 		"gameId" : 210,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "LATECH",
+		"homeTeam" : "UTEP",
+		"favorite" : "LATECH",
+		"spread" : 4.5,
 		"required" : false,
-		"foxId" : ,
+		"foxId" : 41762,
 		"gameTime" : "2025-09-28T01:00Z",
-		"channel": ""
+		"channel": "ESPN+"
     },
     {
 		"gameId" : 211,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "BYU",
+		"homeTeam" : "CU",
+		"favorite" : "BYU",
+		"spread" : 6.5,
 		"required" : false,
-		"foxId" : ,
+		"foxId" : 41763,
 		"gameTime" : "2025-09-28T02:15Z",
-		"channel": ""
+		"channel": "ESPN"
     }
   ]
 }

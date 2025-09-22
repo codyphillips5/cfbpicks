@@ -76,6 +76,8 @@ function getResultsByWeek(x) {
 	var tableUser = "";
 	var tableEnd = "";
 	
+	document.getElementById("week-title").innerHTML = `<div class="h2">Week ${x} Results</div>`;
+	
 	var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week" + x + ".json", function(json){
 		xFile = json;
 	});

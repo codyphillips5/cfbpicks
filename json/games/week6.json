@@ -413,7 +413,7 @@
 		"homeTeam" : "FSU",
 		"favorite" : "MIA",
 		"spread" : 4.5,
-		"required" : false,
+		"required" : true,
 		"foxId" : 41786,
 		"gameTime" : "2025-10-04T23:30Z",
 		"channel": "ABC"

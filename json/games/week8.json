@@ -1,6 +1,149 @@
 {
   "games": [
 	{
+		"gameId" : 303,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"foxId" : ,
+		"gameTime" : "2025-10-18T16:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 304,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"foxId" : ,
+		"gameTime" : "2025-10-18T16:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 305,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"foxId" : ,
+		"gameTime" : "2025-10-18T16:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 306,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"foxId" : ,
+		"gameTime" : "2025-10-18T16:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 307,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"foxId" : ,
+		"gameTime" : "2025-10-18T16:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 308,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"foxId" : ,
+		"gameTime" : "2025-10-18T16:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 309,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"foxId" : ,
+		"gameTime" : "2025-10-18T16:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 310,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"foxId" : ,
+		"gameTime" : "2025-10-18T16:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 311,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"foxId" : ,
+		"gameTime" : "2025-10-18T16:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 312,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"foxId" : ,
+		"gameTime" : "2025-10-18T16:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 313,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"foxId" : ,
+		"gameTime" : "2025-10-18T16:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 314,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"foxId" : ,
+		"gameTime" : "2025-10-18T16:00Z",
+		"channel": ""
+    },
+	{
+		"gameId" : 315,
+		"awayTeam" : "",
+		"homeTeam" : "",
+		"favorite" : "",
+		"spread" : .5,
+		"required" : false,
+		"foxId" : ,
+		"gameTime" : "2025-10-18T16:00Z",
+		"channel": ""
+    },
+	{
 		"gameId" : 316,
 		"awayTeam" : "",
 		"homeTeam" : "",

@@ -467,7 +467,7 @@
 		"awayTeam" : "HAW",
 		"homeTeam" : "SJSU",
 		"favorite" : "SJSU",
-		"spread" : 2.5,
+		"spread" : 1.5,
 		"required" : false,
 		"foxId" : 42317,
 		"gameTime" : "2025-11-02T02:30Z",

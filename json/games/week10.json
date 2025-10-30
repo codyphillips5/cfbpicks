@@ -379,7 +379,7 @@
 		"awayTeam" : "UK",
 		"homeTeam" : "AUB",
 		"favorite" : "AUB",
-		"spread" : .5,
+		"spread" : 10.5,
 		"required" : false,
 		"foxId" : 42233,
 		"gameTime" : "2025-11-01T23:30Z",

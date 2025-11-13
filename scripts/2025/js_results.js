@@ -1,5 +1,6 @@
 var firtName = "";
 var lastName = "";
+var weekList = "";
 var allEntries = [];
 var allFifties = [];
 var allForties = [];
@@ -39,39 +40,16 @@ badge.className = 'results';
 		
 */
 
+for (var y = weekNum; y >= 1; y--) {
+	weekList = weekList + `<li class=""><a class="dropdown-item" href="#" onclick='return getResultsByWeek(${y})' id="dd-week-${y}"></span>Week ${y}</a></li>`;
+}
+
 var select = `
- <a class="btn btn-secondary dropdown-toggle" href="#" id="desktop_buttons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Previous
-  </a>
-	<ul class="dropdown-menu" aria-labelledby="desktop_buttons">
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(11);return false;' id =""></span>Week 11</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(10);return false;' id =""></span>Week 10</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(9);return false;' id =""></span>Week 9</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(8);return false;' id =""></span>Week 8</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(7);return false;' id =""></span>Week 7</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(6);return false;' id =""></span>Week 6</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(5);return false;' id =""></span>Week 5</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(4);return false;' id =""></span>Week 4</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(3);return false;' id =""></span>Week 3</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(2);return false;' id =""></span>Week 2</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(1);return false;' id =""></span>Week 1</a></li>
-	</ul>
- <a class="btn btn-secondary dropdown-toggle" href="#" id="mobile_buttons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Previous
-  </a>
-    <ul class="dropdown-menu" aria-labelledby="mobile_buttons">
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(11);return false;' id =""></span>Week 11</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(10);return false;' id =""></span>Week 10</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(9);return false;' id =""></span>Week 9</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(8);return false;' id =""></span>Week 8</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(7);return false;' id =""></span>Week 7</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(6);return false;' id =""></span>Week 6</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(5);return false;' id =""></span>Week 5</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(4);return false;' id =""></span>Week 4</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(3);return false;' id =""></span>Week 3</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(2);return false;' id =""></span>Week 2</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(1);return false;' id =""></span>Week 1</a></li>
-     </ul>`;
+ <a class="btn btn-secondary dropdown-toggle" href="#" id="desktop_buttons" role="button" data-bs-toggle="dropdown" aria-expanded="false">Previous</a>
+<ul class="dropdown-menu" aria-labelledby="desktop_buttons">${weekList}</ul>
+<a class="btn btn-secondary dropdown-toggle" href="#" id="mobile_buttons" role="button" data-bs-toggle="dropdown" aria-expanded="false">Previous</a>
+<ul class="dropdown-menu" aria-labelledby="mobile_buttons">${weekList}</ul>
+<span id="go"></span>`
 
 badge.innerHTML = '<form>' + select + '</form>';		
 document.getElementById("weeks").appendChild(badge);

@@ -15,7 +15,7 @@ var coversNum = [];
 var coversTeam = [];
 var userPickTeams = [];
 var coversArr = [""];
-var weekNum = 12;
+var weekNum = 13;
 var isCorrect;
 var isMe;
 var date1 = new Date();
@@ -31,14 +31,6 @@ var resultsList = [];
 //document.getElementById("loader").innerHTML = `<button onclick='sortTable(6);return false;' class='btn btn-primary'>Sort Results</button>`;
 var badge = document.createElement('div');
 badge.className = 'results';
-
-// future weeks 
-/*
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(14);return false;' id =""></span>Week 14</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(13);return false;' id =""></span>Week 13</a></li>
-		<li class=""><a class="dropdown-item" href="#"  onclick='getResultsByWeek(12);return false;' id =""></span>Week 12</a></li>
-		
-*/
 
 for (var y = weekNum; y >= 1; y--) {
 	weekList = weekList + `<li class=""><a class="dropdown-item" href="#" onclick='return getResultsByWeek(${y})' id="dd-week-${y}"></span>Week ${y}</a></li>`;

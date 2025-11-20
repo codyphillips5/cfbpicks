@@ -226,7 +226,7 @@
 		"homeTeam" : "MIDTN",
 		"favorite" : "MIDTN",
 		"spread" : 6.5,
-		"foxId" : ,
+		"foxId" : 42664,
 		"required" : false,
 		"gameTime" : "2025-11-22T20:00Z",
 		"channel": "ESPN+"

@@ -2,53 +2,83 @@
   "games": [
     {
 		"gameId" : 1,
-		"awayTeam" : "IOWAST",
-		"homeTeam" : "K-STATE",
-		"favorite" : "K-STATE",
-		"spread" : 3.5,
+		"awayTeam" : "UNC",
+		"homeTeam" : "TCU",
+		"favorite" : "TCU",
+		"spread" : 8.5,
 		"required" : true,
-		"gameTime" : "2025-08-23T16:00Z",
+		"gameTime" : "2026-08-29T16:00Z",
 		"channel": "ESPN"
     },
     {
 		"gameId" : 2,
-		"awayTeam" : "ISU",
-		"homeTeam" : "UNLV",
-		"favorite" : "UNLV",
-		"spread" : 26.5,
+		"awayTeam" : "SJSU",
+		"homeTeam" : "USC",
+		"favorite" : "USC",
+		"spread" : 38.5,
 		"required" : false,
-		"gameTime" : "2025-08-23T20:00Z",
-		"channel": "MWN"
+		"gameTime" : "2026-08-29T19:00Z",
+		"channel": "NBC"
     },
     {
 		"gameId" : 3,
-		"awayTeam" : "FRESNST",
-		"homeTeam" : "KAN",
-		"favorite" : "KAN",
-		"spread" : 12.5,
+		"awayTeam" : "NCST",
+		"homeTeam" : "UVA",
+		"favorite" : "UVA",
+		"spread" : 4.5,
 		"required" : false,
-		"gameTime" : "2025-08-25T22:30Z",
-		"channel": "FOX"
+		"gameTime" : "2026-08-29T19:30Z",
+		"channel": "ESPN"
     },    
     {
 		"gameId" : 4,
-		"awayTeam" : "SHSU",
-		"homeTeam" : "WKU",
-		"favorite" : "WKU",
-		"spread" : 10.5,
+		"awayTeam" : "JSU",
+		"homeTeam" : "NDSU",
+		"favorite" : "NDSU",
+		"spread" : 6.5,
 		"required" : false,
-		"gameTime" : "2025-08-25T23:00Z",
+		"gameTime" : "2026-08-29T21:30Z",
 		"channel": "CBSSN"
     },    
     {
 		"gameId" : 5,
-		"awayTeam" : "STAN",
-		"homeTeam" : "HAW",
-		"favorite" : "HAW",
-		"spread" : 2.5,
+		"awayTeam" : "SAC",
+		"homeTeam" : "EMU",
+		"favorite" : "EMU",
+		"spread" : 9.5,
 		"required" : false,
-		"gameTime" : "2025-08-25T23:30Z",
-		"channel": "CBS"
+		"gameTime" : "2026-08-29T23:30Z",
+		"channel": "ESPN+"
+    },    
+    {
+		"gameId" : 6,
+		"awayTeam" : "HAW",
+		"homeTeam" : "STAN",
+		"favorite" : "STAN",
+		"spread" : 4.5,
+		"required" : false,
+		"gameTime" : "2026-08-29T00:00Z",
+		"channel": "ACCN"
+    },    
+    {
+		"gameId" : 7,
+		"awayTeam" : "NMSU",
+		"homeTeam" : "FSU",
+		"favorite" : "FSU",
+		"spread" : 31.5,
+		"required" : false,
+		"gameTime" : "2026-08-29T00:00Z",
+		"channel": "CW"
+    },    
+    {
+		"gameId" : 8,
+		"awayTeam" : "MEM",
+		"homeTeam" : "UNLV",
+		"favorite" : "UNLV",
+		"spread" : 4.5,
+		"required" : false,
+		"gameTime" : "2026-08-30T03:00Z",
+		"channel": "FOX"
     }
   ]
 }

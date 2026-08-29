@@ -954,10 +954,17 @@
     },
 	{
 		"teamId" : 137,
-		"team" : "Idaho State (FCS)",
+		"team" : "Sacramento State",
 		"teamMascot" : "Bengals",
-		"teamValue" : "ISU",
-		"teamImage" : "IdahoState"
+		"teamValue" : "SAC",
+		"teamImage" : "SacramentoState"
+    },
+	{
+		"teamId" : 138,
+		"team" : "North Dakota State",
+		"teamMascot" : "Bison",
+		"teamValue" : "NDSU",
+		"teamImage" : "NorthDakotaState"
     }
   ]
 }

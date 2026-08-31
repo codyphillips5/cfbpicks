@@ -248,7 +248,7 @@
 		"homeTeam" : "LSU",
 		"favorite" : "LSU",
 		"spread" : 10.5,
-		"required" : false,
+		"required" : true,
 		"foxId" : 401856660,
 		"gameTime" : "2026-09-05T23:30Z",
 		"channel": "ABC"

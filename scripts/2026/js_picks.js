@@ -13,7 +13,7 @@ var game = {
   };
   
 // week of year, first game
-var week = 0;
+var week = 1;
 if (week === 0) {
 	document.getElementById("week-title").innerHTML = `<div class="alert alert-danger" role="alert"><p class="alert-heading h4">🚨WEEK 0 TESTING🚨</p>
 	<hr><p>This is a test of the system for <strong>Week 0</strong>.</p><p>Return for <strong> Week 1 </strong> - <strong>opening September 5<sup>th</sup></strong> - for pick submission and the start of the season!</p></div>`;

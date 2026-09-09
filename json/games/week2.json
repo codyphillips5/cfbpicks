@@ -69,8 +69,8 @@
     {
 		"gameId" : 37,
 		"awayTeam" : "WSU",
-		"homeTeam" : "KSU",
-		"favorite" : "KSU",
+		"homeTeam" : "K-STATE",
+		"favorite" : "K-STATE",
 		"spread" : 19.5,
 		"required" : false,
 		"foxId" : 0,
@@ -79,9 +79,9 @@
     },
     {
 		"gameId" : 38,
-		"awayTeam" : "OKLA",
+		"awayTeam" : "OU",
 		"homeTeam" : "MICH",
-		"favorite" : "OKLA",
+		"favorite" : "OU",
 		"spread" : 5.5,
 		"required" : false,
 		"foxId" : 0,
@@ -299,7 +299,7 @@
     },
     {
 		"gameId" : 58,
-		"awayTeam" : "MTSU",
+		"awayTeam" : "MIDTN",
 		"homeTeam" : "MAR",
 		"favorite" : "MAR",
 		"spread" : 13.5,
@@ -310,7 +310,7 @@
     },
     {
 		"gameId" : 59,
-		"awayTeam" : "GAST",
+		"awayTeam" : "GSU",
 		"homeTeam" : "KENNST",
 		"favorite" : "KENNST",
 		"spread" : 9.5,
@@ -343,7 +343,7 @@
     },
     {
 		"gameId" : 62,
-		"awayTeam" : "USA",
+		"awayTeam" : "SOALA",
 		"homeTeam" : "TULANE",
 		"favorite" : "TULANE",
 		"spread" : 9.5,
@@ -398,7 +398,7 @@
     },
     {
 		"gameId" : 67,
-		"awayTeam" : "GASO",
+		"awayTeam" : "GEOSOU",
 		"homeTeam" : "CLEM",
 		"favorite" : "CLEM",
 		"spread" : 20.5,
@@ -409,9 +409,9 @@
     },
     {
 		"gameId" : 68,
-		"awayTeam" : "TTU",
+		"awayTeam" : "TEXTCH",
 		"homeTeam" : "OREST",
-		"favorite" : "TTU",
+		"favorite" : "TEXTCH",
 		"spread" : 26.5,
 		"required" : false,
 		"foxId" : 0,

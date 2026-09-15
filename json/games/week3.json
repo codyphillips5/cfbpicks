@@ -91,7 +91,7 @@
     {
 		"gameId" : 86,
 		"awayTeam" : "ASU",
-		"homeTeam" : "KU",
+		"homeTeam" : "KAN",
 		"favorite" : "ASU",
 		"spread" : 5.5,
 		"required" : false,
@@ -124,8 +124,8 @@
     {
 		"gameId" : 89,
 		"awayTeam" : "WYO",
-		"homeTeam" : "CMU",
-		"favorite" : "CMU",
+		"homeTeam" : "CMICH",
+		"favorite" : "CMICH",
 		"spread" : 1.5,
 		"required" : false,
 		"foxId" : 0,
@@ -399,7 +399,7 @@
     {
 		"gameId" : 114,
 		"awayTeam" : "NEV",
-		"homeTeam" : "MTSU",
+		"homeTeam" : "MIDTN",
 		"favorite" : "NEV",
 		"spread" : 3.5,
 		"required" : false,

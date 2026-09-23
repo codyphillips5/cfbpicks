@@ -1,466 +1,587 @@
 {
   "games": [
-    {
+	{
 		"gameId" : 132,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "TEXAS",
+		"homeTeam" : "TENN",
+		"favorite" : "TEXAS",
+		"spread" : 4.5,
 		"required" : false,
 		"foxId" : 0,
 		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"channel": "ABC"
     },
-    {
+	{
 		"gameId" : 133,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "ILL",
+		"homeTeam" : "OSU",
+		"favorite" : "OSU",
+		"spread" : 27.5,
 		"required" : false,
 		"foxId" : 0,
 		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"channel": "FOX"
     },
-    {
+	{
 		"gameId" : 134,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "SHSU",
+		"homeTeam" : "TEXTCH",
+		"favorite" : "TEXTCH",
+		"spread" : 34.5,
 		"required" : false,
 		"foxId" : 0,
 		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"channel": "TNT"
     },
-    {
+	{
 		"gameId" : 135,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "WAKE",
+		"homeTeam" : "LOU",
+		"favorite" : "LOU",
+		"spread" : 12.5,
 		"required" : false,
 		"foxId" : 0,
 		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"channel": "ESPN"
     },
-    {
+	{
 		"gameId" : 136,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "CU",
+		"homeTeam" : "BAYLOR",
+		"favorite" : "BAYLOR",
+		"spread" : 10.5,
 		"required" : false,
 		"foxId" : 0,
 		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"channel": "ESPN2"
     },
-    {
+	{
 		"gameId" : 137,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "VT",
+		"homeTeam" : "BC",
+		"favorite" : "VT",
+		"spread" : 14.5,
 		"required" : false,
 		"foxId" : 0,
 		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"channel": "ACCN"
     },
-    {
+	{
 		"gameId" : 138,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "SDSU",
+		"homeTeam" : "TOLEDO",
+		"favorite" : "TOLEDO",
+		"spread" : 3.5,
 		"required" : false,
 		"foxId" : 0,
 		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"channel": "CBSSN"
     },
-    {
+	{
 		"gameId" : 139,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "CSU",
+		"homeTeam" : "UTSA",
+		"favorite" : "UTSA",
+		"spread" : 13.5,
 		"required" : false,
 		"foxId" : 0,
 		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"channel": "ESPNU"
     },
-    {
+	{
 		"gameId" : 140,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "UNLV",
+		"homeTeam" : "AKRON",
+		"favorite" : "UNLV",
+		"spread" : 13.5,
 		"required" : false,
 		"foxId" : 0,
 		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"channel": "ESPN+"
     },
-    {
+	{
 		"gameId" : 141,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "BALLST",
+		"homeTeam" : "KENT",
+		"favorite" : "KENT",
+		"spread" : 3.5,
 		"required" : false,
 		"foxId" : 0,
 		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"channel": "ESPN+"
     },
-    {
+	{
 		"gameId" : 142,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "SOALA",
+		"homeTeam" : "UK",
+		"favorite" : "UK",
+		"spread" : 20.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T16:45Z",
+		"channel": "SECN"
     },
-    {
+	{
 		"gameId" : 143,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "UCLA",
+		"homeTeam" : "MD",
+		"favorite" : "UCLA",
+		"spread" : 1.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T17:30Z",
+		"channel": "B1G"
     },
-    {
+	{
 		"gameId" : 144,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "ND",
+		"homeTeam" : "PUR",
+		"favorite" : "ND",
+		"spread" : 27.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T18:00Z",
+		"channel": "Peacock"
     },
-    {
+	{
 		"gameId" : 145,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "NIU",
+		"homeTeam" : "GSU",
+		"favorite" : "GSU",
+		"spread" : 10.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T18:00Z",
+		"channel": "ESPN+"
     },
-    {
+	{
 		"gameId" : 146,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "HAW",
+		"homeTeam" : "WYO",
+		"favorite" : "HAW",
+		"spread" : 3.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T19:00Z",
+		"channel": "CW"
     },
-    {
+	{
 		"gameId" : 147,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "OU",
+		"homeTeam" : "UGA",
+		"favorite" : "UGA",
+		"spread" : 14.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T19:30Z",
+		"channel": "ESPN"
     },
-    {
+	{
 		"gameId" : 148,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "MISS",
+		"homeTeam" : "FLA",
+		"favorite" : "FLA",
+		"spread" : 3.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T19:30Z",
+		"channel": "ABC"
     },
-    {
+	{
 		"gameId" : 149,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "UTAH",
+		"homeTeam" : "IOWAST",
+		"favorite" : "UTAH",
+		"spread" : 7.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T19:30Z",
+		"channel": "FOX"
     },
-    {
+	{
 		"gameId" : 150,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "IOWA",
+		"homeTeam" : "MICH",
+		"favorite" : "MICH",
+		"spread" : 5.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T19:30Z",
+		"channel": "CBS"
     },
-    {
+	{
 		"gameId" : 151,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "TCU",
+		"homeTeam" : "UCF",
+		"favorite" : "TCU",
+		"spread" : 3.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T19:30Z",
+		"channel": "FS1"
     },
-    {
+	{
 		"gameId" : 152,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "BSU",
+		"homeTeam" : "WMU",
+		"favorite" : "BSU",
+		"spread" : 7.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T19:30Z",
+		"channel": "ESPN2"
     },
-    {
+	{
 		"gameId" : 153,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "UCONN",
+		"homeTeam" : "MIA-OH",
+		"favorite" : "MIA-OH",
+		"spread" : 3.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T19:30Z",
+		"channel": "ESPN+"
     },
-    {
+	{
 		"gameId" : 154,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "UNM",
+		"homeTeam" : "NMSU",
+		"favorite" : "UNM",
+		"spread" : 11.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T19:30Z",
+		"channel": "CBSSN"
     },
-    {
+	{
 		"gameId" : 155,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "HOU",
+		"homeTeam" : "GEOSOU",
+		"favorite" : "HOU",
+		"spread" : 18.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T20:00Z",
+		"channel": "ESPNU"
     },
-    {
+	{
 		"gameId" : 156,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "VANDY",
+		"homeTeam" : "AUB",
+		"favorite" : "AUB",
+		"spread" : 9.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T20:15Z",
+		"channel": "SECN"
     },
-    {
+	{
 		"gameId" : 157,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "WIS",
+		"homeTeam" : "PSU",
+		"favorite" : "PSU",
+		"spread" : 10.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T21:00Z",
+		"channel": "Peacock"
     },
-    {
+	{
 		"gameId" : 158,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "NEB",
+		"homeTeam" : "MSU",
+		"favorite" : "NEB",
+		"spread" : 5.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T21:00Z",
+		"channel": "B1G"
     },
-    {
+	{
 		"gameId" : 159,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "USF",
+		"homeTeam" : "BGSU",
+		"favorite" : "USF",
+		"spread" : 17.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T21:00Z",
+		"channel": "ESPN+"
     },
-    {
+	{
 		"gameId" : 160,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "DEL",
+		"homeTeam" : "UVA",
+		"favorite" : "UVA",
+		"spread" : 19.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T22:00Z",
+		"channel": "ACCN"
     },
-    {
+	{
 		"gameId" : 161,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "JMU",
+		"homeTeam" : "ODU",
+		"favorite" : "JMU",
+		"spread" : 6.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T22:00Z",
+		"channel": "ESPN+"
     },
-    {
+	{
 		"gameId" : 162,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "CMICH",
+		"homeTeam" : "MIA",
+		"favorite" : "MIA",
+		"spread" : 41.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T22:30Z",
+		"channel": "CW"
     },
-    {
+	{
 		"gameId" : 163,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "LA",
+		"homeTeam" : "CHAR",
+		"favorite" : "LA",
+		"spread" : 10.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T22:30Z",
+		"channel": "ESPN+"
     },
-    {
+	{
 		"gameId" : 164,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "SCAR",
+		"homeTeam" : "ALA",
+		"favorite" : "ALA",
+		"spread" : 12.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T23:00Z",
+		"channel": "ESPN"
     },
-    {
+	{
 		"gameId" : 165,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "K-STATE",
+		"homeTeam" : "CIN",
+		"favorite" : "K-STATE",
+		"spread" : 6.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T23:00Z",
+		"channel": "ESPN2"
     },
-    {
+	{
 		"gameId" : 166,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "OKST",
+		"homeTeam" : "WVU",
+		"favorite" : "WVU",
+		"spread" : 1.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T23:00Z",
+		"channel": "FS1"
     },
-    {
+	{
 		"gameId" : 167,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "SMISS",
+		"homeTeam" : "TULANE",
+		"favorite" : "TULANE",
+		"spread" : 18.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T23:00Z",
+		"channel": "ESPN+"
     },
-    {
+	{
 		"gameId" : 168,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "KENNST",
+		"homeTeam" : "ARKST",
+		"favorite" : "ARKST",
+		"spread" : 6.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T23:00Z",
+		"channel": "ESPN+"
     },
-    {
+	{
 		"gameId" : 169,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "MIDTN",
+		"homeTeam" : "JSU",
+		"favorite" : "JSU",
+		"spread" : 7.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T23:00Z",
+		"channel": "ESPN+"
     },
-    {
+	{
 		"gameId" : 170,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "TXA&M",
+		"homeTeam" : "LSU",
+		"favorite" : "LSU",
+		"spread" : 8.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T23:30Z",
+		"channel": "ABC"
     },
-    {
+	{
 		"gameId" : 171,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "ORE",
+		"homeTeam" : "USC",
+		"favorite" : "ORE",
+		"spread" : 3.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T23:30Z",
+		"channel": "NBC"
     },
-    {
+	{
 		"gameId" : 172,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "ARIZ",
+		"homeTeam" : "WSU",
+		"favorite" : "ARIZ",
+		"spread" : 10.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T23:30Z",
+		"channel": "CBS"
     },
-    {
+	{
 		"gameId" : 173,
-		"awayTeam" : "",
-		"homeTeam" : "",
-		"favorite" : "",
-		"spread" : .5,
+		"awayTeam" : "TROY",
+		"homeTeam" : "USU",
+		"favorite" : "USU",
+		"spread" : 3.5,
 		"required" : false,
 		"foxId" : 0,
-		"gameTime" : "2026-09-26T16:00Z",
-		"channel": ""
+		"gameTime" : "2026-09-26T23:30Z",
+		"channel": "CBSSN"
+    },
+	{
+		"gameId" : 174,
+		"awayTeam" : "APP",
+		"homeTeam" : "NCST",
+		"favorite" : "NCST",
+		"spread" : 14.5,
+		"required" : false,
+		"foxId" : 0,
+		"gameTime" : "2026-09-26T23:30Z",
+		"channel": "ESPNU"
+    },
+	{
+		"gameId" : 175,
+		"awayTeam" : "MIZZOU",
+		"homeTeam" : "MSST",
+		"favorite" : "MSST",
+		"spread" : 6.5,
+		"required" : false,
+		"foxId" : 0,
+		"gameTime" : "2026-09-26T23:45Z",
+		"channel": "SECN"
+    },
+	{
+		"gameId" : 176,
+		"awayTeam" : "TULSA",
+		"homeTeam" : "ARK",
+		"favorite" : "ARK",
+		"spread" : 7.5,
+		"required" : false,
+		"foxId" : 0,
+		"gameTime" : "2026-09-27T00:00Z",
+		"channel": "SECN+"
+    },
+	{
+		"gameId" : 177,
+		"awayTeam" : "FAU",
+		"homeTeam" : "ULM",
+		"favorite" : "FAU",
+		"spread" : 13.5,
+		"required" : false,
+		"foxId" : 0,
+		"gameTime" : "2026-09-27T00:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 178,
+		"awayTeam" : "MOST",
+		"homeTeam" : "SMU",
+		"favorite" : "SMU",
+		"spread" : 34.5,
+		"required" : false,
+		"foxId" : 0,
+		"gameTime" : "2026-09-27T01:00Z",
+		"channel": "ACCN"
+    },
+	{
+		"gameId" : 179,
+		"awayTeam" : "OREST",
+		"homeTeam" : "UTEP",
+		"favorite" : "OREST",
+		"spread" : 10.5,
+		"required" : false,
+		"foxId" : 0,
+		"gameTime" : "2026-09-27T01:00Z",
+		"channel": "MW+"
+    },
+	{
+		"gameId" : 180,
+		"awayTeam" : "UMASS",
+		"homeTeam" : "SAC",
+		"favorite" : "UMASS",
+		"spread" : 4.5,
+		"required" : false,
+		"foxId" : 0,
+		"gameTime" : "2026-09-27T01:00Z",
+		"channel": "ESPN+"
+    },
+	{
+		"gameId" : 181,
+		"awayTeam" : "RICE",
+		"homeTeam" : "FRES",
+		"favorite" : "FRES",
+		"spread" : 13.5,
+		"required" : false,
+		"foxId" : 0,
+		"gameTime" : "2026-09-27T02:00Z",
+		"channel": "CW"
+    },
+	{
+		"gameId" : 182,
+		"awayTeam" : "GT",
+		"homeTeam" : "STAN",
+		"favorite" : "GT",
+		"spread" : 3.5,
+		"required" : false,
+		"foxId" : 0,
+		"gameTime" : "2026-09-27T02:30Z",
+		"channel": "ESPN"
+    },
+	{
+		"gameId" : 183,
+		"awayTeam" : "AFA",
+		"homeTeam" : "NEV",
+		"favorite" : "AFA",
+		"spread" : 5.5,
+		"required" : false,
+		"foxId" : 0,
+		"gameTime" : "2026-09-27T02:30Z",
+		"channel": "FS1"
+    },
+	{
+		"gameId" : 184,
+		"awayTeam" : "MINN",
+		"homeTeam" : "WASH",
+		"favorite" : "WASH",
+		"spread" : 10.5,
+		"required" : false,
+		"foxId" : 0,
+		"gameTime" : "2026-09-27T03:00Z",
+		"channel": "FOX"
     }
   ]
 }

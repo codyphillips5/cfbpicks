@@ -171,7 +171,7 @@
 		"homeTeam" : "MIZZOU",
 		"favorite" : "FLA",
 		"spread" : 5.5,
-		"required" : false,
+		"required" : true,
 		"foxId" : 0,
 		"gameTime" : "2026-10-03T19:30Z",
 		"channel": "ABC"
@@ -424,7 +424,7 @@
 		"homeTeam" : "CLEM",
 		"favorite" : "MIA",
 		"spread" : 16.5,
-		"required" : true,
+		"required" : false,
 		"foxId" : 0,
 		"gameTime" : "2026-10-03T23:30Z",
 		"channel": "ABC"

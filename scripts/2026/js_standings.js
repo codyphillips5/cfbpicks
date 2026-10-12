@@ -9,7 +9,7 @@ var myUsername = "";
 var myPoints = "";
 var itsme = false;
 
-var weekNum = 5;
+var weekNum = 6;
 var userWeekTop = false;
 
 var users = db.collection("Users").get().then((querySnapshot) => {

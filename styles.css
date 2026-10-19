@@ -190,17 +190,34 @@ th, td {
 	white-space: nowrap;
 }
 
+#standings-table
+{
+  border-collapse: separate;
+  border-spacing: 0;
+}
 .first-col
 {
-  position:sticky;
-  left:0px;
+  position: sticky;
+  left: 0;
+}
+th.first-col
+{
+  left: 3.5rem;
+  z-index: 2;
+}
+td.first-col
+{
+  position: static;
+  left: auto;
 }
 .rank-col
 {
+  position: sticky;
+  left: 0;
+  z-index: 3;
   width: 3.5rem;
   min-width: 3.5rem;
   text-align: center;
-  position:sticky;
 }
 .center {
   display: block;

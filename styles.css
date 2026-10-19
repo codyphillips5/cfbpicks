@@ -195,6 +195,12 @@ th, td {
   position:sticky;
   left:0px;
 }
+.rank-col
+{
+  width: 3.5rem;
+  min-width: 3.5rem;
+  text-align: center;
+}
 .center {
   display: block;
   margin-left: auto;

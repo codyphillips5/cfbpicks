@@ -33,7 +33,7 @@ var results = db.collection("Results").get().then((querySnapshot) => {
 
 //document.getElementById("loader").innerHTML = `<button onclick='sortTable(${weekNum + 1});return false;' class='btn btn-primary'>Sort Standings</button>`;
 
-var tableStart = `<div class="table-responsive"><table class="table table-hover" id="standings-table"><thead><tr><th class="first-col bg-light" scope="col">Name</th>`;
+var tableStart = `<div class="table-responsive"><table class="table table-hover" id="standings-table"><thead><tr><th class="rank-col bg-light text-center" scope="col">Rank</th><th class="first-col bg-light" scope="col">Name</th>`;
 for(var wn = 1; wn <= weekNum; wn++) {
 	tableStart = tableStart + `<th scope="col" class="bg-light text-center bg-gradient">Week ${wn}</th>`;
 }
@@ -53,7 +53,7 @@ $.when(users, results).then(function(){
 			myUsername = "bg-light";
 		}
 		
-		tableUser = tableUser + `<tr><th class="first-col ${myUsername} bg-gradient">${allNames[loop]}</th>`;
+		tableUser = tableUser + `<tr><th class="rank-col ${myUsername} bg-gradient text-center"></th><th class="first-col ${myUsername} bg-gradient">${allNames[loop]}</th>`;
 		for(var weekOfYr = 1; weekOfYr <= weekNum; weekOfYr++) {
 			// set starters
 			var pointTotal = 0;
@@ -148,5 +148,24 @@ function sortTable(n) {
 	if ((rows.length-1) == allUsers.length) {
 		document.getElementById("loader").innerHTML = ``;
 	}
+  }
+  assignRanks();
+}
+
+function assignRanks() {
+  var table = document.getElementById("standings-table");
+  if (!table) {
+    return;
+  }
+  var rows = table.rows;
+  var totals = [];
+  for (var i = 1; i < rows.length; i++) {
+    var cells = rows[i].getElementsByTagName("TD");
+    totals.push(Number(cells[cells.length - 1].innerHTML));
+  }
+  for (var k = 0; k < totals.length; k++) {
+    var rankCell = rows[k + 1].getElementsByTagName("TH")[0];
+    var tiedWithRowAbove = k > 0 && totals[k] === totals[k - 1];
+    rankCell.textContent = tiedWithRowAbove ? "" : String(k + 1);
   }
 }

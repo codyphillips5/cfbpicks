@@ -200,6 +200,7 @@ th, td {
   width: 3.5rem;
   min-width: 3.5rem;
   text-align: center;
+  position:sticky;
 }
 .center {
   display: block;

@@ -190,27 +190,18 @@ th, td {
 	white-space: nowrap;
 }
 
+.first-col
+{
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
 #standings-table
 {
   border-collapse: separate;
   border-spacing: 0;
 }
-.first-col
-{
-  position: sticky;
-  left: 0;
-}
-th.first-col
-{
-  left: 3.5rem;
-  z-index: 2;
-}
-td.first-col
-{
-  position: static;
-  left: auto;
-}
-.rank-col
+#standings-table .rank-col
 {
   position: sticky;
   left: 0;
@@ -218,6 +209,15 @@ td.first-col
   width: 3.5rem;
   min-width: 3.5rem;
   text-align: center;
+}
+#standings-table th.first-col
+{
+  left: 3.5rem;
+}
+#standings-table td.first-col
+{
+  position: static;
+  left: auto;
 }
 .center {
   display: block;

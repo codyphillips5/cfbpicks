@@ -25,6 +25,7 @@ var days = 1;
 var itsme = false;
 var check = "";
 var myUsername = "";
+var resultsRequest = 0;
 
 var picksList, teamsList, resultsList, usersList;
 var resultsList = [];
@@ -48,81 +49,92 @@ document.getElementById("weeks").appendChild(badge);
 
 getResultsByWeek(weekNum)
 
+function loadJson(url) {
+	return new Promise(function(resolve, reject) {
+		$.getJSON(url).done(resolve).fail(reject);
+	});
+}
+
 function getResultsByWeek(x) {
-	
+	var requestId = ++resultsRequest;
 	var tableStart = "";
 	var tableUser = "";
 	var tableEnd = "";
-	
-	document.getElementById("week-title").innerHTML = `<div class="h2">Week ${x} Results</div>`;
-	
-	var requestX = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week" + x + ".json", function(json){
-		xFile = json;
-	});
+	var userEmails = [];
+	var userFirst = [];
+	var userLast = [];
+	var entries = [];
+	var fifties = [];
+	var forties = [];
+	var thirties = [];
+	var twenties = [];
+	var tens = [];
 
-	$.when(requestX).then(function(){
-		date2 = new Date(xFile["games"][0].gameTime);
-	});
+	document.getElementById("week-title").innerHTML = `<div class="h2">Week ${x} Results</div>`;
+	document.getElementById("standings").innerHTML = "";
+
+	var gamesPromise = loadJson("https://codyphillips5.github.io/cfbpicks/json/games/week" + x + ".json");
+	var resultsPromise = loadJson("https://codyphillips5.github.io/cfbpicks/json/games/week" + x + "_results.json");
 
 	// query for all user emails and names
-	var users = db.collection("Users").get().then((querySnapshot) => {
+	var usersPromise = db.collection("Users").get().then((querySnapshot) => {
 		querySnapshot.forEach((doc) => {
-			allUsers.push(doc.data().Email);
-			allFirst.push(doc.data().FirstName);
-			allLast.push(doc.data().LastName);
+			userEmails.push(doc.data().Email);
+			userFirst.push(doc.data().FirstName);
+			userLast.push(doc.data().LastName);
 		})
 	});
-	
+
 	// build top header section of table
 	tableStart = `<div class="table-responsive"><table class="table table-hover" id="results"><thead><tr><th scope="col" class="first-col bg-light bg-gradient">Name</th><th scope="col" class="text-center">50</th><th scope="col" class="text-center">40</th><th scope="col" class="text-center">30</th><th scope="col" class="text-center">20</th><th scope="col" class="text-center">10</th><th scope="col" class="bg-light bg-gradient text-center">Total</th></tr></thead><tbody>`;
 
-	// get results
-	var getResults = $.getJSON("https://codyphillips5.github.io/cfbpicks/json/games/week" + x + "_results.json", function(json){
-		resultsList = json;
-	});	
-
 	// query for all user picks for the current week
-	var names = db.collection("week" + x).get().then((querySnapshot) => {
+	var picksPromise = db.collection("week" + x).get().then((querySnapshot) => {
 		querySnapshot.forEach((doc) => {
-			allEntries.push(doc.data().user);
-			allFifties.push(doc.data().Fifty);
-			allForties.push(doc.data().Forty);
-			allThirties.push(doc.data().Thirty);
-			allTwenties.push(doc.data().Twenty);
-			allTens.push(doc.data().Ten);
+			entries.push(doc.data().user);
+			fifties.push(doc.data().Fifty);
+			forties.push(doc.data().Forty);
+			thirties.push(doc.data().Thirty);
+			twenties.push(doc.data().Twenty);
+			tens.push(doc.data().Ten);
 		})
 	});
-	
-	$.when(users, names, requestX, getResults).then(function(){
-		var covers = Object.values(resultsList["results"]);
+
+	Promise.all([gamesPromise, resultsPromise, usersPromise, picksPromise]).then(function(loaded) {
+		if (requestId !== resultsRequest) {
+			return;
+		}
+		var gamesFile = loaded[0];
+		var weekResults = loaded[1];
+		var covers = Object.values(weekResults["results"]);
 		var coversArr = Array.from(covers);
-		
+		date2 = new Date(gamesFile["games"][0].gameTime);
 		date3 = new Date(date2);
-		date3.setDate(date3.getDate() + days);	
-		
-		for (var loop = 0; loop < allUsers.length; loop++) {
-			if (allEntries.includes(allUsers[loop])) {
-				for (var testLoop = 0; testLoop < allEntries.length; testLoop++) {
+		date3.setDate(date3.getDate() + days);
+
+		for (var loop = 0; loop < userEmails.length; loop++) {
+			if (entries.includes(userEmails[loop])) {
+				for (var testLoop = 0; testLoop < entries.length; testLoop++) {
 					myUsername = "bg-light";
-					if (allUsers[loop] === allEntries[testLoop]) {
-						if(allUsers[loop] === auth.currentUser.email) {
+					if (userEmails[loop] === entries[testLoop]) {
+						if(userEmails[loop] === auth.currentUser.email) {
 							itsme = true;
 							console.log(auth.currentUser.email);
-							userPickTeams.push(allTens[testLoop]);
-							userPickTeams.push(allTwenties[testLoop]);
-							userPickTeams.push(allThirties[testLoop]);
-							userPickTeams.push(allForties[testLoop]);
-							userPickTeams.push(allFifties[testLoop]);
+							userPickTeams.push(tens[testLoop]);
+							userPickTeams.push(twenties[testLoop]);
+							userPickTeams.push(thirties[testLoop]);
+							userPickTeams.push(forties[testLoop]);
+							userPickTeams.push(fifties[testLoop]);
 							isCorrect = "primary";
 							myUsername = "table-primary";
 						}
 						else if (date1 >= date2) {
 							myUsername = "bg-light";
-							userPickTeams.push(allTens[testLoop]);
-							userPickTeams.push(allTwenties[testLoop]);
-							userPickTeams.push(allThirties[testLoop]);
-							userPickTeams.push(allForties[testLoop]);
-							userPickTeams.push(allFifties[testLoop]);
+							userPickTeams.push(tens[testLoop]);
+							userPickTeams.push(twenties[testLoop]);
+							userPickTeams.push(thirties[testLoop]);
+							userPickTeams.push(forties[testLoop]);
+							userPickTeams.push(fifties[testLoop]);
 						}
 						else {
 							userPickTeams.push("🔒");
@@ -131,12 +143,12 @@ function getResultsByWeek(x) {
 							userPickTeams.push("🔒");
 							userPickTeams.push("🔒");
 						}
-						tableUser = tableUser + `<tr><th class="first-col ${myUsername} bg-gradient">${allFirst[loop] + " " +allLast[loop]}</th>`;
+						tableUser = tableUser + `<tr><th class="first-col ${myUsername} bg-gradient">${userFirst[loop] + " " +userLast[loop]}</th>`;
 					}
 				}
 			}
 			else {
-				tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${allFirst[loop] + " " +allLast[loop]}</th>`;
+				tableUser = tableUser + `<tr><th class="first-col bg-light bg-gradient">${userFirst[loop] + " " +userLast[loop]}</th>`;
 				userPickTeams.push(" ");
 				userPickTeams.push(" ");
 				userPickTeams.push(" ");
@@ -179,15 +191,10 @@ function getResultsByWeek(x) {
 				check = "";
 
 		}
-		storeUsers = allUsers;
-		while(allUsers.length > 0) {
-					allUsers.pop();
-					//allEntries.pop();
-					//userPickTeams.pop();
-		}
 		sortTable(6);
-		clearAll();
+		document.getElementById("loader").innerHTML = ``;
 	});
+	return false;
 }
 
 function sortTable(n) {

@@ -28,7 +28,7 @@
 		"homeTeam" : "SMU",
 		"favorite" : "WAKE",
 		"spread" : 1.5,
-		"required" : false,
+		"required" : true,
 		"id" : 401858301,
 		"gameTime" : "2026-11-14T17:00Z",
 		"channel": "ESPN"
@@ -501,7 +501,7 @@
 		"homeTeam" : "LSU",
 		"favorite" : "LSU",
 		"spread" : 3.5,
-		"required" : true,
+		"required" : false,
 		"id" : 401856885,
 		"gameTime" : "2026-11-15T00:30Z",
 		"channel": "ABC"
